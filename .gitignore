@@ -2,4 +2,7 @@
 .DS_Store
 
 # VS Code
-.vscode
+.vscode/
+
+# Node Modules
+node_modules/
