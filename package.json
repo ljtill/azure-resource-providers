@@ -6,8 +6,8 @@
     "build": "tsc -p .",
     "lint": "",
     "generate": "ts-node ./src/cmd/generate all",
-    "generate-schema": "ts-node ./src/cmd/generate spec",
-    "generate-specs": "ts-node ./src/cmd/generate schema",
+    "generate-schema": "ts-node ./src/cmd/generate specs",
+    "generate-specs": "ts-node ./src/cmd/generate schemas",
     "clean": "ts-node ./src/cmd/clean"
   },
   "engines": {
