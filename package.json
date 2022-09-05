@@ -2,7 +2,18 @@
   "name": "providers-store",
   "version": "0.0.1",
   "description": "",
-  "scripts": {},
+  "scripts": {
+    "build": "tsc -p .",
+    "lint": "",
+    "generate": "ts-node ./src/cmd/generate all",
+    "generate-schema": "ts-node ./src/cmd/generate specs",
+    "generate-specs": "ts-node ./src/cmd/generate schemas",
+    "clean": "ts-node ./src/cmd/clean"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ljtill/providers-store.git"
