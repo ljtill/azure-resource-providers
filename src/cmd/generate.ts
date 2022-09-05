@@ -1,5 +1,5 @@
-import * as utils from '../utils'
-import * as resource from '../resource'
+import * as files from '../core/files'
+import * as resources from '../core/resources'
 
 function generateAllFile(): void {
     // TODO: Implementation
@@ -10,10 +10,6 @@ function generateAllFile(): void {
     // ./lib/specifications.json
 }
 
-function listSpecificationFiles(): string[] {
-    return []
-}
-
 function generateSpecificationsFile(repoFilePath: string): void {
     // TODO: Implementation
 
@@ -22,47 +18,13 @@ function generateSpecificationsFile(repoFilePath: string): void {
     // ./lib/specs.json
 }
 
-function listSchemaFiles(repoFilePath: string): string[] {
-    let schemaFilePaths: string[] = []
-
-    // TODO: Debug mode
-    // console.log(`[debug] ${baseFilePath}`)
-
-    const apiVersions = utils.listDirectories(`${repoFilePath}`).map(dirent => dirent.name)
-    apiVersions.forEach((apiVersion) => {
-
-        // Filter by API Versions which match 0000-00-00 and 0000-00-00-preview
-        const expression = "[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]"
-        if (apiVersion.match(expression)) {
-
-            const namespaces = utils.listFiles(`${repoFilePath}/${apiVersion}`).map(dirent => dirent.name)
-            namespaces.forEach((namespace) => {
-
-                if (namespace.includes("Microsoft.")) {
-
-                    // TODO: Debug mode
-                    // console.log(`[debug] ${baseFilePath}/${apiVersion}/${namespace}`)
-
-                    schemaFilePaths.push(`${repoFilePath}/${apiVersion}/${namespace}`)
-                }
-
-            })
-        }
-
-    })
-
-    return schemaFilePaths
-}
-
 function generateSchemasFile(repoFilePath: string): void {
-    const schemaFilePaths = listSchemaFiles(repoFilePath)
+    // TODO: Arguments
 
-    const resourceProviders = resource.listResourceProviders(schemaFilePaths)
-    utils.writeJsonFile('./schema.json', resourceProviders)
+    const schemaFilePaths = files.listSchemaFiles(repoFilePath)
 
-    // Output Path
-    // - Default unless provided via command line argument
-    // ./lib/schema.json
+    const resourceProviders = resources.listResourceProviders(schemaFilePaths)
+    files.writeJsonFile('./schema.json', resourceProviders)
 }
 
 function main(): void {
