@@ -4,20 +4,20 @@ export function listSpecificationFiles(): string[] {
     return []
 }
 
-export function listSchemaFiles(repoFilePath: string): string[] {
+export function listSchemaFiles(dirPath: string): string[] {
     let schemaFilePaths: string[] = []
 
     // TODO: Debug mode
     // console.log(`[debug] ${baseFilePath}`)
 
-    const apiVersions = listDirectories(`${repoFilePath}`).map(dirent => dirent.name)
+    const apiVersions = listDirectories(`${dirPath}`).map(dirent => dirent.name)
     apiVersions.forEach((apiVersion) => {
 
         // Filter by API Versions which match 0000-00-00 and 0000-00-00-preview
         const expression = "[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]"
         if (apiVersion.match(expression)) {
 
-            const namespaces = listFiles(`${repoFilePath}/${apiVersion}`).map(dirent => dirent.name)
+            const namespaces = listFiles(`${dirPath}/${apiVersion}`).map(dirent => dirent.name)
             namespaces.forEach((namespace) => {
 
                 if (namespace.includes("Microsoft.")) {
@@ -25,12 +25,10 @@ export function listSchemaFiles(repoFilePath: string): string[] {
                     // TODO: Debug mode
                     // console.log(`[debug] ${baseFilePath}/${apiVersion}/${namespace}`)
 
-                    schemaFilePaths.push(`${repoFilePath}/${apiVersion}/${namespace}`)
+                    schemaFilePaths.push(`${dirPath}/${apiVersion}/${namespace}`)
                 }
-
             })
         }
-
     })
 
     return schemaFilePaths
@@ -55,7 +53,7 @@ export function testFilePath(filePath: string): void {
 
 export function writeJsonFile(filePath: string, content: any): void {
     try {
-        fs.writeFileSync('schema.json', JSON.stringify((content), null, 2))
+        fs.writeFileSync(filePath, JSON.stringify((content), null, 2))
     } catch (err) {
         console.error(err)
         process.exit(1)
