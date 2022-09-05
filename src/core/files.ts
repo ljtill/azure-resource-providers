@@ -1,16 +1,33 @@
 import * as fs from 'fs'
 
-export function listSpecificationFiles(): string[] {
+export function listSpecificationFiles(dirPath: string): string[] {
+    let filePaths: string[] = []
+
+    const specs = listDirectories(`${dirPath}`).map(dirent => dirent.name)
+
+    specs.forEach((spec) => {
+
+        console.log(`${spec}`)
+
+        const providers = listDirectories(`${dirPath}/${spec}`).filter((dirent) => {
+            return dirent.name.includes("Microsoft.")
+        })
+
+        console.log(`${providers.map(dirent => dirent.name)}`)
+
+    })
+
     return []
 }
 
 export function listSchemaFiles(dirPath: string): string[] {
-    let schemaFilePaths: string[] = []
+    let filePaths: string[] = []
 
     // TODO: Debug mode
     // console.log(`[debug] ${baseFilePath}`)
 
     const apiVersions = listDirectories(`${dirPath}`).map(dirent => dirent.name)
+
     apiVersions.forEach((apiVersion) => {
 
         // Filter by API Versions which match 0000-00-00 and 0000-00-00-preview
@@ -25,13 +42,13 @@ export function listSchemaFiles(dirPath: string): string[] {
                     // TODO: Debug mode
                     // console.log(`[debug] ${baseFilePath}/${apiVersion}/${namespace}`)
 
-                    schemaFilePaths.push(`${dirPath}/${apiVersion}/${namespace}`)
+                    filePaths.push(`${dirPath}/${apiVersion}/${namespace}`)
                 }
             })
         }
     })
 
-    return schemaFilePaths
+    return filePaths
 }
 
 export function listDirectories(filePath: string): fs.Dirent[] {

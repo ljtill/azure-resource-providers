@@ -1,17 +1,17 @@
 import * as fs from 'fs'
 
-interface Provider {
+interface ResourceProvider {
     resourceProvider: string
-    resourceTypes: Resource[]
+    resourceTypes: ResourceType[]
 }
 
-interface Resource {
+interface ResourceType {
     name: string
     apiVersions: string[]
 }
 
-export function listResourceProviders(filePaths: string[]): Provider[] {
-    let providers: Provider[] = []
+export function listResourceProviders(filePaths: string[]): ResourceProvider[] {
+    let providers: ResourceProvider[] = []
 
     filePaths.forEach((filePath) => {
         // Retrieve string in file path
@@ -46,8 +46,8 @@ export function listResourceProviders(filePaths: string[]): Provider[] {
     return providers.sort((a, b) => (a.resourceProvider > b.resourceProvider) ? 1 : -1)
 }
 
-function listResourceTypes(filePaths: string[], resourceProvider: string): Resource[] {
-    let types: Resource[] = []
+function listResourceTypes(filePaths: string[], resourceProvider: string): ResourceType[] {
+    let types: ResourceType[] = []
 
     filePaths = filePaths.filter((filePath: string): boolean => {
         // Filter file paths by resource provider
