@@ -5,10 +5,10 @@
   "scripts": {
     "build": "tsc -p .",
     "lint": "",
-    "generate": "ts-node ./src/cmd/generate all",
-    "generate-schema": "ts-node ./src/cmd/generate specs",
-    "generate-specs": "ts-node ./src/cmd/generate schemas",
-    "clean": "ts-node ./src/cmd/clean"
+    "generate-schemas": "ts-node ./src/cmd/generate schemas",
+    "generate-specs": "ts-node ./src/cmd/generate specs",
+    "clean-schemas": "ts-node ./src/cmd/clean schemas",
+    "clean-specs": "ts-node ./src/cmd/clean specs"
   },
   "engines": {
     "node": ">=16.0.0",
