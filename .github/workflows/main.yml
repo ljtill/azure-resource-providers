@@ -35,7 +35,6 @@ jobs:
       - name: "Run deno"
         run: |
           deno run --allow-read --allow-write .github/scripts/main.ts schemas
-          # deno run --allow-read --allow-write .github/scripts/main.ts specs
         working-directory: checkout
 
       - name: "Configure git"
@@ -47,7 +46,7 @@ jobs:
       - name: "Push schemas"
         run: |
           if [ -n "$(git status --porcelain)" ]; then
-            git add ./schemas.json ./specs.json
+            git add ./schemas.json
             git commit -m 'gen: update files'
             git push origin main
           fi
