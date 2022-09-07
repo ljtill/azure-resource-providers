@@ -60,3 +60,4 @@ jobs:
         run: |
           gh pr create --title "gen: update schemas file" --body ""
           gh pr merge gen/schemas --auto
+        working-directory: checkout
