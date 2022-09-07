@@ -58,6 +58,6 @@ jobs:
 
       - name: "Merge schemas"
         run: |
-          gh pr create --title "gen: update schemas file" --body "" --squash
-          gh pr merge gen/schemas --auto
+          gh pr create --title "gen: update schemas file" --body ""
+          gh pr merge gen/schemas --auto --squash
         working-directory: checkout
