@@ -47,8 +47,14 @@ jobs:
       - name: "Push schemas"
         run: |
           if [ -n "$(git status --porcelain)" ]; then
+            git checkout -b gen/schemas
             git add ./schemas.json ./specs.json
-            git commit -m 'gen: update files'
-            git push origin main
+            git commit -m 'gen: update schemas file'
+            git push origin gen/schemas
           fi
         working-directory: checkout
+
+      - name: "Merge schemas"
+        run: |
+          gh pr create --title "gen: update schemas file" --body ""
+          gh pr merge gen/schemas --auto
