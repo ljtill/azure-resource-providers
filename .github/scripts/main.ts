@@ -3,7 +3,7 @@ import { listResourceProviders } from "./core/resources.ts";
 import { logger, writeJsonFile } from "./utils.ts";
 
 function generateSchemasFile(filePath: string): void {
-  const dirPath = "../../github-azure/azure-resource-manager-schemas/schemas";
+  const dirPath = "../schemas/schemas";
 
   try {
     const schemaFilePaths = listSchemaFiles(dirPath);
@@ -17,7 +17,7 @@ function generateSchemasFile(filePath: string): void {
 }
 
 function generateSpecificationsFile(filePath: string): void {
-  const dirPath = "../../github-azure/azure-rest-api-specs/specification";
+  const dirPath = "../specs/specification";
 
   try {
     const specFilePaths = listSpecificationFiles(dirPath);

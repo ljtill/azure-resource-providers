@@ -12,6 +12,20 @@ jobs:
     steps:
       - name: "Checkout repository"
         uses: actions/checkout@v3
+        with:
+          path: checkout
+
+      - name: "Checkout repository"
+        uses: actions/checkout@v3
+        with:
+          repository: azure/azure-rest-api-specs
+          path: specs
+
+      - name: "Checkout repository"
+        uses: actions/checkout@v3
+        with:
+          repository: azure/azure-resource-manager-schemas
+          path: schemas
 
       - name: "Setup deno"
         uses: denoland/setup-deno@v1
@@ -22,11 +36,13 @@ jobs:
         run: |
           deno run --allow-read --allow-write .github/scripts/main.ts schemas
           # deno run --allow-read --allow-write .github/scripts/main.ts specs
+        working-directory: checkout
 
       - name: "Configure git"
         run: |
           git config user.name "GitHub Actions"
           git config user.email "action@github.com"
+        working-directory: checkout
 
       - name: "Push schemas"
         run: |
@@ -35,3 +51,4 @@ jobs:
             git commit -m 'gen: update files'
             git push origin main
           fi
+        working-directory: checkout
