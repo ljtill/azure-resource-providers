@@ -1,6 +1,6 @@
 import { listDirectories, listFiles, logger, testFilePath } from "../utils.ts";
 
-export function listSchemaFiles(dirPath: string): string[] {
+export function listSchemasFiles(dirPath: string): string[] {
   testFilePath(dirPath);
 
   const filePaths: string[] = [];
@@ -26,7 +26,7 @@ export function listSchemaFiles(dirPath: string): string[] {
   return filePaths;
 }
 
-export function listSpecificationFiles(dirPath: string): string[] {
+export function listSpecificationsFiles(dirPath: string): string[] {
   testFilePath(dirPath);
 
   const filePaths: string[] = [];
@@ -41,4 +41,30 @@ export function listSpecificationFiles(dirPath: string): string[] {
   //   }
 
   return filePaths;
+}
+
+export function getSchemasPath(): string {
+  let dirPath = "";
+
+  if (Deno.env.get("USER") === "runner") {
+    dirPath = "../schemas/schemas";
+  } else {
+    // TODO: Implement env var override
+    dirPath = "../../github-azure/azure-resource-manager-schemas/schemas";
+  }
+
+  return dirPath;
+}
+
+export function getSpecificationsPath(): string {
+  let dirPath = "";
+
+  if (Deno.env.get("USER") === "runner") {
+    dirPath = "../schemas/schemas";
+  } else {
+    // TODO: Implement env var override
+    dirPath = "../../github-azure/azure-rest-api-specs/specification";
+  }
+
+  return dirPath;
 }

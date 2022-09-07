@@ -37,7 +37,7 @@ jobs:
 
       - name: "Run deno"
         run: |
-          deno run --allow-read --allow-write .github/scripts/main.ts schemas
+          deno run --allow-env --allow-read --allow-write .github/scripts/main.ts schemas
         working-directory: checkout
 
       - name: "Configure git"
