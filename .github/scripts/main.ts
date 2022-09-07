@@ -1,12 +1,17 @@
-import { listSchemaFiles, listSpecificationFiles } from "./core/files.ts";
+import {
+  getSchemasPath,
+  getSpecificationsPath,
+  listSchemasFiles,
+  listSpecificationsFiles,
+} from "./core/files.ts";
 import { listResourceProviders } from "./core/resources.ts";
 import { logger, writeJsonFile } from "./utils.ts";
 
 function generateSchemasFile(filePath: string): void {
-  const dirPath = "../schemas/schemas";
+  const dirPath = getSchemasPath();
 
   try {
-    const schemaFilePaths = listSchemaFiles(dirPath);
+    const schemaFilePaths = listSchemasFiles(dirPath);
     if (schemaFilePaths.length > 0) {
       writeJsonFile(filePath, listResourceProviders(schemaFilePaths));
     }
@@ -17,10 +22,10 @@ function generateSchemasFile(filePath: string): void {
 }
 
 function generateSpecificationsFile(filePath: string): void {
-  const dirPath = "../specs/specification";
+  const dirPath = getSpecificationsPath();
 
   try {
-    const specFilePaths = listSpecificationFiles(dirPath);
+    const specFilePaths = listSpecificationsFiles(dirPath);
     if (specFilePaths.length > 0) {
       writeJsonFile(filePath, listResourceProviders(specFilePaths));
     }
