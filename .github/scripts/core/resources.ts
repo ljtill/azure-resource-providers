@@ -55,43 +55,47 @@ function listResourceTypes(
 ): ResourceType[] {
   const types: ResourceType[] = [];
 
-  // Filter files by resource provider name
+  // Filter paths by resource provider name
   filePaths = filePaths.filter((filePath: string): boolean => {
     return filePath.includes(resourceProvider);
   });
 
   // Iterate over resource provider file paths
   for (const filePath of filePaths) {
+    // Retrieve the api version from the file path
     const apiVersion = filePath.split("/").reverse()[1];
-    const resourceDefinitions = parseResourceDefinitions(filePath);
 
-    // Iterate over resource definitions
-    for (const resourceDefinition of resourceDefinitions) {
-      if (typeof resourceDefinition === "string") {
-        // Check if resource type already exists
-        if (
-          types.find((type) => {
-            return type.name === resourceDefinition;
-          })
-        ) {
-          // Retrieve resource type index
-          const type = types.findIndex((type) => {
-            return type.name === resourceDefinition;
-          });
+    // Iterate over resource definitions within the file
+    for (const resourceDefinition of parseResourceDefinitions(filePath)) {
+      // Check if resource type already exists
+      if (
+        types.find((type) => {
+          return type.name === resourceDefinition;
+        })
+      ) {
+        // Retrieve resource type index
+        const typeIndex = types.findIndex((type) => {
+          return type.name === resourceDefinition;
+        });
 
-          // Append version to api version list
-          types[type].apiVersions.push(apiVersion);
-        } else {
-          // Create resource type
-          types.push({
-            name: resourceDefinition,
-            apiVersions: [apiVersion],
-          });
-        }
+        // Append version to api version list
+        types[typeIndex].apiVersions.push(apiVersion);
+      } else {
+        // Create resource type
+        types.push({
+          name: resourceDefinition,
+          apiVersions: [apiVersion],
+        });
       }
     }
   }
 
+  // Sort api versions
+  for (const type of types) {
+    type.apiVersions = type.apiVersions.sort();
+  }
+
+  // Sort resource types by name
   return types.sort((a, b) => (a.name > b.name) ? 1 : -1);
 }
 
