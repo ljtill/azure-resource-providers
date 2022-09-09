@@ -1,4 +1,4 @@
-import * as mod from "https://deno.land/std@0.154.0/log/mod.ts";
+import * as mod from "https://deno.land/std/log/mod.ts";
 
 // Logging
 
