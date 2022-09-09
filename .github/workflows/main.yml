@@ -46,18 +46,14 @@ jobs:
           git config user.email "action@github.com"
         working-directory: checkout
 
-      - name: "Push schemas"
+      - name: "Merge schemas"
         run: |
           if [ -n "$(git status --porcelain)" ]; then
             git checkout -b gen/schemas
             git add ./schemas.json
             git commit -m 'gen: update schemas file'
             git push origin gen/schemas
+            gh pr create --title "gen: update schemas file" --body ""
+            gh pr merge gen/schemas --auto --squash
           fi
-        working-directory: checkout
-
-      - name: "Merge schemas"
-        run: |
-          gh pr create --title "gen: update schemas file" --body ""
-          gh pr merge gen/schemas --auto --squash
         working-directory: checkout
