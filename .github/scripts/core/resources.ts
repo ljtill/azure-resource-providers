@@ -113,9 +113,10 @@ function listResourceTypes(
   }
 
   // Sort api versions
-  // for (const type of types) {
-  //   type.apiVersions = type.apiVersions.sort();
-  // }
+  for (const type of types) {
+    type.apiVersions.stable = type.apiVersions.stable.sort();
+    type.apiVersions.preview = type.apiVersions.preview.sort();
+  }
 
   // Sort resource types by name
   return types.sort((a, b) => (a.name > b.name) ? 1 : -1);
