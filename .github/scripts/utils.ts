@@ -13,7 +13,7 @@ export async function getLogger(): Promise<mod.Logger> {
     },
     loggers: {
       default: {
-        level: "DEBUG",
+        level: "INFO",
         handlers: ["console"],
       },
     },
