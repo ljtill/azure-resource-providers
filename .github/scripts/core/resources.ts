@@ -1,19 +1,24 @@
 import { logger } from "../utils.ts";
 
-interface ResourceProvider {
-  resourceProvider: string;
+interface ProviderSchema {
+  providerNamespace: string;
   resourceTypes: ResourceType[];
 }
 
 interface ResourceType {
   name: string;
-  apiVersions: string[];
+  apiVersions: ApiVersions;
+}
+
+interface ApiVersions {
+  stable: string[];
+  preview: string[];
 }
 
 // TODO: Support schemas and specifications in both functions
 
-export function listResourceProviders(filePaths: string[]): ResourceProvider[] {
-  const providers: ResourceProvider[] = [];
+export function listResourceProviders(filePaths: string[]): ProviderSchema[] {
+  const providers: ProviderSchema[] = [];
 
   // Iterate over file paths
   for (const _filePath of filePaths) {
@@ -27,7 +32,7 @@ export function listResourceProviders(filePaths: string[]): ResourceProvider[] {
       // Check if resource provider already exists in list
       if (
         !providers.find((provider) => {
-          return provider.resourceProvider === providerName;
+          return provider.providerNamespace === providerName;
         })
       ) {
         // Ensure only Microsoft.* resource providers are included
@@ -36,7 +41,7 @@ export function listResourceProviders(filePaths: string[]): ResourceProvider[] {
 
           // Create resource provider
           providers.push({
-            resourceProvider: providerName,
+            providerNamespace: providerName,
             resourceTypes: resourceTypes,
           });
         }
@@ -45,7 +50,7 @@ export function listResourceProviders(filePaths: string[]): ResourceProvider[] {
   }
 
   return providers.sort((a, b) =>
-    (a.resourceProvider > b.resourceProvider) ? 1 : -1
+    (a.providerNamespace > b.providerNamespace) ? 1 : -1
   );
 }
 
@@ -78,22 +83,39 @@ function listResourceTypes(
           return type.name === resourceDefinition;
         });
 
-        // Append version to api version list
-        types[typeIndex].apiVersions.push(apiVersion);
+        // Append version to api version lists
+        if (apiVersion.includes("-preview")) {
+          types[typeIndex].apiVersions.preview.push(apiVersion);
+        } else {
+          types[typeIndex].apiVersions.stable.push(apiVersion);
+        }
       } else {
         // Create resource type
-        types.push({
-          name: resourceDefinition,
-          apiVersions: [apiVersion],
-        });
+        if (apiVersion.includes("-preview")) {
+          types.push({
+            name: resourceDefinition,
+            apiVersions: {
+              stable: [],
+              preview: [apiVersion],
+            },
+          });
+        } else {
+          types.push({
+            name: resourceDefinition,
+            apiVersions: {
+              stable: [apiVersion],
+              preview: [],
+            },
+          });
+        }
       }
     }
   }
 
   // Sort api versions
-  for (const type of types) {
-    type.apiVersions = type.apiVersions.sort();
-  }
+  // for (const type of types) {
+  //   type.apiVersions = type.apiVersions.sort();
+  // }
 
   // Sort resource types by name
   return types.sort((a, b) => (a.name > b.name) ? 1 : -1);
