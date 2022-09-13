@@ -1,21 +1,5 @@
 import { logger } from "../utils.ts";
-
-interface ProviderSchema {
-  providerNamespace: string;
-  resourceTypes: ResourceType[];
-}
-
-interface ResourceType {
-  name: string;
-  apiVersions: ApiVersions;
-}
-
-interface ApiVersions {
-  stable: string[];
-  preview: string[];
-}
-
-// TODO: Support schemas and specifications in both functions
+import { Schema, Definition, ProviderSchema, ResourceType } from "./schema.ts";
 
 export function listResourceProviders(filePaths: string[]): ProviderSchema[] {
   const providers: ProviderSchema[] = [];
@@ -23,29 +7,29 @@ export function listResourceProviders(filePaths: string[]): ProviderSchema[] {
   // Iterate over file paths
   for (const _filePath of filePaths) {
     // Retrieve resource provider name from file path
-    let providerName = _filePath.split("/").pop();
+    const schema = parseResourceProviderSchema(_filePath);
 
-    if (typeof providerName === "string") {
-      // Remove file extension
-      providerName = providerName.replace(".json", "");
+    // Check if resource provider already exists in list
+    if (checkResourceProviderExists(providers, schema.title)) {
+      // Ensure only Microsoft.* resource providers are included
+      if (schema.title.includes("Microsoft.")) {
+        const resourceTypes = listResourceTypes(filePaths, schema.title);
 
-      // Check if resource provider already exists in list
-      if (
-        !providers.find((provider) => {
-          return provider.providerNamespace === providerName;
-        })
-      ) {
-        // Ensure only Microsoft.* resource providers are included
-        if (providerName.includes("Microsoft.")) {
-          const resourceTypes = listResourceTypes(filePaths, providerName);
-
-          // Create resource provider
-          providers.push({
-            providerNamespace: providerName,
-            resourceTypes: resourceTypes,
-          });
-        }
+        // Create resource provider
+        providers.push({
+          providerNamespace: schema.title,
+          resourceTypes: resourceTypes,
+        });
       }
+    } else {
+      const providerIndex = providers.findIndex((provider) => {
+        return provider.providerNamespace == schema.title;
+      });
+
+      const resourceTypes = listResourceTypes()
+
+      providers[providerIndex].resourceTypes =
+
     }
   }
 
@@ -54,23 +38,15 @@ export function listResourceProviders(filePaths: string[]): ProviderSchema[] {
   );
 }
 
-function listResourceTypes(
-  filePaths: string[],
-  resourceProvider: string,
-): ResourceType[] {
+function listResourceTypes(filePath: string): ResourceType[] {
   const types: ResourceType[] = [];
 
-  // Filter paths by resource provider name
-  filePaths = filePaths.filter((filePath: string): boolean => {
-    return filePath.includes(resourceProvider);
-  });
-
-  // Iterate over resource provider file paths
-  for (const filePath of filePaths) {
     // Retrieve the api version from the file path
     const apiVersion = filePath.split("/").reverse()[1];
 
     // Iterate over resource definitions within the file
+    const resourceDefinitions = parseResourceDefinitions(filePath);
+
     for (const resourceDefinition of parseResourceDefinitions(filePath)) {
       // Check if resource type already exists
       if (
@@ -110,7 +86,6 @@ function listResourceTypes(
         }
       }
     }
-  }
 
   // Sort api versions
   for (const type of types) {
@@ -119,21 +94,47 @@ function listResourceTypes(
   }
 
   // Sort resource types by name
-  return types.sort((a, b) => (a.name > b.name) ? 1 : -1);
+  // return types.sort((a, b) => (a.name > b.name) ? 1 : -1);
+  return types
 }
 
-function parseResourceDefinitions(filePath: string): string[] {
-  let resourceDefinitions;
+function checkResourceProviderExists(
+  providers: ProviderSchema[],
+  providerName: string,
+): boolean {
+  providers.find((provider) => {
+    return provider.providerNamespace === providerName;
+  });
+
+  return false;
+}
+
+function parseResourceProviderSchema(filePath: string): Schema {
+  let schema = {} as Schema;
   const decoder = new TextDecoder("utf-8");
 
   try {
-    // logger.debug("Reading file: " + filePath);
     const fileContent = decoder.decode(Deno.readFileSync(filePath));
+    schema = JSON.parse(fileContent);
+  } catch (err) {
+    logger.warning(`Application terminated`);
+    throw err;
+  }
 
-    // logger.debug("Parsing json file: " + filePath);
-    const jsonObject = JSON.parse(fileContent);
+  return schema;
+}
 
-    resourceDefinitions = Object.keys(jsonObject.resourceDefinitions);
+function listResourceDefinitionNames(definitions: Definition[]): string[] {
+  return Object.keys(definitions)
+}
+
+function parseResourceDefinitions(filePath: string): Definition[] {
+  let resourceDefinitions = {} as Definition[];
+  const decoder = new TextDecoder("utf-8");
+
+  try {
+    const fileContent = decoder.decode(Deno.readFileSync(filePath));
+    resourceDefinitions = JSON.parse(fileContent);
   } catch (err) {
     logger.warning(`Application terminated`);
     throw err;

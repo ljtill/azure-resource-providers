@@ -11,9 +11,9 @@ function generateSchemasFile(filePath: string): void {
   const dirPath = getSchemasPath();
 
   try {
-    const schemaFilePaths = listSchemasFiles(dirPath);
-    if (schemaFilePaths.length > 0) {
-      writeJsonFile(filePath, listResourceProviders(schemaFilePaths));
+    const filePaths = listSchemasFiles(dirPath);
+    if (filePaths.length > 0) {
+      writeJsonFile(filePath, listResourceProviders(filePaths));
     }
   } catch (err) {
     logger.error(err);
@@ -25,9 +25,9 @@ function generateSpecificationsFile(filePath: string): void {
   const dirPath = getSpecificationsPath();
 
   try {
-    const specFilePaths = listSpecificationsFiles(dirPath);
-    if (specFilePaths.length > 0) {
-      writeJsonFile(filePath, listResourceProviders(specFilePaths));
+    const filePaths = listSpecificationsFiles(dirPath);
+    if (filePaths.length > 0) {
+      writeJsonFile(filePath, listResourceProviders(filePaths));
     }
   } catch (err) {
     logger.error(err);
