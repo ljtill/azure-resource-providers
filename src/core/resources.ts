@@ -1,144 +1,190 @@
-import { logger } from "../utils.ts";
-import { Schema, Definition, ProviderSchema, ResourceType } from "./schema.ts";
+import { getFileContent, logger } from "../utils.ts";
+import {
+  Definition,
+  getScopeName,
+  listResourceDefinitionScopes,
+  parseSchemaFile,
+  Schema,
+  Scope,
+} from "./schemas.ts";
+import { parseSpecFile, Spec } from "./specs.ts";
 
-export function listResourceProviders(filePaths: string[]): ProviderSchema[] {
-  const providers: ProviderSchema[] = [];
+type ResourceProvider = {
+  providerNamespace: string;
+  resourceTypes: ResourceType[];
+};
+type ResourceType = {
+  name: string;
+  scope: string; // TODO: Enum
+  apiVersions: ApiVersions;
+};
+type ApiVersions = {
+  stable: string[];
+  preview: string[];
+};
 
-  // Iterate over file paths
+export function listResourceProviders(
+  filePaths: string[],
+): ResourceProvider[] {
+  const providers: ResourceProvider[] = [];
+
+  /**
+   * Iterate over file paths
+   */
   for (const _filePath of filePaths) {
-    // Retrieve resource provider name from file path
-    const schema = parseResourceProviderSchema(_filePath);
+    /**
+     * Parse resource provider schema from file path
+     */
+    const fileContent = getFileContent(_filePath);
 
-    // Check if resource provider already exists in list
-    if (checkResourceProviderExists(providers, schema.title)) {
-      // Ensure only Microsoft.* resource providers are included
-      if (schema.title.includes("Microsoft.")) {
-        const resourceTypes = listResourceTypes(filePaths, schema.title);
+    // TODO: Handle schema and spec files
+    const schema = parseSchemaFile(fileContent);
 
-        // Create resource provider
-        providers.push({
-          providerNamespace: schema.title,
-          resourceTypes: resourceTypes,
-        });
-      }
+    /**
+     * Ensure only Microsoft.* resource providers are included
+     */
+    if (!schema.title.includes("Microsoft.")) {
+      continue;
+    }
+
+    /**
+     * Parse resource types from schema
+     */
+    const resourceTypes = listResourceTypes(schema);
+
+    /**
+     * Check if resource provider already exists in array
+     */
+    if (
+      !providers.find((provider) => {
+        return provider.providerNamespace === schema.title;
+      })
+    ) {
+      /**
+       * Create resource provider
+       */
+      providers.push({
+        providerNamespace: schema.title,
+        resourceTypes: resourceTypes,
+      });
     } else {
+      /**
+       * Append resource provider
+       */
+
       const providerIndex = providers.findIndex((provider) => {
         return provider.providerNamespace == schema.title;
       });
 
-      const resourceTypes = listResourceTypes()
+      /**
+       * Iterate through resource types
+       */
+      for (const _resourceType of resourceTypes) {
+        /**
+         * Check if resource type already exists
+         */
+        if (
+          !providers[providerIndex].resourceTypes.find((item) => {
+            return item.name === _resourceType.name;
+          })
+        ) {
+          /**
+           * Create resource type
+           */
+          providers[providerIndex].resourceTypes = resourceTypes;
+        } else {
+          /**
+           * Append resource type
+           */
+          const resourceTypeIndex = providers[providerIndex].resourceTypes
+            .findIndex((item) => {
+              return item.name === _resourceType.name;
+            });
 
-      providers[providerIndex].resourceTypes =
+          if (_resourceType.apiVersions.stable[0] !== undefined) {
+            providers[providerIndex].resourceTypes[resourceTypeIndex]
+              .apiVersions
+              .stable.push(_resourceType.apiVersions.stable[0]);
+          }
 
+          if (_resourceType.apiVersions.preview[0] !== undefined) {
+            providers[providerIndex].resourceTypes[resourceTypeIndex]
+              .apiVersions
+              .preview
+              .push(_resourceType.apiVersions.preview[0]);
+          }
+        }
+      }
     }
   }
 
+  /**
+   * Sort resource providers alphabetically
+   */
   return providers.sort((a, b) =>
     (a.providerNamespace > b.providerNamespace) ? 1 : -1
   );
 }
 
-function listResourceTypes(filePath: string): ResourceType[] {
-  const types: ResourceType[] = [];
+/**
+ * Lists all resource types for a given resource provider schema
+ * @returns ResourceType[]
+ */
+function listResourceTypes(schema: Schema): ResourceType[] {
+  const resourceTypes = [] as ResourceType[];
 
-    // Retrieve the api version from the file path
-    const apiVersion = filePath.split("/").reverse()[1];
+  /**
+   * List all resource definition scopes which are defined
+   */
+  const definitionScopes = listResourceDefinitionScopes(schema);
 
-    // Iterate over resource definitions within the file
-    const resourceDefinitions = parseResourceDefinitions(filePath);
+  definitionScopes.forEach((definitionScope) => {
+    // logger.debug(definitionScope);
 
-    for (const resourceDefinition of parseResourceDefinitions(filePath)) {
-      // Check if resource type already exists
-      if (
-        types.find((type) => {
-          return type.name === resourceDefinition;
-        })
-      ) {
-        // Retrieve resource type index
-        const typeIndex = types.findIndex((type) => {
-          return type.name === resourceDefinition;
+    const scopeName = getScopeName(definitionScope);
+
+    /**
+     * TBD
+     */
+    type SchemaKey = keyof typeof schema;
+    const definitionScopeKey = definitionScope as SchemaKey;
+
+    /**
+     * Retrieve all the definitions from a given scope
+     */
+    const definitionKeys = Object.keys(schema[definitionScopeKey] as string);
+    const definitions = schema[definitionScopeKey] as Definition;
+
+    /**
+     * Iterate over each definition within the scope
+     */
+    definitionKeys.forEach((definitionKey) => {
+      const apiVersion = definitions[definitionKey].properties.apiVersion
+        .enum[0] as string;
+
+      if (apiVersion.includes("-preview")) {
+        resourceTypes.push({
+          name: definitionKey,
+          scope: scopeName,
+          apiVersions: {
+            stable: [],
+            preview: [
+              apiVersion,
+            ],
+          },
         });
-
-        // Append version to api version lists
-        if (apiVersion.includes("-preview")) {
-          types[typeIndex].apiVersions.preview.push(apiVersion);
-        } else {
-          types[typeIndex].apiVersions.stable.push(apiVersion);
-        }
       } else {
-        // Create resource type
-        if (apiVersion.includes("-preview")) {
-          types.push({
-            name: resourceDefinition,
-            apiVersions: {
-              stable: [],
-              preview: [apiVersion],
-            },
-          });
-        } else {
-          types.push({
-            name: resourceDefinition,
-            apiVersions: {
-              stable: [apiVersion],
-              preview: [],
-            },
-          });
-        }
+        resourceTypes.push({
+          name: definitionKey,
+          scope: scopeName,
+          apiVersions: {
+            stable: [`${apiVersion}`],
+            preview: [],
+          },
+        });
       }
-    }
-
-  // Sort api versions
-  for (const type of types) {
-    type.apiVersions.stable = type.apiVersions.stable.sort();
-    type.apiVersions.preview = type.apiVersions.preview.sort();
-  }
-
-  // Sort resource types by name
-  // return types.sort((a, b) => (a.name > b.name) ? 1 : -1);
-  return types
-}
-
-function checkResourceProviderExists(
-  providers: ProviderSchema[],
-  providerName: string,
-): boolean {
-  providers.find((provider) => {
-    return provider.providerNamespace === providerName;
+    });
   });
 
-  return false;
-}
-
-function parseResourceProviderSchema(filePath: string): Schema {
-  let schema = {} as Schema;
-  const decoder = new TextDecoder("utf-8");
-
-  try {
-    const fileContent = decoder.decode(Deno.readFileSync(filePath));
-    schema = JSON.parse(fileContent);
-  } catch (err) {
-    logger.warning(`Application terminated`);
-    throw err;
-  }
-
-  return schema;
-}
-
-function listResourceDefinitionNames(definitions: Definition[]): string[] {
-  return Object.keys(definitions)
-}
-
-function parseResourceDefinitions(filePath: string): Definition[] {
-  let resourceDefinitions = {} as Definition[];
-  const decoder = new TextDecoder("utf-8");
-
-  try {
-    const fileContent = decoder.decode(Deno.readFileSync(filePath));
-    resourceDefinitions = JSON.parse(fileContent);
-  } catch (err) {
-    logger.warning(`Application terminated`);
-    throw err;
-  }
-
-  return resourceDefinitions;
+  return resourceTypes;
 }

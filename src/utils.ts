@@ -1,4 +1,4 @@
-import * as mod from "https://deno.land/std/log/mod.ts";
+import * as mod from "https://deno.land/std@0.154.0/log/mod.ts";
 
 // Logging
 
@@ -13,7 +13,7 @@ export async function getLogger(): Promise<mod.Logger> {
     },
     loggers: {
       default: {
-        level: "INFO",
+        level: "DEBUG",
         handlers: ["console"],
       },
     },
@@ -62,8 +62,19 @@ export function listFiles(filePath: string): string[] {
   return fileNames;
 }
 
+export function getFileContent(filePath: string): string {
+  const decoder = new TextDecoder("utf-8");
+
+  try {
+    return decoder.decode(Deno.readFileSync(filePath));
+  } catch (err) {
+    logger.warning(`Application terminated`);
+    throw err;
+  }
+}
+
 export function testFilePath(filePath: string): void {
-  logger.debug(`[testFilePath] File - "${filePath}"`);
+  // logger.debug(`[testFilePath] File - "${filePath}"`);
 
   try {
     Deno.statSync(filePath);
