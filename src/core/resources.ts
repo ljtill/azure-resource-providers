@@ -73,15 +73,14 @@ function updateResourceProvider(
 ): ResourceProvider {
   // Iterate over 'new' resource types
   resourceTypes.forEach((resourceType) => {
-    // Check if resource type exists on the resource provider
     if (
+      // Check if resource type exists on the resource provider
       resourceProvider.resourceTypes.find((item) => {
         return item.name === resourceType.name &&
           item.scope === resourceType.scope;
       })
     ) {
       // Append resource type
-      // Add api versions to the resource type
       resourceProvider.resourceTypes.map((item) => {
         item.name == resourceType.name && item.scope === resourceType.scope
           ? updateResourceType(
@@ -187,12 +186,22 @@ function updateResourceType(
   stableApiVersion: string[],
   previewApiVersion: string[],
 ): ResourceType {
-  resourceType.apiVersions.stable = resourceType.apiVersions.stable.concat(
-    stableApiVersion,
-  );
-  resourceType.apiVersions.preview = resourceType.apiVersions.preview.concat(
-    previewApiVersion,
-  );
+  if (stableApiVersion[0] !== undefined) {
+    if (!resourceType.apiVersions.stable.includes(stableApiVersion[0])) {
+      resourceType.apiVersions.stable = resourceType.apiVersions.stable.concat(
+        stableApiVersion,
+      );
+    }
+  }
+
+  if (previewApiVersion[0] !== undefined) {
+    if (!resourceType.apiVersions.preview.includes(previewApiVersion[0])) {
+      resourceType.apiVersions.preview = resourceType.apiVersions.preview
+        .concat(
+          previewApiVersion,
+        );
+    }
+  }
 
   return resourceType;
 }
