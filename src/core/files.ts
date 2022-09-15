@@ -1,5 +1,9 @@
 import { listDirectories, listFiles, logger, testFilePath } from "../utils.ts";
 
+/**
+ * @param dirPath
+ * @returns
+ */
 export function listSchemasFiles(dirPath: string): string[] {
   testFilePath(dirPath);
 
@@ -14,41 +18,42 @@ export function listSchemasFiles(dirPath: string): string[] {
       // Retrieve list of namespaces
       const namespaces = listFiles(`${dirPath}/${_apiVersion}`);
 
-      for (const _namespace of namespaces) {
-        // TODO: Remove this duplicate check for Microsoft.* RPs
-        if (_namespace.includes("Microsoft.")) {
-          filePaths.push(`${dirPath}/${_apiVersion}/${_namespace}`);
+      namespaces.forEach((namespace) => {
+        // Include only Microsoft Resource Providers
+        if (namespace.includes("Microsoft.")) {
+          filePaths.push(`${dirPath}/${_apiVersion}/${namespace}`);
         }
-      }
+      });
     }
   }
 
   return filePaths;
 }
 
-export function listSpecificationsFiles(dirPath: string): string[] {
+/**
+ * @param dirPath
+ * @returns
+ */
+export function listSpecsFiles(dirPath: string): string[] {
   testFilePath(dirPath);
 
-  const filePaths: string[] = [];
+  // TODO: Implement
 
-  // TODO: Implementation
-
-  //   const specs = listDirectories(`${dirPath}`);
-  //   for (const _spec of specs) {
-  //     const _providers = listDirectories(`${dirPath}/${_spec}`).filter((item) => {
-  //       return item.includes("Microsoft.");
-  //     });
-  //   }
-
-  return filePaths;
+  return [];
 }
 
+/**
+ * @returns
+ */
 export function getSchemasPath(): string {
   let dirPath = "";
 
+  // Check runtime environment
   if (Deno.env.get("USER") === "runner") {
+    // GitHub Actions
     dirPath = "../schemas/schemas";
   } else {
+    // Local
     // TODO: Implement env var override
     dirPath = "../../github-azure/azure-resource-manager-schemas/schemas";
   }
@@ -56,12 +61,18 @@ export function getSchemasPath(): string {
   return dirPath;
 }
 
-export function getSpecificationsPath(): string {
+/**
+ * @returns
+ */
+export function getSpecsPath(): string {
   let dirPath = "";
 
+  // Check runtime environment
   if (Deno.env.get("USER") === "runner") {
+    // GitHub Actions
     dirPath = "../schemas/schemas";
   } else {
+    // Local
     // TODO: Implement env var override
     dirPath = "../../github-azure/azure-rest-api-specs/specification";
   }

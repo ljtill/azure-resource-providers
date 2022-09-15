@@ -1,10 +1,10 @@
 import {
   getSchemasPath,
-  getSpecificationsPath,
+  getSpecsPath,
   listSchemasFiles,
-  listSpecificationsFiles,
+  listSpecsFiles,
 } from "./core/files.ts";
-import { listResourceProviders } from "./core/resources.ts";
+import { parseResourceProviders } from "./core/resources.ts";
 import { logger, writeJsonFile } from "./utils.ts";
 
 function generateSchemasFile(filePath: string): void {
@@ -13,7 +13,7 @@ function generateSchemasFile(filePath: string): void {
   try {
     const filePaths = listSchemasFiles(dirPath);
     if (filePaths.length > 0) {
-      writeJsonFile(filePath, listResourceProviders(filePaths));
+      writeJsonFile(filePath, parseResourceProviders(filePaths));
     }
   } catch (err) {
     logger.error(err);
@@ -21,13 +21,13 @@ function generateSchemasFile(filePath: string): void {
   }
 }
 
-function generateSpecificationsFile(filePath: string): void {
-  const dirPath = getSpecificationsPath();
+function generateSpecsFile(filePath: string): void {
+  const dirPath = getSpecsPath();
 
   try {
-    const filePaths = listSpecificationsFiles(dirPath);
+    const filePaths = listSpecsFiles(dirPath);
     if (filePaths.length > 0) {
-      writeJsonFile(filePath, listResourceProviders(filePaths));
+      writeJsonFile(filePath, parseResourceProviders(filePaths));
     }
   } catch (err) {
     logger.error(err);
@@ -42,8 +42,9 @@ function main(args: string[]): Promise<void> {
       generateSchemasFile("./schemas.json");
       break;
     case "specs":
-      logger.info("Generating specifications file");
-      generateSpecificationsFile("./specs.json");
+      logger.warning("Not implemented");
+      // logger.info("Generating specifications file");
+      // generateSpecsFile("./specs.json");
       break;
     default:
       logger.error("Invalid command argument");

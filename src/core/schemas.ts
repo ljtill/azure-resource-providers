@@ -1,8 +1,6 @@
-// deno-lint-ignore-file no-explicit-any
-
 import { logger } from "../utils.ts";
 
-export interface Schema {
+export type Schema = {
   id: string;
   $schema: string;
   title: string;
@@ -13,16 +11,16 @@ export interface Schema {
   resourceDefinitions?: Definition;
   extension_resourceDefinitions?: Definition;
   definitions?: Definition;
-}
-export interface Definition {
+};
+export type Definition = {
   [key: string]: DefinitionObject;
-}
-interface DefinitionObject {
+};
+type DefinitionObject = {
   type?: string;
   properties?: any;
   required?: string[];
   description?: string;
-}
+};
 
 export enum Scope {
   tenant_resourceDefinitions = "tenant",
@@ -30,7 +28,6 @@ export enum Scope {
   subscription_resourceDefinitions = "subscription",
   resourceDefinitions = "resourceGroup",
   extension_resourceDefinitions = "resource",
-  // definition = ""
 }
 
 export function parseSchemaFile(fileContent: string): Schema {
@@ -60,9 +57,10 @@ export function listResourceDefinitionScopes(schema: Schema): string[] {
   if (schema.extension_resourceDefinitions !== undefined) {
     properties.push("extension_resourceDefinitions");
   }
-  //  if (schema.definitions !== undefined) {
-  //   properties.push("definitions")
-  //  }
+  if (schema.definitions !== undefined) {
+    // Skip - Not implemented
+    // properties.push("definitions");
+  }
 
   return properties;
 }
@@ -83,9 +81,10 @@ export function getScopeName(scope: string): string {
   if (scope === "extension_resourceDefinitions") {
     return "resource";
   }
-  // if(scope === "definitions") {
-  //   return ""
-  // }
+  if (scope === "definitions") {
+    // Skip - Not implemented
+    // return "";
+  }
 
   throw "Unable to determine scope";
 }
