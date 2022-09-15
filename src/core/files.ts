@@ -1,81 +1,103 @@
-import { listDirectories, listFiles, logger, testFilePath } from "../utils.ts";
+import { logger } from "../utils.ts";
 
 /**
- * @param dirPath
+ * Return file contents as a string
+ *
+ * @param filePath
  * @returns
  */
-export function listSchemasFiles(dirPath: string): string[] {
-  testFilePath(dirPath);
+export function getFileContent(filePath: string): string {
+  const decoder = new TextDecoder("utf-8");
 
-  const filePaths: string[] = [];
-  const apiVersions = listDirectories(`${dirPath}`);
+  try {
+    return decoder.decode(Deno.readFileSync(filePath));
+  } catch (err) {
+    logger.warning(`Application terminated`);
+    throw err;
+  }
+}
 
-  for (const _apiVersion of apiVersions) {
-    // Filter versions which match standard pattern
-    const regEx = "[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]";
+/**
+ * Writes content 'any' to local file path
+ *
+ * @param filePath
+ * @param content
+ */
+export function writeJsonFile(filePath: string, content: any): void {
+  const encoder = new TextEncoder();
 
-    if (_apiVersion.match(regEx)) {
-      // Retrieve list of namespaces
-      const namespaces = listFiles(`${dirPath}/${_apiVersion}`);
+  try {
+    Deno.writeFileSync(
+      filePath,
+      encoder.encode(JSON.stringify(content, null, 2)),
+    );
+  } catch (err) {
+    logger.warning(`Application terminated`);
+    throw err;
+  }
+}
 
-      namespaces.forEach((namespace) => {
-        // Include only Microsoft Resource Providers
-        if (namespace.includes("Microsoft.")) {
-          filePaths.push(`${dirPath}/${_apiVersion}/${namespace}`);
-        }
-      });
+/**
+ * Lists all directories within a file path
+ *
+ * @param filePath
+ * @returns string[]
+ */
+export function listDirectories(filePath: string): string[] {
+  const directoryNames: string[] = [];
+
+  for (const _directory of Deno.readDirSync(filePath)) {
+    if (_directory.isDirectory) {
+      directoryNames.push(_directory.name);
     }
   }
 
-  return filePaths;
-}
-
-/**
- * @param dirPath
- * @returns
- */
-export function listSpecsFiles(dirPath: string): string[] {
-  testFilePath(dirPath);
-
-  // TODO: Implement
-
-  return [];
-}
-
-/**
- * @returns
- */
-export function getSchemasPath(): string {
-  let dirPath = "";
-
-  // Check runtime environment
-  if (Deno.env.get("USER") === "runner") {
-    // GitHub Actions
-    dirPath = "../schemas/schemas";
-  } else {
-    // Local
-    // TODO: Implement env var override
-    dirPath = "../../github-azure/azure-resource-manager-schemas/schemas";
+  if (directoryNames.length === 0) {
+    logger.warning(`Application terminated`);
+    throw new Error(`No directories found in ${filePath}`);
   }
 
-  return dirPath;
+  return directoryNames;
 }
 
 /**
- * @returns
+ * Lists all files with a file path
+ *
+ * @param filePath
+ * @returns string[]
  */
-export function getSpecsPath(): string {
-  let dirPath = "";
+export function listFiles(filePath: string): string[] {
+  const fileNames: string[] = [];
 
-  // Check runtime environment
-  if (Deno.env.get("USER") === "runner") {
-    // GitHub Actions
-    dirPath = "../schemas/schemas";
-  } else {
-    // Local
-    // TODO: Implement env var override
-    dirPath = "../../github-azure/azure-rest-api-specs/specification";
+  try {
+    for (const _file of Deno.readDirSync(filePath)) {
+      if (_file.isFile) {
+        fileNames.push(_file.name);
+      }
+    }
+  } catch (err) {
+    logger.warning("Application terminated");
+    throw err;
   }
 
-  return dirPath;
+  if (fileNames.length === 0) {
+    logger.warning(`Application terminated`);
+    throw new Error(`No files found in ${filePath}`);
+  }
+
+  return fileNames;
+}
+
+/**
+ * Validates a file path
+ *
+ * @param filePath
+ */
+export function testFilePath(filePath: string): void {
+  try {
+    Deno.statSync(filePath);
+  } catch (err) {
+    logger.warning(`Application terminated`);
+    throw err;
+  }
 }
