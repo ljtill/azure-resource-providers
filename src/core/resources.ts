@@ -76,13 +76,14 @@ function updateResourceProvider(
     // Check if resource type exists on the resource provider
     if (
       resourceProvider.resourceTypes.find((item) => {
-        return item.name === resourceType.name;
+        return item.name === resourceType.name &&
+          item.scope === resourceType.scope;
       })
     ) {
       // Append resource type
       // Add api versions to the resource type
       resourceProvider.resourceTypes.map((item) => {
-        item.name == resourceType.name && item.scope == resourceType.scope
+        item.name == resourceType.name && item.scope === resourceType.scope
           ? updateResourceType(
             item,
             resourceType.apiVersions.stable,
