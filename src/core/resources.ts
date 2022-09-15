@@ -106,9 +106,14 @@ function sortResourceProviders(
   // Iterate over each resource provider and sort the properties
   providers.forEach((provider) => {
     // Sort resource types by name & scope
-    provider.resourceTypes.sort((a, b) =>
-      ((a.name > b.name) ? 1 : -1) && (a.scope > b.scope) ? 1 : -1
-    );
+    provider.resourceTypes.sort((
+      a,
+      b,
+    ) => (a.name.localeCompare(b.name) || a.scope.localeCompare(b.scope)));
+
+    // provider.resourceTypes.sort((a, b) =>
+    //   ((a.name > b.name) ? 1 : -1) && (a.scope > b.scope) ? 1 : -1
+    // );
 
     // Sort api versions by age
     provider.resourceTypes.forEach((resourceType) => {
