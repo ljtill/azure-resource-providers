@@ -1,5 +1,3 @@
-// deno-lint-ignore-file no-explicit-any
-
 import { logger } from "../utils.ts";
 
 export interface Spec {

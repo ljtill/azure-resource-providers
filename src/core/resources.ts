@@ -23,141 +23,128 @@ type ApiVersions = {
   preview: string[];
 };
 
-export function listResourceProviders(
+/**
+ * Parses all resource providers
+ * @param filePaths
+ * @returns ResourceProviders[]
+ */
+export function parseResourceProviders(
   filePaths: string[],
 ): ResourceProvider[] {
   const providers: ResourceProvider[] = [];
 
-  /**
-   * Iterate over file paths
-   */
-  for (const _filePath of filePaths) {
-    /**
-     * Parse resource provider schema from file path
-     */
-    const fileContent = getFileContent(_filePath);
-
-    // TODO: Handle schema and spec files
+  // Iterate over all file paths
+  filePaths.forEach((filePath) => {
+    // Parse resource provider schema from file path
+    // TODO: Handle schema and spec file
+    const fileContent = getFileContent(filePath);
     const schema = parseSchemaFile(fileContent);
 
-    /**
-     * Ensure only Microsoft.* resource providers are included
-     */
-    if (!schema.title.includes("Microsoft.")) {
-      continue;
-    }
+    // Parse resource types from schema
+    const resourceTypes = parseResourceTypes(schema);
 
-    /**
-     * Parse resource types from schema
-     */
-    const resourceTypes = listResourceTypes(schema);
-
-    /**
-     * Check if resource provider already exists in array
-     */
     if (
-      !providers.find((provider) => {
+      // Check if resource provider exists
+      providers.find((provider) => {
         return provider.providerNamespace === schema.title;
       })
     ) {
-      /**
-       * Create resource provider
-       */
+      // Append resource provider
+      providers.map((provider) => {
+        provider.providerNamespace === schema.title
+          ? updateResourceProvider(provider, resourceTypes)
+          : provider;
+      });
+    } else {
+      // Create resource provider
       providers.push({
         providerNamespace: schema.title,
         resourceTypes: resourceTypes,
       });
-    } else {
-      /**
-       * Append resource provider
-       */
-
-      const providerIndex = providers.findIndex((provider) => {
-        return provider.providerNamespace == schema.title;
-      });
-
-      /**
-       * Iterate through resource types
-       */
-      for (const _resourceType of resourceTypes) {
-        /**
-         * Check if resource type already exists
-         */
-        if (
-          !providers[providerIndex].resourceTypes.find((item) => {
-            return item.name === _resourceType.name;
-          })
-        ) {
-          /**
-           * Create resource type
-           */
-          providers[providerIndex].resourceTypes = resourceTypes;
-        } else {
-          /**
-           * Append resource type
-           */
-          const resourceTypeIndex = providers[providerIndex].resourceTypes
-            .findIndex((item) => {
-              return item.name === _resourceType.name;
-            });
-
-          if (_resourceType.apiVersions.stable[0] !== undefined) {
-            providers[providerIndex].resourceTypes[resourceTypeIndex]
-              .apiVersions
-              .stable.push(_resourceType.apiVersions.stable[0]);
-          }
-
-          if (_resourceType.apiVersions.preview[0] !== undefined) {
-            providers[providerIndex].resourceTypes[resourceTypeIndex]
-              .apiVersions
-              .preview
-              .push(_resourceType.apiVersions.preview[0]);
-          }
-        }
-      }
     }
-  }
+  });
 
-  /**
-   * Sort resource providers alphabetically
-   */
-  return providers.sort((a, b) =>
+  return sortResourceProviders(providers);
+}
+
+function updateResourceProvider(
+  resourceProvider: ResourceProvider,
+  resourceTypes: ResourceType[],
+): ResourceProvider {
+  // Iterate over 'new' resource types
+  resourceTypes.forEach((resourceType) => {
+    // Check if resource type exists on the resource provider
+    if (
+      resourceProvider.resourceTypes.find((item) => {
+        return item.name === resourceType.name;
+      })
+    ) {
+      // Append resource type
+      // Add api versions to the resource type
+      resourceProvider.resourceTypes.map((item) => {
+        item.name == resourceType.name
+          ? updateResourceType(
+            item,
+            resourceType.apiVersions.stable,
+            resourceType.apiVersions.preview,
+          )
+          : item;
+      });
+    } else {
+      // Create resource type
+      resourceProvider.resourceTypes.push(resourceType);
+    }
+  });
+
+  return resourceProvider;
+}
+
+function sortResourceProviders(
+  providers: ResourceProvider[],
+): ResourceProvider[] {
+  // Iterate over each resource provider and sort the properties
+  providers.forEach((provider) => {
+    // Sort resource types by name
+    provider.resourceTypes.sort((a, b) => (a.name > b.name) ? 1 : -1);
+
+    // Sort api versions by age
+    provider.resourceTypes.forEach((resourceType) => {
+      resourceType.apiVersions.stable.sort((a, b) => (a > b) ? 1 : -1);
+      resourceType.apiVersions.preview.sort((a, b) => (a > b) ? 1 : -1);
+    });
+  });
+
+  // Sort all resource providers by name
+  providers.sort((a, b) =>
     (a.providerNamespace > b.providerNamespace) ? 1 : -1
   );
+
+  return providers;
 }
 
 /**
- * Lists all resource types for a given resource provider schema
+ * Parses all resource types for a resource provider for all
+ * available scopes, e.g. tenant, subscription etc
  * @returns ResourceType[]
  */
-function listResourceTypes(schema: Schema): ResourceType[] {
+export function parseResourceTypes(schema: Schema): ResourceType[] {
   const resourceTypes = [] as ResourceType[];
 
-  /**
-   * List all resource definition scopes which are defined
-   */
+  // List all resource definition scopes which are defined
   const definitionScopes = listResourceDefinitionScopes(schema);
 
   definitionScopes.forEach((definitionScope) => {
-    // logger.debug(definitionScope);
-
     const scopeName = getScopeName(definitionScope);
 
-    /**
-     * TBD
-     */
+    // TODO: Comment
     type SchemaKey = keyof typeof schema;
     const definitionScopeKey = definitionScope as SchemaKey;
 
-    /**
-     * Retrieve all the definitions from a given scope
-     */
+    // Retrieve all the definitions from a given scope
     const definitionKeys = Object.keys(schema[definitionScopeKey] as string);
     const definitions = schema[definitionScopeKey] as Definition;
 
-    /**
-     * Iterate over each definition within the scope
-     */
+    // Iterate over each definition within the scope
     definitionKeys.forEach((definitionKey) => {
       const apiVersion = definitions[definitionKey].properties.apiVersion
         .enum[0] as string;
@@ -178,7 +165,9 @@ function listResourceTypes(schema: Schema): ResourceType[] {
           name: definitionKey,
           scope: scopeName,
           apiVersions: {
-            stable: [`${apiVersion}`],
+            stable: [
+              apiVersion,
+            ],
             preview: [],
           },
         });
@@ -187,4 +176,19 @@ function listResourceTypes(schema: Schema): ResourceType[] {
   });
 
   return resourceTypes;
+}
+
+function updateResourceType(
+  resourceType: ResourceType,
+  stableApiVersion: string[],
+  previewApiVersion: string[],
+): ResourceType {
+  resourceType.apiVersions.stable = resourceType.apiVersions.stable.concat(
+    stableApiVersion,
+  );
+  resourceType.apiVersions.preview = resourceType.apiVersions.preview.concat(
+    previewApiVersion,
+  );
+
+  return resourceType;
 }
