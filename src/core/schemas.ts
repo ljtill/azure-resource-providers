@@ -1,4 +1,5 @@
 import { logger } from "../utils.ts";
+import { listDirectories, listFiles, testFilePath } from "./files.ts";
 
 export type Schema = {
   id: string;
@@ -17,19 +18,25 @@ export type Definition = {
 };
 type DefinitionObject = {
   type?: string;
-  properties?: any;
+  properties?: any; // TODO: Remove any type
   required?: string[];
   description?: string;
 };
 
 export enum Scope {
-  tenant_resourceDefinitions = "tenant",
-  managementGroup_resourceDefinitions = "managementGroup",
-  subscription_resourceDefinitions = "subscription",
-  resourceDefinitions = "resourceGroup",
-  extension_resourceDefinitions = "resource",
+  Tenant = "tenant",
+  ManagementGroup = "managementGroup",
+  Subscription = "subscription",
+  ResourceGroup = "resourceGroup",
+  Resource = "resource",
 }
 
+/**
+ * Cast JSON string to Schema object
+ *
+ * @param fileContent
+ * @returns Schema
+ */
 export function parseSchemaFile(fileContent: string): Schema {
   try {
     return JSON.parse(fileContent) as Schema;
@@ -39,6 +46,65 @@ export function parseSchemaFile(fileContent: string): Schema {
   }
 }
 
+/**
+ * List all schema files within the repository path
+ *
+ * @param dirPath
+ * @returns string[]
+ */
+export function listSchemasFiles(dirPath: string): string[] {
+  testFilePath(dirPath);
+
+  const filePaths: string[] = [];
+  const apiVersions = listDirectories(`${dirPath}`);
+
+  for (const _apiVersion of apiVersions) {
+    // Filter versions which match standard pattern
+    const regEx = "[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]";
+
+    if (_apiVersion.match(regEx)) {
+      // Retrieve list of namespaces
+      const namespaces = listFiles(`${dirPath}/${_apiVersion}`);
+
+      namespaces.forEach((namespace) => {
+        // Include only Microsoft Resource Providers
+        if (namespace.includes("Microsoft.")) {
+          filePaths.push(`${dirPath}/${_apiVersion}/${namespace}`);
+        }
+      });
+    }
+  }
+
+  return filePaths;
+}
+
+/**
+ * Provides schemas repository directory path
+ *
+ * @returns string
+ */
+export function getSchemasPath(): string {
+  let dirPath = "";
+
+  // Check runtime environment
+  if (Deno.env.get("USER") === "runner") {
+    // GitHub Actions
+    dirPath = "../schemas/schemas";
+  } else {
+    // Local
+    // TODO: Implement env var override
+    dirPath = "../../github-azure/azure-resource-manager-schemas/schemas";
+  }
+
+  return dirPath;
+}
+
+/**
+ * Provides an array of defined resource definition scopes
+ *
+ * @param schema
+ * @returns
+ */
 export function listResourceDefinitionScopes(schema: Schema): string[] {
   const properties: string[] = [];
 
@@ -58,31 +124,37 @@ export function listResourceDefinitionScopes(schema: Schema): string[] {
     properties.push("extension_resourceDefinitions");
   }
   if (schema.definitions !== undefined) {
-    // Skip - Not implemented
+    // TODO: Not implemented
     // properties.push("definitions");
   }
 
   return properties;
 }
 
-export function getScopeName(scope: string): string {
+/**
+ * Provides the scope name
+ *
+ * @param scope
+ * @returns Scope
+ */
+export function getScope(scope: string): Scope {
   if (scope === "tenant_resourceDefinitions") {
-    return "tenant";
+    return Scope.Tenant;
   }
   if (scope === "managementGroup_resourceDefinitions") {
-    return "managementGroup";
+    return Scope.ManagementGroup;
   }
   if (scope === "subscription_resourceDefinitions") {
-    return "subscription";
+    return Scope.Subscription;
   }
   if (scope === "resourceDefinitions") {
-    return "resourceGroup";
+    return Scope.ResourceGroup;
   }
   if (scope === "extension_resourceDefinitions") {
-    return "resource";
+    return Scope.Resource;
   }
   if (scope === "definitions") {
-    // Skip - Not implemented
+    // TODO: Not implemented
     // return "";
   }
 

@@ -1,12 +1,13 @@
-import {
-  getSchemasPath,
-  getSpecsPath,
-  listSchemasFiles,
-  listSpecsFiles,
-} from "./core/files.ts";
+import { logger } from "./utils.ts";
+import { writeJsonFile } from "./core/files.ts";
+import { getSchemasPath, listSchemasFiles } from "./core/schemas.ts";
+import { getSpecsPath, listSpecsFiles } from "./core/specs.ts";
 import { parseResourceProviders } from "./core/resources.ts";
-import { logger, writeJsonFile } from "./utils.ts";
 
+/**
+ * Generated schemas.json file
+ * @param filePath
+ */
 function generateSchemasFile(filePath: string): void {
   const dirPath = getSchemasPath();
 
@@ -20,7 +21,10 @@ function generateSchemasFile(filePath: string): void {
     Deno.exit(1);
   }
 }
-
+/**
+ * Generates specs.json file
+ * @param filePath
+ */
 function generateSpecsFile(filePath: string): void {
   const dirPath = getSpecsPath();
 
@@ -35,6 +39,10 @@ function generateSpecsFile(filePath: string): void {
   }
 }
 
+/**
+ * Invocation
+ * @param args
+ */
 function main(args: string[]): Promise<void> {
   switch (args[0]) {
     case "schemas":

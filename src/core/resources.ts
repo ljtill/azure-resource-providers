@@ -1,13 +1,13 @@
-import { getFileContent, logger } from "../utils.ts";
+import { logger } from "../utils.ts";
 import {
   Definition,
-  getScopeName,
+  getScope,
   listResourceDefinitionScopes,
   parseSchemaFile,
   Schema,
   Scope,
 } from "./schemas.ts";
-import { parseSpecFile, Spec } from "./specs.ts";
+import { getFileContent } from "./files.ts";
 
 type ResourceProvider = {
   providerNamespace: string;
@@ -15,7 +15,7 @@ type ResourceProvider = {
 };
 type ResourceType = {
   name: string;
-  scope: string; // TODO: Enum
+  scope: Scope;
   apiVersions: ApiVersions;
 };
 type ApiVersions = {
@@ -25,6 +25,7 @@ type ApiVersions = {
 
 /**
  * Parses all resource providers
+ *
  * @param filePaths
  * @returns ResourceProviders[]
  */
@@ -33,44 +34,53 @@ export function parseResourceProviders(
 ): ResourceProvider[] {
   const providers: ResourceProvider[] = [];
 
-  // Iterate over all file paths
+  // Iterate over file paths
   filePaths.forEach((filePath) => {
+    logger.debug(`(parseResourceProviders) Processing file ${filePath}`);
+
     // Parse resource provider schema from file path
     // TODO: Handle schema and spec file
     const fileContent = getFileContent(filePath);
     const schema = parseSchemaFile(fileContent);
 
-    // Parse resource types from schema
-    const resourceTypes = parseResourceTypes(schema);
-
-    if (
-      // Check if resource provider exists
-      providers.find((provider) => {
-        return provider.providerNamespace === schema.title;
-      })
-    ) {
-      // Append resource provider
+    if (checkResourceProviders(providers, schema)) {
+      // Update resource provider
       providers.map((provider) => {
         provider.providerNamespace === schema.title
-          ? updateResourceProvider(provider, resourceTypes)
+          ? updateResourceProvider(provider, parseResourceTypes(schema))
           : provider;
       });
     } else {
       // Create resource provider
-      providers.push({
-        providerNamespace: schema.title,
-        resourceTypes: resourceTypes,
-      });
+      providers.push(addResourceProvider(schema, parseResourceTypes(schema)));
     }
   });
 
   return sortResourceProviders(providers);
 }
 
+function addResourceProvider(
+  schema: Schema,
+  resourceTypes: ResourceType[],
+): ResourceProvider {
+  logger.debug(
+    `(addResourceProvider) Creating resource provider ${schema.title} `,
+  );
+
+  return {
+    providerNamespace: schema.title,
+    resourceTypes: resourceTypes,
+  };
+}
+
 function updateResourceProvider(
   resourceProvider: ResourceProvider,
   resourceTypes: ResourceType[],
 ): ResourceProvider {
+  logger.debug(
+    `(updateResourceProvider) Updating resource provider ${resourceProvider.providerNamespace} `,
+  );
+
   // Iterate over 'new' resource types
   resourceTypes.forEach((resourceType) => {
     if (
@@ -97,6 +107,22 @@ function updateResourceProvider(
   });
 
   return resourceProvider;
+}
+
+function checkResourceProviders(
+  providers: ResourceProvider[],
+  schema: Schema,
+): boolean {
+  // Check if Resource Provider already exists in array
+  if (
+    providers.find((provider) => {
+      return provider.providerNamespace === schema.title;
+    })
+  ) {
+    return true;
+  }
+
+  return false;
 }
 
 function sortResourceProviders(
@@ -128,6 +154,8 @@ function sortResourceProviders(
 /**
  * Parses all resource types for a resource provider for all
  * available scopes, e.g. tenant, subscription etc
+ *
+ * @param schema
  * @returns ResourceType[]
  */
 export function parseResourceTypes(schema: Schema): ResourceType[] {
@@ -136,9 +164,8 @@ export function parseResourceTypes(schema: Schema): ResourceType[] {
   // List all resource definition scopes which are defined
   const definitionScopes = listResourceDefinitionScopes(schema);
 
+  // Iterate over all resource scopes
   definitionScopes.forEach((definitionScope) => {
-    const scopeName = getScopeName(definitionScope);
-
     // TODO: Comment
     type SchemaKey = keyof typeof schema;
     const definitionScopeKey = definitionScope as SchemaKey;
@@ -155,7 +182,7 @@ export function parseResourceTypes(schema: Schema): ResourceType[] {
       if (apiVersion.includes("-preview")) {
         resourceTypes.push({
           name: definitionKey,
-          scope: scopeName,
+          scope: getScope(definitionScope),
           apiVersions: {
             stable: [],
             preview: [
@@ -166,7 +193,7 @@ export function parseResourceTypes(schema: Schema): ResourceType[] {
       } else {
         resourceTypes.push({
           name: definitionKey,
-          scope: scopeName,
+          scope: getScope(definitionScope),
           apiVersions: {
             stable: [
               apiVersion,
