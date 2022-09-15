@@ -283,6 +283,17 @@
     "resourceTypes": [
       {
         "name": "configurations",
+        "scope": "resourceGroup",
+        "apiVersions": {
+          "stable": [
+            "2017-04-19",
+            "2020-01-01"
+          ],
+          "preview": []
+        }
+      },
+      {
+        "name": "configurations",
         "scope": "subscription",
         "apiVersions": {
           "stable": [
@@ -2119,6 +2130,32 @@
       },
       {
         "name": "locks",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [
+            "2015-01-01",
+            "2016-09-01",
+            "2017-04-01",
+            "2020-05-01"
+          ],
+          "preview": []
+        }
+      },
+      {
+        "name": "locks",
+        "scope": "resourceGroup",
+        "apiVersions": {
+          "stable": [
+            "2015-01-01",
+            "2016-09-01",
+            "2017-04-01",
+            "2020-05-01"
+          ],
+          "preview": []
+        }
+      },
+      {
+        "name": "locks",
         "scope": "subscription",
         "apiVersions": {
           "stable": [
@@ -2126,6 +2163,24 @@
             "2016-09-01",
             "2017-04-01",
             "2020-05-01"
+          ],
+          "preview": []
+        }
+      },
+      {
+        "name": "policyDefinitions",
+        "scope": "subscription",
+        "apiVersions": {
+          "stable": [
+            "2016-12-01",
+            "2018-03-01",
+            "2018-05-01",
+            "2019-01-01",
+            "2019-06-01",
+            "2019-09-01",
+            "2020-03-01",
+            "2020-09-01",
+            "2021-06-01"
           ],
           "preview": []
         }
@@ -2146,6 +2201,25 @@
             "2021-06-01"
           ],
           "preview": []
+        }
+      },
+      {
+        "name": "policySetDefinitions",
+        "scope": "subscription",
+        "apiVersions": {
+          "stable": [
+            "2018-03-01",
+            "2018-05-01",
+            "2019-01-01",
+            "2019-06-01",
+            "2019-09-01",
+            "2020-03-01",
+            "2020-09-01",
+            "2021-06-01"
+          ],
+          "preview": [
+            "2017-06-01-preview"
+          ]
         }
       },
       {
@@ -2233,7 +2307,27 @@
       },
       {
         "name": "variables",
+        "scope": "subscription",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-08-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "variables",
         "scope": "managementGroup",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-08-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "variables_values",
+        "scope": "subscription",
         "apiVersions": {
           "stable": [],
           "preview": [
@@ -5446,12 +5540,42 @@
       },
       {
         "name": "reportconfigs",
+        "scope": "resourceGroup",
+        "apiVersions": {
+          "stable": [
+            "2018-05-31"
+          ],
+          "preview": []
+        }
+      },
+      {
+        "name": "reportconfigs",
         "scope": "subscription",
         "apiVersions": {
           "stable": [
             "2018-05-31"
           ],
           "preview": []
+        }
+      },
+      {
+        "name": "reports",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2018-08-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "reports",
+        "scope": "resourceGroup",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2018-08-01-preview"
+          ]
         }
       },
       {
@@ -10776,6 +10900,16 @@
       },
       {
         "name": "diagnosticSettings",
+        "scope": "managementGroup",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2021-05-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "diagnosticSettings",
         "scope": "subscription",
         "apiVersions": {
           "stable": [],
@@ -15891,6 +16025,20 @@
       },
       {
         "name": "networkManagerConnections",
+        "scope": "subscription",
+        "apiVersions": {
+          "stable": [
+            "2022-01-01"
+          ],
+          "preview": [
+            "2021-05-01-preview",
+            "2022-02-01-preview",
+            "2022-04-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "networkManagerConnections",
         "scope": "managementGroup",
         "apiVersions": {
           "stable": [
@@ -19196,6 +19344,32 @@
       },
       {
         "name": "remediations",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [
+            "2019-07-01",
+            "2021-10-01"
+          ],
+          "preview": [
+            "2018-07-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "remediations",
+        "scope": "resourceGroup",
+        "apiVersions": {
+          "stable": [
+            "2019-07-01",
+            "2021-10-01"
+          ],
+          "preview": [
+            "2018-07-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "remediations",
         "scope": "subscription",
         "apiVersions": {
           "stable": [
@@ -20498,6 +20672,72 @@
       },
       {
         "name": "deployments",
+        "scope": "tenant",
+        "apiVersions": {
+          "stable": [
+            "2019-07-01",
+            "2019-08-01",
+            "2019-10-01",
+            "2020-06-01",
+            "2020-08-01",
+            "2020-10-01",
+            "2021-01-01",
+            "2021-04-01"
+          ],
+          "preview": []
+        }
+      },
+      {
+        "name": "deployments",
+        "scope": "resourceGroup",
+        "apiVersions": {
+          "stable": [
+            "2015-01-01",
+            "2015-11-01",
+            "2016-02-01",
+            "2016-07-01",
+            "2016-09-01",
+            "2017-05-10",
+            "2018-02-01",
+            "2018-05-01",
+            "2019-03-01",
+            "2019-05-01",
+            "2019-05-10",
+            "2019-07-01",
+            "2019-08-01",
+            "2019-10-01",
+            "2020-06-01",
+            "2020-08-01",
+            "2020-10-01",
+            "2021-01-01",
+            "2021-04-01"
+          ],
+          "preview": []
+        }
+      },
+      {
+        "name": "deployments",
+        "scope": "subscription",
+        "apiVersions": {
+          "stable": [
+            "2018-05-01",
+            "2019-03-01",
+            "2019-05-01",
+            "2019-05-10",
+            "2019-07-01",
+            "2019-08-01",
+            "2019-10-01",
+            "2020-06-01",
+            "2020-08-01",
+            "2020-10-01",
+            "2021-01-01",
+            "2021-04-01"
+          ],
+          "preview": []
+        }
+      },
+      {
+        "name": "deployments",
         "scope": "managementGroup",
         "apiVersions": {
           "stable": [
@@ -20867,6 +21107,16 @@
           ],
           "preview": [
             "2015-06-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "pricings",
+        "scope": "resourceGroup",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2017-08-01-preview"
           ]
         }
       },
