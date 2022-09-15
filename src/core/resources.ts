@@ -82,7 +82,7 @@ function updateResourceProvider(
       // Append resource type
       // Add api versions to the resource type
       resourceProvider.resourceTypes.map((item) => {
-        item.name == resourceType.name
+        item.name == resourceType.name && item.scope == resourceType.scope
           ? updateResourceType(
             item,
             resourceType.apiVersions.stable,
