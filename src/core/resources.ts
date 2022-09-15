@@ -107,7 +107,7 @@ function sortResourceProviders(
   providers.forEach((provider) => {
     // Sort resource types by name & scope
     provider.resourceTypes.sort((a, b) =>
-      ((a.name > b.name) ? 1 : -1) || (a.scope > b.scope) ? 1 : -1
+      ((a.name > b.name) ? 1 : -1) && (a.scope > b.scope) ? 1 : -1
     );
 
     // Sort api versions by age
