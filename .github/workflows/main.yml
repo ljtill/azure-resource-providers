@@ -5,6 +5,9 @@ on:
   schedule:
     - cron: "0 0 * * *"
 
+permissions:
+  id-token: write
+
 env:
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -58,10 +61,15 @@ jobs:
           fi
         working-directory: checkout
 
-      - name: "Upload schemas"
-        uses: bacongobbler/azure-blob-storage-upload@main
+      - name: "Authenticate session"
+        uses: azure/login@v1
         with:
-          source_dir: 'schemas.json'
-          container_name: 'schemas'
-          connection_string: ${{ secrets.SAS_TOKEN }}
-          overwrite: 'true'
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+
+      - name: "Upload schemas"
+        uses: azure/cli@v1
+        with:
+          inlineScript: |
+            az storage blob upload -f schemas.json -c schemas -n providers.json
