@@ -64,6 +64,7 @@ jobs:
   upload:
     name: "Upload"
     runs-on: ubuntu-22.04
+    needs: generate
     steps:
       - name: "Checkout repository"
         uses: actions/checkout@v3
@@ -80,6 +81,7 @@ jobs:
       - name: "Upload schemas"
         run: |
           az storage blob upload \
-               -f schemas.json -c schemas -n providers.json \
-               --account-name ${{ secrets.AZURE_STORAGE_NAME }} --auth-mode login
+            -f schemas.json -c schemas -n providers.json \
+            --account-name ${{ secrets.AZURE_STORAGE_NAME }} --auth-mode login \
+            --overwrite true
         working-directory: checkout
