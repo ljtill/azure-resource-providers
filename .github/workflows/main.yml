@@ -72,4 +72,5 @@ jobs:
         uses: azure/cli@v1
         with:
           inlineScript: |
-            az storage blob upload -f schemas.json -c schemas -n providers.json
+            az storage blob upload -f schemas.json \
+              --account-name ${{ secrets.AZURE_STORAGE_NAME }} -c schemas -n providers.json
