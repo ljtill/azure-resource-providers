@@ -21,8 +21,10 @@ function generateSchemasFile(filePath: string): void {
     Deno.exit(1);
   }
 }
+
 /**
  * Generates specs.json file
+ *
  * @param filePath
  */
 function generateSpecsFile(filePath: string): void {
@@ -41,6 +43,7 @@ function generateSpecsFile(filePath: string): void {
 
 /**
  * Invocation
+ *
  * @param args
  */
 function main(args: string[]): Promise<void> {

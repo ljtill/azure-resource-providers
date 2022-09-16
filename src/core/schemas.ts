@@ -29,6 +29,7 @@ export enum Scope {
   Subscription = "subscription",
   ResourceGroup = "resourceGroup",
   Resource = "resource",
+  ExtensionResource = "extensionResource",
 }
 
 /**
@@ -137,7 +138,7 @@ export function listResourceDefinitionScopes(schema: Schema): string[] {
  * @param scope
  * @returns Scope
  */
-export function getScope(scope: string): Scope {
+export function getScope(scope: string, key: string): Scope {
   if (scope === "tenant_resourceDefinitions") {
     return Scope.Tenant;
   }
@@ -148,10 +149,14 @@ export function getScope(scope: string): Scope {
     return Scope.Subscription;
   }
   if (scope === "resourceDefinitions") {
-    return Scope.ResourceGroup;
+    if (!key.includes("_")) {
+      return Scope.ResourceGroup;
+    } else {
+      return Scope.Resource;
+    }
   }
   if (scope === "extension_resourceDefinitions") {
-    return Scope.Resource;
+    return Scope.ExtensionResource;
   }
   if (scope === "definitions") {
     // TODO: Not implemented
