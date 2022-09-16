@@ -61,7 +61,7 @@ jobs:
       - name: "Upload schemas"
         uses: bacongobbler/azure-blob-storage-upload@main
         with:
-          source_dir: ''
+          source_dir: 'schemas.json'
           container_name: 'schemas'
           connection_string: ${{ secrets.SAS_TOKEN }}
           overwrite: 'true'
