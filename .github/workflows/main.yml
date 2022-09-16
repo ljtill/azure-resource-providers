@@ -12,7 +12,7 @@ env:
   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
-  default:
+  generate:
     name: "Generate"
     runs-on: ubuntu-22.04
     steps:
@@ -61,6 +61,15 @@ jobs:
           fi
         working-directory: checkout
 
+  upload:
+    name: "Upload"
+    runs-on: ubuntu-22.04
+    steps:
+      - name: "Checkout repository"
+        uses: actions/checkout@v3
+        with:
+          path: checkout
+
       - name: "Authenticate session"
         uses: azure/login@v1
         with:
@@ -74,4 +83,5 @@ jobs:
           inlineScript: |
             az storage blob upload \
                -f schemas.json -c schemas -n providers.json \
-               --account-name ${{ secrets.AZURE_STORAGE_NAME }}
+               --account-name ${{ secrets.AZURE_STORAGE_NAME }} --auth-mode login
+        working-directory: checkout
