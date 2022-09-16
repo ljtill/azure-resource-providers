@@ -179,26 +179,28 @@ export function parseResourceTypes(schema: Schema): ResourceType[] {
       const apiVersion = definitions[definitionKey].properties.apiVersion
         .enum[0] as string;
 
-      if (apiVersion.includes("-preview")) {
+      if (!apiVersion.includes("-preview")) {
+        // Stable
         resourceTypes.push({
           name: definitionKey,
-          scope: getScope(definitionScope),
-          apiVersions: {
-            stable: [],
-            preview: [
-              apiVersion,
-            ],
-          },
-        });
-      } else {
-        resourceTypes.push({
-          name: definitionKey,
-          scope: getScope(definitionScope),
+          scope: getScope(definitionScope, definitionKey),
           apiVersions: {
             stable: [
               apiVersion,
             ],
             preview: [],
+          },
+        });
+      } else {
+        // Preview
+        resourceTypes.push({
+          name: definitionKey,
+          scope: getScope(definitionScope, definitionKey),
+          apiVersions: {
+            stable: [],
+            preview: [
+              apiVersion,
+            ],
           },
         });
       }
@@ -213,7 +215,9 @@ function updateResourceType(
   stableApiVersion: string[],
   previewApiVersion: string[],
 ): ResourceType {
+  // Stable
   if (stableApiVersion[0] !== undefined) {
+    // Check if the api version already exists
     if (!resourceType.apiVersions.stable.includes(stableApiVersion[0])) {
       resourceType.apiVersions.stable = resourceType.apiVersions.stable.concat(
         stableApiVersion,
@@ -221,7 +225,9 @@ function updateResourceType(
     }
   }
 
+  // Preview
   if (previewApiVersion[0] !== undefined) {
+    // Check if the api version already exists
     if (!resourceType.apiVersions.preview.includes(previewApiVersion[0])) {
       resourceType.apiVersions.preview = resourceType.apiVersions.preview
         .concat(

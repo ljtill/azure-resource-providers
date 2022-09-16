@@ -6,6 +6,11 @@ export type Spec = {
   // TODO: Implement
 };
 
+/**
+ * Cast JSON string to Spec object
+ * @param fileContent
+ * @returns
+ */
 export function parseSpecFile(fileContent: string): Spec {
   try {
     return JSON.parse(fileContent) as Spec;
