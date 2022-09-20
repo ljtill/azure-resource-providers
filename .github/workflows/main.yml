@@ -62,6 +62,7 @@ jobs:
     name: "Upload"
     runs-on: ubuntu-22.04
     needs: generate
+    if: ${{ success() }}
     permissions:
       id-token: write
 
@@ -69,6 +70,7 @@ jobs:
       - name: "Checkout repository"
         uses: actions/checkout@v3
         with:
+          ref: main
           path: checkout
 
       - name: "Authenticate session"
