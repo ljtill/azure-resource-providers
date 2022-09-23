@@ -1567,6 +1567,46 @@
     "providerNamespace": "Microsoft.App",
     "resourceTypes": [
       {
+        "name": "connectedEnvironments",
+        "scope": "resourceGroup",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-06-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "connectedEnvironments_certificates",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-06-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "connectedEnvironments_daprComponents",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-06-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "connectedEnvironments_storages",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-06-01-preview"
+          ]
+        }
+      },
+      {
         "name": "containerApps",
         "scope": "resourceGroup",
         "apiVersions": {
@@ -1574,7 +1614,8 @@
             "2022-03-01"
           ],
           "preview": [
-            "2022-01-01-preview"
+            "2022-01-01-preview",
+            "2022-06-01-preview"
           ]
         }
       },
@@ -1586,7 +1627,8 @@
             "2022-03-01"
           ],
           "preview": [
-            "2022-01-01-preview"
+            "2022-01-01-preview",
+            "2022-06-01-preview"
           ]
         }
       },
@@ -1598,7 +1640,8 @@
             "2022-03-01"
           ],
           "preview": [
-            "2022-01-01-preview"
+            "2022-01-01-preview",
+            "2022-06-01-preview"
           ]
         }
       },
@@ -1610,7 +1653,8 @@
             "2022-03-01"
           ],
           "preview": [
-            "2022-01-01-preview"
+            "2022-01-01-preview",
+            "2022-06-01-preview"
           ]
         }
       },
@@ -1622,7 +1666,8 @@
             "2022-03-01"
           ],
           "preview": [
-            "2022-01-01-preview"
+            "2022-01-01-preview",
+            "2022-06-01-preview"
           ]
         }
       },
@@ -1634,7 +1679,8 @@
             "2022-03-01"
           ],
           "preview": [
-            "2022-01-01-preview"
+            "2022-01-01-preview",
+            "2022-06-01-preview"
           ]
         }
       },
@@ -1646,7 +1692,8 @@
             "2022-03-01"
           ],
           "preview": [
-            "2022-01-01-preview"
+            "2022-01-01-preview",
+            "2022-06-01-preview"
           ]
         }
       }
