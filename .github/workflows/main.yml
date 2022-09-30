@@ -87,3 +87,13 @@ jobs:
             --account-name ${{ secrets.AZURE_STORAGE_NAME }} --auth-mode login \
             --overwrite true
         working-directory: checkout
+
+      - name: "Purge cache"
+        run: |
+          az afd endpoint purge \
+            -g ${{ secrets.AZURE_RESOURCE_GROUP }} \
+            --profile-name ${{ secrets.AZURE_FRONTDOOR_NAME }} \
+            --endpoint-name default \
+            --domains schema.ljtill.com \
+            --content-paths '/*'
+        working-directory: checkout
