@@ -20382,6 +20382,81 @@
     ]
   },
   {
+    "providerNamespace": "Microsoft.SecurityDevOps",
+    "resourceTypes": [
+      {
+        "name": "azureDevOpsConnectors",
+        "scope": "resourceGroup",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-09-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "azureDevOpsConnectors_orgs",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-09-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "azureDevOpsConnectors_orgs_projects",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-09-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "azureDevOpsConnectors_orgs_projects_repos",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-09-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "gitHubConnectors",
+        "scope": "resourceGroup",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-09-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "gitHubConnectors_owners",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-09-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "gitHubConnectors_owners_repos",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-09-01-preview"
+          ]
+        }
+      }
+    ]
+  },
+  {
     "providerNamespace": "Microsoft.SecurityInsights",
     "resourceTypes": [
       {
