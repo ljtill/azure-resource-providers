@@ -13662,7 +13662,6 @@
         "apiVersions": {
           "stable": [],
           "preview": [
-            "2022-01-01-preview",
             "2022-03-01-preview",
             "2022-04-01-preview"
           ]
@@ -13674,7 +13673,6 @@
         "apiVersions": {
           "stable": [],
           "preview": [
-            "2022-01-01-preview",
             "2022-03-01-preview",
             "2022-04-01-preview"
           ]
@@ -13686,7 +13684,6 @@
         "apiVersions": {
           "stable": [],
           "preview": [
-            "2022-01-01-preview",
             "2022-03-01-preview",
             "2022-04-01-preview"
           ]
@@ -13698,7 +13695,6 @@
         "apiVersions": {
           "stable": [],
           "preview": [
-            "2022-01-01-preview",
             "2022-03-01-preview",
             "2022-04-01-preview"
           ]
@@ -13710,7 +13706,6 @@
         "apiVersions": {
           "stable": [],
           "preview": [
-            "2022-01-01-preview",
             "2022-03-01-preview",
             "2022-04-01-preview"
           ]
@@ -13722,7 +13717,6 @@
         "apiVersions": {
           "stable": [],
           "preview": [
-            "2022-01-01-preview",
             "2022-03-01-preview",
             "2022-04-01-preview"
           ]
@@ -13734,7 +13728,6 @@
         "apiVersions": {
           "stable": [],
           "preview": [
-            "2022-01-01-preview",
             "2022-03-01-preview",
             "2022-04-01-preview"
           ]
@@ -13746,7 +13739,6 @@
         "apiVersions": {
           "stable": [],
           "preview": [
-            "2022-01-01-preview",
             "2022-03-01-preview",
             "2022-04-01-preview"
           ]
@@ -13758,7 +13750,6 @@
         "apiVersions": {
           "stable": [],
           "preview": [
-            "2022-01-01-preview",
             "2022-03-01-preview",
             "2022-04-01-preview"
           ]
@@ -13790,7 +13781,6 @@
         "apiVersions": {
           "stable": [],
           "preview": [
-            "2022-01-01-preview",
             "2022-03-01-preview"
           ]
         }
@@ -24886,6 +24876,21 @@
             "2019-06-01-preview",
             "2021-04-01-preview",
             "2021-06-01-preview"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "providerNamespace": "Microsoft.Syntex",
+    "resourceTypes": [
+      {
+        "name": "documentProcessors",
+        "scope": "resourceGroup",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-09-15-preview"
           ]
         }
       }
