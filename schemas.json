@@ -21648,7 +21648,28 @@
           "preview": [
             "2021-04-01-preview",
             "2021-06-01-preview",
-            "2021-09-01-preview"
+            "2021-09-01-preview",
+            "2022-08-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "webPubSub_customCertificates",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-08-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "webPubSub_customDomains",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-08-01-preview"
           ]
         }
       },
@@ -21659,7 +21680,9 @@
           "stable": [
             "2021-10-01"
           ],
-          "preview": []
+          "preview": [
+            "2022-08-01-preview"
+          ]
         }
       },
       {
@@ -21672,7 +21695,8 @@
           "preview": [
             "2021-04-01-preview",
             "2021-06-01-preview",
-            "2021-09-01-preview"
+            "2021-09-01-preview",
+            "2022-08-01-preview"
           ]
         }
       },
@@ -21686,7 +21710,8 @@
           "preview": [
             "2021-04-01-preview",
             "2021-06-01-preview",
-            "2021-09-01-preview"
+            "2021-09-01-preview",
+            "2022-08-01-preview"
           ]
         }
       }
