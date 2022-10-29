@@ -1799,6 +1799,21 @@
     ]
   },
   {
+    "providerNamespace": "Microsoft.AppComplianceAutomation",
+    "resourceTypes": [
+      {
+        "name": "reports",
+        "scope": "tenant",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-11-16-preview"
+          ]
+        }
+      }
+    ]
+  },
+  {
     "providerNamespace": "Microsoft.AppConfiguration",
     "resourceTypes": [
       {
@@ -4967,7 +4982,18 @@
           ],
           "preview": [
             "2020-12-01-preview",
-            "2021-05-13-preview"
+            "2021-05-13-preview",
+            "2022-09-08-preview"
+          ]
+        }
+      },
+      {
+        "name": "managedCCFs",
+        "scope": "resourceGroup",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-09-08-preview"
           ]
         }
       }
@@ -5520,7 +5546,8 @@
             "2022-03-01",
             "2022-04-01",
             "2022-06-01",
-            "2022-07-01"
+            "2022-07-01",
+            "2022-09-01"
           ],
           "preview": [
             "2018-08-01-preview",
@@ -5570,7 +5597,8 @@
             "2022-03-01",
             "2022-04-01",
             "2022-06-01",
-            "2022-07-01"
+            "2022-07-01",
+            "2022-09-01"
           ],
           "preview": [
             "2021-11-01-preview",
@@ -5605,7 +5633,8 @@
             "2022-03-01",
             "2022-04-01",
             "2022-06-01",
-            "2022-07-01"
+            "2022-07-01",
+            "2022-09-01"
           ],
           "preview": [
             "2021-11-01-preview",
@@ -5644,7 +5673,8 @@
             "2022-03-01",
             "2022-04-01",
             "2022-06-01",
-            "2022-07-01"
+            "2022-07-01",
+            "2022-09-01"
           ],
           "preview": [
             "2021-11-01-preview",
@@ -5722,7 +5752,8 @@
             "2022-03-01",
             "2022-04-01",
             "2022-06-01",
-            "2022-07-01"
+            "2022-07-01",
+            "2022-09-01"
           ],
           "preview": [
             "2021-11-01-preview",
@@ -5781,6 +5812,16 @@
           "stable": [],
           "preview": [
             "2019-03-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "markupRules",
+        "scope": "extensionResource",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-10-05-preview"
           ]
         }
       },
@@ -5876,7 +5917,9 @@
           ],
           "preview": [
             "2019-04-01-preview",
-            "2022-08-01-preview"
+            "2022-08-01-preview",
+            "2022-10-01-preview",
+            "2022-10-05-preview"
           ]
         }
       }
@@ -7932,6 +7975,21 @@
     ]
   },
   {
+    "providerNamespace": "Microsoft.DevHub",
+    "resourceTypes": [
+      {
+        "name": "workflows",
+        "scope": "resourceGroup",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-04-01-preview"
+          ]
+        }
+      }
+    ]
+  },
+  {
     "providerNamespace": "Microsoft.DevOps",
     "resourceTypes": [
       {
@@ -9746,6 +9804,31 @@
           "stable": [],
           "preview": [
             "2021-02-01-preview"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "providerNamespace": "Microsoft.Easm",
+    "resourceTypes": [
+      {
+        "name": "workspaces",
+        "scope": "resourceGroup",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-04-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "workspaces_labels",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-04-01-preview"
           ]
         }
       }
@@ -13945,6 +14028,21 @@
           "stable": [],
           "preview": [
             "2022-03-01-preview"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "providerNamespace": "Microsoft.Monitor",
+    "resourceTypes": [
+      {
+        "name": "accounts",
+        "scope": "resourceGroup",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2021-06-03-preview"
           ]
         }
       }
