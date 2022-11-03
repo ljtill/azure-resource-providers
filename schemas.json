@@ -5879,7 +5879,9 @@
         "name": "scheduledActions",
         "scope": "tenant",
         "apiVersions": {
-          "stable": [],
+          "stable": [
+            "2022-10-01"
+          ],
           "preview": [
             "2022-04-01-preview",
             "2022-06-01-preview"
@@ -5913,7 +5915,8 @@
           "stable": [
             "2019-11-01",
             "2020-06-01",
-            "2021-10-01"
+            "2021-10-01",
+            "2022-10-01"
           ],
           "preview": [
             "2019-04-01-preview",
@@ -9903,7 +9906,9 @@
           "preview": [
             "2020-07-01-preview",
             "2021-09-01-preview",
-            "2021-10-01-preview"
+            "2021-10-01-preview",
+            "2022-05-05-preview",
+            "2022-07-01-preview"
           ]
         }
       },
@@ -9917,7 +9922,9 @@
           "preview": [
             "2020-07-01-preview",
             "2021-09-01-preview",
-            "2021-10-01-preview"
+            "2021-10-01-preview",
+            "2022-05-05-preview",
+            "2022-07-01-preview"
           ]
         }
       }
