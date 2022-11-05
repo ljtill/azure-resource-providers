@@ -3155,6 +3155,56 @@
             "2021-01-01-preview"
           ]
         }
+      },
+      {
+        "name": "galleryimages",
+        "scope": "resourceGroup",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2021-07-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "networkinterfaces",
+        "scope": "resourceGroup",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2021-07-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "virtualharddisks",
+        "scope": "resourceGroup",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2021-07-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "virtualmachines",
+        "scope": "resourceGroup",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2021-07-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "virtualnetworks",
+        "scope": "resourceGroup",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2021-07-01-preview"
+          ]
+        }
       }
     ]
   },
@@ -5234,7 +5284,8 @@
             "2021-03-01",
             "2021-07-01",
             "2021-09-01",
-            "2021-10-01"
+            "2021-10-01",
+            "2022-09-01"
           ],
           "preview": [
             "2017-08-01-preview",
@@ -7285,7 +7336,8 @@
         "apiVersions": {
           "stable": [],
           "preview": [
-            "2022-09-01-preview"
+            "2022-09-01-preview",
+            "2022-10-01-preview"
           ]
         }
       },
