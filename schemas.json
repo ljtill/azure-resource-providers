@@ -388,6 +388,16 @@
             "2021-08-08-preview"
           ]
         }
+      },
+      {
+        "name": "prometheusRuleGroups",
+        "scope": "resourceGroup",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2021-07-22-preview"
+          ]
+        }
       }
     ]
   },
