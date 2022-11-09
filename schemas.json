@@ -1907,7 +1907,8 @@
             "2022-01-01-preview",
             "2022-03-01-preview",
             "2022-05-01-preview",
-            "2022-09-01-preview"
+            "2022-09-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -1920,7 +1921,8 @@
             "2022-01-01-preview",
             "2022-03-01-preview",
             "2022-05-01-preview",
-            "2022-09-01-preview"
+            "2022-09-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -1933,7 +1935,38 @@
             "2022-01-01-preview",
             "2022-03-01-preview",
             "2022-05-01-preview",
-            "2022-09-01-preview"
+            "2022-09-01-preview",
+            "2022-11-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "Spring_applicationAccelerators",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-11-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "Spring_applicationAccelerators_customizedAccelerators",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-11-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "Spring_applicationLiveViews",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-11-01-preview"
           ]
         }
       },
@@ -1952,7 +1985,8 @@
             "2022-01-01-preview",
             "2022-03-01-preview",
             "2022-05-01-preview",
-            "2022-09-01-preview"
+            "2022-09-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -1971,7 +2005,8 @@
             "2022-01-01-preview",
             "2022-03-01-preview",
             "2022-05-01-preview",
-            "2022-09-01-preview"
+            "2022-09-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -1990,7 +2025,8 @@
             "2022-01-01-preview",
             "2022-03-01-preview",
             "2022-05-01-preview",
-            "2022-09-01-preview"
+            "2022-09-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -2009,7 +2045,8 @@
             "2022-01-01-preview",
             "2022-03-01-preview",
             "2022-05-01-preview",
-            "2022-09-01-preview"
+            "2022-09-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -2024,7 +2061,8 @@
             "2022-01-01-preview",
             "2022-03-01-preview",
             "2022-05-01-preview",
-            "2022-09-01-preview"
+            "2022-09-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -2039,7 +2077,8 @@
             "2022-01-01-preview",
             "2022-03-01-preview",
             "2022-05-01-preview",
-            "2022-09-01-preview"
+            "2022-09-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -2054,7 +2093,8 @@
             "2022-01-01-preview",
             "2022-03-01-preview",
             "2022-05-01-preview",
-            "2022-09-01-preview"
+            "2022-09-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -2069,7 +2109,8 @@
             "2022-01-01-preview",
             "2022-03-01-preview",
             "2022-05-01-preview",
-            "2022-09-01-preview"
+            "2022-09-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -2088,7 +2129,8 @@
             "2022-01-01-preview",
             "2022-03-01-preview",
             "2022-05-01-preview",
-            "2022-09-01-preview"
+            "2022-09-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -2107,7 +2149,8 @@
             "2022-01-01-preview",
             "2022-03-01-preview",
             "2022-05-01-preview",
-            "2022-09-01-preview"
+            "2022-09-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -2122,7 +2165,18 @@
             "2022-01-01-preview",
             "2022-03-01-preview",
             "2022-05-01-preview",
-            "2022-09-01-preview"
+            "2022-09-01-preview",
+            "2022-11-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "Spring_DevToolPortals",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-11-01-preview"
           ]
         }
       },
@@ -2135,7 +2189,8 @@
             "2022-01-01-preview",
             "2022-03-01-preview",
             "2022-05-01-preview",
-            "2022-09-01-preview"
+            "2022-09-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -2148,7 +2203,8 @@
             "2022-01-01-preview",
             "2022-03-01-preview",
             "2022-05-01-preview",
-            "2022-09-01-preview"
+            "2022-09-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -2161,7 +2217,8 @@
             "2022-01-01-preview",
             "2022-03-01-preview",
             "2022-05-01-preview",
-            "2022-09-01-preview"
+            "2022-09-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -2180,7 +2237,8 @@
             "2022-01-01-preview",
             "2022-03-01-preview",
             "2022-05-01-preview",
-            "2022-09-01-preview"
+            "2022-09-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -2195,7 +2253,8 @@
             "2022-01-01-preview",
             "2022-03-01-preview",
             "2022-05-01-preview",
-            "2022-09-01-preview"
+            "2022-09-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -2209,7 +2268,8 @@
             "2022-01-01-preview",
             "2022-03-01-preview",
             "2022-05-01-preview",
-            "2022-09-01-preview"
+            "2022-09-01-preview",
+            "2022-11-01-preview"
           ]
         }
       }
@@ -3964,7 +4024,8 @@
             "2021-06-01"
           ],
           "preview": [
-            "2022-05-01-preview"
+            "2022-05-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -4001,7 +4062,8 @@
           ],
           "preview": [
             "2019-06-15-preview",
-            "2022-05-01-preview"
+            "2022-05-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -4014,7 +4076,8 @@
             "2021-06-01"
           ],
           "preview": [
-            "2022-05-01-preview"
+            "2022-05-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -4027,7 +4090,8 @@
             "2021-06-01"
           ],
           "preview": [
-            "2022-05-01-preview"
+            "2022-05-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -4040,7 +4104,8 @@
             "2021-06-01"
           ],
           "preview": [
-            "2022-05-01-preview"
+            "2022-05-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -4063,7 +4128,8 @@
           ],
           "preview": [
             "2019-06-15-preview",
-            "2022-05-01-preview"
+            "2022-05-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -4086,7 +4152,8 @@
           ],
           "preview": [
             "2019-06-15-preview",
-            "2022-05-01-preview"
+            "2022-05-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -4101,7 +4168,8 @@
             "2021-06-01"
           ],
           "preview": [
-            "2022-05-01-preview"
+            "2022-05-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -4118,7 +4186,8 @@
             "2021-06-01"
           ],
           "preview": [
-            "2022-05-01-preview"
+            "2022-05-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -4131,7 +4200,8 @@
             "2021-06-01"
           ],
           "preview": [
-            "2022-05-01-preview"
+            "2022-05-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -4144,7 +4214,8 @@
             "2021-06-01"
           ],
           "preview": [
-            "2022-05-01-preview"
+            "2022-05-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -4157,7 +4228,8 @@
             "2021-06-01"
           ],
           "preview": [
-            "2022-05-01-preview"
+            "2022-05-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -4170,7 +4242,8 @@
             "2021-06-01"
           ],
           "preview": [
-            "2022-05-01-preview"
+            "2022-05-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -4183,7 +4256,8 @@
             "2021-06-01"
           ],
           "preview": [
-            "2022-05-01-preview"
+            "2022-05-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -4196,7 +4270,8 @@
             "2021-06-01"
           ],
           "preview": [
-            "2022-05-01-preview"
+            "2022-05-01-preview",
+            "2022-11-01-preview"
           ]
         }
       }
