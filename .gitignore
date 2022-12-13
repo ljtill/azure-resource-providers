@@ -3,9 +3,3 @@
 
 # VS Code
 .vscode/
-
-# Node Modules
-node_modules/
-
-# Build
-lib/
