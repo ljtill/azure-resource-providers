@@ -58,42 +58,42 @@ jobs:
           fi
         working-directory: checkout
 
-  upload:
-    name: "Upload"
-    runs-on: ubuntu-22.04
-    needs: generate
-    if: ${{ success() }}
-    permissions:
-      id-token: write
+  # upload:
+  #   name: "Upload"
+  #   runs-on: ubuntu-22.04
+  #   needs: generate
+  #   if: ${{ success() }}
+  #   permissions:
+  #     id-token: write
 
-    steps:
-      - name: "Checkout repository"
-        uses: actions/checkout@v3
-        with:
-          ref: main
-          path: checkout
+  #   steps:
+  #     - name: "Checkout repository"
+  #       uses: actions/checkout@v3
+  #       with:
+  #         ref: main
+  #         path: checkout
 
-      - name: "Authenticate session"
-        uses: azure/login@v1
-        with:
-          client-id: ${{ secrets.AZURE_CLIENT_ID }}
-          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
-          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+  #     - name: "Authenticate session"
+  #       uses: azure/login@v1
+  #       with:
+  #         client-id: ${{ secrets.AZURE_CLIENT_ID }}
+  #         tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+  #         subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
 
-      - name: "Upload schemas"
-        run: |
-          az storage blob upload \
-            -f schemas.json -c schemas -n providers.json \
-            --account-name ${{ secrets.AZURE_STORAGE_NAME }} --auth-mode login \
-            --overwrite true
-        working-directory: checkout
+  #     - name: "Upload schemas"
+  #       run: |
+  #         az storage blob upload \
+  #           -f schemas.json -c schemas -n providers.json \
+  #           --account-name ${{ secrets.AZURE_STORAGE_NAME }} --auth-mode login \
+  #           --overwrite true
+  #       working-directory: checkout
 
-      - name: "Purge cache"
-        run: |
-          az afd endpoint purge \
-            -g ${{ secrets.AZURE_RESOURCE_GROUP }} \
-            --profile-name ${{ secrets.AZURE_FRONTDOOR_NAME }} \
-            --endpoint-name default \
-            --domains schema.ljtill.com \
-            --content-paths '/*'
-        working-directory: checkout
+  #     - name: "Purge cache"
+  #       run: |
+  #         az afd endpoint purge \
+  #           -g ${{ secrets.AZURE_RESOURCE_GROUP }} \
+  #           --profile-name ${{ secrets.AZURE_FRONTDOOR_NAME }} \
+  #           --endpoint-name default \
+  #           --domains schema.ljtill.com \
+  #           --content-paths '/*'
+  #       working-directory: checkout
