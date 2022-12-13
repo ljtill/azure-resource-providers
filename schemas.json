@@ -1679,7 +1679,9 @@
         "name": "connectedEnvironments",
         "scope": "resourceGroup",
         "apiVersions": {
-          "stable": [],
+          "stable": [
+            "2022-10-01"
+          ],
           "preview": [
             "2022-06-01-preview"
           ]
@@ -1689,7 +1691,9 @@
         "name": "connectedEnvironments_certificates",
         "scope": "resource",
         "apiVersions": {
-          "stable": [],
+          "stable": [
+            "2022-10-01"
+          ],
           "preview": [
             "2022-06-01-preview"
           ]
@@ -1699,7 +1703,9 @@
         "name": "connectedEnvironments_daprComponents",
         "scope": "resource",
         "apiVersions": {
-          "stable": [],
+          "stable": [
+            "2022-10-01"
+          ],
           "preview": [
             "2022-06-01-preview"
           ]
@@ -1709,7 +1715,9 @@
         "name": "connectedEnvironments_storages",
         "scope": "resource",
         "apiVersions": {
-          "stable": [],
+          "stable": [
+            "2022-10-01"
+          ],
           "preview": [
             "2022-06-01-preview"
           ]
@@ -1720,7 +1728,8 @@
         "scope": "resourceGroup",
         "apiVersions": {
           "stable": [
-            "2022-03-01"
+            "2022-03-01",
+            "2022-10-01"
           ],
           "preview": [
             "2022-01-01-preview",
@@ -1733,7 +1742,8 @@
         "scope": "resource",
         "apiVersions": {
           "stable": [
-            "2022-03-01"
+            "2022-03-01",
+            "2022-10-01"
           ],
           "preview": [
             "2022-01-01-preview",
@@ -1746,7 +1756,8 @@
         "scope": "resource",
         "apiVersions": {
           "stable": [
-            "2022-03-01"
+            "2022-03-01",
+            "2022-10-01"
           ],
           "preview": [
             "2022-01-01-preview",
@@ -1759,7 +1770,8 @@
         "scope": "resourceGroup",
         "apiVersions": {
           "stable": [
-            "2022-03-01"
+            "2022-03-01",
+            "2022-10-01"
           ],
           "preview": [
             "2022-01-01-preview",
@@ -1772,7 +1784,8 @@
         "scope": "resource",
         "apiVersions": {
           "stable": [
-            "2022-03-01"
+            "2022-03-01",
+            "2022-10-01"
           ],
           "preview": [
             "2022-01-01-preview",
@@ -1785,7 +1798,8 @@
         "scope": "resource",
         "apiVersions": {
           "stable": [
-            "2022-03-01"
+            "2022-03-01",
+            "2022-10-01"
           ],
           "preview": [
             "2022-01-01-preview",
@@ -1798,7 +1812,8 @@
         "scope": "resource",
         "apiVersions": {
           "stable": [
-            "2022-03-01"
+            "2022-03-01",
+            "2022-10-01"
           ],
           "preview": [
             "2022-01-01-preview",
@@ -1898,7 +1913,8 @@
         "apiVersions": {
           "stable": [
             "2020-07-01",
-            "2022-04-01"
+            "2022-04-01",
+            "2022-12-01"
           ],
           "preview": [
             "2020-11-01-preview",
@@ -1916,7 +1932,9 @@
         "name": "Spring_apiPortals",
         "scope": "resource",
         "apiVersions": {
-          "stable": [],
+          "stable": [
+            "2022-12-01"
+          ],
           "preview": [
             "2022-01-01-preview",
             "2022-03-01-preview",
@@ -1930,7 +1948,9 @@
         "name": "Spring_apiPortals_domains",
         "scope": "resource",
         "apiVersions": {
-          "stable": [],
+          "stable": [
+            "2022-12-01"
+          ],
           "preview": [
             "2022-01-01-preview",
             "2022-03-01-preview",
@@ -1976,7 +1996,8 @@
         "apiVersions": {
           "stable": [
             "2020-07-01",
-            "2022-04-01"
+            "2022-04-01",
+            "2022-12-01"
           ],
           "preview": [
             "2020-11-01-preview",
@@ -1996,7 +2017,8 @@
         "apiVersions": {
           "stable": [
             "2020-07-01",
-            "2022-04-01"
+            "2022-04-01",
+            "2022-12-01"
           ],
           "preview": [
             "2020-11-01-preview",
@@ -2016,7 +2038,8 @@
         "apiVersions": {
           "stable": [
             "2020-07-01",
-            "2022-04-01"
+            "2022-04-01",
+            "2022-12-01"
           ],
           "preview": [
             "2020-11-01-preview",
@@ -2036,7 +2059,8 @@
         "apiVersions": {
           "stable": [
             "2020-07-01",
-            "2022-04-01"
+            "2022-04-01",
+            "2022-12-01"
           ],
           "preview": [
             "2020-11-01-preview",
@@ -2055,7 +2079,8 @@
         "scope": "resource",
         "apiVersions": {
           "stable": [
-            "2022-04-01"
+            "2022-04-01",
+            "2022-12-01"
           ],
           "preview": [
             "2022-01-01-preview",
@@ -2071,7 +2096,8 @@
         "scope": "resource",
         "apiVersions": {
           "stable": [
-            "2022-04-01"
+            "2022-04-01",
+            "2022-12-01"
           ],
           "preview": [
             "2022-01-01-preview",
@@ -2087,7 +2113,8 @@
         "scope": "resource",
         "apiVersions": {
           "stable": [
-            "2022-04-01"
+            "2022-04-01",
+            "2022-12-01"
           ],
           "preview": [
             "2022-01-01-preview",
@@ -2103,7 +2130,8 @@
         "scope": "resource",
         "apiVersions": {
           "stable": [
-            "2022-04-01"
+            "2022-04-01",
+            "2022-12-01"
           ],
           "preview": [
             "2022-01-01-preview",
@@ -2120,7 +2148,8 @@
         "apiVersions": {
           "stable": [
             "2020-07-01",
-            "2022-04-01"
+            "2022-04-01",
+            "2022-12-01"
           ],
           "preview": [
             "2020-11-01-preview",
@@ -2140,7 +2169,8 @@
         "apiVersions": {
           "stable": [
             "2020-07-01",
-            "2022-04-01"
+            "2022-04-01",
+            "2022-12-01"
           ],
           "preview": [
             "2020-11-01-preview",
@@ -2159,7 +2189,8 @@
         "scope": "resource",
         "apiVersions": {
           "stable": [
-            "2022-04-01"
+            "2022-04-01",
+            "2022-12-01"
           ],
           "preview": [
             "2022-01-01-preview",
@@ -2184,7 +2215,9 @@
         "name": "Spring_gateways",
         "scope": "resource",
         "apiVersions": {
-          "stable": [],
+          "stable": [
+            "2022-12-01"
+          ],
           "preview": [
             "2022-01-01-preview",
             "2022-03-01-preview",
@@ -2198,7 +2231,9 @@
         "name": "Spring_gateways_domains",
         "scope": "resource",
         "apiVersions": {
-          "stable": [],
+          "stable": [
+            "2022-12-01"
+          ],
           "preview": [
             "2022-01-01-preview",
             "2022-03-01-preview",
@@ -2212,7 +2247,9 @@
         "name": "Spring_gateways_routeConfigs",
         "scope": "resource",
         "apiVersions": {
-          "stable": [],
+          "stable": [
+            "2022-12-01"
+          ],
           "preview": [
             "2022-01-01-preview",
             "2022-03-01-preview",
@@ -2228,7 +2265,8 @@
         "apiVersions": {
           "stable": [
             "2020-07-01",
-            "2022-04-01"
+            "2022-04-01",
+            "2022-12-01"
           ],
           "preview": [
             "2020-11-01-preview",
@@ -2247,7 +2285,8 @@
         "scope": "resource",
         "apiVersions": {
           "stable": [
-            "2022-04-01"
+            "2022-04-01",
+            "2022-12-01"
           ],
           "preview": [
             "2022-01-01-preview",
@@ -2262,7 +2301,9 @@
         "name": "Spring_storages",
         "scope": "resource",
         "apiVersions": {
-          "stable": [],
+          "stable": [
+            "2022-12-01"
+          ],
           "preview": [
             "2021-09-01-preview",
             "2022-01-01-preview",
@@ -3188,7 +3229,8 @@
           ],
           "preview": [
             "2020-03-01-preview",
-            "2021-01-01-preview"
+            "2021-01-01-preview",
+            "2021-09-01-preview"
           ]
         }
       },
@@ -3205,7 +3247,8 @@
             "2022-10-01"
           ],
           "preview": [
-            "2021-01-01-preview"
+            "2021-01-01-preview",
+            "2021-09-01-preview"
           ]
         }
       },
@@ -3222,7 +3265,8 @@
             "2022-10-01"
           ],
           "preview": [
-            "2021-01-01-preview"
+            "2021-01-01-preview",
+            "2021-09-01-preview"
           ]
         }
       },
@@ -3232,7 +3276,18 @@
         "apiVersions": {
           "stable": [],
           "preview": [
-            "2021-07-01-preview"
+            "2021-07-01-preview",
+            "2021-09-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "marketplacegalleryimages",
+        "scope": "resourceGroup",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2021-09-01-preview"
           ]
         }
       },
@@ -3242,7 +3297,18 @@
         "apiVersions": {
           "stable": [],
           "preview": [
-            "2021-07-01-preview"
+            "2021-07-01-preview",
+            "2021-09-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "storagecontainers",
+        "scope": "resourceGroup",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2021-09-01-preview"
           ]
         }
       },
@@ -3252,7 +3318,8 @@
         "apiVersions": {
           "stable": [],
           "preview": [
-            "2021-07-01-preview"
+            "2021-07-01-preview",
+            "2021-09-01-preview"
           ]
         }
       },
@@ -3262,7 +3329,38 @@
         "apiVersions": {
           "stable": [],
           "preview": [
-            "2021-07-01-preview"
+            "2021-07-01-preview",
+            "2021-09-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "virtualMachines_extensions",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2021-09-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "virtualMachines_guestAgents",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2021-09-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "virtualMachines_hybridIdentityMetadata",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2021-09-01-preview"
           ]
         }
       },
@@ -3272,7 +3370,8 @@
         "apiVersions": {
           "stable": [],
           "preview": [
-            "2021-07-01-preview"
+            "2021-07-01-preview",
+            "2021-09-01-preview"
           ]
         }
       }
@@ -5204,7 +5303,8 @@
           "stable": [],
           "preview": [
             "2020-10-01-preview",
-            "2022-01-10-preview"
+            "2022-01-10-preview",
+            "2022-07-15-preview"
           ]
         }
       },
@@ -5215,7 +5315,8 @@
           "stable": [],
           "preview": [
             "2020-10-01-preview",
-            "2022-01-10-preview"
+            "2022-01-10-preview",
+            "2022-07-15-preview"
           ]
         }
       },
@@ -5226,7 +5327,8 @@
           "stable": [],
           "preview": [
             "2020-10-01-preview",
-            "2022-01-10-preview"
+            "2022-01-10-preview",
+            "2022-07-15-preview"
           ]
         }
       },
@@ -5237,7 +5339,8 @@
           "stable": [],
           "preview": [
             "2020-10-01-preview",
-            "2022-01-10-preview"
+            "2022-01-10-preview",
+            "2022-07-15-preview"
           ]
         }
       },
@@ -5248,7 +5351,8 @@
           "stable": [],
           "preview": [
             "2020-10-01-preview",
-            "2022-01-10-preview"
+            "2022-01-10-preview",
+            "2022-07-15-preview"
           ]
         }
       },
@@ -5259,7 +5363,8 @@
           "stable": [],
           "preview": [
             "2020-10-01-preview",
-            "2022-01-10-preview"
+            "2022-01-10-preview",
+            "2022-07-15-preview"
           ]
         }
       },
@@ -5270,7 +5375,8 @@
           "stable": [],
           "preview": [
             "2020-10-01-preview",
-            "2022-01-10-preview"
+            "2022-01-10-preview",
+            "2022-07-15-preview"
           ]
         }
       },
@@ -5281,7 +5387,8 @@
           "stable": [],
           "preview": [
             "2020-10-01-preview",
-            "2022-01-10-preview"
+            "2022-01-10-preview",
+            "2022-07-15-preview"
           ]
         }
       },
@@ -5292,7 +5399,8 @@
           "stable": [],
           "preview": [
             "2020-10-01-preview",
-            "2022-01-10-preview"
+            "2022-01-10-preview",
+            "2022-07-15-preview"
           ]
         }
       },
@@ -5303,7 +5411,8 @@
           "stable": [],
           "preview": [
             "2020-10-01-preview",
-            "2022-01-10-preview"
+            "2022-01-10-preview",
+            "2022-07-15-preview"
           ]
         }
       },
@@ -5314,7 +5423,8 @@
           "stable": [],
           "preview": [
             "2020-10-01-preview",
-            "2022-01-10-preview"
+            "2022-01-10-preview",
+            "2022-07-15-preview"
           ]
         }
       },
@@ -5325,7 +5435,8 @@
           "stable": [],
           "preview": [
             "2020-10-01-preview",
-            "2022-01-10-preview"
+            "2022-01-10-preview",
+            "2022-07-15-preview"
           ]
         }
       }
@@ -5722,7 +5833,8 @@
             "2022-07-02-preview",
             "2022-08-02-preview",
             "2022-08-03-preview",
-            "2022-09-02-preview"
+            "2022-09-02-preview",
+            "2022-10-02-preview"
           ]
         }
       },
@@ -5772,7 +5884,8 @@
             "2022-07-02-preview",
             "2022-08-02-preview",
             "2022-08-03-preview",
-            "2022-09-02-preview"
+            "2022-09-02-preview",
+            "2022-10-02-preview"
           ]
         }
       },
@@ -5808,7 +5921,8 @@
             "2022-07-02-preview",
             "2022-08-02-preview",
             "2022-08-03-preview",
-            "2022-09-02-preview"
+            "2022-09-02-preview",
+            "2022-10-02-preview"
           ]
         }
       },
@@ -5848,7 +5962,8 @@
             "2022-07-02-preview",
             "2022-08-02-preview",
             "2022-08-03-preview",
-            "2022-09-02-preview"
+            "2022-09-02-preview",
+            "2022-10-02-preview"
           ]
         }
       },
@@ -5864,7 +5979,8 @@
             "2022-07-02-preview",
             "2022-08-02-preview",
             "2022-08-03-preview",
-            "2022-09-02-preview"
+            "2022-09-02-preview",
+            "2022-10-02-preview"
           ]
         }
       },
@@ -5882,7 +5998,8 @@
             "2022-07-02-preview",
             "2022-08-02-preview",
             "2022-08-03-preview",
-            "2022-09-02-preview"
+            "2022-09-02-preview",
+            "2022-10-02-preview"
           ]
         }
       },
@@ -5927,7 +6044,8 @@
             "2022-07-02-preview",
             "2022-08-02-preview",
             "2022-08-03-preview",
-            "2022-09-02-preview"
+            "2022-09-02-preview",
+            "2022-10-02-preview"
           ]
         }
       }
@@ -8032,7 +8150,8 @@
           "preview": [
             "2022-08-01-preview",
             "2022-09-01-preview",
-            "2022-10-12-preview"
+            "2022-10-12-preview",
+            "2022-11-11-preview"
           ]
         }
       },
@@ -8044,7 +8163,8 @@
           "preview": [
             "2022-08-01-preview",
             "2022-09-01-preview",
-            "2022-10-12-preview"
+            "2022-10-12-preview",
+            "2022-11-11-preview"
           ]
         }
       },
@@ -8056,7 +8176,8 @@
           "preview": [
             "2022-08-01-preview",
             "2022-09-01-preview",
-            "2022-10-12-preview"
+            "2022-10-12-preview",
+            "2022-11-11-preview"
           ]
         }
       },
@@ -8068,7 +8189,8 @@
           "preview": [
             "2022-08-01-preview",
             "2022-09-01-preview",
-            "2022-10-12-preview"
+            "2022-10-12-preview",
+            "2022-11-11-preview"
           ]
         }
       },
@@ -8080,7 +8202,8 @@
           "preview": [
             "2022-08-01-preview",
             "2022-09-01-preview",
-            "2022-10-12-preview"
+            "2022-10-12-preview",
+            "2022-11-11-preview"
           ]
         }
       },
@@ -8092,7 +8215,8 @@
           "preview": [
             "2022-08-01-preview",
             "2022-09-01-preview",
-            "2022-10-12-preview"
+            "2022-10-12-preview",
+            "2022-11-11-preview"
           ]
         }
       },
@@ -8104,7 +8228,8 @@
           "preview": [
             "2022-08-01-preview",
             "2022-09-01-preview",
-            "2022-10-12-preview"
+            "2022-10-12-preview",
+            "2022-11-11-preview"
           ]
         }
       },
@@ -8116,7 +8241,8 @@
           "preview": [
             "2022-08-01-preview",
             "2022-09-01-preview",
-            "2022-10-12-preview"
+            "2022-10-12-preview",
+            "2022-11-11-preview"
           ]
         }
       },
@@ -8128,7 +8254,8 @@
           "preview": [
             "2022-08-01-preview",
             "2022-09-01-preview",
-            "2022-10-12-preview"
+            "2022-10-12-preview",
+            "2022-11-11-preview"
           ]
         }
       },
@@ -8140,7 +8267,8 @@
           "preview": [
             "2022-08-01-preview",
             "2022-09-01-preview",
-            "2022-10-12-preview"
+            "2022-10-12-preview",
+            "2022-11-11-preview"
           ]
         }
       },
@@ -8152,7 +8280,8 @@
           "preview": [
             "2022-08-01-preview",
             "2022-09-01-preview",
-            "2022-10-12-preview"
+            "2022-10-12-preview",
+            "2022-11-11-preview"
           ]
         }
       }
@@ -8685,7 +8814,8 @@
           "stable": [
             "2020-10-31",
             "2020-12-01",
-            "2022-05-31"
+            "2022-05-31",
+            "2022-10-31"
           ],
           "preview": [
             "2020-03-01-preview",
@@ -8700,7 +8830,8 @@
           "stable": [
             "2020-10-31",
             "2020-12-01",
-            "2022-05-31"
+            "2022-05-31",
+            "2022-10-31"
           ],
           "preview": [
             "2020-03-01-preview",
@@ -8714,7 +8845,8 @@
         "apiVersions": {
           "stable": [
             "2020-12-01",
-            "2022-05-31"
+            "2022-05-31",
+            "2022-10-31"
           ],
           "preview": [
             "2021-06-30-preview"
@@ -8726,7 +8858,8 @@
         "scope": "resource",
         "apiVersions": {
           "stable": [
-            "2022-05-31"
+            "2022-05-31",
+            "2022-10-31"
           ],
           "preview": [
             "2021-06-30-preview"
@@ -10934,7 +11067,8 @@
           "preview": [
             "2018-08-20-preview",
             "2021-06-01-preview",
-            "2022-01-31-preview"
+            "2022-01-31-preview",
+            "2022-10-01-preview"
           ]
         }
       },
@@ -10951,7 +11085,8 @@
           ],
           "preview": [
             "2021-06-01-preview",
-            "2022-01-31-preview"
+            "2022-01-31-preview",
+            "2022-10-01-preview"
           ]
         }
       },
@@ -10966,7 +11101,18 @@
           ],
           "preview": [
             "2021-06-01-preview",
-            "2022-01-31-preview"
+            "2022-01-31-preview",
+            "2022-10-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "workspaces_analyticsconnectors",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-10-01-preview"
           ]
         }
       },
@@ -10981,7 +11127,8 @@
           ],
           "preview": [
             "2021-06-01-preview",
-            "2022-01-31-preview"
+            "2022-01-31-preview",
+            "2022-10-01-preview"
           ]
         }
       },
@@ -10996,7 +11143,8 @@
           ],
           "preview": [
             "2021-06-01-preview",
-            "2022-01-31-preview"
+            "2022-01-31-preview",
+            "2022-10-01-preview"
           ]
         }
       },
@@ -11011,7 +11159,8 @@
           ],
           "preview": [
             "2021-06-01-preview",
-            "2022-01-31-preview"
+            "2022-01-31-preview",
+            "2022-10-01-preview"
           ]
         }
       },
@@ -11026,7 +11175,8 @@
           ],
           "preview": [
             "2021-06-01-preview",
-            "2022-01-31-preview"
+            "2022-01-31-preview",
+            "2022-10-01-preview"
           ]
         }
       },
@@ -11040,7 +11190,8 @@
             "2022-06-01"
           ],
           "preview": [
-            "2022-01-31-preview"
+            "2022-01-31-preview",
+            "2022-10-01-preview"
           ]
         }
       }
@@ -19358,7 +19509,8 @@
             "2022-04-01",
             "2022-05-01",
             "2022-08-01",
-            "2022-09-10"
+            "2022-09-10",
+            "2022-10-01"
           ],
           "preview": [
             "2021-11-01-preview",
@@ -19388,7 +19540,8 @@
             "2022-01-01",
             "2022-02-01",
             "2022-03-01",
-            "2022-04-01"
+            "2022-04-01",
+            "2022-10-01"
           ],
           "preview": [
             "2021-02-01-preview",
@@ -19417,7 +19570,8 @@
             "2022-01-01",
             "2022-02-01",
             "2022-03-01",
-            "2022-04-01"
+            "2022-04-01",
+            "2022-10-01"
           ],
           "preview": [
             "2021-02-01-preview",
@@ -19444,7 +19598,8 @@
             "2022-01-01",
             "2022-02-01",
             "2022-03-01",
-            "2022-04-01"
+            "2022-04-01",
+            "2022-10-01"
           ],
           "preview": [
             "2021-02-01-preview",
@@ -19474,7 +19629,8 @@
             "2022-01-01",
             "2022-02-01",
             "2022-03-01",
-            "2022-04-01"
+            "2022-04-01",
+            "2022-10-01"
           ],
           "preview": [
             "2021-02-01-preview",
@@ -19507,7 +19663,8 @@
             "2022-01-01",
             "2022-02-01",
             "2022-03-01",
-            "2022-04-01"
+            "2022-04-01",
+            "2022-10-01"
           ],
           "preview": [
             "2021-02-01-preview",
@@ -19540,7 +19697,8 @@
             "2022-01-01",
             "2022-02-01",
             "2022-03-01",
-            "2022-04-01"
+            "2022-04-01",
+            "2022-10-01"
           ],
           "preview": [
             "2021-02-01-preview",
@@ -19561,7 +19719,8 @@
             "2022-01-01",
             "2022-02-01",
             "2022-03-01",
-            "2022-04-01"
+            "2022-04-01",
+            "2022-10-01"
           ],
           "preview": [
             "2021-02-01-preview",
@@ -19586,7 +19745,8 @@
             "2022-01-01",
             "2022-02-01",
             "2022-03-01",
-            "2022-04-01"
+            "2022-04-01",
+            "2022-10-01"
           ],
           "preview": [
             "2022-06-01-preview",
@@ -19616,7 +19776,8 @@
             "2022-04-01",
             "2022-05-01",
             "2022-08-01",
-            "2022-09-10"
+            "2022-09-10",
+            "2022-10-01"
           ],
           "preview": [
             "2021-11-01-preview",
@@ -19647,7 +19808,8 @@
             "2022-04-01",
             "2022-05-01",
             "2022-08-01",
-            "2022-09-10"
+            "2022-09-10",
+            "2022-10-01"
           ],
           "preview": [
             "2021-11-01-preview",
@@ -19677,7 +19839,8 @@
             "2022-01-01",
             "2022-02-01",
             "2022-03-01",
-            "2022-04-01"
+            "2022-04-01",
+            "2022-10-01"
           ],
           "preview": [
             "2021-02-01-preview",
@@ -19709,7 +19872,8 @@
             "2022-04-01",
             "2022-05-01",
             "2022-08-01",
-            "2022-09-10"
+            "2022-09-10",
+            "2022-10-01"
           ],
           "preview": []
         }
@@ -19737,7 +19901,8 @@
             "2022-04-01",
             "2022-05-01",
             "2022-08-01",
-            "2022-09-10"
+            "2022-09-10",
+            "2022-10-01"
           ],
           "preview": []
         }
@@ -19765,7 +19930,8 @@
             "2022-04-01",
             "2022-05-01",
             "2022-08-01",
-            "2022-09-10"
+            "2022-09-10",
+            "2022-10-01"
           ],
           "preview": []
         }
@@ -19793,7 +19959,8 @@
             "2022-04-01",
             "2022-05-01",
             "2022-08-01",
-            "2022-09-10"
+            "2022-09-10",
+            "2022-10-01"
           ],
           "preview": []
         }
@@ -19820,7 +19987,8 @@
             "2022-04-01",
             "2022-05-01",
             "2022-08-01",
-            "2022-09-10"
+            "2022-09-10",
+            "2022-10-01"
           ],
           "preview": []
         }
@@ -19848,7 +20016,8 @@
             "2022-04-01",
             "2022-05-01",
             "2022-08-01",
-            "2022-09-10"
+            "2022-09-10",
+            "2022-10-01"
           ],
           "preview": []
         }
@@ -19876,7 +20045,8 @@
             "2022-04-01",
             "2022-05-01",
             "2022-08-01",
-            "2022-09-10"
+            "2022-09-10",
+            "2022-10-01"
           ],
           "preview": []
         }
@@ -19903,7 +20073,8 @@
             "2022-04-01",
             "2022-05-01",
             "2022-08-01",
-            "2022-09-10"
+            "2022-09-10",
+            "2022-10-01"
           ],
           "preview": []
         }
@@ -19931,7 +20102,8 @@
             "2022-04-01",
             "2022-05-01",
             "2022-08-01",
-            "2022-09-10"
+            "2022-09-10",
+            "2022-10-01"
           ],
           "preview": []
         }
@@ -19959,7 +20131,8 @@
             "2022-04-01",
             "2022-05-01",
             "2022-08-01",
-            "2022-09-10"
+            "2022-09-10",
+            "2022-10-01"
           ],
           "preview": []
         }
@@ -19987,7 +20160,8 @@
             "2022-04-01",
             "2022-05-01",
             "2022-08-01",
-            "2022-09-10"
+            "2022-09-10",
+            "2022-10-01"
           ],
           "preview": []
         }
@@ -20013,7 +20187,8 @@
             "2022-04-01",
             "2022-05-01",
             "2022-08-01",
-            "2022-09-10"
+            "2022-09-10",
+            "2022-10-01"
           ],
           "preview": []
         }
@@ -20041,7 +20216,8 @@
             "2022-04-01",
             "2022-05-01",
             "2022-08-01",
-            "2022-09-10"
+            "2022-09-10",
+            "2022-10-01"
           ],
           "preview": []
         }
@@ -20067,7 +20243,8 @@
             "2022-04-01",
             "2022-05-01",
             "2022-08-01",
-            "2022-09-10"
+            "2022-09-10",
+            "2022-10-01"
           ],
           "preview": []
         }
@@ -20083,11 +20260,52 @@
         "apiVersions": {
           "stable": [
             "2020-04-30",
-            "2022-04-01"
+            "2022-04-01",
+            "2022-09-04"
           ],
           "preview": [
             "2021-09-01-preview"
           ]
+        }
+      },
+      {
+        "name": "openshiftclusters_machinePool",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [
+            "2022-09-04"
+          ],
+          "preview": []
+        }
+      },
+      {
+        "name": "openshiftclusters_secret",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [
+            "2022-09-04"
+          ],
+          "preview": []
+        }
+      },
+      {
+        "name": "openshiftclusters_syncIdentityProvider",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [
+            "2022-09-04"
+          ],
+          "preview": []
+        }
+      },
+      {
+        "name": "openshiftclusters_syncSet",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [
+            "2022-09-04"
+          ],
+          "preview": []
         }
       }
     ]
@@ -20290,7 +20508,8 @@
             "2020-08-01",
             "2020-10-01",
             "2021-01-01",
-            "2021-04-01"
+            "2021-04-01",
+            "2022-09-01"
           ],
           "preview": []
         }
@@ -20318,7 +20537,8 @@
             "2020-08-01",
             "2020-10-01",
             "2021-01-01",
-            "2021-04-01"
+            "2021-04-01",
+            "2022-09-01"
           ],
           "preview": []
         }
@@ -20339,7 +20559,8 @@
             "2020-08-01",
             "2020-10-01",
             "2021-01-01",
-            "2021-04-01"
+            "2021-04-01",
+            "2022-09-01"
           ],
           "preview": []
         }
@@ -20356,7 +20577,8 @@
             "2020-08-01",
             "2020-10-01",
             "2021-01-01",
-            "2021-04-01"
+            "2021-04-01",
+            "2022-09-01"
           ],
           "preview": []
         }
@@ -20401,7 +20623,8 @@
             "2021-01-01",
             "2021-04-01",
             "2021-05-01",
-            "2022-02-01"
+            "2022-02-01",
+            "2022-09-01"
           ],
           "preview": [
             "2019-06-01-preview",
@@ -22003,7 +22226,63 @@
   },
   {
     "providerNamespace": "Microsoft.ServiceLinker",
-    "resourceTypes": []
+    "resourceTypes": [
+      {
+        "name": "locations_connectors",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-11-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "locations_dryruns",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-11-01-preview"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "providerNamespace": "Microsoft.ServiceNetworking",
+    "resourceTypes": [
+      {
+        "name": "trafficControllers",
+        "scope": "resourceGroup",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-10-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "trafficControllers_associations",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-10-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "trafficControllers_frontends",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-10-01-preview"
+          ]
+        }
+      }
+    ]
   },
   {
     "providerNamespace": "Microsoft.SignalRService",
