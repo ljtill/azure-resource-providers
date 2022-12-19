@@ -1,0 +1,17 @@
+{
+  "name": "providers",
+  "author": "Lyon Till",
+  "homepage": "https://github.com/ljtill/providers#readme",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "",
+  "main": "main.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljtill/providers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ljtill/providers/issues"
+  },
+  "scripts": {}
+}
