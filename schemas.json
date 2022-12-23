@@ -26197,6 +26197,41 @@
     ]
   },
   {
+    "providerNamespace": "Microsoft.VoiceServices",
+    "resourceTypes": [
+      {
+        "name": "communicationsGateways",
+        "scope": "resourceGroup",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-12-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "communicationsGateways_contacts",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-12-01-preview"
+          ]
+        }
+      },
+      {
+        "name": "communicationsGateways_testLines",
+        "scope": "resource",
+        "apiVersions": {
+          "stable": [],
+          "preview": [
+            "2022-12-01-preview"
+          ]
+        }
+      }
+    ]
+  },
+  {
     "providerNamespace": "Microsoft.Web",
     "resourceTypes": [
       {
