@@ -4179,7 +4179,8 @@
           "stable": [
             "2019-04-01",
             "2021-07-01",
-            "2022-03-01"
+            "2022-03-01",
+            "2022-11-01"
           ],
           "preview": [
             "2020-10-01-preview"
@@ -13670,7 +13671,8 @@
             "2020-07-01-preview",
             "2021-04-01-preview",
             "2021-09-01-preview",
-            "2022-07-01-preview"
+            "2022-07-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -13687,7 +13689,8 @@
             "2020-07-01-preview",
             "2021-04-01-preview",
             "2021-09-01-preview",
-            "2022-07-01-preview"
+            "2022-07-01-preview",
+            "2022-11-01-preview"
           ]
         }
       },
@@ -13704,7 +13707,8 @@
             "2020-07-01-preview",
             "2021-04-01-preview",
             "2021-09-01-preview",
-            "2022-07-01-preview"
+            "2022-07-01-preview",
+            "2022-11-01-preview"
           ]
         }
       }
@@ -21054,7 +21058,8 @@
             "2015-02-28",
             "2015-08-19",
             "2020-03-13",
-            "2020-08-01"
+            "2020-08-01",
+            "2022-09-01"
           ],
           "preview": [
             "2019-10-01-preview",
@@ -21069,7 +21074,8 @@
         "apiVersions": {
           "stable": [
             "2020-03-13",
-            "2020-08-01"
+            "2020-08-01",
+            "2022-09-01"
           ],
           "preview": [
             "2019-10-01-preview",
@@ -21083,7 +21089,8 @@
         "scope": "resource",
         "apiVersions": {
           "stable": [
-            "2020-08-01"
+            "2020-08-01",
+            "2022-09-01"
           ],
           "preview": [
             "2020-08-01-preview",
@@ -26319,41 +26326,6 @@
             "2018-02-01-preview",
             "2019-02-01-preview",
             "2019-05-01-preview"
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "providerNamespace": "Microsoft.VoiceServices",
-    "resourceTypes": [
-      {
-        "name": "communicationsGateways",
-        "scope": "resourceGroup",
-        "apiVersions": {
-          "stable": [],
-          "preview": [
-            "2022-12-01-preview"
-          ]
-        }
-      },
-      {
-        "name": "communicationsGateways_contacts",
-        "scope": "resource",
-        "apiVersions": {
-          "stable": [],
-          "preview": [
-            "2022-12-01-preview"
-          ]
-        }
-      },
-      {
-        "name": "communicationsGateways_testLines",
-        "scope": "resource",
-        "apiVersions": {
-          "stable": [],
-          "preview": [
-            "2022-12-01-preview"
           ]
         }
       }
