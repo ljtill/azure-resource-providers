@@ -38,10 +38,12 @@ jobs:
       - name: "Install dependencies"
         run: |
           npm install
+        working-directory: checkout
 
       - name: "Generate manifest"
         run: |
           npm run generate
+        working-directory: checkout
 
       - name: "Configure git"
         run: |
