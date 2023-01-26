@@ -1,4 +1,4 @@
-# Providers
+# Resource Providers
 
 This repository contains a collection of published Resource Providers for
 Microsoft Azure. Each provider includes Resource Types, API Versions (Stable /
