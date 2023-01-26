@@ -1,0 +1,202 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Storsimple",
+    "resourceTypes": [
+        {
+            "name": "managers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-10-01",
+                    "2017-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "managers_accessControlRecords",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-10-01",
+                    "2017-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "managers_bandwidthSettings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "managers_certificates",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-10-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "managers_devices_alertSettings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-10-01",
+                    "2017-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "managers_devices_backupPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "managers_devices_backupPolicies_schedules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "managers_devices_backupScheduleGroups",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-10-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "managers_devices_chapSettings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-10-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "managers_devices_fileservers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-10-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "managers_devices_fileservers_shares",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-10-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "managers_devices_iscsiservers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-10-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "managers_devices_iscsiservers_disks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-10-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "managers_devices_timeSettings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "managers_devices_volumeContainers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "managers_devices_volumeContainers_volumes",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "managers_extendedInformation",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-10-01",
+                    "2017-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "managers_storageAccountCredentials",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-10-01",
+                    "2017-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "managers_storageDomains",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-10-01"
+                ],
+                "preview": []
+            }
+        }
+    ]
+}

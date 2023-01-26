@@ -1,0 +1,124 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Storagesync",
+    "resourceTypes": [
+        {
+            "name": "storageSyncServices",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-04-02",
+                    "2018-07-01",
+                    "2018-10-01",
+                    "2019-02-01",
+                    "2019-03-01",
+                    "2019-06-01",
+                    "2019-10-01",
+                    "2020-03-01",
+                    "2020-09-01",
+                    "2022-06-01"
+                ],
+                "preview": [
+                    "2017-06-05-preview"
+                ]
+            }
+        },
+        {
+            "name": "storageSyncServices_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-03-01",
+                    "2020-09-01",
+                    "2022-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "storageSyncServices_registeredServers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-04-02",
+                    "2018-07-01",
+                    "2018-10-01",
+                    "2019-02-01",
+                    "2019-03-01",
+                    "2019-06-01",
+                    "2019-10-01",
+                    "2020-03-01",
+                    "2020-09-01",
+                    "2022-06-01"
+                ],
+                "preview": [
+                    "2017-06-05-preview"
+                ]
+            }
+        },
+        {
+            "name": "storageSyncServices_syncGroups",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-04-02",
+                    "2018-07-01",
+                    "2018-10-01",
+                    "2019-02-01",
+                    "2019-03-01",
+                    "2019-06-01",
+                    "2019-10-01",
+                    "2020-03-01",
+                    "2020-09-01",
+                    "2022-06-01"
+                ],
+                "preview": [
+                    "2017-06-05-preview"
+                ]
+            }
+        },
+        {
+            "name": "storageSyncServices_syncGroups_cloudEndpoints",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-04-02",
+                    "2018-07-01",
+                    "2018-10-01",
+                    "2019-02-01",
+                    "2019-03-01",
+                    "2019-06-01",
+                    "2019-10-01",
+                    "2020-03-01",
+                    "2020-09-01",
+                    "2022-06-01"
+                ],
+                "preview": [
+                    "2017-06-05-preview"
+                ]
+            }
+        },
+        {
+            "name": "storageSyncServices_syncGroups_serverEndpoints",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-04-02",
+                    "2018-07-01",
+                    "2018-10-01",
+                    "2019-02-01",
+                    "2019-03-01",
+                    "2019-06-01",
+                    "2019-10-01",
+                    "2020-03-01",
+                    "2020-09-01",
+                    "2022-06-01"
+                ],
+                "preview": [
+                    "2017-06-05-preview"
+                ]
+            }
+        }
+    ]
+}

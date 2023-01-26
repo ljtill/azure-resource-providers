@@ -1,0 +1,31 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Azureactivedirectory",
+    "resourceTypes": [
+        {
+            "name": "b2cDirectories",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-04-01"
+                ],
+                "preview": [
+                    "2019-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "guestUsages",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-04-01"
+                ],
+                "preview": [
+                    "2020-05-01-preview"
+                ]
+            }
+        }
+    ]
+}

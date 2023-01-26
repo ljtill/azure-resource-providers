@@ -1,0 +1,89 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Dbformariadb",
+    "resourceTypes": [
+        {
+            "name": "servers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-06-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_configurations",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-06-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_databases",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-06-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_firewallRules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-06-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "servers_securityAlertPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-06-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_virtualNetworkRules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-06-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview"
+                ]
+            }
+        }
+    ]
+}

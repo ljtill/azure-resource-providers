@@ -1,0 +1,230 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Devtestlab",
+    "resourceTypes": [
+        {
+            "name": "labs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-05-15",
+                    "2018-09-15"
+                ],
+                "preview": [
+                    "2015-05-21-preview"
+                ]
+            }
+        },
+        {
+            "name": "labs_artifactsources",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-05-15",
+                    "2018-09-15"
+                ],
+                "preview": [
+                    "2015-05-21-preview"
+                ]
+            }
+        },
+        {
+            "name": "labs_costs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-05-15",
+                    "2018-09-15"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "labs_customimages",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-05-15",
+                    "2018-09-15"
+                ],
+                "preview": [
+                    "2015-05-21-preview"
+                ]
+            }
+        },
+        {
+            "name": "labs_formulas",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-05-15",
+                    "2018-09-15"
+                ],
+                "preview": [
+                    "2015-05-21-preview"
+                ]
+            }
+        },
+        {
+            "name": "labs_notificationchannels",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-05-15",
+                    "2018-09-15"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "labs_policysets_policies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-05-15",
+                    "2018-09-15"
+                ],
+                "preview": [
+                    "2015-05-21-preview"
+                ]
+            }
+        },
+        {
+            "name": "labs_schedules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-05-15",
+                    "2018-09-15"
+                ],
+                "preview": [
+                    "2015-05-21-preview"
+                ]
+            }
+        },
+        {
+            "name": "labs_servicerunners",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-05-15",
+                    "2018-09-15"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "labs_users",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-05-15",
+                    "2018-09-15"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "labs_users_disks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-05-15",
+                    "2018-09-15"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "labs_users_environments",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-05-15",
+                    "2018-09-15"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "labs_users_secrets",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-05-15",
+                    "2018-09-15"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "labs_users_servicefabrics",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-09-15"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "labs_users_servicefabrics_schedules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-09-15"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "labs_virtualmachines",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-05-15",
+                    "2018-09-15"
+                ],
+                "preview": [
+                    "2015-05-21-preview"
+                ]
+            }
+        },
+        {
+            "name": "labs_virtualmachines_schedules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-05-15",
+                    "2018-09-15"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "labs_virtualnetworks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-05-15",
+                    "2018-09-15"
+                ],
+                "preview": [
+                    "2015-05-21-preview"
+                ]
+            }
+        },
+        {
+            "name": "schedules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-05-15",
+                    "2018-09-15"
+                ],
+                "preview": []
+            }
+        }
+    ]
+}

@@ -1,0 +1,335 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Automation",
+    "resourceTypes": [
+        {
+            "name": "automationAccounts",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-10-31",
+                    "2019-06-01",
+                    "2021-06-22",
+                    "2022-08-08"
+                ],
+                "preview": [
+                    "2020-01-13-preview"
+                ]
+            }
+        },
+        {
+            "name": "automationAccounts_certificates",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-10-31",
+                    "2019-06-01",
+                    "2022-08-08"
+                ],
+                "preview": [
+                    "2020-01-13-preview"
+                ]
+            }
+        },
+        {
+            "name": "automationAccounts_compilationjobs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-10-31",
+                    "2018-01-15",
+                    "2019-06-01"
+                ],
+                "preview": [
+                    "2020-01-13-preview"
+                ]
+            }
+        },
+        {
+            "name": "automationAccounts_configurations",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-10-31",
+                    "2019-06-01",
+                    "2022-08-08"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "automationAccounts_connections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-10-31",
+                    "2019-06-01",
+                    "2022-08-08"
+                ],
+                "preview": [
+                    "2020-01-13-preview"
+                ]
+            }
+        },
+        {
+            "name": "automationAccounts_connectionTypes",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-10-31",
+                    "2019-06-01",
+                    "2022-08-08"
+                ],
+                "preview": [
+                    "2020-01-13-preview"
+                ]
+            }
+        },
+        {
+            "name": "automationAccounts_credentials",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-10-31",
+                    "2019-06-01",
+                    "2022-08-08"
+                ],
+                "preview": [
+                    "2020-01-13-preview"
+                ]
+            }
+        },
+        {
+            "name": "automationAccounts_hybridRunbookWorkerGroups",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-06-22",
+                    "2022-02-22",
+                    "2022-08-08"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "automationAccounts_hybridRunbookWorkerGroups_hybridRunbookWorkers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-06-22",
+                    "2022-08-08"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "automationAccounts_jobs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-10-31",
+                    "2019-06-01",
+                    "2022-08-08"
+                ],
+                "preview": [
+                    "2017-05-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "automationAccounts_jobSchedules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-10-31",
+                    "2019-06-01",
+                    "2022-08-08"
+                ],
+                "preview": [
+                    "2020-01-13-preview"
+                ]
+            }
+        },
+        {
+            "name": "automationAccounts_modules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-10-31",
+                    "2019-06-01",
+                    "2022-08-08"
+                ],
+                "preview": [
+                    "2020-01-13-preview"
+                ]
+            }
+        },
+        {
+            "name": "automationAccounts_nodeConfigurations",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-10-31",
+                    "2018-01-15",
+                    "2019-06-01",
+                    "2022-08-08"
+                ],
+                "preview": [
+                    "2020-01-13-preview"
+                ]
+            }
+        },
+        {
+            "name": "automationAccounts_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-01-13-preview"
+                ]
+            }
+        },
+        {
+            "name": "automationAccounts_python2Packages",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-06-30",
+                    "2019-06-01",
+                    "2022-08-08"
+                ],
+                "preview": [
+                    "2020-01-13-preview"
+                ]
+            }
+        },
+        {
+            "name": "automationAccounts_python3Packages",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-08-08"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "automationAccounts_runbooks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-10-31",
+                    "2018-06-30",
+                    "2019-06-01",
+                    "2022-08-08"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "automationAccounts_runbooks_draft",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-10-31",
+                    "2018-06-30",
+                    "2019-06-01",
+                    "2022-08-08"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "automationAccounts_schedules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-10-31",
+                    "2019-06-01",
+                    "2022-08-08"
+                ],
+                "preview": [
+                    "2020-01-13-preview"
+                ]
+            }
+        },
+        {
+            "name": "automationAccounts_softwareUpdateConfigurations",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-06-01"
+                ],
+                "preview": [
+                    "2017-05-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "automationAccounts_sourceControls",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-06-01",
+                    "2022-08-08"
+                ],
+                "preview": [
+                    "2017-05-15-preview",
+                    "2020-01-13-preview"
+                ]
+            }
+        },
+        {
+            "name": "automationAccounts_sourceControls_sourceControlSyncJobs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-06-01",
+                    "2022-08-08"
+                ],
+                "preview": [
+                    "2017-05-15-preview",
+                    "2020-01-13-preview"
+                ]
+            }
+        },
+        {
+            "name": "automationAccounts_variables",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-10-31",
+                    "2019-06-01",
+                    "2022-08-08"
+                ],
+                "preview": [
+                    "2020-01-13-preview"
+                ]
+            }
+        },
+        {
+            "name": "automationAccounts_watchers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-10-31",
+                    "2019-06-01"
+                ],
+                "preview": [
+                    "2020-01-13-preview"
+                ]
+            }
+        },
+        {
+            "name": "automationAccounts_webhooks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-10-31"
+                ],
+                "preview": []
+            }
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Elastic",
+    "resourceTypes": [
+        {
+            "name": "monitors",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-07-01"
+                ],
+                "preview": [
+                    "2020-07-01-preview",
+                    "2021-09-01-preview",
+                    "2021-10-01-preview",
+                    "2022-05-05-preview",
+                    "2022-07-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "monitors_tagRules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-07-01"
+                ],
+                "preview": [
+                    "2020-07-01-preview",
+                    "2021-09-01-preview",
+                    "2021-10-01-preview",
+                    "2022-05-05-preview",
+                    "2022-07-01-preview"
+                ]
+            }
+        }
+    ]
+}

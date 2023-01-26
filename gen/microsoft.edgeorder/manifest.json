@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Edgeorder",
+    "resourceTypes": [
+        {
+            "name": "addresses",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-12-01"
+                ],
+                "preview": [
+                    "2020-12-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "orderItems",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-12-01"
+                ],
+                "preview": [
+                    "2020-12-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Streamanalytics",
+    "resourceTypes": [
+        {
+            "name": "clusters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-03-01"
+                ],
+                "preview": [
+                    "2020-03-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "clusters_privateEndpoints",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-03-01"
+                ],
+                "preview": [
+                    "2020-03-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "streamingjobs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-03-01",
+                    "2020-03-01"
+                ],
+                "preview": [
+                    "2017-04-01-preview",
+                    "2021-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "streamingjobs_functions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-03-01",
+                    "2020-03-01"
+                ],
+                "preview": [
+                    "2017-04-01-preview",
+                    "2021-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "streamingjobs_inputs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-03-01",
+                    "2020-03-01"
+                ],
+                "preview": [
+                    "2017-04-01-preview",
+                    "2021-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "streamingjobs_outputs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-03-01",
+                    "2020-03-01"
+                ],
+                "preview": [
+                    "2017-04-01-preview",
+                    "2021-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "streamingjobs_transformations",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-03-01",
+                    "2020-03-01"
+                ],
+                "preview": [
+                    "2017-04-01-preview",
+                    "2021-10-01-preview"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Managementpartner",
+    "resourceTypes": [
+        {
+            "name": "partners",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [
+                    "2018-02-01"
+                ],
+                "preview": []
+            }
+        }
+    ]
+}

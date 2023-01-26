@@ -1,0 +1,61 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Maintenance",
+    "resourceTypes": [
+        {
+            "name": "applyUpdates",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2020-04-01",
+                    "2021-05-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2020-07-01-preview",
+                    "2021-04-01-preview",
+                    "2021-09-01-preview",
+                    "2022-07-01-preview",
+                    "2022-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "configurationAssignments",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2020-04-01",
+                    "2021-05-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2020-07-01-preview",
+                    "2021-04-01-preview",
+                    "2021-09-01-preview",
+                    "2022-07-01-preview",
+                    "2022-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "maintenanceConfigurations",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-04-01",
+                    "2021-05-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2020-07-01-preview",
+                    "2021-04-01-preview",
+                    "2021-09-01-preview",
+                    "2022-07-01-preview",
+                    "2022-11-01-preview"
+                ]
+            }
+        }
+    ]
+}

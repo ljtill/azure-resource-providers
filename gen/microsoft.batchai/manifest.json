@@ -1,0 +1,93 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Batchai",
+    "resourceTypes": [
+        {
+            "name": "clusters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-03-01"
+                ],
+                "preview": [
+                    "2017-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "fileServers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-03-01"
+                ],
+                "preview": [
+                    "2017-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "jobs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-03-01"
+                ],
+                "preview": [
+                    "2017-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-05-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "workspaces_clusters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-05-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "workspaces_experiments",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-05-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "workspaces_experiments_jobs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-05-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "workspaces_fileServers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-05-01"
+                ],
+                "preview": []
+            }
+        }
+    ]
+}

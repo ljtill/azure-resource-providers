@@ -1,0 +1,67 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Intune",
+    "resourceTypes": [
+        {
+            "name": "locations_androidPolicies",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2015-01-14-preview"
+                ]
+            }
+        },
+        {
+            "name": "locations_androidPolicies_apps",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2015-01-14-preview"
+                ]
+            }
+        },
+        {
+            "name": "locations_androidPolicies_groups",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2015-01-14-preview"
+                ]
+            }
+        },
+        {
+            "name": "locations_iosPolicies",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2015-01-14-preview"
+                ]
+            }
+        },
+        {
+            "name": "locations_iosPolicies_apps",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2015-01-14-preview"
+                ]
+            }
+        },
+        {
+            "name": "locations_iosPolicies_groups",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2015-01-14-preview"
+                ]
+            }
+        }
+    ]
+}

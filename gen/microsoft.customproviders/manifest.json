@@ -1,0 +1,17 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Customproviders",
+    "resourceTypes": [
+        {
+            "name": "resourceProviders",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2018-09-01-preview"
+                ]
+            }
+        }
+    ]
+}

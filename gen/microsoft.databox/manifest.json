@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Databox",
+    "resourceTypes": [
+        {
+            "name": "jobs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-01-01",
+                    "2019-09-01",
+                    "2020-04-01",
+                    "2020-11-01",
+                    "2021-03-01",
+                    "2021-05-01",
+                    "2021-12-01",
+                    "2022-02-01",
+                    "2022-09-01"
+                ],
+                "preview": [
+                    "2021-08-01-preview"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,293 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Eventgrid",
+    "resourceTypes": [
+        {
+            "name": "domains",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-06-01",
+                    "2020-06-01",
+                    "2021-12-01",
+                    "2022-06-15"
+                ],
+                "preview": [
+                    "2018-09-15-preview",
+                    "2019-02-01-preview",
+                    "2020-01-01-preview",
+                    "2020-04-01-preview",
+                    "2020-10-15-preview",
+                    "2021-06-01-preview",
+                    "2021-10-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "domains_eventSubscriptions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-06-15"
+                ],
+                "preview": [
+                    "2021-10-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "domains_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-06-01",
+                    "2021-12-01",
+                    "2022-06-15"
+                ],
+                "preview": [
+                    "2020-04-01-preview",
+                    "2020-10-15-preview",
+                    "2021-06-01-preview",
+                    "2021-10-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "domains_topics",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-06-01",
+                    "2020-06-01",
+                    "2021-12-01",
+                    "2022-06-15"
+                ],
+                "preview": [
+                    "2019-02-01-preview",
+                    "2020-01-01-preview",
+                    "2020-04-01-preview",
+                    "2020-10-15-preview",
+                    "2021-06-01-preview",
+                    "2021-10-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "domains_topics_eventSubscriptions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-06-15"
+                ],
+                "preview": [
+                    "2021-10-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "partnerConfigurations",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-06-15"
+                ],
+                "preview": [
+                    "2021-10-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "partnerDestinations",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-10-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "partnerNamespaces",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-06-15"
+                ],
+                "preview": [
+                    "2020-04-01-preview",
+                    "2020-10-15-preview",
+                    "2021-06-01-preview",
+                    "2021-10-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "partnerNamespaces_channels",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-06-15"
+                ],
+                "preview": [
+                    "2021-10-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "partnerNamespaces_eventChannels",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-04-01-preview",
+                    "2020-10-15-preview",
+                    "2021-06-01-preview",
+                    "2021-10-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "partnerNamespaces_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-06-15"
+                ],
+                "preview": [
+                    "2021-06-01-preview",
+                    "2021-10-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "partnerRegistrations",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-06-15"
+                ],
+                "preview": [
+                    "2020-04-01-preview",
+                    "2020-10-15-preview",
+                    "2021-06-01-preview",
+                    "2021-10-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "partnerTopics",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-06-15"
+                ],
+                "preview": [
+                    "2021-10-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "partnerTopics_eventSubscriptions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-06-15"
+                ],
+                "preview": [
+                    "2020-04-01-preview",
+                    "2020-10-15-preview",
+                    "2021-06-01-preview",
+                    "2021-10-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "systemTopics",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-12-01",
+                    "2022-06-15"
+                ],
+                "preview": [
+                    "2020-04-01-preview",
+                    "2020-10-15-preview",
+                    "2021-06-01-preview",
+                    "2021-10-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "systemTopics_eventSubscriptions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-12-01",
+                    "2022-06-15"
+                ],
+                "preview": [
+                    "2020-04-01-preview",
+                    "2020-10-15-preview",
+                    "2021-06-01-preview",
+                    "2021-10-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "topics",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-06-01",
+                    "2020-06-01",
+                    "2021-12-01",
+                    "2022-06-15"
+                ],
+                "preview": [
+                    "2017-06-15-preview",
+                    "2017-09-15-preview",
+                    "2018-05-01-preview",
+                    "2018-09-15-preview",
+                    "2019-02-01-preview",
+                    "2020-01-01-preview",
+                    "2020-04-01-preview",
+                    "2020-10-15-preview",
+                    "2021-06-01-preview",
+                    "2021-10-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "topics_eventSubscriptions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-06-15"
+                ],
+                "preview": [
+                    "2021-10-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "topics_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-06-01",
+                    "2021-12-01",
+                    "2022-06-15"
+                ],
+                "preview": [
+                    "2020-04-01-preview",
+                    "2020-10-15-preview",
+                    "2021-06-01-preview",
+                    "2021-10-15-preview"
+                ]
+            }
+        }
+    ]
+}

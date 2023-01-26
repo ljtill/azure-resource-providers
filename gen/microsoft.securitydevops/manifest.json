@@ -1,0 +1,77 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Securitydevops",
+    "resourceTypes": [
+        {
+            "name": "azureDevOpsConnectors",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "azureDevOpsConnectors_orgs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "azureDevOpsConnectors_orgs_projects",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "azureDevOpsConnectors_orgs_projects_repos",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "gitHubConnectors",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "gitHubConnectors_owners",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "gitHubConnectors_owners_repos",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-09-01-preview"
+                ]
+            }
+        }
+    ]
+}

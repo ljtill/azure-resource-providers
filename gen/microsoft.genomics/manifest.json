@@ -1,0 +1,17 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Genomics",
+    "resourceTypes": [
+        {
+            "name": "accounts",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2017-08-01-preview"
+                ]
+            }
+        }
+    ]
+}

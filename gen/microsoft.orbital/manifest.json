@@ -1,0 +1,43 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Orbital",
+    "resourceTypes": [
+        {
+            "name": "contactProfiles",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-03-01"
+                ],
+                "preview": [
+                    "2021-04-04-preview"
+                ]
+            }
+        },
+        {
+            "name": "spacecrafts",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-03-01"
+                ],
+                "preview": [
+                    "2021-04-04-preview"
+                ]
+            }
+        },
+        {
+            "name": "spacecrafts_contacts",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-03-01"
+                ],
+                "preview": [
+                    "2021-04-04-preview"
+                ]
+            }
+        }
+    ]
+}

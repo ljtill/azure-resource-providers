@@ -1,0 +1,43 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Communication",
+    "resourceTypes": [
+        {
+            "name": "communicationServices",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-08-20"
+                ],
+                "preview": [
+                    "2020-08-20-preview",
+                    "2021-10-01-preview",
+                    "2022-07-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "emailServices",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-10-01-preview",
+                    "2022-07-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "emailServices_domains",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-10-01-preview",
+                    "2022-07-01-preview"
+                ]
+            }
+        }
+    ]
+}

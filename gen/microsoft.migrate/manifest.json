@@ -1,0 +1,190 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Migrate",
+    "resourceTypes": [
+        {
+            "name": "assessmentProjects",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-10-01",
+                    "2019-10-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "assessmentProjects_groups",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-10-01",
+                    "2019-10-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "assessmentProjects_groups_assessments",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-10-01",
+                    "2019-10-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "assessmentProjects_hypervcollectors",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-10-01",
+                    "2019-10-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "assessmentProjects_importcollectors",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-10-01",
+                    "2019-10-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "assessmentprojects_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-10-01",
+                    "2019-10-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "assessmentProjects_servercollectors",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-10-01",
+                    "2019-10-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "assessmentProjects_vmwarecollectors",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-10-01",
+                    "2019-10-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "migrateProjects",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-05-01",
+                    "2020-05-01"
+                ],
+                "preview": [
+                    "2018-09-01-preview",
+                    "2018-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "migrateProjects_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-05-01",
+                    "2020-05-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "migrateProjects_solutions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2018-09-01-preview",
+                    "2018-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "moveCollections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-01-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2019-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "moveCollections_moveResources",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-01-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2019-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "projects",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-02-02",
+                    "2018-02-02"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "projects_groups",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-02-02",
+                    "2018-02-02"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "projects_groups_assessments",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-02-02",
+                    "2018-02-02"
+                ],
+                "preview": []
+            }
+        }
+    ]
+}

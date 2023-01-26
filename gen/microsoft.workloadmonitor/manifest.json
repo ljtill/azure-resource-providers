@@ -1,0 +1,17 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Workloadmonitor",
+    "resourceTypes": [
+        {
+            "name": "notificationSettings",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2018-08-31-preview"
+                ]
+            }
+        }
+    ]
+}

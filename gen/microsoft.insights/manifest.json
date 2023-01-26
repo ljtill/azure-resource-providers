@@ -1,0 +1,342 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Insights",
+    "resourceTypes": [
+        {
+            "name": "actionGroups",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-04-01",
+                    "2018-03-01",
+                    "2018-09-01",
+                    "2019-03-01",
+                    "2019-06-01",
+                    "2021-09-01",
+                    "2022-04-01",
+                    "2022-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "activityLogAlerts",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-04-01",
+                    "2020-10-01"
+                ],
+                "preview": [
+                    "2017-03-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "alertrules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2014-04-01",
+                    "2016-03-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "autoscalesettings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2014-04-01",
+                    "2014-04-01",
+                    "2015-04-01",
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2021-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "components",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2014-04-01",
+                    "2015-05-01",
+                    "2020-02-02"
+                ],
+                "preview": [
+                    "2018-05-01-preview",
+                    "2020-02-02-preview"
+                ]
+            }
+        },
+        {
+            "name": "components_analyticsItems",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-05-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "components_Annotations",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-05-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "components_currentbillingfeatures",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-05-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "components_exportconfiguration",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-05-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "components_favorites",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-05-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "components_linkedStorageAccounts",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-03-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "components_myanalyticsItems",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-05-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "components_pricingPlans",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-10-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "components_ProactiveDetectionConfigs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-05-01"
+                ],
+                "preview": [
+                    "2018-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "dataCollectionEndpoints",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-04-01"
+                ],
+                "preview": [
+                    "2021-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "dataCollectionRules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-04-01"
+                ],
+                "preview": [
+                    "2019-11-01-preview",
+                    "2021-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "diagnosticSettings",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2017-05-01-preview",
+                    "2020-01-01-preview",
+                    "2021-05-01-preview",
+                    "2021-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "guestDiagnosticSettings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2018-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "logprofiles",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [
+                    "2016-03-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "metricAlerts",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-03-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "myWorkbooks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-05-01",
+                    "2020-10-20",
+                    "2021-03-08"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "privateLinkScopes",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2019-10-17-preview",
+                    "2021-07-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "privateLinkScopes_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2019-10-17-preview",
+                    "2021-07-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "privateLinkScopes_scopedResources",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2019-10-17-preview",
+                    "2021-07-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "scheduledQueryRules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-04-16",
+                    "2021-08-01",
+                    "2022-06-15"
+                ],
+                "preview": [
+                    "2020-05-01-preview",
+                    "2021-02-01-preview",
+                    "2022-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "webtests",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2014-04-01",
+                    "2015-05-01",
+                    "2022-06-15"
+                ],
+                "preview": [
+                    "2018-05-01-preview",
+                    "2020-10-05-preview"
+                ]
+            }
+        },
+        {
+            "name": "workbooks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-05-01",
+                    "2020-10-20",
+                    "2021-03-08",
+                    "2021-08-01",
+                    "2022-04-01"
+                ],
+                "preview": [
+                    "2018-06-17-preview"
+                ]
+            }
+        },
+        {
+            "name": "workbooktemplates",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-11-20"
+                ],
+                "preview": [
+                    "2019-10-17-preview"
+                ]
+            }
+        }
+    ]
+}

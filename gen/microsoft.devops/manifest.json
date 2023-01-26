@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Devops",
+    "resourceTypes": [
+        {
+            "name": "pipelines",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2019-07-01-preview",
+                    "2020-07-13-preview"
+                ]
+            }
+        }
+    ]
+}

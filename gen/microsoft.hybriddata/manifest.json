@@ -1,0 +1,40 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Hybriddata",
+    "resourceTypes": [
+        {
+            "name": "dataManagers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-06-01",
+                    "2019-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "dataManagers_dataServices_jobDefinitions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-06-01",
+                    "2019-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "dataManagers_dataStores",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-06-01",
+                    "2019-06-01"
+                ],
+                "preview": []
+            }
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Logz",
+    "resourceTypes": [
+        {
+            "name": "monitors",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-10-01"
+                ],
+                "preview": [
+                    "2020-10-01-preview",
+                    "2022-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "monitors_accounts",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-10-01"
+                ],
+                "preview": [
+                    "2020-10-01-preview",
+                    "2022-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "monitors_accounts_tagRules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-10-01"
+                ],
+                "preview": [
+                    "2020-10-01-preview",
+                    "2022-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "monitors_metricsSource",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "monitors_metricsSource_tagRules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "monitors_singleSignOnConfigurations",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-10-01"
+                ],
+                "preview": [
+                    "2020-10-01-preview",
+                    "2022-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "monitors_tagRules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-10-01"
+                ],
+                "preview": [
+                    "2020-10-01-preview",
+                    "2022-01-01-preview"
+                ]
+            }
+        }
+    ]
+}

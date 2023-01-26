@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Scheduler",
+    "resourceTypes": [
+        {
+            "name": "jobCollections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-01-01",
+                    "2016-03-01"
+                ],
+                "preview": [
+                    "2014-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "jobCollections_jobs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-01-01",
+                    "2016-03-01"
+                ],
+                "preview": [
+                    "2014-08-01-preview"
+                ]
+            }
+        }
+    ]
+}

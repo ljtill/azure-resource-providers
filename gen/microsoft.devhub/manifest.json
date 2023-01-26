@@ -1,0 +1,17 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Devhub",
+    "resourceTypes": [
+        {
+            "name": "workflows",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-04-01-preview"
+                ]
+            }
+        }
+    ]
+}

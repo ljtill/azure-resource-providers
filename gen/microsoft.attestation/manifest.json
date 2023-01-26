@@ -1,0 +1,32 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Attestation",
+    "resourceTypes": [
+        {
+            "name": "attestationProviders",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-10-01"
+                ],
+                "preview": [
+                    "2018-09-01-preview",
+                    "2021-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "attestationProviders_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-10-01"
+                ],
+                "preview": [
+                    "2021-06-01-preview"
+                ]
+            }
+        }
+    ]
+}

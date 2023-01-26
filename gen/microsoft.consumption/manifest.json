@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Consumption",
+    "resourceTypes": [
+        {
+            "name": "budgets",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [
+                    "2018-01-31",
+                    "2018-01-31",
+                    "2018-03-31",
+                    "2018-03-31",
+                    "2018-06-30",
+                    "2018-06-30",
+                    "2018-08-31",
+                    "2018-08-31",
+                    "2018-10-01",
+                    "2018-10-01"
+                ],
+                "preview": [
+                    "2017-12-30-preview"
+                ]
+            }
+        },
+        {
+            "name": "costTags",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2018-03-31",
+                    "2018-06-30"
+                ],
+                "preview": []
+            }
+        }
+    ]
+}

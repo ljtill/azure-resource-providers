@@ -1,0 +1,37 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Iotsecurity",
+    "resourceTypes": [
+        {
+            "name": "defenderSettings",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-02-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "locations_deviceGroups",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-02-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "onPremiseSensors",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-02-01-preview"
+                ]
+            }
+        }
+    ]
+}

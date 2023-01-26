@@ -1,0 +1,94 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Solutions",
+    "resourceTypes": [
+        {
+            "name": "applianceDefinitions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2016-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "appliances",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2016-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "applicationDefinitions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-09-01",
+                    "2017-09-01",
+                    "2017-12-01",
+                    "2018-02-01",
+                    "2018-03-01",
+                    "2018-06-01",
+                    "2018-06-01",
+                    "2019-07-01",
+                    "2019-07-01",
+                    "2021-07-01"
+                ],
+                "preview": [
+                    "2018-09-01-preview",
+                    "2020-08-21-preview",
+                    "2020-08-21-preview",
+                    "2021-02-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "applications",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-09-01",
+                    "2017-09-01",
+                    "2017-12-01",
+                    "2018-02-01",
+                    "2018-03-01",
+                    "2018-06-01",
+                    "2018-06-01",
+                    "2019-07-01",
+                    "2019-07-01",
+                    "2021-07-01"
+                ],
+                "preview": [
+                    "2018-09-01-preview",
+                    "2020-08-21-preview",
+                    "2020-08-21-preview",
+                    "2021-02-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "jitRequests",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-03-01",
+                    "2018-06-01",
+                    "2019-07-01",
+                    "2019-07-01",
+                    "2021-07-01"
+                ],
+                "preview": [
+                    "2018-09-01-preview",
+                    "2020-08-21-preview",
+                    "2020-08-21-preview",
+                    "2021-02-01-preview"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Timeseriesinsights",
+    "resourceTypes": [
+        {
+            "name": "environments",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-11-15",
+                    "2020-05-15"
+                ],
+                "preview": [
+                    "2017-02-28-preview",
+                    "2018-08-15-preview",
+                    "2021-03-31-preview",
+                    "2021-06-30-preview"
+                ]
+            }
+        },
+        {
+            "name": "environments_accessPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-11-15",
+                    "2020-05-15"
+                ],
+                "preview": [
+                    "2017-02-28-preview",
+                    "2018-08-15-preview",
+                    "2021-03-31-preview",
+                    "2021-06-30-preview"
+                ]
+            }
+        },
+        {
+            "name": "environments_eventSources",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-11-15",
+                    "2020-05-15"
+                ],
+                "preview": [
+                    "2017-02-28-preview",
+                    "2018-08-15-preview",
+                    "2021-03-31-preview",
+                    "2021-06-30-preview"
+                ]
+            }
+        },
+        {
+            "name": "environments_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-03-31-preview"
+                ]
+            }
+        },
+        {
+            "name": "environments_referenceDataSets",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-11-15",
+                    "2020-05-15"
+                ],
+                "preview": [
+                    "2017-02-28-preview",
+                    "2018-08-15-preview",
+                    "2021-03-31-preview",
+                    "2021-06-30-preview"
+                ]
+            }
+        }
+    ]
+}

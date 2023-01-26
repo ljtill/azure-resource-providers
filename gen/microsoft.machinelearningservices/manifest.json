@@ -1,0 +1,544 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Machinelearningservices",
+    "resourceTypes": [
+        {
+            "name": "registries",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "registries_codes",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "registries_codes_versions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "registries_components",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "registries_components_versions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "registries_environments",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "registries_environments_versions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "registries_models",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "registries_models_versions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-11-19",
+                    "2019-05-01",
+                    "2019-06-01",
+                    "2019-11-01",
+                    "2020-01-01",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-06-01",
+                    "2020-08-01",
+                    "2021-01-01",
+                    "2021-04-01",
+                    "2021-07-01",
+                    "2022-05-01",
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2018-03-01-preview",
+                    "2020-02-18-preview",
+                    "2020-05-01-preview",
+                    "2020-05-15-preview",
+                    "2020-09-01-preview",
+                    "2021-03-01-preview",
+                    "2022-01-01-preview",
+                    "2022-02-01-preview",
+                    "2022-06-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_batchEndpoints",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-05-01",
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2021-03-01-preview",
+                    "2022-02-01-preview",
+                    "2022-06-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_batchEndpoints_deployments",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-05-01",
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2021-03-01-preview",
+                    "2022-02-01-preview",
+                    "2022-06-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_codes",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-05-01",
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2021-03-01-preview",
+                    "2022-02-01-preview",
+                    "2022-06-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_codes_versions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-05-01",
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2021-03-01-preview",
+                    "2022-02-01-preview",
+                    "2022-06-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_components",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-05-01",
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2022-02-01-preview",
+                    "2022-06-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_components_versions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-05-01",
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2022-02-01-preview",
+                    "2022-06-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_computes",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-11-19",
+                    "2019-05-01",
+                    "2019-06-01",
+                    "2019-11-01",
+                    "2020-01-01",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-06-01",
+                    "2020-08-01",
+                    "2021-01-01",
+                    "2021-04-01",
+                    "2021-07-01",
+                    "2022-05-01",
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2018-03-01-preview",
+                    "2020-02-18-preview",
+                    "2020-05-01-preview",
+                    "2020-05-15-preview",
+                    "2020-09-01-preview",
+                    "2021-03-01-preview",
+                    "2022-01-01-preview",
+                    "2022-02-01-preview",
+                    "2022-06-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_connections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-06-01",
+                    "2020-08-01",
+                    "2021-01-01",
+                    "2021-04-01",
+                    "2021-07-01",
+                    "2022-05-01",
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2020-09-01-preview",
+                    "2021-03-01-preview",
+                    "2022-01-01-preview",
+                    "2022-02-01-preview",
+                    "2022-06-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_data",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-05-01",
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2021-03-01-preview",
+                    "2022-02-01-preview",
+                    "2022-06-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_data_versions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-05-01",
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2021-03-01-preview",
+                    "2022-02-01-preview",
+                    "2022-06-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_datasets",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_datastores",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-05-01",
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2020-05-01-preview",
+                    "2021-03-01-preview",
+                    "2022-02-01-preview",
+                    "2022-06-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_environments",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-05-01",
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2021-03-01-preview",
+                    "2022-02-01-preview",
+                    "2022-06-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_environments_versions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-05-01",
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2021-03-01-preview",
+                    "2022-02-01-preview",
+                    "2022-06-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_jobs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-05-01",
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2021-03-01-preview",
+                    "2022-02-01-preview",
+                    "2022-06-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_labelingJobs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-09-01-preview",
+                    "2021-03-01-preview",
+                    "2022-06-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_linkedServices",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_linkedWorkspaces",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-05-01-preview",
+                    "2020-05-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_models",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-05-01",
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2021-03-01-preview",
+                    "2022-02-01-preview",
+                    "2022-06-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_models_versions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-05-01",
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2021-03-01-preview",
+                    "2022-02-01-preview",
+                    "2022-06-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_onlineEndpoints",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-05-01",
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2021-03-01-preview",
+                    "2022-02-01-preview",
+                    "2022-06-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_onlineEndpoints_deployments",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-05-01",
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2021-03-01-preview",
+                    "2022-02-01-preview",
+                    "2022-06-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-01-01",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-06-01",
+                    "2020-08-01",
+                    "2021-01-01",
+                    "2021-04-01",
+                    "2021-07-01",
+                    "2022-05-01",
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2020-02-18-preview",
+                    "2020-05-01-preview",
+                    "2020-05-15-preview",
+                    "2020-09-01-preview",
+                    "2021-03-01-preview",
+                    "2022-01-01-preview",
+                    "2022-02-01-preview",
+                    "2022-06-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_schedules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2022-06-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_services",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-01-01",
+                    "2021-04-01"
+                ],
+                "preview": [
+                    "2020-05-01-preview",
+                    "2020-05-15-preview",
+                    "2020-09-01-preview"
+                ]
+            }
+        }
+    ]
+}

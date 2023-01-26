@@ -1,0 +1,19 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Analysisservices",
+    "resourceTypes": [
+        {
+            "name": "servers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-05-16",
+                    "2017-07-14",
+                    "2017-08-01"
+                ],
+                "preview": []
+            }
+        }
+    ]
+}

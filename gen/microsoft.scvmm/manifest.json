@@ -1,0 +1,77 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Scvmm",
+    "resourceTypes": [
+        {
+            "name": "availabilitySets",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-06-05-preview"
+                ]
+            }
+        },
+        {
+            "name": "clouds",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-06-05-preview"
+                ]
+            }
+        },
+        {
+            "name": "virtualMachines",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-06-05-preview"
+                ]
+            }
+        },
+        {
+            "name": "virtualMachineTemplates",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-06-05-preview"
+                ]
+            }
+        },
+        {
+            "name": "virtualNetworks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-06-05-preview"
+                ]
+            }
+        },
+        {
+            "name": "vmmServers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-06-05-preview"
+                ]
+            }
+        },
+        {
+            "name": "vmmServers_inventoryItems",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-06-05-preview"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,137 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Securityandcompliance",
+    "resourceTypes": [
+        {
+            "name": "privateLinkServicesForEDMUpload",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-01-11",
+                    "2021-03-08"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "privateLinkServicesForEDMUpload_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-01-11",
+                    "2021-03-08"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "privateLinkServicesForM365ComplianceCenter",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-01-11",
+                    "2021-03-08"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "privateLinkServicesForM365ComplianceCenter_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-01-11",
+                    "2021-03-08"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "privateLinkServicesForM365SecurityCenter",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-01-11",
+                    "2021-03-08"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "privateLinkServicesForM365SecurityCenter_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-01-11",
+                    "2021-03-08"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "privateLinkServicesForMIPPolicySync",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-03-08"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "privateLinkServicesForMIPPolicySync_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-03-08"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "privateLinkServicesForO365ManagementActivityAPI",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-01-11",
+                    "2021-03-08"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "privateLinkServicesForO365ManagementActivityAPI_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-01-11",
+                    "2021-03-08"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "privateLinkServicesForSCCPowershell",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-01-11",
+                    "2021-03-08"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "privateLinkServicesForSCCPowershell_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-01-11",
+                    "2021-03-08"
+                ],
+                "preview": []
+            }
+        }
+    ]
+}

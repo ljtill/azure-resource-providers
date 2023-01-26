@@ -1,0 +1,19 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Importexport",
+    "resourceTypes": [
+        {
+            "name": "jobs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-11-01",
+                    "2020-08-01",
+                    "2021-01-01"
+                ],
+                "preview": []
+            }
+        }
+    ]
+}

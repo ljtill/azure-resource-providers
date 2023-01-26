@@ -1,0 +1,64 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Automanage",
+    "resourceTypes": [
+        {
+            "name": "accounts",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-06-30-preview"
+                ]
+            }
+        },
+        {
+            "name": "configurationProfileAssignments",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2022-05-04"
+                ],
+                "preview": [
+                    "2020-06-30-preview",
+                    "2021-04-30-preview"
+                ]
+            }
+        },
+        {
+            "name": "configurationProfilePreferences",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-06-30-preview"
+                ]
+            }
+        },
+        {
+            "name": "configurationProfiles",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-05-04"
+                ],
+                "preview": [
+                    "2021-04-30-preview"
+                ]
+            }
+        },
+        {
+            "name": "configurationProfiles_versions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-05-04"
+                ],
+                "preview": [
+                    "2021-04-30-preview"
+                ]
+            }
+        }
+    ]
+}

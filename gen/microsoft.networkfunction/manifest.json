@@ -1,0 +1,35 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Networkfunction",
+    "resourceTypes": [
+        {
+            "name": "azureTrafficCollectors",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-05-01",
+                    "2022-08-01",
+                    "2022-11-01"
+                ],
+                "preview": [
+                    "2021-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "azureTrafficCollectors_collectorPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-05-01",
+                    "2022-08-01",
+                    "2022-11-01"
+                ],
+                "preview": [
+                    "2021-09-01-preview"
+                ]
+            }
+        }
+    ]
+}

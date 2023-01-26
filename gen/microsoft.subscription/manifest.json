@@ -1,0 +1,40 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Subscription",
+    "resourceTypes": [
+        {
+            "name": "aliases",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [
+                    "2020-09-01",
+                    "2021-10-01"
+                ],
+                "preview": [
+                    "2019-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "policies",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [
+                    "2021-10-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "subscriptionDefinitions",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2017-11-01-preview"
+                ]
+            }
+        }
+    ]
+}
