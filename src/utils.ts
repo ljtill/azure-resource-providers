@@ -2,11 +2,12 @@ import fs from "fs"
 import path from "path"
 import { execSync } from 'child_process'
 import { Logger } from "./logger"
+import { Manifest } from "./manifest"
 
 const logger = new Logger()
 
-export function writeJsonFile(filePath: string, content: any): void {
-    const parsedContent = JSON.stringify(content, null, 4)
+export function writeJsonFile(filePath: string, manifest: Manifest): void {
+    const parsedContent = JSON.stringify(manifest, null, 4)
 
     if (!fs.existsSync(path.dirname(filePath))) {
         try {
