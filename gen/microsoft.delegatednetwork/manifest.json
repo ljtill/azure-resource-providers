@@ -1,0 +1,43 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Delegatednetwork",
+    "resourceTypes": [
+        {
+            "name": "controller",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-03-15"
+                ],
+                "preview": [
+                    "2020-08-08-preview"
+                ]
+            }
+        },
+        {
+            "name": "delegatedSubnets",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-03-15"
+                ],
+                "preview": [
+                    "2020-08-08-preview"
+                ]
+            }
+        },
+        {
+            "name": "orchestrators",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-03-15"
+                ],
+                "preview": [
+                    "2020-08-08-preview"
+                ]
+            }
+        }
+    ]
+}

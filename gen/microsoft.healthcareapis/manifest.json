@@ -1,0 +1,151 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Healthcareapis",
+    "resourceTypes": [
+        {
+            "name": "services",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-09-16",
+                    "2020-03-15",
+                    "2020-03-30",
+                    "2021-01-11",
+                    "2021-11-01",
+                    "2022-05-15",
+                    "2022-06-01"
+                ],
+                "preview": [
+                    "2018-08-20-preview",
+                    "2021-06-01-preview",
+                    "2022-01-31-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "services_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-03-30",
+                    "2021-01-11",
+                    "2021-11-01",
+                    "2022-05-15",
+                    "2022-06-01"
+                ],
+                "preview": [
+                    "2021-06-01-preview",
+                    "2022-01-31-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01",
+                    "2022-05-15",
+                    "2022-06-01"
+                ],
+                "preview": [
+                    "2021-06-01-preview",
+                    "2022-01-31-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_analyticsconnectors",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_dicomservices",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01",
+                    "2022-05-15",
+                    "2022-06-01"
+                ],
+                "preview": [
+                    "2021-06-01-preview",
+                    "2022-01-31-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_fhirservices",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01",
+                    "2022-05-15",
+                    "2022-06-01"
+                ],
+                "preview": [
+                    "2021-06-01-preview",
+                    "2022-01-31-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_iotconnectors",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01",
+                    "2022-05-15",
+                    "2022-06-01"
+                ],
+                "preview": [
+                    "2021-06-01-preview",
+                    "2022-01-31-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_iotconnectors_fhirdestinations",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01",
+                    "2022-05-15",
+                    "2022-06-01"
+                ],
+                "preview": [
+                    "2021-06-01-preview",
+                    "2022-01-31-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01",
+                    "2022-05-15",
+                    "2022-06-01"
+                ],
+                "preview": [
+                    "2022-01-31-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        }
+    ]
+}

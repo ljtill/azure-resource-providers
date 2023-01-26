@@ -1,0 +1,37 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Servicenetworking",
+    "resourceTypes": [
+        {
+            "name": "trafficControllers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "trafficControllers_associations",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "trafficControllers_frontends",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-10-01-preview"
+                ]
+            }
+        }
+    ]
+}

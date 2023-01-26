@@ -1,0 +1,37 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Visualstudio",
+    "resourceTypes": [
+        {
+            "name": "account",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2014-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "account_extension",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2014-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "account_project",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2014-04-01-preview"
+                ]
+            }
+        }
+    ]
+}

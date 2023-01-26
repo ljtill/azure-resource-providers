@@ -1,0 +1,158 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Mobilenetwork",
+    "resourceTypes": [
+        {
+            "name": "mobileNetworks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-11-01"
+                ],
+                "preview": [
+                    "2022-03-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "mobileNetworks_dataNetworks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-11-01"
+                ],
+                "preview": [
+                    "2022-03-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "mobileNetworks_services",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-11-01"
+                ],
+                "preview": [
+                    "2022-03-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "mobileNetworks_simPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-11-01"
+                ],
+                "preview": [
+                    "2022-03-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "mobileNetworks_sites",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-11-01"
+                ],
+                "preview": [
+                    "2022-03-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "mobileNetworks_slices",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-11-01"
+                ],
+                "preview": [
+                    "2022-03-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "packetCoreControlPlanes",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-11-01"
+                ],
+                "preview": [
+                    "2022-03-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "packetCoreControlPlanes_packetCoreDataPlanes",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-11-01"
+                ],
+                "preview": [
+                    "2022-03-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "packetCoreControlPlanes_packetCoreDataPlanes_attachedDataNetworks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-11-01"
+                ],
+                "preview": [
+                    "2022-03-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "simGroups",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-11-01"
+                ],
+                "preview": [
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "simGroups_sims",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-11-01"
+                ],
+                "preview": [
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "sims",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-03-01-preview"
+                ]
+            }
+        }
+    ]
+}

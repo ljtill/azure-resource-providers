@@ -1,0 +1,55 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Notificationhubs",
+    "resourceTypes": [
+        {
+            "name": "namespaces",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2014-09-01",
+                    "2016-03-01",
+                    "2017-04-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "namespaces_AuthorizationRules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2014-09-01",
+                    "2016-03-01",
+                    "2017-04-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "namespaces_notificationHubs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2014-09-01",
+                    "2016-03-01",
+                    "2017-04-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "namespaces_notificationHubs_AuthorizationRules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2014-09-01",
+                    "2016-03-01",
+                    "2017-04-01"
+                ],
+                "preview": []
+            }
+        }
+    ]
+}

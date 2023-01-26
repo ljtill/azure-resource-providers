@@ -1,0 +1,37 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Managednetwork",
+    "resourceTypes": [
+        {
+            "name": "managedNetworks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2019-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedNetworks_managedNetworkGroups",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2019-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedNetworks_managedNetworkPeeringPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2019-06-01-preview"
+                ]
+            }
+        }
+    ]
+}

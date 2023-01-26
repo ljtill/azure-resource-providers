@@ -1,0 +1,37 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Powerbi",
+    "resourceTypes": [
+        {
+            "name": "privateLinkServicesForPowerBI",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "privateLinkServicesForPowerBI_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "workspaceCollections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-01-29"
+                ],
+                "preview": []
+            }
+        }
+    ]
+}

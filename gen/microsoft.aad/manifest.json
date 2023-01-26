@@ -1,0 +1,32 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Aad",
+    "resourceTypes": [
+        {
+            "name": "domainServices",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-01-01",
+                    "2017-06-01",
+                    "2020-01-01",
+                    "2021-03-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "domainServices_ouContainer",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-06-01",
+                    "2020-01-01",
+                    "2021-03-01"
+                ],
+                "preview": []
+            }
+        }
+    ]
+}

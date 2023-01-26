@@ -1,0 +1,49 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Agfoodplatform",
+    "resourceTypes": [
+        {
+            "name": "farmBeats",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-05-12-preview",
+                    "2021-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "farmBeats_extensions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-05-12-preview",
+                    "2021-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "farmBeats_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "farmBeats_solutions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-09-01-preview"
+                ]
+            }
+        }
+    ]
+}

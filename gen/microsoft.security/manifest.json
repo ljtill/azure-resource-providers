@@ -1,0 +1,215 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Security",
+    "resourceTypes": [
+        {
+            "name": "alertsSuppressionRules",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2019-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "assessmentMetadata",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [
+                    "2020-01-01",
+                    "2021-06-01"
+                ],
+                "preview": [
+                    "2019-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "assignments",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "automations",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2019-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "autoProvisioningSettings",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2017-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "connectors",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "customAssessmentAutomations",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-07-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "customEntityStoreAssignments",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-07-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "ingestionSettings",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-01-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "iotSecuritySolutions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-08-01"
+                ],
+                "preview": [
+                    "2017-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "locations_applicationWhitelistings",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [
+                    "2020-01-01"
+                ],
+                "preview": [
+                    "2015-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "locations_jitNetworkAccessPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-01-01"
+                ],
+                "preview": [
+                    "2015-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "pricings",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [
+                    "2018-06-01"
+                ],
+                "preview": [
+                    "2017-08-01-preview",
+                    "2017-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "securityConnectors",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-07-01-preview",
+                    "2021-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "securityContacts",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2017-08-01-preview",
+                    "2020-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "serverVulnerabilityAssessments",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2020-01-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "settings",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [
+                    "2019-01-01",
+                    "2021-06-01",
+                    "2021-07-01"
+                ],
+                "preview": [
+                    "2017-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "standards",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaceSettings",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2017-08-01-preview"
+                ]
+            }
+        }
+    ]
+}

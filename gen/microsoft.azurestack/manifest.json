@@ -1,0 +1,44 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Azurestack",
+    "resourceTypes": [
+        {
+            "name": "linkedSubscriptions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "registrations",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-01-01",
+                    "2017-06-01",
+                    "2022-06-01"
+                ],
+                "preview": [
+                    "2020-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "registrations_customerSubscriptions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-06-01",
+                    "2022-06-01"
+                ],
+                "preview": [
+                    "2020-06-01-preview"
+                ]
+            }
+        }
+    ]
+}

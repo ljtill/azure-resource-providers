@@ -1,0 +1,81 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Kubernetesconfiguration",
+    "resourceTypes": [
+        {
+            "name": "extensions",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2021-09-01",
+                    "2022-03-01",
+                    "2022-07-01",
+                    "2022-11-01"
+                ],
+                "preview": [
+                    "2020-07-01-preview",
+                    "2021-05-01-preview",
+                    "2021-11-01-preview",
+                    "2022-01-01-preview",
+                    "2022-04-02-preview"
+                ]
+            }
+        },
+        {
+            "name": "fluxConfigurations",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2022-03-01",
+                    "2022-07-01",
+                    "2022-11-01"
+                ],
+                "preview": [
+                    "2021-11-01-preview",
+                    "2022-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "privateLinkScopes",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-04-02-preview"
+                ]
+            }
+        },
+        {
+            "name": "privateLinkScopes_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-04-02-preview"
+                ]
+            }
+        },
+        {
+            "name": "sourceControlConfigurations",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2021-03-01",
+                    "2022-03-01",
+                    "2022-07-01",
+                    "2022-11-01"
+                ],
+                "preview": [
+                    "2019-11-01-preview",
+                    "2020-07-01-preview",
+                    "2020-10-01-preview",
+                    "2021-05-01-preview",
+                    "2021-11-01-preview",
+                    "2022-01-01-preview"
+                ]
+            }
+        }
+    ]
+}

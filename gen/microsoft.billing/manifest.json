@@ -1,0 +1,140 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Billing",
+    "resourceTypes": [
+        {
+            "name": "billingAccounts_billingProfiles",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [
+                    "2020-05-01"
+                ],
+                "preview": [
+                    "2018-11-01-preview",
+                    "2019-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "billingAccounts_billingProfiles_instructions",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [
+                    "2020-05-01"
+                ],
+                "preview": [
+                    "2019-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "billingAccounts_billingProfiles_invoiceSections",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [
+                    "2020-05-01"
+                ],
+                "preview": [
+                    "2019-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "billingAccounts_billingProfiles_policies",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [
+                    "2020-05-01"
+                ],
+                "preview": [
+                    "2018-11-01-preview",
+                    "2019-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "billingAccounts_billingRoleAssignments",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2019-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "billingAccounts_billingSubscriptionAliases",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [
+                    "2021-10-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "billingAccounts_customers_policies",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [
+                    "2020-05-01"
+                ],
+                "preview": [
+                    "2019-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "billingAccounts_departments_billingRoleAssignments",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2019-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "billingAccounts_enrollmentAccounts_billingRoleAssignments",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2019-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "billingAccounts_invoiceSections",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2018-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "billingAccounts_lineOfCredit",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2018-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "promotions",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-09-01-preview",
+                    "2020-11-01-preview"
+                ]
+            }
+        }
+    ]
+}

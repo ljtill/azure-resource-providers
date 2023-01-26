@@ -1,0 +1,132 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Labservices",
+    "resourceTypes": [
+        {
+            "name": "labaccounts",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-10-15"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "labaccounts_galleryimages",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-10-15"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "labaccounts_labs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-10-15"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "labaccounts_labs_environmentsettings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-10-15"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "labaccounts_labs_environmentsettings_environments",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-10-15"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "labaccounts_labs_users",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-10-15"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "labPlans",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-08-01"
+                ],
+                "preview": [
+                    "2021-10-01-preview",
+                    "2021-11-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "labPlans_images",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-08-01"
+                ],
+                "preview": [
+                    "2021-10-01-preview",
+                    "2021-11-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "labs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-08-01"
+                ],
+                "preview": [
+                    "2021-10-01-preview",
+                    "2021-11-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "labs_schedules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-08-01"
+                ],
+                "preview": [
+                    "2021-10-01-preview",
+                    "2021-11-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "labs_users",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-08-01"
+                ],
+                "preview": [
+                    "2021-10-01-preview",
+                    "2021-11-15-preview"
+                ]
+            }
+        }
+    ]
+}

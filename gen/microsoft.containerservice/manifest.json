@@ -1,0 +1,321 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Containerservice",
+    "resourceTypes": [
+        {
+            "name": "containerServices",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-03-30",
+                    "2016-09-30",
+                    "2017-01-31",
+                    "2017-07-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "fleets",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-06-02-preview",
+                    "2022-07-02-preview",
+                    "2022-09-02-preview"
+                ]
+            }
+        },
+        {
+            "name": "fleets_members",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-06-02-preview",
+                    "2022-07-02-preview",
+                    "2022-09-02-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedClusters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-08-31",
+                    "2018-03-31",
+                    "2019-02-01",
+                    "2019-04-01",
+                    "2019-06-01",
+                    "2019-08-01",
+                    "2019-10-01",
+                    "2019-11-01",
+                    "2020-01-01",
+                    "2020-02-01",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-06-01",
+                    "2020-07-01",
+                    "2020-09-01",
+                    "2020-11-01",
+                    "2020-12-01",
+                    "2021-02-01",
+                    "2021-03-01",
+                    "2021-05-01",
+                    "2021-07-01",
+                    "2021-08-01",
+                    "2021-09-01",
+                    "2021-10-01",
+                    "2022-01-01",
+                    "2022-02-01",
+                    "2022-03-01",
+                    "2022-04-01",
+                    "2022-06-01",
+                    "2022-07-01",
+                    "2022-09-01",
+                    "2022-11-01"
+                ],
+                "preview": [
+                    "2018-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-01-02-preview",
+                    "2022-02-02-preview",
+                    "2022-03-02-preview",
+                    "2022-04-02-preview",
+                    "2022-05-02-preview",
+                    "2022-06-02-preview",
+                    "2022-07-02-preview",
+                    "2022-08-02-preview",
+                    "2022-08-03-preview",
+                    "2022-09-02-preview",
+                    "2022-10-02-preview",
+                    "2022-11-02-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedClusters_agentPools",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-02-01",
+                    "2019-04-01",
+                    "2019-06-01",
+                    "2019-08-01",
+                    "2019-10-01",
+                    "2019-11-01",
+                    "2020-01-01",
+                    "2020-02-01",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-06-01",
+                    "2020-07-01",
+                    "2020-09-01",
+                    "2020-11-01",
+                    "2020-12-01",
+                    "2021-02-01",
+                    "2021-03-01",
+                    "2021-05-01",
+                    "2021-07-01",
+                    "2021-08-01",
+                    "2021-09-01",
+                    "2021-10-01",
+                    "2022-01-01",
+                    "2022-02-01",
+                    "2022-03-01",
+                    "2022-04-01",
+                    "2022-06-01",
+                    "2022-07-01",
+                    "2022-09-01",
+                    "2022-11-01"
+                ],
+                "preview": [
+                    "2021-11-01-preview",
+                    "2022-01-02-preview",
+                    "2022-02-02-preview",
+                    "2022-03-02-preview",
+                    "2022-04-02-preview",
+                    "2022-05-02-preview",
+                    "2022-06-02-preview",
+                    "2022-07-02-preview",
+                    "2022-08-02-preview",
+                    "2022-08-03-preview",
+                    "2022-09-02-preview",
+                    "2022-10-02-preview",
+                    "2022-11-02-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedClusters_maintenanceConfigurations",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-12-01",
+                    "2021-02-01",
+                    "2021-03-01",
+                    "2021-05-01",
+                    "2021-07-01",
+                    "2021-08-01",
+                    "2021-09-01",
+                    "2021-10-01",
+                    "2022-01-01",
+                    "2022-02-01",
+                    "2022-03-01",
+                    "2022-04-01",
+                    "2022-06-01",
+                    "2022-07-01",
+                    "2022-09-01",
+                    "2022-11-01"
+                ],
+                "preview": [
+                    "2021-11-01-preview",
+                    "2022-01-02-preview",
+                    "2022-02-02-preview",
+                    "2022-03-02-preview",
+                    "2022-04-02-preview",
+                    "2022-05-02-preview",
+                    "2022-06-02-preview",
+                    "2022-07-02-preview",
+                    "2022-08-02-preview",
+                    "2022-08-03-preview",
+                    "2022-09-02-preview",
+                    "2022-10-02-preview",
+                    "2022-11-02-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedClusters_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-06-01",
+                    "2020-07-01",
+                    "2020-09-01",
+                    "2020-11-01",
+                    "2020-12-01",
+                    "2021-02-01",
+                    "2021-03-01",
+                    "2021-05-01",
+                    "2021-07-01",
+                    "2021-08-01",
+                    "2021-09-01",
+                    "2021-10-01",
+                    "2022-01-01",
+                    "2022-02-01",
+                    "2022-03-01",
+                    "2022-04-01",
+                    "2022-06-01",
+                    "2022-07-01",
+                    "2022-09-01",
+                    "2022-11-01"
+                ],
+                "preview": [
+                    "2021-11-01-preview",
+                    "2022-01-02-preview",
+                    "2022-02-02-preview",
+                    "2022-03-02-preview",
+                    "2022-04-02-preview",
+                    "2022-05-02-preview",
+                    "2022-06-02-preview",
+                    "2022-07-02-preview",
+                    "2022-08-02-preview",
+                    "2022-08-03-preview",
+                    "2022-09-02-preview",
+                    "2022-10-02-preview",
+                    "2022-11-02-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedClusters_trustedAccessRoleBindings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-04-02-preview",
+                    "2022-05-02-preview",
+                    "2022-06-02-preview",
+                    "2022-07-02-preview",
+                    "2022-08-02-preview",
+                    "2022-08-03-preview",
+                    "2022-09-02-preview",
+                    "2022-10-02-preview",
+                    "2022-11-02-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedclustersnapshots",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-02-02-preview",
+                    "2022-03-02-preview",
+                    "2022-04-02-preview",
+                    "2022-05-02-preview",
+                    "2022-06-02-preview",
+                    "2022-07-02-preview",
+                    "2022-08-02-preview",
+                    "2022-08-03-preview",
+                    "2022-09-02-preview",
+                    "2022-10-02-preview",
+                    "2022-11-02-preview"
+                ]
+            }
+        },
+        {
+            "name": "openShiftManagedClusters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-04-30"
+                ],
+                "preview": [
+                    "2018-09-30-preview",
+                    "2019-09-30-preview",
+                    "2019-10-27-preview"
+                ]
+            }
+        },
+        {
+            "name": "snapshots",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-08-01",
+                    "2021-09-01",
+                    "2021-10-01",
+                    "2022-01-01",
+                    "2022-02-01",
+                    "2022-03-01",
+                    "2022-04-01",
+                    "2022-06-01",
+                    "2022-07-01",
+                    "2022-09-01",
+                    "2022-11-01"
+                ],
+                "preview": [
+                    "2021-11-01-preview",
+                    "2022-01-02-preview",
+                    "2022-02-02-preview",
+                    "2022-03-02-preview",
+                    "2022-04-02-preview",
+                    "2022-05-02-preview",
+                    "2022-06-02-preview",
+                    "2022-07-02-preview",
+                    "2022-08-02-preview",
+                    "2022-08-03-preview",
+                    "2022-09-02-preview",
+                    "2022-10-02-preview",
+                    "2022-11-02-preview"
+                ]
+            }
+        }
+    ]
+}

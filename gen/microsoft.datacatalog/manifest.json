@@ -1,0 +1,17 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Datacatalog",
+    "resourceTypes": [
+        {
+            "name": "catalogs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-03-30"
+                ],
+                "preview": []
+            }
+        }
+    ]
+}

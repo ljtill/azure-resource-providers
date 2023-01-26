@@ -1,0 +1,19 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Windowsiot",
+    "resourceTypes": [
+        {
+            "name": "deviceServices",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-06-01"
+                ],
+                "preview": [
+                    "2018-02-16-preview"
+                ]
+            }
+        }
+    ]
+}

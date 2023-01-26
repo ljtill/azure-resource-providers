@@ -1,0 +1,243 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Media",
+    "resourceTypes": [
+        {
+            "name": "mediaservices",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-10-01",
+                    "2018-07-01",
+                    "2020-05-01",
+                    "2021-05-01",
+                    "2021-06-01",
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2018-03-30-preview",
+                    "2018-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "mediaServices_accountFilters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-07-01",
+                    "2020-05-01",
+                    "2021-06-01",
+                    "2021-11-01",
+                    "2022-08-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "mediaServices_assets",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-07-01",
+                    "2020-05-01",
+                    "2021-06-01",
+                    "2021-11-01",
+                    "2022-08-01"
+                ],
+                "preview": [
+                    "2018-03-30-preview",
+                    "2018-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "mediaServices_assets_assetFilters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-07-01",
+                    "2020-05-01",
+                    "2021-06-01",
+                    "2021-11-01",
+                    "2022-08-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "mediaServices_assets_tracks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01",
+                    "2022-08-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "mediaServices_contentKeyPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-07-01",
+                    "2020-05-01",
+                    "2021-06-01",
+                    "2021-11-01",
+                    "2022-08-01"
+                ],
+                "preview": [
+                    "2018-03-30-preview",
+                    "2018-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "mediaservices_liveEvents",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-05-01",
+                    "2021-06-01",
+                    "2021-11-01",
+                    "2022-08-01"
+                ],
+                "preview": [
+                    "2018-03-30-preview",
+                    "2018-06-01-preview",
+                    "2019-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "mediaservices_liveEvents_liveOutputs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-05-01",
+                    "2021-06-01",
+                    "2021-11-01",
+                    "2022-08-01"
+                ],
+                "preview": [
+                    "2018-03-30-preview",
+                    "2018-06-01-preview",
+                    "2019-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "mediaServices_mediaGraphs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2019-09-01-preview",
+                    "2020-02-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "mediaservices_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-05-01",
+                    "2021-05-01",
+                    "2021-06-01",
+                    "2021-11-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "mediaservices_streamingEndpoints",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-05-01",
+                    "2021-06-01",
+                    "2021-11-01",
+                    "2022-08-01"
+                ],
+                "preview": [
+                    "2018-03-30-preview",
+                    "2018-06-01-preview",
+                    "2019-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "mediaServices_streamingLocators",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-07-01",
+                    "2020-05-01",
+                    "2021-06-01",
+                    "2021-11-01",
+                    "2022-08-01"
+                ],
+                "preview": [
+                    "2018-03-30-preview",
+                    "2018-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "mediaServices_streamingPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-07-01",
+                    "2020-05-01",
+                    "2021-06-01",
+                    "2021-11-01",
+                    "2022-08-01"
+                ],
+                "preview": [
+                    "2018-03-30-preview",
+                    "2018-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "mediaServices_transforms",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-07-01",
+                    "2020-05-01",
+                    "2021-06-01",
+                    "2021-11-01",
+                    "2022-07-01"
+                ],
+                "preview": [
+                    "2018-03-30-preview",
+                    "2018-06-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "mediaServices_transforms_jobs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-07-01",
+                    "2020-05-01",
+                    "2021-06-01",
+                    "2021-11-01",
+                    "2022-07-01"
+                ],
+                "preview": [
+                    "2018-03-30-preview",
+                    "2018-06-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        }
+    ]
+}

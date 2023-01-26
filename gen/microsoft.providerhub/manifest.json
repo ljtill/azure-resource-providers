@@ -1,0 +1,147 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Providerhub",
+    "resourceTypes": [
+        {
+            "name": "providerRegistrations",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [
+                    "2020-11-20"
+                ],
+                "preview": [
+                    "2021-05-01-preview",
+                    "2021-06-01-preview",
+                    "2021-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "providerRegistrations_customRollouts",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [
+                    "2020-11-20"
+                ],
+                "preview": [
+                    "2021-05-01-preview",
+                    "2021-06-01-preview",
+                    "2021-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "providerRegistrations_defaultRollouts",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [
+                    "2020-11-20"
+                ],
+                "preview": [
+                    "2021-05-01-preview",
+                    "2021-06-01-preview",
+                    "2021-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "providerRegistrations_notificationRegistrations",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [
+                    "2020-11-20"
+                ],
+                "preview": [
+                    "2021-05-01-preview",
+                    "2021-06-01-preview",
+                    "2021-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "providerRegistrations_operations",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [
+                    "2020-11-20"
+                ],
+                "preview": [
+                    "2021-05-01-preview",
+                    "2021-06-01-preview",
+                    "2021-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "providerRegistrations_resourcetypeRegistrations",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [
+                    "2020-11-20"
+                ],
+                "preview": [
+                    "2021-05-01-preview",
+                    "2021-06-01-preview",
+                    "2021-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "providerRegistrations_resourcetypeRegistrations_resourcetypeRegistrations_resourcetypeRegistrations_resourcetypeRegistrations_skus",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [
+                    "2020-11-20"
+                ],
+                "preview": [
+                    "2021-05-01-preview",
+                    "2021-06-01-preview",
+                    "2021-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "providerRegistrations_resourcetypeRegistrations_resourcetypeRegistrations_resourcetypeRegistrations_skus",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [
+                    "2020-11-20"
+                ],
+                "preview": [
+                    "2021-05-01-preview",
+                    "2021-06-01-preview",
+                    "2021-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "providerRegistrations_resourcetypeRegistrations_resourcetypeRegistrations_skus",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [
+                    "2020-11-20"
+                ],
+                "preview": [
+                    "2021-05-01-preview",
+                    "2021-06-01-preview",
+                    "2021-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "providerRegistrations_resourcetypeRegistrations_skus",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [
+                    "2020-11-20"
+                ],
+                "preview": [
+                    "2021-05-01-preview",
+                    "2021-06-01-preview",
+                    "2021-09-01-preview"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,131 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Costmanagement",
+    "resourceTypes": [
+        {
+            "name": "cloudConnectors",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2019-03-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "connectors",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2018-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "costAllocationRules",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-03-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "externalSubscriptions",
+            "scope": "managementGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2019-03-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "markupRules",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-10-05-preview"
+                ]
+            }
+        },
+        {
+            "name": "reportconfigs",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [
+                    "2018-05-31",
+                    "2018-05-31"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "reports",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2018-08-01-preview",
+                    "2018-08-01-preview",
+                    "2018-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "scheduledActions",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2022-04-01-preview",
+                    "2022-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "settings",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [
+                    "2019-11-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "showbackRules",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2019-03-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "views",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [
+                    "2019-11-01",
+                    "2020-06-01",
+                    "2021-10-01",
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2019-04-01-preview",
+                    "2022-08-01-preview",
+                    "2022-10-01-preview",
+                    "2022-10-05-preview"
+                ]
+            }
+        }
+    ]
+}

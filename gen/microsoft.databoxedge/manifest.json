@@ -1,0 +1,329 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Databoxedge",
+    "resourceTypes": [
+        {
+            "name": "dataBoxEdgeDevices",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-03-01",
+                    "2019-07-01",
+                    "2019-08-01",
+                    "2020-09-01",
+                    "2020-12-01",
+                    "2021-02-01",
+                    "2021-06-01",
+                    "2022-03-01"
+                ],
+                "preview": [
+                    "2020-05-01-preview",
+                    "2020-09-01-preview",
+                    "2021-02-01-preview",
+                    "2021-06-01-preview",
+                    "2022-04-01-preview",
+                    "2022-12-01-preview",
+                    "2023-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "dataBoxEdgeDevices_bandwidthSchedules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-03-01",
+                    "2019-07-01",
+                    "2019-08-01",
+                    "2020-09-01",
+                    "2020-12-01",
+                    "2021-02-01",
+                    "2021-06-01",
+                    "2022-03-01"
+                ],
+                "preview": [
+                    "2020-05-01-preview",
+                    "2020-09-01-preview",
+                    "2021-02-01-preview",
+                    "2021-06-01-preview",
+                    "2022-04-01-preview",
+                    "2022-12-01-preview",
+                    "2023-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "dataBoxEdgeDevices_diagnosticProactiveLogCollectionSettings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-02-01",
+                    "2021-06-01",
+                    "2022-03-01"
+                ],
+                "preview": [
+                    "2021-06-01-preview",
+                    "2022-04-01-preview",
+                    "2022-12-01-preview",
+                    "2023-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "dataBoxEdgeDevices_diagnosticRemoteSupportSettings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-02-01",
+                    "2021-06-01",
+                    "2022-03-01"
+                ],
+                "preview": [
+                    "2021-06-01-preview",
+                    "2022-04-01-preview",
+                    "2022-12-01-preview",
+                    "2023-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "dataBoxEdgeDevices_orders",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-03-01",
+                    "2019-07-01",
+                    "2019-08-01",
+                    "2020-09-01",
+                    "2020-12-01",
+                    "2021-02-01",
+                    "2021-06-01",
+                    "2022-03-01"
+                ],
+                "preview": [
+                    "2020-05-01-preview",
+                    "2020-09-01-preview",
+                    "2021-02-01-preview",
+                    "2021-06-01-preview",
+                    "2022-04-01-preview",
+                    "2022-12-01-preview",
+                    "2023-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "dataBoxEdgeDevices_roles",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-03-01",
+                    "2019-07-01",
+                    "2019-08-01",
+                    "2020-09-01",
+                    "2020-12-01",
+                    "2021-02-01",
+                    "2021-06-01",
+                    "2022-03-01"
+                ],
+                "preview": [
+                    "2020-05-01-preview",
+                    "2020-09-01-preview",
+                    "2021-02-01-preview",
+                    "2021-06-01-preview",
+                    "2022-04-01-preview",
+                    "2022-12-01-preview",
+                    "2023-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "dataBoxEdgeDevices_roles_addons",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-09-01",
+                    "2020-12-01",
+                    "2021-02-01",
+                    "2021-06-01",
+                    "2022-03-01"
+                ],
+                "preview": [
+                    "2020-09-01-preview",
+                    "2021-02-01-preview",
+                    "2021-06-01-preview",
+                    "2022-04-01-preview",
+                    "2022-12-01-preview",
+                    "2023-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "dataBoxEdgeDevices_roles_monitoringConfig",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-09-01",
+                    "2020-12-01",
+                    "2021-02-01",
+                    "2021-06-01",
+                    "2022-03-01"
+                ],
+                "preview": [
+                    "2020-09-01-preview",
+                    "2021-02-01-preview",
+                    "2021-06-01-preview",
+                    "2022-04-01-preview",
+                    "2022-12-01-preview",
+                    "2023-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "dataBoxEdgeDevices_shares",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-03-01",
+                    "2019-07-01",
+                    "2019-08-01",
+                    "2020-09-01",
+                    "2020-12-01",
+                    "2021-02-01",
+                    "2021-06-01",
+                    "2022-03-01"
+                ],
+                "preview": [
+                    "2020-05-01-preview",
+                    "2020-09-01-preview",
+                    "2021-02-01-preview",
+                    "2021-06-01-preview",
+                    "2022-04-01-preview",
+                    "2022-12-01-preview",
+                    "2023-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "dataBoxEdgeDevices_storageAccountCredentials",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-03-01",
+                    "2019-07-01",
+                    "2019-08-01",
+                    "2020-09-01",
+                    "2020-12-01",
+                    "2021-02-01",
+                    "2021-06-01",
+                    "2022-03-01"
+                ],
+                "preview": [
+                    "2020-05-01-preview",
+                    "2020-09-01-preview",
+                    "2021-02-01-preview",
+                    "2021-06-01-preview",
+                    "2022-04-01-preview",
+                    "2022-12-01-preview",
+                    "2023-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "dataBoxEdgeDevices_storageAccounts",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-08-01",
+                    "2020-09-01",
+                    "2020-12-01",
+                    "2021-02-01",
+                    "2021-06-01",
+                    "2022-03-01"
+                ],
+                "preview": [
+                    "2020-05-01-preview",
+                    "2020-09-01-preview",
+                    "2021-02-01-preview",
+                    "2021-06-01-preview",
+                    "2022-04-01-preview",
+                    "2022-12-01-preview",
+                    "2023-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "dataBoxEdgeDevices_storageAccounts_containers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-08-01",
+                    "2020-09-01",
+                    "2020-12-01",
+                    "2021-02-01",
+                    "2021-06-01",
+                    "2022-03-01"
+                ],
+                "preview": [
+                    "2020-05-01-preview",
+                    "2020-09-01-preview",
+                    "2021-02-01-preview",
+                    "2021-06-01-preview",
+                    "2022-04-01-preview",
+                    "2022-12-01-preview",
+                    "2023-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "dataBoxEdgeDevices_triggers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-03-01",
+                    "2019-07-01",
+                    "2019-08-01",
+                    "2020-09-01",
+                    "2020-12-01",
+                    "2021-02-01",
+                    "2021-06-01",
+                    "2022-03-01"
+                ],
+                "preview": [
+                    "2020-05-01-preview",
+                    "2020-09-01-preview",
+                    "2021-02-01-preview",
+                    "2021-06-01-preview",
+                    "2022-04-01-preview",
+                    "2022-12-01-preview",
+                    "2023-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "dataBoxEdgeDevices_users",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-03-01",
+                    "2019-07-01",
+                    "2019-08-01",
+                    "2020-09-01",
+                    "2020-12-01",
+                    "2021-02-01",
+                    "2021-06-01",
+                    "2022-03-01"
+                ],
+                "preview": [
+                    "2020-05-01-preview",
+                    "2020-09-01-preview",
+                    "2021-02-01-preview",
+                    "2021-06-01-preview",
+                    "2022-04-01-preview",
+                    "2022-12-01-preview",
+                    "2023-01-01-preview"
+                ]
+            }
+        }
+    ]
+}

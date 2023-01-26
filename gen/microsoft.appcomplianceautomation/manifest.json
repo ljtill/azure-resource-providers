@@ -1,0 +1,17 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Appcomplianceautomation",
+    "resourceTypes": [
+        {
+            "name": "reports",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-11-16-preview"
+                ]
+            }
+        }
+    ]
+}

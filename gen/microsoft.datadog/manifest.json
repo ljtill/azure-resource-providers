@@ -1,0 +1,59 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Datadog",
+    "resourceTypes": [
+        {
+            "name": "agreements",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [
+                    "2021-03-01",
+                    "2022-06-01"
+                ],
+                "preview": [
+                    "2020-02-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "monitors",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-03-01",
+                    "2022-06-01"
+                ],
+                "preview": [
+                    "2020-02-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "monitors_singleSignOnConfigurations",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-03-01",
+                    "2022-06-01"
+                ],
+                "preview": [
+                    "2020-02-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "monitors_tagRules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-03-01",
+                    "2022-06-01"
+                ],
+                "preview": [
+                    "2020-02-01-preview"
+                ]
+            }
+        }
+    ]
+}

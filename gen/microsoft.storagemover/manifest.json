@@ -1,0 +1,57 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Storagemover",
+    "resourceTypes": [
+        {
+            "name": "storageMovers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-07-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "storageMovers_agents",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-07-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "storageMovers_endpoints",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-07-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "storageMovers_projects",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-07-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "storageMovers_projects_jobDefinitions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-07-01-preview"
+                ]
+            }
+        }
+    ]
+}

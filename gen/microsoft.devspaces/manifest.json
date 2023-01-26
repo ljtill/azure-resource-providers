@@ -1,0 +1,20 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Devspaces",
+    "resourceTypes": [
+        {
+            "name": "controllers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-04-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-01-01-preview"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,171 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Signalrservice",
+    "resourceTypes": [
+        {
+            "name": "signalR",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-10-01",
+                    "2020-05-01",
+                    "2021-10-01",
+                    "2022-02-01"
+                ],
+                "preview": [
+                    "2020-07-01-preview",
+                    "2021-04-01-preview",
+                    "2021-06-01-preview",
+                    "2021-09-01-preview",
+                    "2022-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "SignalR",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2018-03-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "signalR_customCertificates",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-02-01"
+                ],
+                "preview": [
+                    "2022-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "signalR_customDomains",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-02-01"
+                ],
+                "preview": [
+                    "2022-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "signalR_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-05-01",
+                    "2021-10-01",
+                    "2022-02-01"
+                ],
+                "preview": [
+                    "2020-07-01-preview",
+                    "2021-04-01-preview",
+                    "2021-06-01-preview",
+                    "2021-09-01-preview",
+                    "2022-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "signalR_sharedPrivateLinkResources",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-10-01",
+                    "2022-02-01"
+                ],
+                "preview": [
+                    "2021-04-01-preview",
+                    "2021-06-01-preview",
+                    "2021-09-01-preview",
+                    "2022-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "webPubSub",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-10-01"
+                ],
+                "preview": [
+                    "2021-04-01-preview",
+                    "2021-06-01-preview",
+                    "2021-09-01-preview",
+                    "2022-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "webPubSub_customCertificates",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "webPubSub_customDomains",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "webPubSub_hubs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-10-01"
+                ],
+                "preview": [
+                    "2022-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "webPubSub_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-10-01"
+                ],
+                "preview": [
+                    "2021-04-01-preview",
+                    "2021-06-01-preview",
+                    "2021-09-01-preview",
+                    "2022-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "webPubSub_sharedPrivateLinkResources",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-10-01"
+                ],
+                "preview": [
+                    "2021-04-01-preview",
+                    "2021-06-01-preview",
+                    "2021-09-01-preview",
+                    "2022-08-01-preview"
+                ]
+            }
+        }
+    ]
+}

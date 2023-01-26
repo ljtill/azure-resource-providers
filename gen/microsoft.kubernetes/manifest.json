@@ -1,0 +1,23 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Kubernetes",
+    "resourceTypes": [
+        {
+            "name": "connectedClusters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-03-01",
+                    "2021-10-01"
+                ],
+                "preview": [
+                    "2020-01-01-preview",
+                    "2021-04-01-preview",
+                    "2022-05-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        }
+    ]
+}

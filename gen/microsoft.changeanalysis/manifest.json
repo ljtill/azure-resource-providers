@@ -1,0 +1,17 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Changeanalysis",
+    "resourceTypes": [
+        {
+            "name": "profile",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-04-01-preview"
+                ]
+            }
+        }
+    ]
+}

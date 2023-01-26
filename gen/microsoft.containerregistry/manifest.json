@@ -1,0 +1,266 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Containerregistry",
+    "resourceTypes": [
+        {
+            "name": "registries",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-03-01",
+                    "2017-10-01",
+                    "2019-05-01",
+                    "2021-09-01",
+                    "2022-12-01"
+                ],
+                "preview": [
+                    "2016-06-27-preview",
+                    "2017-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-11-01-preview",
+                    "2021-06-01-preview",
+                    "2021-08-01-preview",
+                    "2021-12-01-preview",
+                    "2022-02-01-preview",
+                    "2023-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "registries_agentPools",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2019-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "registries_buildTasks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2018-02-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "registries_buildTasks_steps",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2018-02-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "registries_cacheRules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "registries_connectedRegistries",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-11-01-preview",
+                    "2021-06-01-preview",
+                    "2021-08-01-preview",
+                    "2021-12-01-preview",
+                    "2022-02-01-preview",
+                    "2023-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "registries_credentialSets",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "registries_exportPipelines",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2019-12-01-preview",
+                    "2020-11-01-preview",
+                    "2021-06-01-preview",
+                    "2021-08-01-preview",
+                    "2021-12-01-preview",
+                    "2022-02-01-preview",
+                    "2023-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "registries_importPipelines",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2019-12-01-preview",
+                    "2020-11-01-preview",
+                    "2021-06-01-preview",
+                    "2021-08-01-preview",
+                    "2021-12-01-preview",
+                    "2022-02-01-preview",
+                    "2023-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "registries_pipelineRuns",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2019-12-01-preview",
+                    "2020-11-01-preview",
+                    "2021-06-01-preview",
+                    "2021-08-01-preview",
+                    "2021-12-01-preview",
+                    "2022-02-01-preview",
+                    "2023-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "registries_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-09-01",
+                    "2022-12-01"
+                ],
+                "preview": [
+                    "2019-12-01-preview",
+                    "2020-11-01-preview",
+                    "2021-06-01-preview",
+                    "2021-08-01-preview",
+                    "2021-12-01-preview",
+                    "2022-02-01-preview",
+                    "2023-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "registries_replications",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-10-01",
+                    "2019-05-01",
+                    "2021-09-01",
+                    "2022-12-01"
+                ],
+                "preview": [
+                    "2017-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-11-01-preview",
+                    "2021-06-01-preview",
+                    "2021-08-01-preview",
+                    "2021-12-01-preview",
+                    "2022-02-01-preview",
+                    "2023-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "registries_scopeMaps",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-12-01"
+                ],
+                "preview": [
+                    "2019-05-01-preview",
+                    "2020-11-01-preview",
+                    "2021-06-01-preview",
+                    "2021-08-01-preview",
+                    "2021-12-01-preview",
+                    "2022-02-01-preview",
+                    "2023-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "registries_taskRuns",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2019-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "registries_tasks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-09-01",
+                    "2019-04-01"
+                ],
+                "preview": [
+                    "2019-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "registries_tokens",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-12-01"
+                ],
+                "preview": [
+                    "2019-05-01-preview",
+                    "2020-11-01-preview",
+                    "2021-06-01-preview",
+                    "2021-08-01-preview",
+                    "2021-12-01-preview",
+                    "2022-02-01-preview",
+                    "2023-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "registries_webhooks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-10-01",
+                    "2019-05-01",
+                    "2021-09-01",
+                    "2022-12-01"
+                ],
+                "preview": [
+                    "2017-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-11-01-preview",
+                    "2021-06-01-preview",
+                    "2021-08-01-preview",
+                    "2021-12-01-preview",
+                    "2022-02-01-preview",
+                    "2023-01-01-preview"
+                ]
+            }
+        }
+    ]
+}

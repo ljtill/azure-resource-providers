@@ -1,0 +1,85 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Hybridnetwork",
+    "resourceTypes": [
+        {
+            "name": "devices",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-05-01"
+                ],
+                "preview": [
+                    "2020-01-01-preview",
+                    "2022-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "locations_vendors_networkFunctions",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [
+                    "2021-05-01"
+                ],
+                "preview": [
+                    "2020-01-01-preview",
+                    "2022-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "networkFunctions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-05-01"
+                ],
+                "preview": [
+                    "2020-01-01-preview",
+                    "2022-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "vendors",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [
+                    "2021-05-01"
+                ],
+                "preview": [
+                    "2020-01-01-preview",
+                    "2022-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "vendors_vendorSkus",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [
+                    "2021-05-01"
+                ],
+                "preview": [
+                    "2020-01-01-preview",
+                    "2022-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "vendors_vendorSkus_previewSubscriptions",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [
+                    "2021-05-01"
+                ],
+                "preview": [
+                    "2020-01-01-preview",
+                    "2022-01-01-preview"
+                ]
+            }
+        }
+    ]
+}

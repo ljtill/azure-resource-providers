@@ -1,0 +1,139 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Datafactory",
+    "resourceTypes": [
+        {
+            "name": "factories",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-06-01"
+                ],
+                "preview": [
+                    "2017-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "factories_credentials",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "factories_dataflows",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "factories_datasets",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-06-01"
+                ],
+                "preview": [
+                    "2017-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "factories_globalParameters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "factories_integrationRuntimes",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-06-01"
+                ],
+                "preview": [
+                    "2017-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "factories_linkedservices",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-06-01"
+                ],
+                "preview": [
+                    "2017-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "factories_managedVirtualNetworks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "factories_managedVirtualNetworks_managedPrivateEndpoints",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "factories_pipelines",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-06-01"
+                ],
+                "preview": [
+                    "2017-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "factories_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "factories_triggers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-06-01"
+                ],
+                "preview": [
+                    "2017-09-01-preview"
+                ]
+            }
+        }
+    ]
+}

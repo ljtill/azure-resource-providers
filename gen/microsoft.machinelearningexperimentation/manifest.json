@@ -1,0 +1,37 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Machinelearningexperimentation",
+    "resourceTypes": [
+        {
+            "name": "accounts",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2017-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "accounts_workspaces",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2017-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "accounts_workspaces_projects",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2017-05-01-preview"
+                ]
+            }
+        }
+    ]
+}

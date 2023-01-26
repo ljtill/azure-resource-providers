@@ -1,0 +1,101 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Logic",
+    "resourceTypes": [
+        {
+            "name": "integrationAccounts",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "integrationAccounts_agreements",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "integrationAccounts_assemblies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "integrationAccounts_batchConfigurations",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "integrationAccounts_certificates",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "integrationAccounts_maps",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "integrationAccounts_partners",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "integrationAccounts_schemas",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "workflows",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-06-01",
+                    "2016-10-01",
+                    "2017-07-01"
+                ],
+                "preview": [
+                    "2015-02-01-preview"
+                ]
+            }
+        }
+    ]
+}

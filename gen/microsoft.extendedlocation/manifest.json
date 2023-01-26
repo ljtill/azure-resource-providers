@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Extendedlocation",
+    "resourceTypes": [
+        {
+            "name": "customLocations",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-08-15"
+                ],
+                "preview": [
+                    "2021-03-15-preview",
+                    "2021-08-31-preview"
+                ]
+            }
+        },
+        {
+            "name": "customLocations_resourceSyncRules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-08-31-preview"
+                ]
+            }
+        }
+    ]
+}

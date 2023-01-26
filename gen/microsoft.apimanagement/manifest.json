@@ -1,0 +1,1256 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Apimanagement",
+    "resourceTypes": [
+        {
+            "name": "service",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-07-07",
+                    "2016-10-10",
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_api-version-sets",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-03-01",
+                    "2018-01-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_apis",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-07-07",
+                    "2016-10-10",
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_apis_diagnostics",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_apis_diagnostics_loggers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-03-01",
+                    "2018-01-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "service_apis_issues",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_apis_issues_attachments",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_apis_issues_comments",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_apis_operations",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-07-07",
+                    "2016-10-10",
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_apis_operations_policies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_apis_operations_policy",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-10-10"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "service_apis_operations_tags",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_apis_policies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_apis_policy",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-10-10"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "service_apis_releases",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_apis_schemas",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_apis_tagDescriptions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_apis_tags",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_apiVersionSets",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_authorizationProviders",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_authorizationProviders_authorizations",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_authorizationProviders_authorizations_accessPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_authorizationServers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-07-07",
+                    "2016-10-10",
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_backends",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-07-07",
+                    "2016-10-10",
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_caches",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_certificates",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-07-07",
+                    "2016-10-10",
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_contentTypes",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_contentTypes_contentItems",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_diagnostics",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_diagnostics_loggers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-03-01",
+                    "2018-01-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "service_gateways",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_gateways_apis",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_gateways_certificateAuthorities",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_gateways_hostnameConfigurations",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_groups",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-07-07",
+                    "2016-10-10",
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_groups_users",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-07-07",
+                    "2016-10-10",
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_identityProviders",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-07-07",
+                    "2016-10-10",
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_loggers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-07-07",
+                    "2016-10-10",
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_namedValues",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_notifications",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_notifications_recipientEmails",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_notifications_recipientUsers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_openidConnectProviders",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-07-07",
+                    "2016-10-10",
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_policies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_policyFragments",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_portalconfigs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_portalRevisions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_portalsettings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_products",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-07-07",
+                    "2016-10-10",
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_products_apis",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-07-07",
+                    "2016-10-10",
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_products_groups",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-07-07",
+                    "2016-10-10",
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_products_policies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_products_policy",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-10-10"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "service_products_tags",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_properties",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-07-07",
+                    "2016-10-10",
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_schemas",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_subscriptions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-07-07",
+                    "2016-10-10",
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_tags",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_templates",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_tenant",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-10-10",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "service_users",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-07-07",
+                    "2016-10-10",
+                    "2017-03-01",
+                    "2018-01-01",
+                    "2019-01-01",
+                    "2019-12-01",
+                    "2020-12-01",
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-12-01-preview",
+                    "2020-06-01-preview",
+                    "2021-01-01-preview",
+                    "2021-04-01-preview",
+                    "2021-12-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        }
+    ]
+}

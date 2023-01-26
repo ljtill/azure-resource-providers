@@ -1,0 +1,51 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Datalakestore",
+    "resourceTypes": [
+        {
+            "name": "accounts",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-11-01"
+                ],
+                "preview": [
+                    "2015-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "accounts_firewallRules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-11-01"
+                ],
+                "preview": [
+                    "2015-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "accounts_trustedIdProviders",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-11-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "accounts_virtualNetworkRules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-11-01"
+                ],
+                "preview": []
+            }
+        }
+    ]
+}
