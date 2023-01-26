@@ -55,10 +55,10 @@ jobs:
         run: |
           if [ -n "$(git status --porcelain)" ]; then
             git checkout -b gen/schemas
-            git add ./gen/manifest.json
-            git commit -m 'gen: update manifest file'
+            git add ./gen/
+            git commit -m 'gen: update manifests'
             git push origin gen/schemas
-            gh pr create --title "gen: update manifest file" --body ""
+            gh pr create --title "gen: update manifests" --body ""
             gh pr merge gen/schemas --auto --squash
           fi
         working-directory: checkout
