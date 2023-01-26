@@ -1,8 +1,12 @@
 import fs from "fs";
 import * as utils from './utils'
+import { Scope } from './enums'
 import { Logger } from "./logger"
-import { Manifest, Scope } from "./manifest"
-import { Definition, Schema, validateApiVersion, validateNamespace } from './schema'
+import { Manifest } from "./manifest"
+import {
+    Definition, Schema,
+    validateApiVersion, validateNamespace
+} from './schema'
 
 const logger = new Logger()
 
@@ -37,8 +41,13 @@ function generate(): void {
             const content = fs.readFileSync(element).toString()
             const schema = JSON.parse(content) as Schema
 
-            // Handle data inconsistency
             schema.title = schema.title.toLowerCase()
+
+            let firstPart = schema.title.split(".")[0]
+            let secondPart = schema.title.split(".")[1]
+            firstPart = firstPart.charAt(0).toUpperCase() + firstPart.slice(1)
+            secondPart = secondPart.charAt(0).toUpperCase() + secondPart.slice(1)
+            schema.title = firstPart + '.' + secondPart
 
             schemas.push(schema)
         } catch (err) {
@@ -50,87 +59,84 @@ function generate(): void {
     })
 
     /**
-     * Generate Manifest
+     * Generate Manifests
      */
-    const manifest = new Manifest()
-    manifest.metadata.commitId = utils.getCommitId(dirPath)
+    const providerNamespaces = schemas.map(item => item.title)
+        .filter((value, index, self) => { return self.indexOf(value) === index })
+        .sort()
 
-    schemas.forEach(element => {
-        const provider = manifest.getResourceProvider(element.title) ?? manifest.addResourceProvider(element.title)
+    providerNamespaces.forEach(element => {
+        const manifest = new Manifest(element)
+        const providerSchemas = schemas.filter(item => item.title === element)
 
-        if (element.resourceDefinitions) {
-            Object.keys(element.resourceDefinitions).forEach(item => {
-                let resource = provider.getResourceType(item)
-                if (typeof resource === "undefined") {
-                    if (item.includes("_")) {
-                        resource = provider.addResourceType(item, Scope.Resource)
-                    } else {
-                        resource = provider.addResourceType(item, Scope.ResourceGroup)
-                    }
-                }
+        providerSchemas.forEach(schema => {
+            if (schema.tenant_resourceDefinitions) {
+                const definitions = schema.tenant_resourceDefinitions
+                Object.keys(definitions).forEach(key => {
+                    const apiVersion = definitions[key].properties.apiVersion.enum[0]
 
-                const definitions = element.resourceDefinitions as Definition
-                const apiVersion = definitions[item].properties.apiVersion.enum[0]
+                    manifest.getResourceType(key)?.addApiVersion(apiVersion)
+                        ?? manifest.addResourceType(key, Scope.Tenant, apiVersion)
+                })
+            }
 
-                resource.addApiVersion(apiVersion)
-            })
-        }
-        if (element.subscription_resourceDefinitions) {
-            Object.keys(element.subscription_resourceDefinitions).forEach(item => {
-                let resource = provider.getResourceType(item)
-                if (typeof resource === "undefined") {
-                    if (item.includes("_")) {
-                        resource = provider.addResourceType(item, Scope.ResourceGroup)
-                    } else {
-                        resource = provider.addResourceType(item, Scope.Subscription)
-                    }
-                }
+            if (schema.managementGroup_resourceDefinitions) {
+                const definitions = schema.managementGroup_resourceDefinitions
+                Object.keys(definitions).forEach(key => {
+                    const apiVersion = definitions[key].properties.apiVersion.enum[0]
 
-                const definitions = element.subscription_resourceDefinitions as Definition
-                const apiVersion = definitions[item].properties.apiVersion.enum[0]
+                    manifest.getResourceType(key)?.addApiVersion(apiVersion)
+                        ?? manifest.addResourceType(key, Scope.ManagementGroup, apiVersion)
+                })
+            }
 
-                resource.addApiVersion(apiVersion)
-            })
-        }
-        if (element.managementGroup_resourceDefinitions) {
-            Object.keys(element.managementGroup_resourceDefinitions).forEach(item => {
-                let resource = provider.getResourceType(item)
-                if (typeof resource === "undefined") {
-                    if (item.includes("_")) {
-                        resource = provider.addResourceType(item, Scope.Subscription)
-                    } else {
-                        resource = provider.addResourceType(item, Scope.ManagementGroup)
-                    }
-                }
+            if (schema.subscription_resourceDefinitions) {
+                const definitions = schema.subscription_resourceDefinitions
+                Object.keys(definitions).forEach(key => {
+                    const apiVersion = definitions[key].properties.apiVersion.enum[0]
 
-                const definitions = element.managementGroup_resourceDefinitions as Definition
-                const apiVersion = definitions[item].properties.apiVersion.enum[0]
+                    manifest.getResourceType(key)?.addApiVersion(apiVersion)
+                        ?? manifest.addResourceType(key, Scope.Subscription, apiVersion)
+                })
+            }
 
-                resource.addApiVersion(apiVersion)
-            })
-        }
-        if (element.tenant_resourceDefinitions) {
-            Object.keys(element.tenant_resourceDefinitions).forEach(item => {
-                let resource = provider.getResourceType(item)
-                if (typeof resource === "undefined") {
-                    if (item.includes("_")) {
-                        resource = provider.addResourceType(item, Scope.ManagementGroup)
-                    } else {
-                        resource = provider.addResourceType(item, Scope.Tenant)
-                    }
-                }
+            if (schema.resourceDefinitions) {
+                const definitions = schema.resourceDefinitions
+                Object.keys(definitions).forEach(key => {
+                    const apiVersion = definitions[key].properties.apiVersion.enum[0]
 
-                const definitions = element.tenant_resourceDefinitions as Definition
-                const apiVersion = definitions[item].properties.apiVersion.enum[0]
+                    manifest.getResourceType(key)?.addApiVersion(apiVersion)
+                        ?? manifest.addResourceType(key, Scope.ResourceGroup, apiVersion)
+                })
+            }
 
-                resource.addApiVersion(apiVersion)
-            })
-        }
-    });
+            if (schema.extension_resourceDefinitions) {
+                const definitions = schema.extension_resourceDefinitions
+                Object.keys(definitions).forEach(key => {
+                    const apiVersion = definitions[key].properties.apiVersion.enum[0]
 
-    manifest.sortResourceProvider()
+                    manifest.getResourceType(key)?.addApiVersion(apiVersion)
+                        ?? manifest.addResourceType(key, Scope.Resource, apiVersion)
+                })
+            }
 
-    utils.writeJsonFile("./gen/manifest.json", manifest)
+            if (schema.definitions) {
+                logger.debug("Skipping definitions: " + schema.title)
+                // FIX: Unsupported data structure
+                // NOTE: Throws unhandled expection for apiVersion enum
+                // const definitions = schema.definitions
+                // Object.keys(definitions).forEach(key => {
+                //     const apiVersion = definitions[key].properties.apiVersion.enum[0]
+
+                //     manifest.getResourceType(key)?.addApiVersion(apiVersion)
+                //         ?? manifest.addResourceType(key, Scope.Extension, apiVersion)
+                // })
+            }
+        })
+
+        manifest.sortResourceTypes()
+        utils.writeJsonFile("./gen/" + element.toLowerCase() + "/manifest.json", manifest)
+    })
 }
 
 generate()
