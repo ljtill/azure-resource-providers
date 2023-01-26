@@ -22,15 +22,6 @@ export type DefinitionObject = {
     description?: string;
 };
 
-enum Scope {
-    Tenant = "tenant",
-    ManagementGroup = "managementGroup",
-    Subscription = "subscription",
-    ResourceGroup = "resourceGroup",
-    Resource = "resource",
-    ExtensionResource = "extensionResource",
-}
-
 export function validateApiVersion(filePath: string): boolean {
     const apiVersion = filePath.split("/").reverse()[1]
     if (!apiVersion.match("[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]")) {
