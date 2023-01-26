@@ -1,0 +1,45 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Storagecache",
+    "resourceTypes": [
+        {
+            "name": "caches",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-11-01",
+                    "2020-03-01",
+                    "2020-10-01",
+                    "2021-03-01",
+                    "2021-05-01",
+                    "2021-09-01",
+                    "2022-01-01",
+                    "2022-05-01"
+                ],
+                "preview": [
+                    "2019-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "caches_storageTargets",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-11-01",
+                    "2020-03-01",
+                    "2020-10-01",
+                    "2021-03-01",
+                    "2021-05-01",
+                    "2021-09-01",
+                    "2022-01-01",
+                    "2022-05-01"
+                ],
+                "preview": [
+                    "2019-08-01-preview"
+                ]
+            }
+        }
+    ]
+}

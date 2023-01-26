@@ -1,0 +1,23 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Virtualmachineimages",
+    "resourceTypes": [
+        {
+            "name": "imageTemplates",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-02-14",
+                    "2021-10-01",
+                    "2022-02-14"
+                ],
+                "preview": [
+                    "2018-02-01-preview",
+                    "2019-02-01-preview",
+                    "2019-05-01-preview"
+                ]
+            }
+        }
+    ]
+}

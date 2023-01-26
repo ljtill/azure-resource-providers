@@ -1,0 +1,220 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Authorization",
+    "resourceTypes": [
+        {
+            "name": "accessReviewHistoryDefinitions",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-11-16-preview",
+                    "2021-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "accessReviewScheduleDefinitions",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2018-05-01-preview",
+                    "2021-03-01-preview",
+                    "2021-07-01-preview",
+                    "2021-11-16-preview",
+                    "2021-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "accessReviewScheduleDefinitions_instances",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-07-01-preview",
+                    "2021-11-16-preview",
+                    "2021-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "accessReviewScheduleSettings",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2018-05-01-preview",
+                    "2021-03-01-preview",
+                    "2021-07-01-preview",
+                    "2021-11-16-preview",
+                    "2021-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "locks",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [
+                    "2015-01-01",
+                    "2015-01-01",
+                    "2015-01-01",
+                    "2016-09-01",
+                    "2016-09-01",
+                    "2016-09-01",
+                    "2017-04-01",
+                    "2017-04-01",
+                    "2017-04-01",
+                    "2020-05-01",
+                    "2020-05-01",
+                    "2020-05-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "policydefinitions",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [
+                    "2016-04-01"
+                ],
+                "preview": [
+                    "2015-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "policyDefinitions",
+            "scope": "managementGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-12-01",
+                    "2016-12-01",
+                    "2018-03-01",
+                    "2018-03-01",
+                    "2018-05-01",
+                    "2018-05-01",
+                    "2019-01-01",
+                    "2019-01-01",
+                    "2019-06-01",
+                    "2019-06-01",
+                    "2019-09-01",
+                    "2019-09-01",
+                    "2020-03-01",
+                    "2020-03-01",
+                    "2020-09-01",
+                    "2020-09-01",
+                    "2021-06-01",
+                    "2021-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "policySetDefinitions",
+            "scope": "managementGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-03-01",
+                    "2018-03-01",
+                    "2018-05-01",
+                    "2018-05-01",
+                    "2019-01-01",
+                    "2019-01-01",
+                    "2019-06-01",
+                    "2019-06-01",
+                    "2019-09-01",
+                    "2019-09-01",
+                    "2020-03-01",
+                    "2020-03-01",
+                    "2020-09-01",
+                    "2020-09-01",
+                    "2021-06-01",
+                    "2021-06-01"
+                ],
+                "preview": [
+                    "2017-06-01-preview",
+                    "2017-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "privateLinkAssociations",
+            "scope": "managementGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-05-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "resourceManagementPrivateLinks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-05-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "roleAssignmentApprovals_stages",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "roleAssignments",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-09-01"
+                ],
+                "preview": [
+                    "2014-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "roleDefinitions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-09-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "variables",
+            "scope": "managementGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-08-01-preview",
+                    "2022-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "variables_values",
+            "scope": "managementGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-08-01-preview",
+                    "2022-08-01-preview"
+                ]
+            }
+        }
+    ]
+}

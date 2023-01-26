@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Engagementfabric",
+    "resourceTypes": [
+        {
+            "name": "Accounts",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2018-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "Accounts_Channels",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2018-09-01-preview"
+                ]
+            }
+        }
+    ]
+}

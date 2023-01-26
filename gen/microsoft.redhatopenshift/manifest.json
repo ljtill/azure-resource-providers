@@ -1,0 +1,61 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Redhatopenshift",
+    "resourceTypes": [
+        {
+            "name": "openShiftClusters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-04-30",
+                    "2022-04-01",
+                    "2022-09-04"
+                ],
+                "preview": [
+                    "2021-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "openshiftclusters_machinePool",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-09-04"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "openshiftclusters_secret",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-09-04"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "openshiftclusters_syncIdentityProvider",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-09-04"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "openshiftclusters_syncSet",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-09-04"
+                ],
+                "preview": []
+            }
+        }
+    ]
+}

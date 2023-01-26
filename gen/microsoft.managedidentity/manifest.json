@@ -1,0 +1,31 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Managedidentity",
+    "resourceTypes": [
+        {
+            "name": "userAssignedIdentities",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-11-30"
+                ],
+                "preview": [
+                    "2015-08-31-preview",
+                    "2021-09-30-preview",
+                    "2022-01-31-preview"
+                ]
+            }
+        },
+        {
+            "name": "userAssignedIdentities_federatedIdentityCredentials",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-01-31-preview"
+                ]
+            }
+        }
+    ]
+}

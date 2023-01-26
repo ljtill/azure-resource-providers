@@ -1,0 +1,135 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Keyvault",
+    "resourceTypes": [
+        {
+            "name": "managedHSMs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-10-01",
+                    "2022-07-01"
+                ],
+                "preview": [
+                    "2020-04-01-preview",
+                    "2021-04-01-preview",
+                    "2021-06-01-preview",
+                    "2021-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedHSMs_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-10-01",
+                    "2022-07-01"
+                ],
+                "preview": [
+                    "2021-04-01-preview",
+                    "2021-06-01-preview",
+                    "2021-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "vaults",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-06-01",
+                    "2016-10-01",
+                    "2018-02-14",
+                    "2019-09-01",
+                    "2021-10-01",
+                    "2022-07-01"
+                ],
+                "preview": [
+                    "2018-02-14-preview",
+                    "2020-04-01-preview",
+                    "2021-04-01-preview",
+                    "2021-06-01-preview",
+                    "2021-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "vaults_accessPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-10-01",
+                    "2018-02-14",
+                    "2019-09-01",
+                    "2021-10-01",
+                    "2022-07-01"
+                ],
+                "preview": [
+                    "2018-02-14-preview",
+                    "2020-04-01-preview",
+                    "2021-04-01-preview",
+                    "2021-06-01-preview",
+                    "2021-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "vaults_keys",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-09-01",
+                    "2021-10-01",
+                    "2022-07-01"
+                ],
+                "preview": [
+                    "2020-04-01-preview",
+                    "2021-04-01-preview",
+                    "2021-06-01-preview",
+                    "2021-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "vaults_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-02-14",
+                    "2019-09-01",
+                    "2021-10-01",
+                    "2022-07-01"
+                ],
+                "preview": [
+                    "2020-04-01-preview",
+                    "2021-04-01-preview",
+                    "2021-06-01-preview",
+                    "2021-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "vaults_secrets",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-06-01",
+                    "2016-10-01",
+                    "2018-02-14",
+                    "2019-09-01",
+                    "2021-10-01",
+                    "2022-07-01"
+                ],
+                "preview": [
+                    "2018-02-14-preview",
+                    "2020-04-01-preview",
+                    "2021-04-01-preview",
+                    "2021-06-01-preview",
+                    "2021-11-01-preview"
+                ]
+            }
+        }
+    ]
+}

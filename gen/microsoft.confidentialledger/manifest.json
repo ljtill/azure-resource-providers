@@ -1,0 +1,31 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Confidentialledger",
+    "resourceTypes": [
+        {
+            "name": "ledgers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-05-13"
+                ],
+                "preview": [
+                    "2020-12-01-preview",
+                    "2021-05-13-preview",
+                    "2022-09-08-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedCCFs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-09-08-preview"
+                ]
+            }
+        }
+    ]
+}

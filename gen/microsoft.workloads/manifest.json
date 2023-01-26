@@ -1,0 +1,87 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Workloads",
+    "resourceTypes": [
+        {
+            "name": "monitors",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "monitors_providerInstances",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "phpWorkloads",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "phpWorkloads_wordpressInstances",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "sapVirtualInstances",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "sapVirtualInstances_applicationInstances",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "sapVirtualInstances_centralInstances",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "sapVirtualInstances_databaseInstances",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-12-01-preview"
+                ]
+            }
+        }
+    ]
+}

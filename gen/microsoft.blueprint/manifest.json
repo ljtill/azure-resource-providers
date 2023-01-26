@@ -1,0 +1,47 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Blueprint",
+    "resourceTypes": [
+        {
+            "name": "blueprintAssignments",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2017-11-11-preview"
+                ]
+            }
+        },
+        {
+            "name": "blueprints",
+            "scope": "managementGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2017-11-11-preview"
+                ]
+            }
+        },
+        {
+            "name": "blueprints_artifacts",
+            "scope": "managementGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2017-11-11-preview"
+                ]
+            }
+        },
+        {
+            "name": "blueprints_versions",
+            "scope": "managementGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2017-11-11-preview"
+                ]
+            }
+        }
+    ]
+}

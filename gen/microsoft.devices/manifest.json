@@ -1,0 +1,185 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Devices",
+    "resourceTypes": [
+        {
+            "name": "IotHubs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-02-03",
+                    "2017-01-19",
+                    "2017-07-01",
+                    "2018-01-22",
+                    "2018-04-01",
+                    "2019-03-22",
+                    "2019-11-04",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-06-15",
+                    "2020-08-01",
+                    "2020-08-31",
+                    "2021-03-31",
+                    "2021-07-01",
+                    "2021-07-02"
+                ],
+                "preview": [
+                    "2018-12-01-preview",
+                    "2019-03-22-preview",
+                    "2019-07-01-preview",
+                    "2020-07-10-preview",
+                    "2020-08-31-preview",
+                    "2021-02-01-preview",
+                    "2021-03-03-preview",
+                    "2021-07-01-preview",
+                    "2021-07-02-preview",
+                    "2022-04-30-preview"
+                ]
+            }
+        },
+        {
+            "name": "IotHubs_certificates",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-07-01",
+                    "2018-01-22",
+                    "2018-04-01",
+                    "2019-03-22",
+                    "2019-11-04",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-06-15",
+                    "2020-08-01",
+                    "2020-08-31",
+                    "2021-03-31",
+                    "2021-07-01",
+                    "2021-07-02"
+                ],
+                "preview": [
+                    "2018-12-01-preview",
+                    "2019-03-22-preview",
+                    "2019-07-01-preview",
+                    "2020-07-10-preview",
+                    "2020-08-31-preview",
+                    "2021-02-01-preview",
+                    "2021-03-03-preview",
+                    "2021-07-01-preview",
+                    "2021-07-02-preview",
+                    "2022-04-30-preview"
+                ]
+            }
+        },
+        {
+            "name": "IotHubs_eventHubEndpoints_ConsumerGroups",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-02-03",
+                    "2017-01-19",
+                    "2017-07-01",
+                    "2018-01-22",
+                    "2018-04-01",
+                    "2019-03-22",
+                    "2019-11-04",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-06-15",
+                    "2020-08-01",
+                    "2020-08-31",
+                    "2021-03-31",
+                    "2021-07-01",
+                    "2021-07-02"
+                ],
+                "preview": [
+                    "2018-12-01-preview",
+                    "2019-03-22-preview",
+                    "2019-07-01-preview",
+                    "2020-07-10-preview",
+                    "2020-08-31-preview",
+                    "2021-02-01-preview",
+                    "2021-03-03-preview",
+                    "2021-07-01-preview",
+                    "2021-07-02-preview",
+                    "2022-04-30-preview"
+                ]
+            }
+        },
+        {
+            "name": "iotHubs_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-06-15",
+                    "2020-08-01",
+                    "2020-08-31",
+                    "2021-03-31",
+                    "2021-07-01",
+                    "2021-07-02"
+                ],
+                "preview": [
+                    "2020-07-10-preview",
+                    "2020-08-31-preview",
+                    "2021-02-01-preview",
+                    "2021-03-03-preview",
+                    "2021-07-01-preview",
+                    "2021-07-02-preview",
+                    "2022-04-30-preview"
+                ]
+            }
+        },
+        {
+            "name": "provisioningServices",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-11-15",
+                    "2018-01-22",
+                    "2020-01-01",
+                    "2020-03-01",
+                    "2021-10-15",
+                    "2022-02-05"
+                ],
+                "preview": [
+                    "2017-08-21-preview",
+                    "2020-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "provisioningServices_certificates",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-11-15",
+                    "2018-01-22",
+                    "2020-01-01",
+                    "2020-03-01",
+                    "2021-10-15",
+                    "2022-02-05"
+                ],
+                "preview": [
+                    "2017-08-21-preview",
+                    "2020-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "provisioningServices_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-03-01",
+                    "2021-10-15",
+                    "2022-02-05"
+                ],
+                "preview": [
+                    "2020-09-01-preview"
+                ]
+            }
+        }
+    ]
+}

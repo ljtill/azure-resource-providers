@@ -1,0 +1,114 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Hybridcompute",
+    "resourceTypes": [
+        {
+            "name": "machines",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-12-12",
+                    "2020-08-02",
+                    "2021-05-20",
+                    "2022-03-10",
+                    "2022-11-10"
+                ],
+                "preview": [
+                    "2019-03-18-preview",
+                    "2019-08-02-preview",
+                    "2020-07-30-preview",
+                    "2020-08-15-preview",
+                    "2021-01-28-preview",
+                    "2021-03-25-preview",
+                    "2021-04-22-preview",
+                    "2021-05-17-preview",
+                    "2021-06-10-preview",
+                    "2021-12-10-preview",
+                    "2022-05-10-preview",
+                    "2022-08-11-preview"
+                ]
+            }
+        },
+        {
+            "name": "machines_extensions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-12-12",
+                    "2020-08-02",
+                    "2021-05-20",
+                    "2022-03-10",
+                    "2022-11-10"
+                ],
+                "preview": [
+                    "2019-08-02-preview",
+                    "2020-07-30-preview",
+                    "2020-08-15-preview",
+                    "2021-01-28-preview",
+                    "2021-03-25-preview",
+                    "2021-04-22-preview",
+                    "2021-05-17-preview",
+                    "2021-06-10-preview",
+                    "2021-12-10-preview",
+                    "2022-05-10-preview",
+                    "2022-08-11-preview"
+                ]
+            }
+        },
+        {
+            "name": "privateLinkScopes",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-05-20",
+                    "2022-03-10",
+                    "2022-11-10"
+                ],
+                "preview": [
+                    "2020-08-15-preview",
+                    "2021-01-28-preview",
+                    "2021-03-25-preview",
+                    "2021-04-22-preview",
+                    "2021-05-17-preview",
+                    "2021-06-10-preview",
+                    "2021-12-10-preview",
+                    "2022-05-10-preview",
+                    "2022-08-11-preview"
+                ]
+            }
+        },
+        {
+            "name": "privateLinkScopes_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-05-20",
+                    "2022-03-10",
+                    "2022-11-10"
+                ],
+                "preview": [
+                    "2020-08-15-preview",
+                    "2021-01-28-preview",
+                    "2021-03-25-preview",
+                    "2021-04-22-preview",
+                    "2021-05-17-preview",
+                    "2021-06-10-preview",
+                    "2021-12-10-preview",
+                    "2022-05-10-preview",
+                    "2022-08-11-preview"
+                ]
+            }
+        },
+        {
+            "name": "privateLinkScopes_scopedResources",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-08-15-preview"
+                ]
+            }
+        }
+    ]
+}

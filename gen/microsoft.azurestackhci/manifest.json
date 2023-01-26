@@ -1,0 +1,201 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Azurestackhci",
+    "resourceTypes": [
+        {
+            "name": "clusters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-10-01",
+                    "2021-09-01",
+                    "2022-01-01",
+                    "2022-03-01",
+                    "2022-05-01",
+                    "2022-09-01",
+                    "2022-10-01",
+                    "2022-12-01"
+                ],
+                "preview": [
+                    "2020-03-01-preview",
+                    "2021-01-01-preview",
+                    "2021-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "clusters_arcSettings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-09-01",
+                    "2022-01-01",
+                    "2022-03-01",
+                    "2022-05-01",
+                    "2022-09-01",
+                    "2022-10-01",
+                    "2022-12-01"
+                ],
+                "preview": [
+                    "2021-01-01-preview",
+                    "2021-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "clusters_arcSettings_extensions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-09-01",
+                    "2022-01-01",
+                    "2022-03-01",
+                    "2022-05-01",
+                    "2022-09-01",
+                    "2022-10-01",
+                    "2022-12-01"
+                ],
+                "preview": [
+                    "2021-01-01-preview",
+                    "2021-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "clusters_updates",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "clusters_updates_updateRuns",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "clusters_updateSummaries",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "galleryimages",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-07-01-preview",
+                    "2021-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "marketplacegalleryimages",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "networkinterfaces",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-07-01-preview",
+                    "2021-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "storagecontainers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "virtualharddisks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-07-01-preview",
+                    "2021-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "virtualmachines",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-07-01-preview",
+                    "2021-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "virtualMachines_extensions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "virtualMachines_guestAgents",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "virtualMachines_hybridIdentityMetadata",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "virtualnetworks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-07-01-preview",
+                    "2021-09-01-preview"
+                ]
+            }
+        }
+    ]
+}

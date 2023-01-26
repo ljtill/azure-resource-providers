@@ -1,0 +1,151 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Operationalinsights",
+    "resourceTypes": [
+        {
+            "name": "clusters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-08-01",
+                    "2020-10-01",
+                    "2021-06-01"
+                ],
+                "preview": [
+                    "2019-08-01-preview",
+                    "2020-03-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "queryPacks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-09-01"
+                ],
+                "preview": [
+                    "2019-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "queryPacks_queries",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-09-01"
+                ],
+                "preview": [
+                    "2019-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-08-01",
+                    "2020-10-01",
+                    "2021-06-01"
+                ],
+                "preview": [
+                    "2015-11-01-preview",
+                    "2020-03-01-preview",
+                    "2021-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_dataExports",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-08-01"
+                ],
+                "preview": [
+                    "2019-08-01-preview",
+                    "2020-03-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_dataSources",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-08-01"
+                ],
+                "preview": [
+                    "2015-11-01-preview",
+                    "2020-03-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_linkedServices",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-08-01"
+                ],
+                "preview": [
+                    "2015-11-01-preview",
+                    "2019-08-01-preview",
+                    "2020-03-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_linkedStorageAccounts",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-08-01"
+                ],
+                "preview": [
+                    "2019-08-01-preview",
+                    "2020-03-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_savedSearches",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-03-20",
+                    "2020-08-01"
+                ],
+                "preview": [
+                    "2020-03-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_storageInsightConfigs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-03-20",
+                    "2020-08-01"
+                ],
+                "preview": [
+                    "2020-03-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_tables",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-12-01-preview"
+                ]
+            }
+        }
+    ]
+}

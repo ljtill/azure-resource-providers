@@ -1,0 +1,37 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Vmwarecloudsimple",
+    "resourceTypes": [
+        {
+            "name": "dedicatedCloudNodes",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-04-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "dedicatedCloudServices",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-04-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "virtualMachines",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-04-01"
+                ],
+                "preview": []
+            }
+        }
+    ]
+}

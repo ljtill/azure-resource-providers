@@ -1,0 +1,54 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Databricks",
+    "resourceTypes": [
+        {
+            "name": "accessConnectors",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-04-01"
+                ],
+                "preview": [
+                    "2021-04-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-04-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_virtualNetworkPeerings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-04-01"
+                ],
+                "preview": [
+                    "2021-04-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        }
+    ]
+}

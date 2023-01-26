@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Education",
+    "resourceTypes": [
+        {
+            "name": "labs",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "labs_students",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-12-01-preview"
+                ]
+            }
+        }
+    ]
+}

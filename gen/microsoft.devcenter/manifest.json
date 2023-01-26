@@ -1,0 +1,150 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Devcenter",
+    "resourceTypes": [
+        {
+            "name": "devcenters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-08-01-preview",
+                    "2022-09-01-preview",
+                    "2022-10-12-preview",
+                    "2022-11-11-preview"
+                ]
+            }
+        },
+        {
+            "name": "devcenters_attachednetworks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-08-01-preview",
+                    "2022-09-01-preview",
+                    "2022-10-12-preview",
+                    "2022-11-11-preview"
+                ]
+            }
+        },
+        {
+            "name": "devcenters_catalogs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-08-01-preview",
+                    "2022-09-01-preview",
+                    "2022-10-12-preview",
+                    "2022-11-11-preview"
+                ]
+            }
+        },
+        {
+            "name": "devcenters_devboxdefinitions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-08-01-preview",
+                    "2022-09-01-preview",
+                    "2022-10-12-preview",
+                    "2022-11-11-preview"
+                ]
+            }
+        },
+        {
+            "name": "devcenters_environmentTypes",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-08-01-preview",
+                    "2022-09-01-preview",
+                    "2022-10-12-preview",
+                    "2022-11-11-preview"
+                ]
+            }
+        },
+        {
+            "name": "devcenters_galleries",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-08-01-preview",
+                    "2022-09-01-preview",
+                    "2022-10-12-preview",
+                    "2022-11-11-preview"
+                ]
+            }
+        },
+        {
+            "name": "networkConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-08-01-preview",
+                    "2022-09-01-preview",
+                    "2022-10-12-preview",
+                    "2022-11-11-preview"
+                ]
+            }
+        },
+        {
+            "name": "projects",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-08-01-preview",
+                    "2022-09-01-preview",
+                    "2022-10-12-preview",
+                    "2022-11-11-preview"
+                ]
+            }
+        },
+        {
+            "name": "projects_environmentTypes",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-08-01-preview",
+                    "2022-09-01-preview",
+                    "2022-10-12-preview",
+                    "2022-11-11-preview"
+                ]
+            }
+        },
+        {
+            "name": "projects_pools",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-08-01-preview",
+                    "2022-09-01-preview",
+                    "2022-10-12-preview",
+                    "2022-11-11-preview"
+                ]
+            }
+        },
+        {
+            "name": "projects_pools_schedules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-08-01-preview",
+                    "2022-09-01-preview",
+                    "2022-10-12-preview",
+                    "2022-11-11-preview"
+                ]
+            }
+        }
+    ]
+}

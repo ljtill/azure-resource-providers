@@ -1,0 +1,90 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Botservice",
+    "resourceTypes": [
+        {
+            "name": "botServices",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-12-01",
+                    "2018-07-12",
+                    "2020-06-02",
+                    "2021-03-01",
+                    "2022-09-15"
+                ],
+                "preview": [
+                    "2021-05-01-preview",
+                    "2022-06-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "botServices_channels",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-12-01",
+                    "2018-07-12",
+                    "2020-06-02",
+                    "2021-03-01",
+                    "2022-09-15"
+                ],
+                "preview": [
+                    "2021-05-01-preview",
+                    "2022-06-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "botServices_connections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-06-02",
+                    "2021-03-01",
+                    "2022-09-15"
+                ],
+                "preview": [
+                    "2021-05-01-preview",
+                    "2022-06-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "botServices_Connections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-12-01",
+                    "2018-07-12"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "botServices_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-09-15"
+                ],
+                "preview": [
+                    "2021-05-01-preview",
+                    "2022-06-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "enterpriseChannels",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-07-12"
+                ],
+                "preview": []
+            }
+        }
+    ]
+}

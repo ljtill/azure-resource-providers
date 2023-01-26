@@ -1,0 +1,26 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Fluidrelay",
+    "resourceTypes": [
+        {
+            "name": "fluidRelayServers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-02-15",
+                    "2022-04-21",
+                    "2022-05-11",
+                    "2022-05-26",
+                    "2022-06-01"
+                ],
+                "preview": [
+                    "2021-03-12-preview",
+                    "2021-06-15-preview",
+                    "2021-08-30-preview",
+                    "2021-09-10-preview"
+                ]
+            }
+        }
+    ]
+}

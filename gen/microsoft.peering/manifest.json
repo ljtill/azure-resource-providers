@@ -1,0 +1,136 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Peering",
+    "resourceTypes": [
+        {
+            "name": "peerAsns",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [
+                    "2020-04-01",
+                    "2020-10-01",
+                    "2021-01-01",
+                    "2021-06-01",
+                    "2022-01-01",
+                    "2022-06-01",
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2019-08-01-preview",
+                    "2019-09-01-preview",
+                    "2020-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "peerings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-04-01",
+                    "2020-10-01",
+                    "2021-01-01",
+                    "2021-06-01",
+                    "2022-01-01",
+                    "2022-06-01",
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2019-08-01-preview",
+                    "2019-09-01-preview",
+                    "2020-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "peerings_registeredAsns",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-04-01",
+                    "2020-10-01",
+                    "2021-01-01",
+                    "2021-06-01",
+                    "2022-01-01",
+                    "2022-06-01",
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2020-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "peerings_registeredPrefixes",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-04-01",
+                    "2020-10-01",
+                    "2021-01-01",
+                    "2021-06-01",
+                    "2022-01-01",
+                    "2022-06-01",
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2020-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "peeringServices",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-04-01",
+                    "2020-10-01",
+                    "2021-01-01",
+                    "2021-06-01",
+                    "2022-01-01",
+                    "2022-06-01",
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2019-08-01-preview",
+                    "2019-09-01-preview",
+                    "2020-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "peeringServices_connectionMonitorTests",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-06-01",
+                    "2022-01-01",
+                    "2022-06-01",
+                    "2022-10-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "peeringServices_prefixes",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-04-01",
+                    "2020-10-01",
+                    "2021-01-01",
+                    "2021-06-01",
+                    "2022-01-01",
+                    "2022-06-01",
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2019-08-01-preview",
+                    "2019-09-01-preview",
+                    "2020-01-01-preview"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Blockchain",
+    "resourceTypes": [
+        {
+            "name": "blockchainMembers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2018-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "blockchainMembers_transactionNodes",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2018-06-01-preview"
+                ]
+            }
+        }
+    ]
+}

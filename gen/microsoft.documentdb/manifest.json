@@ -1,0 +1,1187 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Documentdb",
+    "resourceTypes": [
+        {
+            "name": "cassandraClusters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-10-15",
+                    "2022-05-15",
+                    "2022-08-15"
+                ],
+                "preview": [
+                    "2021-03-01-preview",
+                    "2021-04-01-preview",
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "cassandraClusters_dataCenters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-10-15",
+                    "2022-05-15",
+                    "2022-08-15"
+                ],
+                "preview": [
+                    "2021-03-01-preview",
+                    "2021-04-01-preview",
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-04-01",
+                    "2015-04-08",
+                    "2015-11-06",
+                    "2016-03-19",
+                    "2016-03-31",
+                    "2019-08-01",
+                    "2019-12-12",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-09-01",
+                    "2021-01-15",
+                    "2021-03-15",
+                    "2021-04-15",
+                    "2021-05-15",
+                    "2021-06-15",
+                    "2021-10-15",
+                    "2022-05-15",
+                    "2022-08-15"
+                ],
+                "preview": [
+                    "2020-06-01-preview",
+                    "2021-03-01-preview",
+                    "2021-04-01-preview",
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_apis_databases",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-04-01",
+                    "2015-04-08",
+                    "2015-11-06",
+                    "2016-03-19",
+                    "2016-03-31"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "databaseAccounts_apis_databases_collections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-04-01",
+                    "2015-04-08",
+                    "2015-11-06",
+                    "2016-03-19",
+                    "2016-03-31"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "databaseAccounts_apis_databases_collections_settings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-04-01",
+                    "2015-04-08",
+                    "2015-11-06",
+                    "2016-03-19",
+                    "2016-03-31"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "databaseAccounts_apis_databases_containers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-04-01",
+                    "2015-04-08",
+                    "2015-11-06",
+                    "2016-03-19",
+                    "2016-03-31"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "databaseAccounts_apis_databases_containers_settings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-04-01",
+                    "2015-04-08",
+                    "2015-11-06",
+                    "2016-03-19",
+                    "2016-03-31"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "databaseAccounts_apis_databases_graphs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-04-01",
+                    "2015-04-08",
+                    "2015-11-06",
+                    "2016-03-19",
+                    "2016-03-31"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "databaseAccounts_apis_databases_graphs_settings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-04-01",
+                    "2015-04-08",
+                    "2015-11-06",
+                    "2016-03-19",
+                    "2016-03-31"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "databaseAccounts_apis_databases_settings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-04-01",
+                    "2015-04-08",
+                    "2015-11-06",
+                    "2016-03-19",
+                    "2016-03-31"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "databaseAccounts_apis_keyspaces",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-04-01",
+                    "2015-04-08",
+                    "2015-11-06",
+                    "2016-03-19",
+                    "2016-03-31"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "databaseAccounts_apis_keyspaces_settings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-04-01",
+                    "2015-04-08",
+                    "2015-11-06",
+                    "2016-03-19",
+                    "2016-03-31"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "databaseAccounts_apis_keyspaces_tables",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-04-01",
+                    "2015-04-08",
+                    "2015-11-06",
+                    "2016-03-19",
+                    "2016-03-31"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "databaseAccounts_apis_keyspaces_tables_settings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-04-01",
+                    "2015-04-08",
+                    "2015-11-06",
+                    "2016-03-19",
+                    "2016-03-31"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "databaseAccounts_apis_tables",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-04-01",
+                    "2015-04-08",
+                    "2015-11-06",
+                    "2016-03-19",
+                    "2016-03-31"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "databaseAccounts_apis_tables_settings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-04-01",
+                    "2015-04-08",
+                    "2015-11-06",
+                    "2016-03-19",
+                    "2016-03-31"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "databaseAccounts_cassandraKeyspaces",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-08-01",
+                    "2019-12-12",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-09-01",
+                    "2021-01-15",
+                    "2021-03-15",
+                    "2021-04-15",
+                    "2021-05-15",
+                    "2021-06-15",
+                    "2021-10-15",
+                    "2022-05-15",
+                    "2022-08-15"
+                ],
+                "preview": [
+                    "2020-06-01-preview",
+                    "2021-03-01-preview",
+                    "2021-04-01-preview",
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_cassandraKeyspaces_tables",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-08-01",
+                    "2019-12-12",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-09-01",
+                    "2021-01-15",
+                    "2021-03-15",
+                    "2021-04-15",
+                    "2021-05-15",
+                    "2021-06-15",
+                    "2021-10-15",
+                    "2022-05-15",
+                    "2022-08-15"
+                ],
+                "preview": [
+                    "2020-06-01-preview",
+                    "2021-03-01-preview",
+                    "2021-04-01-preview",
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_cassandraKeyspaces_tables_throughputSettings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-08-01",
+                    "2019-12-12",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-09-01",
+                    "2021-01-15",
+                    "2021-03-15",
+                    "2021-04-15",
+                    "2021-05-15",
+                    "2021-06-15",
+                    "2021-10-15",
+                    "2022-05-15",
+                    "2022-08-15"
+                ],
+                "preview": [
+                    "2020-06-01-preview",
+                    "2021-03-01-preview",
+                    "2021-04-01-preview",
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_cassandraKeyspaces_throughputSettings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-08-01",
+                    "2019-12-12",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-09-01",
+                    "2021-01-15",
+                    "2021-03-15",
+                    "2021-04-15",
+                    "2021-05-15",
+                    "2021-06-15",
+                    "2021-10-15",
+                    "2022-05-15",
+                    "2022-08-15"
+                ],
+                "preview": [
+                    "2020-06-01-preview",
+                    "2021-03-01-preview",
+                    "2021-04-01-preview",
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_cassandraKeyspaces_views",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_cassandraKeyspaces_views_throughputSettings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_dataTransferJobs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_graphs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_gremlinDatabases",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-08-01",
+                    "2019-12-12",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-09-01",
+                    "2021-01-15",
+                    "2021-03-15",
+                    "2021-04-15",
+                    "2021-05-15",
+                    "2021-06-15",
+                    "2021-10-15",
+                    "2022-05-15",
+                    "2022-08-15"
+                ],
+                "preview": [
+                    "2020-06-01-preview",
+                    "2021-03-01-preview",
+                    "2021-04-01-preview",
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_gremlinDatabases_graphs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-08-01",
+                    "2019-12-12",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-09-01",
+                    "2021-01-15",
+                    "2021-03-15",
+                    "2021-04-15",
+                    "2021-05-15",
+                    "2021-06-15",
+                    "2021-10-15",
+                    "2022-05-15",
+                    "2022-08-15"
+                ],
+                "preview": [
+                    "2020-06-01-preview",
+                    "2021-03-01-preview",
+                    "2021-04-01-preview",
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_gremlinDatabases_graphs_throughputSettings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-08-01",
+                    "2019-12-12",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-09-01",
+                    "2021-01-15",
+                    "2021-03-15",
+                    "2021-04-15",
+                    "2021-05-15",
+                    "2021-06-15",
+                    "2021-10-15",
+                    "2022-05-15",
+                    "2022-08-15"
+                ],
+                "preview": [
+                    "2020-06-01-preview",
+                    "2021-03-01-preview",
+                    "2021-04-01-preview",
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_gremlinDatabases_throughputSettings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-08-01",
+                    "2019-12-12",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-09-01",
+                    "2021-01-15",
+                    "2021-03-15",
+                    "2021-04-15",
+                    "2021-05-15",
+                    "2021-06-15",
+                    "2021-10-15",
+                    "2022-05-15",
+                    "2022-08-15"
+                ],
+                "preview": [
+                    "2020-06-01-preview",
+                    "2021-03-01-preview",
+                    "2021-04-01-preview",
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_mongodbDatabases",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-08-01",
+                    "2019-12-12",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-09-01",
+                    "2021-01-15",
+                    "2021-03-15",
+                    "2021-04-15",
+                    "2021-05-15",
+                    "2021-06-15",
+                    "2021-10-15",
+                    "2022-05-15",
+                    "2022-08-15"
+                ],
+                "preview": [
+                    "2020-06-01-preview",
+                    "2021-03-01-preview",
+                    "2021-04-01-preview",
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_mongodbDatabases_collections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-08-01",
+                    "2019-12-12",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-09-01",
+                    "2021-01-15",
+                    "2021-03-15",
+                    "2021-04-15",
+                    "2021-05-15",
+                    "2021-06-15",
+                    "2021-10-15",
+                    "2022-05-15",
+                    "2022-08-15"
+                ],
+                "preview": [
+                    "2020-06-01-preview",
+                    "2021-03-01-preview",
+                    "2021-04-01-preview",
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_mongodbDatabases_collections_throughputSettings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-08-01",
+                    "2019-12-12",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-09-01",
+                    "2021-01-15",
+                    "2021-03-15",
+                    "2021-04-15",
+                    "2021-05-15",
+                    "2021-06-15",
+                    "2021-10-15",
+                    "2022-05-15",
+                    "2022-08-15"
+                ],
+                "preview": [
+                    "2020-06-01-preview",
+                    "2021-03-01-preview",
+                    "2021-04-01-preview",
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_mongodbDatabases_throughputSettings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-08-01",
+                    "2019-12-12",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-09-01",
+                    "2021-01-15",
+                    "2021-03-15",
+                    "2021-04-15",
+                    "2021-05-15",
+                    "2021-06-15",
+                    "2021-10-15",
+                    "2022-05-15",
+                    "2022-08-15"
+                ],
+                "preview": [
+                    "2020-06-01-preview",
+                    "2021-03-01-preview",
+                    "2021-04-01-preview",
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_mongodbRoleDefinitions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-08-15"
+                ],
+                "preview": [
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_mongodbUserDefinitions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-08-15"
+                ],
+                "preview": [
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_notebookWorkspaces",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-08-01",
+                    "2019-12-12",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-09-01",
+                    "2021-01-15",
+                    "2021-03-15",
+                    "2021-04-15",
+                    "2021-05-15",
+                    "2021-06-15",
+                    "2021-10-15",
+                    "2022-05-15",
+                    "2022-08-15"
+                ],
+                "preview": [
+                    "2020-06-01-preview",
+                    "2021-03-01-preview",
+                    "2021-04-01-preview",
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-01-15",
+                    "2021-03-15",
+                    "2021-04-15",
+                    "2021-05-15",
+                    "2021-06-15",
+                    "2021-10-15",
+                    "2022-05-15",
+                    "2022-08-15"
+                ],
+                "preview": [
+                    "2019-08-01-preview",
+                    "2021-03-01-preview",
+                    "2021-04-01-preview",
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_services",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-05-15",
+                    "2022-08-15"
+                ],
+                "preview": [
+                    "2021-04-01-preview",
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_sqlDatabases",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-08-01",
+                    "2019-12-12",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-09-01",
+                    "2021-01-15",
+                    "2021-03-15",
+                    "2021-04-15",
+                    "2021-05-15",
+                    "2021-06-15",
+                    "2021-10-15",
+                    "2022-05-15",
+                    "2022-08-15"
+                ],
+                "preview": [
+                    "2020-06-01-preview",
+                    "2021-03-01-preview",
+                    "2021-04-01-preview",
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_sqlDatabases_clientEncryptionKeys",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_sqlDatabases_containers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-08-01",
+                    "2019-12-12",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-09-01",
+                    "2021-01-15",
+                    "2021-03-15",
+                    "2021-04-15",
+                    "2021-05-15",
+                    "2021-06-15",
+                    "2021-10-15",
+                    "2022-05-15",
+                    "2022-08-15"
+                ],
+                "preview": [
+                    "2020-06-01-preview",
+                    "2021-03-01-preview",
+                    "2021-04-01-preview",
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_sqlDatabases_containers_storedProcedures",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-08-01",
+                    "2019-12-12",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-09-01",
+                    "2021-01-15",
+                    "2021-03-15",
+                    "2021-04-15",
+                    "2021-05-15",
+                    "2021-06-15",
+                    "2021-10-15",
+                    "2022-05-15",
+                    "2022-08-15"
+                ],
+                "preview": [
+                    "2020-06-01-preview",
+                    "2021-03-01-preview",
+                    "2021-04-01-preview",
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_sqlDatabases_containers_throughputSettings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-08-01",
+                    "2019-12-12",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-09-01",
+                    "2021-01-15",
+                    "2021-03-15",
+                    "2021-04-15",
+                    "2021-05-15",
+                    "2021-06-15",
+                    "2021-10-15",
+                    "2022-05-15",
+                    "2022-08-15"
+                ],
+                "preview": [
+                    "2020-06-01-preview",
+                    "2021-03-01-preview",
+                    "2021-04-01-preview",
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_sqlDatabases_containers_triggers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-08-01",
+                    "2019-12-12",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-09-01",
+                    "2021-01-15",
+                    "2021-03-15",
+                    "2021-04-15",
+                    "2021-05-15",
+                    "2021-06-15",
+                    "2021-10-15",
+                    "2022-05-15",
+                    "2022-08-15"
+                ],
+                "preview": [
+                    "2020-06-01-preview",
+                    "2021-03-01-preview",
+                    "2021-04-01-preview",
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_sqlDatabases_containers_userDefinedFunctions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-08-01",
+                    "2019-12-12",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-09-01",
+                    "2021-01-15",
+                    "2021-03-15",
+                    "2021-04-15",
+                    "2021-05-15",
+                    "2021-06-15",
+                    "2021-10-15",
+                    "2022-05-15",
+                    "2022-08-15"
+                ],
+                "preview": [
+                    "2020-06-01-preview",
+                    "2021-03-01-preview",
+                    "2021-04-01-preview",
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_sqlDatabases_throughputSettings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-08-01",
+                    "2019-12-12",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-09-01",
+                    "2021-01-15",
+                    "2021-03-15",
+                    "2021-04-15",
+                    "2021-05-15",
+                    "2021-06-15",
+                    "2021-10-15",
+                    "2022-05-15",
+                    "2022-08-15"
+                ],
+                "preview": [
+                    "2020-06-01-preview",
+                    "2021-03-01-preview",
+                    "2021-04-01-preview",
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_sqlRoleAssignments",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-04-15",
+                    "2021-05-15",
+                    "2021-06-15",
+                    "2021-10-15",
+                    "2022-05-15",
+                    "2022-08-15"
+                ],
+                "preview": [
+                    "2020-06-01-preview",
+                    "2021-03-01-preview",
+                    "2021-04-01-preview",
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_sqlRoleDefinitions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-04-15",
+                    "2021-05-15",
+                    "2021-06-15",
+                    "2021-10-15",
+                    "2022-05-15",
+                    "2022-08-15"
+                ],
+                "preview": [
+                    "2020-06-01-preview",
+                    "2021-03-01-preview",
+                    "2021-04-01-preview",
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_tables",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-08-01",
+                    "2019-12-12",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-09-01",
+                    "2021-01-15",
+                    "2021-03-15",
+                    "2021-04-15",
+                    "2021-05-15",
+                    "2021-06-15",
+                    "2021-10-15",
+                    "2022-05-15",
+                    "2022-08-15"
+                ],
+                "preview": [
+                    "2020-06-01-preview",
+                    "2021-03-01-preview",
+                    "2021-04-01-preview",
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "databaseAccounts_tables_throughputSettings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-08-01",
+                    "2019-12-12",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-09-01",
+                    "2021-01-15",
+                    "2021-03-15",
+                    "2021-04-15",
+                    "2021-05-15",
+                    "2021-06-15",
+                    "2021-10-15",
+                    "2022-05-15",
+                    "2022-08-15"
+                ],
+                "preview": [
+                    "2020-06-01-preview",
+                    "2021-03-01-preview",
+                    "2021-04-01-preview",
+                    "2021-07-01-preview",
+                    "2021-10-15-preview",
+                    "2021-11-15-preview",
+                    "2022-02-15-preview",
+                    "2022-05-15-preview",
+                    "2022-08-15-preview"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Loadtestservice",
+    "resourceTypes": [
+        {
+            "name": "loadTests",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-12-01"
+                ],
+                "preview": [
+                    "2021-12-01-preview",
+                    "2022-04-15-preview"
+                ]
+            }
+        }
+    ]
+}

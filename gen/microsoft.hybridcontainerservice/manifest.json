@@ -1,0 +1,57 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Hybridcontainerservice",
+    "resourceTypes": [
+        {
+            "name": "provisionedClusters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "provisionedClusters_agentPools",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "provisionedClusters_hybridIdentityMetadata",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "storageSpaces",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "virtualNetworks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-05-01-preview"
+                ]
+            }
+        }
+    ]
+}

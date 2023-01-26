@@ -1,0 +1,266 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Cdn",
+    "resourceTypes": [
+        {
+            "name": "cdnWebApplicationFirewallPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-06-01"
+                ],
+                "preview": [
+                    "2022-05-01-preview",
+                    "2022-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "CdnWebApplicationFirewallPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-06-15",
+                    "2020-04-15",
+                    "2020-09-01"
+                ],
+                "preview": [
+                    "2019-06-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "profiles",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-06-01",
+                    "2016-04-02",
+                    "2016-10-02",
+                    "2017-04-02",
+                    "2017-10-12",
+                    "2019-04-15",
+                    "2019-06-15",
+                    "2019-12-31",
+                    "2020-04-15",
+                    "2020-09-01",
+                    "2021-06-01"
+                ],
+                "preview": [
+                    "2019-06-15-preview",
+                    "2022-05-01-preview",
+                    "2022-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "profiles_afdEndpoints",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-09-01",
+                    "2021-06-01"
+                ],
+                "preview": [
+                    "2022-05-01-preview",
+                    "2022-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "profiles_afdEndpoints_routes",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-09-01",
+                    "2021-06-01"
+                ],
+                "preview": [
+                    "2022-05-01-preview",
+                    "2022-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "profiles_customDomains",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-09-01",
+                    "2021-06-01"
+                ],
+                "preview": [
+                    "2022-05-01-preview",
+                    "2022-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "profiles_endpoints",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-06-01",
+                    "2016-04-02",
+                    "2016-10-02",
+                    "2017-04-02",
+                    "2017-10-12",
+                    "2019-04-15",
+                    "2019-06-15",
+                    "2019-12-31",
+                    "2020-04-15",
+                    "2020-09-01",
+                    "2021-06-01"
+                ],
+                "preview": [
+                    "2019-06-15-preview",
+                    "2022-05-01-preview",
+                    "2022-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "profiles_endpoints_customDomains",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-06-01",
+                    "2016-04-02",
+                    "2016-10-02",
+                    "2017-04-02",
+                    "2017-10-12",
+                    "2019-04-15",
+                    "2019-06-15",
+                    "2019-12-31",
+                    "2020-04-15",
+                    "2020-09-01",
+                    "2021-06-01"
+                ],
+                "preview": [
+                    "2019-06-15-preview",
+                    "2022-05-01-preview",
+                    "2022-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "profiles_endpoints_originGroups",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-12-31",
+                    "2020-04-15",
+                    "2020-09-01",
+                    "2021-06-01"
+                ],
+                "preview": [
+                    "2022-05-01-preview",
+                    "2022-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "profiles_endpoints_origins",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-06-01",
+                    "2016-04-02",
+                    "2019-12-31",
+                    "2020-04-15",
+                    "2020-09-01",
+                    "2021-06-01"
+                ],
+                "preview": [
+                    "2022-05-01-preview",
+                    "2022-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "profiles_originGroups",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-09-01",
+                    "2021-06-01"
+                ],
+                "preview": [
+                    "2022-05-01-preview",
+                    "2022-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "profiles_originGroups_origins",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-09-01",
+                    "2021-06-01"
+                ],
+                "preview": [
+                    "2022-05-01-preview",
+                    "2022-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "profiles_ruleSets",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-09-01",
+                    "2021-06-01"
+                ],
+                "preview": [
+                    "2022-05-01-preview",
+                    "2022-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "profiles_ruleSets_rules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-09-01",
+                    "2021-06-01"
+                ],
+                "preview": [
+                    "2022-05-01-preview",
+                    "2022-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "profiles_secrets",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-09-01",
+                    "2021-06-01"
+                ],
+                "preview": [
+                    "2022-05-01-preview",
+                    "2022-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "profiles_securityPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-09-01",
+                    "2021-06-01"
+                ],
+                "preview": [
+                    "2022-05-01-preview",
+                    "2022-11-01-preview"
+                ]
+            }
+        }
+    ]
+}

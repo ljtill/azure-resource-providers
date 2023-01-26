@@ -1,0 +1,87 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Playfab",
+    "resourceTypes": [
+        {
+            "name": "playerAccountPools",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-09-07-preview",
+                    "2022-03-02-preview",
+                    "2022-04-12-preview",
+                    "2022-05-05-preview"
+                ]
+            }
+        },
+        {
+            "name": "titles",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-09-07-preview",
+                    "2022-03-02-preview",
+                    "2022-04-12-preview",
+                    "2022-05-05-preview"
+                ]
+            }
+        },
+        {
+            "name": "titles_segments",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-03-02-preview",
+                    "2022-04-12-preview",
+                    "2022-05-05-preview"
+                ]
+            }
+        },
+        {
+            "name": "titles_titledatakeyvalues",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-03-02-preview"
+                ]
+            }
+        },
+        {
+            "name": "titles_titledatasets",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-04-12-preview",
+                    "2022-05-05-preview"
+                ]
+            }
+        },
+        {
+            "name": "titles_titleinternaldatakeyvalues",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-03-02-preview"
+                ]
+            }
+        },
+        {
+            "name": "titles_titleinternaldatasets",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-04-12-preview",
+                    "2022-05-05-preview"
+                ]
+            }
+        }
+    ]
+}

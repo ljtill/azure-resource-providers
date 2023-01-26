@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Storagepool",
+    "resourceTypes": [
+        {
+            "name": "diskPools",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2020-03-15-preview",
+                    "2021-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "diskPools_iscsiTargets",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-08-01"
+                ],
+                "preview": [
+                    "2020-03-15-preview",
+                    "2021-04-01-preview"
+                ]
+            }
+        }
+    ]
+}

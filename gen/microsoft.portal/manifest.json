@@ -1,0 +1,31 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Portal",
+    "resourceTypes": [
+        {
+            "name": "dashboards",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2015-08-01-preview",
+                    "2018-10-01-preview",
+                    "2019-01-01-preview",
+                    "2020-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "tenantConfigurations",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2019-01-01-preview",
+                    "2020-09-01-preview"
+                ]
+            }
+        }
+    ]
+}

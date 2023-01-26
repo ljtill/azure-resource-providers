@@ -1,0 +1,237 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Servicebus",
+    "resourceTypes": [
+        {
+            "name": "namespaces",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-08-01",
+                    "2017-04-01",
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2018-01-01-preview",
+                    "2021-01-01-preview",
+                    "2021-06-01-preview",
+                    "2022-01-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "namespaces_AuthorizationRules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-08-01",
+                    "2017-04-01",
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2018-01-01-preview",
+                    "2021-01-01-preview",
+                    "2021-06-01-preview",
+                    "2022-01-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "namespaces_disasterRecoveryConfigs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-04-01",
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2018-01-01-preview",
+                    "2021-01-01-preview",
+                    "2021-06-01-preview",
+                    "2022-01-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "namespaces_ipfilterrules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2018-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "namespaces_migrationConfigurations",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-04-01",
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2018-01-01-preview",
+                    "2021-01-01-preview",
+                    "2021-06-01-preview",
+                    "2022-01-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "namespaces_networkRuleSets",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-04-01",
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2018-01-01-preview",
+                    "2021-01-01-preview",
+                    "2021-06-01-preview",
+                    "2022-01-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "namespaces_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2018-01-01-preview",
+                    "2021-01-01-preview",
+                    "2021-06-01-preview",
+                    "2022-01-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "namespaces_queues",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-08-01",
+                    "2017-04-01",
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2018-01-01-preview",
+                    "2021-01-01-preview",
+                    "2021-06-01-preview",
+                    "2022-01-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "namespaces_queues_authorizationRules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-08-01",
+                    "2017-04-01",
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2018-01-01-preview",
+                    "2021-01-01-preview",
+                    "2021-06-01-preview",
+                    "2022-01-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "namespaces_topics",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-08-01",
+                    "2017-04-01",
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2018-01-01-preview",
+                    "2021-01-01-preview",
+                    "2021-06-01-preview",
+                    "2022-01-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "namespaces_topics_authorizationRules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-08-01",
+                    "2017-04-01",
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2018-01-01-preview",
+                    "2021-01-01-preview",
+                    "2021-06-01-preview",
+                    "2022-01-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "namespaces_topics_subscriptions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-08-01",
+                    "2017-04-01",
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2018-01-01-preview",
+                    "2021-01-01-preview",
+                    "2021-06-01-preview",
+                    "2022-01-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "namespaces_topics_subscriptions_rules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-04-01",
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2018-01-01-preview",
+                    "2021-01-01-preview",
+                    "2021-06-01-preview",
+                    "2022-01-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "namespaces_virtualnetworkrules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2018-01-01-preview"
+                ]
+            }
+        }
+    ]
+}

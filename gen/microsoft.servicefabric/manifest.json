@@ -1,0 +1,210 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Servicefabric",
+    "resourceTypes": [
+        {
+            "name": "clusters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2016-03-01",
+                    "2016-09-01",
+                    "2018-02-01",
+                    "2019-03-01",
+                    "2020-03-01",
+                    "2021-06-01"
+                ],
+                "preview": [
+                    "2017-07-01-preview",
+                    "2019-03-01-preview",
+                    "2019-06-01-preview",
+                    "2019-11-01-preview",
+                    "2020-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "clusters_applications",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-03-01",
+                    "2020-03-01",
+                    "2021-06-01"
+                ],
+                "preview": [
+                    "2017-07-01-preview",
+                    "2019-03-01-preview",
+                    "2019-06-01-preview",
+                    "2019-11-01-preview",
+                    "2020-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "clusters_applications_services",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-03-01",
+                    "2020-03-01",
+                    "2021-06-01"
+                ],
+                "preview": [
+                    "2017-07-01-preview",
+                    "2019-03-01-preview",
+                    "2019-06-01-preview",
+                    "2019-11-01-preview",
+                    "2020-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "clusters_applicationTypes",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-03-01",
+                    "2020-03-01",
+                    "2021-06-01"
+                ],
+                "preview": [
+                    "2017-07-01-preview",
+                    "2019-03-01-preview",
+                    "2019-06-01-preview",
+                    "2019-11-01-preview",
+                    "2020-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "clusters_applicationTypes_versions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-03-01",
+                    "2020-03-01",
+                    "2021-06-01"
+                ],
+                "preview": [
+                    "2017-07-01-preview",
+                    "2019-03-01-preview",
+                    "2019-06-01-preview",
+                    "2019-11-01-preview",
+                    "2020-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedClusters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-05-01",
+                    "2022-01-01"
+                ],
+                "preview": [
+                    "2020-01-01-preview",
+                    "2021-01-01-preview",
+                    "2021-07-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-06-01-preview",
+                    "2022-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedclusters_applications",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-05-01",
+                    "2022-01-01"
+                ],
+                "preview": [
+                    "2021-01-01-preview",
+                    "2021-07-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-06-01-preview",
+                    "2022-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedclusters_applications_services",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-05-01",
+                    "2022-01-01"
+                ],
+                "preview": [
+                    "2021-01-01-preview",
+                    "2021-07-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-06-01-preview",
+                    "2022-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedclusters_applicationTypes",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-05-01",
+                    "2022-01-01"
+                ],
+                "preview": [
+                    "2021-01-01-preview",
+                    "2021-07-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-06-01-preview",
+                    "2022-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedclusters_applicationTypes_versions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-05-01",
+                    "2022-01-01"
+                ],
+                "preview": [
+                    "2021-01-01-preview",
+                    "2021-07-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-06-01-preview",
+                    "2022-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedClusters_nodeTypes",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-05-01",
+                    "2022-01-01"
+                ],
+                "preview": [
+                    "2020-01-01-preview",
+                    "2021-01-01-preview",
+                    "2021-07-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-06-01-preview",
+                    "2022-08-01-preview"
+                ]
+            }
+        }
+    ]
+}

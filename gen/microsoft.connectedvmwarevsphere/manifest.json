@@ -1,0 +1,151 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Connectedvmwarevsphere",
+    "resourceTypes": [
+        {
+            "name": "clusters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-10-01-preview",
+                    "2022-01-10-preview",
+                    "2022-07-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "datastores",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-10-01-preview",
+                    "2022-01-10-preview",
+                    "2022-07-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "hosts",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-10-01-preview",
+                    "2022-01-10-preview",
+                    "2022-07-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "resourcePools",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-10-01-preview",
+                    "2022-01-10-preview",
+                    "2022-07-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "vcenters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-10-01-preview",
+                    "2022-01-10-preview",
+                    "2022-07-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "vcenters_inventoryItems",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-10-01-preview",
+                    "2022-01-10-preview",
+                    "2022-07-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "virtualMachines",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-10-01-preview",
+                    "2022-01-10-preview",
+                    "2022-07-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "virtualMachines_extensions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-10-01-preview",
+                    "2022-01-10-preview",
+                    "2022-07-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "virtualMachines_guestAgents",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-10-01-preview",
+                    "2022-01-10-preview",
+                    "2022-07-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "virtualMachines_hybridIdentityMetadata",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-10-01-preview",
+                    "2022-01-10-preview",
+                    "2022-07-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "virtualMachineTemplates",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-10-01-preview",
+                    "2022-01-10-preview",
+                    "2022-07-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "virtualNetworks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-10-01-preview",
+                    "2022-01-10-preview",
+                    "2022-07-15-preview"
+                ]
+            }
+        }
+    ]
+}

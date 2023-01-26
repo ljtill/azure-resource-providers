@@ -1,0 +1,183 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Dbformysql",
+    "resourceTypes": [
+        {
+            "name": "flexibleServers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-05-01"
+                ],
+                "preview": [
+                    "2020-07-01-preview",
+                    "2021-05-01-preview",
+                    "2021-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "flexibleServers_administrators",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "flexibleServers_backups",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "flexibleServers_databases",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-05-01"
+                ],
+                "preview": [
+                    "2020-07-01-preview",
+                    "2021-05-01-preview",
+                    "2021-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "flexibleServers_firewallRules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-05-01"
+                ],
+                "preview": [
+                    "2020-07-01-preview",
+                    "2021-05-01-preview",
+                    "2021-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "flexibleServers_keys",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2020-07-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-12-01"
+                ],
+                "preview": [
+                    "2017-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_administrators",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-12-01"
+                ],
+                "preview": [
+                    "2017-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_configurations",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-12-01"
+                ],
+                "preview": [
+                    "2017-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_databases",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-12-01"
+                ],
+                "preview": [
+                    "2017-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_firewallRules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-12-01"
+                ],
+                "preview": [
+                    "2017-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_keys",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-01-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "servers_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "servers_securityAlertPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-12-01"
+                ],
+                "preview": [
+                    "2017-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_virtualNetworkRules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-12-01"
+                ],
+                "preview": [
+                    "2017-12-01-preview"
+                ]
+            }
+        }
+    ]
+}

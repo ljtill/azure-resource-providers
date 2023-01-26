@@ -1,0 +1,56 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Hdinsight",
+    "resourceTypes": [
+        {
+            "name": "clusters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-06-01"
+                ],
+                "preview": [
+                    "2015-03-01-preview",
+                    "2018-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "clusters_applications",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-06-01"
+                ],
+                "preview": [
+                    "2015-03-01-preview",
+                    "2018-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "clusters_extensions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-06-01"
+                ],
+                "preview": [
+                    "2015-03-01-preview",
+                    "2018-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "clusters_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-06-01"
+                ],
+                "preview": []
+            }
+        }
+    ]
+}

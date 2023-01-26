@@ -1,0 +1,56 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Management",
+    "resourceTypes": [
+        {
+            "name": "managementGroups",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [
+                    "2019-11-01",
+                    "2020-02-01",
+                    "2020-05-01",
+                    "2020-10-01",
+                    "2021-04-01"
+                ],
+                "preview": [
+                    "2017-11-01-preview",
+                    "2018-01-01-preview",
+                    "2018-03-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managementGroups_settings",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [
+                    "2020-02-01",
+                    "2020-05-01",
+                    "2020-10-01",
+                    "2021-04-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "managementGroups_subscriptions",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [
+                    "2019-11-01",
+                    "2020-02-01",
+                    "2020-05-01",
+                    "2020-10-01",
+                    "2021-04-01"
+                ],
+                "preview": [
+                    "2017-11-01-preview",
+                    "2018-01-01-preview",
+                    "2018-03-01-preview"
+                ]
+            }
+        }
+    ]
+}

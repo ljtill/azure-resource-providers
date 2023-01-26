@@ -1,0 +1,19 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Hardwaresecuritymodules",
+    "resourceTypes": [
+        {
+            "name": "dedicatedHSMs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-30"
+                ],
+                "preview": [
+                    "2018-10-31-preview"
+                ]
+            }
+        }
+    ]
+}

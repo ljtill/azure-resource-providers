@@ -1,0 +1,1614 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Sql",
+    "resourceTypes": [
+        {
+            "name": "instancePools",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "locations_instanceFailoverGroups",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2017-10-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "locations_serverTrustGroups",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedInstances",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2015-05-01-preview",
+                    "2018-06-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedInstances_administrators",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2017-03-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedInstances_advancedThreatProtectionSettings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedInstances_azureADOnlyAuthentications",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedInstances_databases",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2017-03-01-preview",
+                    "2018-06-01-preview",
+                    "2019-06-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedInstances_databases_advancedThreatProtectionSettings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedInstances_databases_backupLongTermRetentionPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedInstances_databases_backupShortTermRetentionPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2017-03-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedInstances_databases_schemas_tables_columns_sensitivityLabels",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedInstances_databases_securityAlertPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2017-03-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedInstances_databases_transparentDataEncryption",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedInstances_databases_vulnerabilityAssessments",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2017-10-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedInstances_databases_vulnerabilityAssessments_rules_baselines",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2017-10-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedInstances_distributedAvailabilityGroups",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedInstances_dnsAliases",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedInstances_dtc",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedInstances_encryptionProtector",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2017-10-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedInstances_keys",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2017-10-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedInstances_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedInstances_restorableDroppedDatabases_backupShortTermRetentionPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2017-03-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedInstances_securityAlertPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2017-03-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedInstances_serverTrustCertificates",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedInstances_sqlAgent",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedInstances_vulnerabilityAssessments",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2014-04-01",
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2015-05-01-preview",
+                    "2019-06-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_administrators",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2014-04-01",
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2019-06-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_advancedThreatProtectionSettings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_advisors",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2014-04-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "servers_auditingPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2014-04-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "servers_auditingSettings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2017-03-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_azureADOnlyAuthentications",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_communicationLinks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2014-04-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "servers_connectionPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2014-04-01",
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_databases",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2014-04-01",
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2017-03-01-preview",
+                    "2017-10-01-preview",
+                    "2019-06-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_databases_advancedThreatProtectionSettings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_databases_advisors",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2014-04-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "servers_databases_auditingPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2014-04-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "servers_databases_auditingSettings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2015-05-01-preview",
+                    "2017-03-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_databases_backupLongTermRetentionPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2017-03-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_databases_backupShortTermRetentionPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2017-10-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_databases_connectionPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2014-04-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "servers_databases_dataMaskingPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2014-04-01",
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_databases_dataMaskingPolicies_rules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2014-04-01",
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_databases_extendedAuditingSettings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2017-03-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_databases_extensions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2014-04-01",
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_databases_geoBackupPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2014-04-01",
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_databases_ledgerDigestUploads",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_databases_maintenanceWindows",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_databases_schemas_tables_columns_sensitivityLabels",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2017-03-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_databases_securityAlertPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2014-04-01",
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_databases_sqlVulnerabilityAssessments_baselines",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_databases_sqlVulnerabilityAssessments_baselines_rules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_databases_syncGroups",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2015-05-01-preview",
+                    "2019-06-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_databases_syncGroups_syncMembers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2015-05-01-preview",
+                    "2019-06-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_databases_transparentDataEncryption",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2014-04-01",
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_databases_vulnerabilityAssessments",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2017-03-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_databases_vulnerabilityAssessments_rules_baselines",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2017-03-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_databases_workloadGroups",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2019-06-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_databases_workloadGroups_workloadClassifiers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2019-06-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_devOpsAuditingSettings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_disasterRecoveryConfiguration",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2014-04-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "servers_dnsAliases",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2017-03-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_elasticPools",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2014-04-01",
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2017-10-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_encryptionProtector",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2015-05-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_extendedAuditingSettings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2017-03-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_failoverGroups",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2015-05-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_firewallRules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2014-04-01",
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2015-05-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_ipv6FirewallRules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_jobAgents",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2017-03-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_jobAgents_credentials",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2017-03-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_jobAgents_jobs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2017-03-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_jobAgents_jobs_executions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2017-03-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_jobAgents_jobs_steps",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2017-03-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_jobAgents_targetGroups",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2017-03-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_keys",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2015-05-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_outboundFirewallRules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_securityAlertPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2017-03-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_sqlVulnerabilityAssessments",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_sqlVulnerabilityAssessments_baselines",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_sqlVulnerabilityAssessments_baselines_rules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_syncAgents",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2015-05-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_virtualNetworkRules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2015-05-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_vulnerabilityAssessments",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2018-06-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        }
+    ]
+}

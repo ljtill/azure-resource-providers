@@ -1,0 +1,63 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Deviceupdate",
+    "resourceTypes": [
+        {
+            "name": "accounts",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2020-03-01-preview",
+                    "2022-04-01-preview",
+                    "2022-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "accounts_instances",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2020-03-01-preview",
+                    "2022-04-01-preview",
+                    "2022-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "accounts_privateEndpointConnectionProxies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2020-03-01-preview",
+                    "2022-04-01-preview",
+                    "2022-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "accounts_privateEndpointConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2020-03-01-preview",
+                    "2022-04-01-preview",
+                    "2022-12-01-preview"
+                ]
+            }
+        }
+    ]
+}

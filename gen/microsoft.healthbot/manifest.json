@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Healthbot",
+    "resourceTypes": [
+        {
+            "name": "healthBots",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-10-20",
+                    "2020-12-08",
+                    "2021-06-10",
+                    "2021-08-24",
+                    "2022-08-08"
+                ],
+                "preview": [
+                    "2020-10-20-preview",
+                    "2020-12-08-preview"
+                ]
+            }
+        }
+    ]
+}

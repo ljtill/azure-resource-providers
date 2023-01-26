@@ -1,0 +1,37 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Confluent",
+    "resourceTypes": [
+        {
+            "name": "agreements",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [
+                    "2020-03-01",
+                    "2021-12-01"
+                ],
+                "preview": [
+                    "2020-03-01-preview",
+                    "2021-03-01-preview",
+                    "2021-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "organizations",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2020-03-01",
+                    "2021-12-01"
+                ],
+                "preview": [
+                    "2020-03-01-preview",
+                    "2021-03-01-preview",
+                    "2021-09-01-preview"
+                ]
+            }
+        }
+    ]
+}

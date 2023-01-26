@@ -1,0 +1,28 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Powerbidedicated",
+    "resourceTypes": [
+        {
+            "name": "autoScaleVCores",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2021-01-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "capacities",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2017-10-01",
+                    "2021-01-01"
+                ],
+                "preview": []
+            }
+        }
+    ]
+}

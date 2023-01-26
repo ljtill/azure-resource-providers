@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Machinelearningcompute",
+    "resourceTypes": [
+        {
+            "name": "operationalizationClusters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2017-06-01-preview",
+                    "2017-08-01-preview"
+                ]
+            }
+        }
+    ]
+}

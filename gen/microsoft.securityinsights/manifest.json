@@ -1,0 +1,461 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.Securityinsights",
+    "resourceTypes": [
+        {
+            "name": "alertRules",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2020-01-01",
+                    "2021-10-01",
+                    "2022-08-01"
+                ],
+                "preview": [
+                    "2019-01-01-preview",
+                    "2021-03-01-preview",
+                    "2021-09-01-preview",
+                    "2021-10-01-preview",
+                    "2022-01-01-preview",
+                    "2022-04-01-preview",
+                    "2022-05-01-preview",
+                    "2022-06-01-preview",
+                    "2022-07-01-preview",
+                    "2022-08-01-preview",
+                    "2022-09-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "alertRules_actions",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2020-01-01",
+                    "2021-10-01",
+                    "2022-08-01"
+                ],
+                "preview": [
+                    "2019-01-01-preview",
+                    "2021-03-01-preview",
+                    "2021-09-01-preview",
+                    "2021-10-01-preview",
+                    "2022-01-01-preview",
+                    "2022-04-01-preview",
+                    "2022-05-01-preview",
+                    "2022-06-01-preview",
+                    "2022-07-01-preview",
+                    "2022-08-01-preview",
+                    "2022-09-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "automationRules",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2021-10-01",
+                    "2022-08-01"
+                ],
+                "preview": [
+                    "2019-01-01-preview",
+                    "2021-09-01-preview",
+                    "2021-10-01-preview",
+                    "2022-01-01-preview",
+                    "2022-04-01-preview",
+                    "2022-05-01-preview",
+                    "2022-06-01-preview",
+                    "2022-07-01-preview",
+                    "2022-08-01-preview",
+                    "2022-09-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "bookmarks",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2020-01-01",
+                    "2021-10-01",
+                    "2022-08-01"
+                ],
+                "preview": [
+                    "2019-01-01-preview",
+                    "2021-09-01-preview",
+                    "2021-10-01-preview",
+                    "2022-01-01-preview",
+                    "2022-04-01-preview",
+                    "2022-05-01-preview",
+                    "2022-06-01-preview",
+                    "2022-07-01-preview",
+                    "2022-08-01-preview",
+                    "2022-09-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "bookmarks_relations",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2019-01-01-preview",
+                    "2021-09-01-preview",
+                    "2021-10-01-preview",
+                    "2022-01-01-preview",
+                    "2022-04-01-preview",
+                    "2022-05-01-preview",
+                    "2022-06-01-preview",
+                    "2022-07-01-preview",
+                    "2022-08-01-preview",
+                    "2022-09-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "cases",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2019-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "cases_comments",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2019-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "cases_relations",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2019-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "dataConnectors",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2020-01-01",
+                    "2021-10-01",
+                    "2022-08-01"
+                ],
+                "preview": [
+                    "2019-01-01-preview",
+                    "2021-03-01-preview",
+                    "2021-09-01-preview",
+                    "2021-10-01-preview",
+                    "2022-01-01-preview",
+                    "2022-04-01-preview",
+                    "2022-05-01-preview",
+                    "2022-06-01-preview",
+                    "2022-07-01-preview",
+                    "2022-08-01-preview",
+                    "2022-09-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "entityQueries",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-03-01-preview",
+                    "2021-09-01-preview",
+                    "2021-10-01-preview",
+                    "2022-01-01-preview",
+                    "2022-04-01-preview",
+                    "2022-05-01-preview",
+                    "2022-06-01-preview",
+                    "2022-07-01-preview",
+                    "2022-08-01-preview",
+                    "2022-09-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "fileImports",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-08-01-preview",
+                    "2022-09-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "incidents",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2020-01-01",
+                    "2021-04-01",
+                    "2021-10-01",
+                    "2022-08-01"
+                ],
+                "preview": [
+                    "2019-01-01-preview",
+                    "2021-03-01-preview",
+                    "2021-09-01-preview",
+                    "2021-10-01-preview",
+                    "2022-01-01-preview",
+                    "2022-04-01-preview",
+                    "2022-05-01-preview",
+                    "2022-06-01-preview",
+                    "2022-07-01-preview",
+                    "2022-08-01-preview",
+                    "2022-09-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "incidents_comments",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2020-01-01",
+                    "2021-04-01",
+                    "2021-10-01",
+                    "2022-08-01"
+                ],
+                "preview": [
+                    "2019-01-01-preview",
+                    "2021-03-01-preview",
+                    "2021-09-01-preview",
+                    "2021-10-01-preview",
+                    "2022-01-01-preview",
+                    "2022-04-01-preview",
+                    "2022-05-01-preview",
+                    "2022-06-01-preview",
+                    "2022-07-01-preview",
+                    "2022-08-01-preview",
+                    "2022-09-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "incidents_relations",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2021-04-01",
+                    "2021-10-01",
+                    "2022-08-01"
+                ],
+                "preview": [
+                    "2019-01-01-preview",
+                    "2021-03-01-preview",
+                    "2021-09-01-preview",
+                    "2021-10-01-preview",
+                    "2022-01-01-preview",
+                    "2022-04-01-preview",
+                    "2022-05-01-preview",
+                    "2022-06-01-preview",
+                    "2022-07-01-preview",
+                    "2022-08-01-preview",
+                    "2022-09-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "metadata",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-03-01-preview",
+                    "2021-09-01-preview",
+                    "2021-10-01-preview",
+                    "2022-01-01-preview",
+                    "2022-04-01-preview",
+                    "2022-05-01-preview",
+                    "2022-06-01-preview",
+                    "2022-07-01-preview",
+                    "2022-08-01-preview",
+                    "2022-09-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "onboardingStates",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2021-10-01",
+                    "2022-08-01"
+                ],
+                "preview": [
+                    "2021-03-01-preview",
+                    "2021-09-01-preview",
+                    "2021-10-01-preview",
+                    "2022-01-01-preview",
+                    "2022-04-01-preview",
+                    "2022-05-01-preview",
+                    "2022-06-01-preview",
+                    "2022-07-01-preview",
+                    "2022-08-01-preview",
+                    "2022-09-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "securityMLAnalyticsSettings",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-05-01-preview",
+                    "2022-06-01-preview",
+                    "2022-07-01-preview",
+                    "2022-08-01-preview",
+                    "2022-09-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "settings",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2019-01-01-preview",
+                    "2021-03-01-preview",
+                    "2021-09-01-preview",
+                    "2021-10-01-preview",
+                    "2022-01-01-preview",
+                    "2022-04-01-preview",
+                    "2022-05-01-preview",
+                    "2022-06-01-preview",
+                    "2022-07-01-preview",
+                    "2022-08-01-preview",
+                    "2022-09-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "sourcecontrols",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-03-01-preview",
+                    "2021-09-01-preview",
+                    "2021-10-01-preview",
+                    "2022-01-01-preview",
+                    "2022-04-01-preview",
+                    "2022-05-01-preview",
+                    "2022-06-01-preview",
+                    "2022-07-01-preview",
+                    "2022-08-01-preview",
+                    "2022-09-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "threatIntelligence_indicators",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2021-04-01",
+                    "2021-10-01",
+                    "2022-08-01"
+                ],
+                "preview": [
+                    "2019-01-01-preview",
+                    "2021-09-01-preview",
+                    "2021-10-01-preview",
+                    "2022-01-01-preview",
+                    "2022-04-01-preview",
+                    "2022-05-01-preview",
+                    "2022-06-01-preview",
+                    "2022-07-01-preview",
+                    "2022-08-01-preview",
+                    "2022-09-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "watchlists",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2021-04-01",
+                    "2021-10-01",
+                    "2022-08-01"
+                ],
+                "preview": [
+                    "2019-01-01-preview",
+                    "2021-03-01-preview",
+                    "2021-09-01-preview",
+                    "2021-10-01-preview",
+                    "2022-01-01-preview",
+                    "2022-04-01-preview",
+                    "2022-05-01-preview",
+                    "2022-06-01-preview",
+                    "2022-07-01-preview",
+                    "2022-08-01-preview",
+                    "2022-09-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "watchlists_watchlistItems",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2021-04-01",
+                    "2021-10-01",
+                    "2022-08-01"
+                ],
+                "preview": [
+                    "2019-01-01-preview",
+                    "2021-03-01-preview",
+                    "2021-09-01-preview",
+                    "2021-10-01-preview",
+                    "2022-01-01-preview",
+                    "2022-04-01-preview",
+                    "2022-05-01-preview",
+                    "2022-06-01-preview",
+                    "2022-07-01-preview",
+                    "2022-08-01-preview",
+                    "2022-09-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        }
+    ]
+}
