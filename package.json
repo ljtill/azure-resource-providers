@@ -1,17 +1,16 @@
 {
-  "name": "providers",
+  "name": "resource-providers",
   "author": "Lyon Till",
-  "homepage": "https://github.com/ljtill/providers#readme",
+  "homepage": "https://github.com/ljtill/resource-providers#readme",
   "version": "0.0.1",
   "license": "MIT",
-  "description": "",
-  "main": "dist/main.js",
+  "description": "Generated list of Resource Providers including Namespaces, Resource Types and API Versions",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ljtill/providers.git"
+    "url": "git+https://github.com/ljtill/resource-providers.git"
   },
   "bugs": {
-    "url": "https://github.com/ljtill/providers/issues"
+    "url": "https://github.com/ljtill/resource-providers/issues"
   },
   "scripts": {
     "build": "tsc -p .",
