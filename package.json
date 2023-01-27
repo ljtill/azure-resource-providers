@@ -16,6 +16,7 @@
     "build": "tsc -p .",
     "clean": "rm -rf dist",
     "watch": "tsc -p . -w",
+    "lint": "npx eslint src",
     "generate": "ts-node src/generate.ts",
     "generate:debug": "ts-node src/generate.ts --debug"
   },
