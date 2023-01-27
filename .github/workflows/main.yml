@@ -47,8 +47,8 @@ jobs:
 
       - name: "Configure git"
         run: |
-          git config user.name "GitHub Actions"
-          git config user.email "action@github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
         working-directory: checkout
 
       - name: "Merge schemas"
