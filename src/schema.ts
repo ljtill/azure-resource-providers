@@ -17,7 +17,7 @@ export type Definition = {
 
 export type DefinitionObject = {
     type?: string;
-    properties?: unknown;
+    properties?: any;
     required?: string[];
     description?: string;
 };
