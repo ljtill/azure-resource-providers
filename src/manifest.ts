@@ -48,9 +48,11 @@ class ResourceType {
 
     public addApiVersion(apiVersion: string): ApiVersion {
         if (apiVersion.includes("preview")) {
-            this.apiVersions.preview.push(apiVersion)
+            this.apiVersions.preview.find((item) => item === apiVersion)
+                ?? this.apiVersions.preview.push(apiVersion)
         } else {
-            this.apiVersions.stable.push(apiVersion)
+            this.apiVersions.stable.find((item) => item === apiVersion)
+                ?? this.apiVersions.stable.push(apiVersion)
         }
 
         return this.apiVersions
