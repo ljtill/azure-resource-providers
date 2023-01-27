@@ -5,7 +5,7 @@
     "resourceTypes": [
         {
             "name": "supportProviders_supportPlanTypes",
-            "scope": "subscription",
+            "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
                     "2017-05-15",

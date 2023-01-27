@@ -47,7 +47,7 @@
         },
         {
             "name": "secrets_values",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

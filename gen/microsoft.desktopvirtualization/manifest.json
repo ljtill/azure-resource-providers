@@ -32,7 +32,7 @@
         },
         {
             "name": "applicationGroups_applications",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-07-12",
@@ -86,7 +86,7 @@
         },
         {
             "name": "hostPools_msixPackages",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-07-12",
@@ -110,7 +110,7 @@
         },
         {
             "name": "hostPools_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -145,7 +145,7 @@
         },
         {
             "name": "scalingPlans_pooledSchedules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-09-09"
@@ -185,7 +185,7 @@
         },
         {
             "name": "workspaces_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

@@ -15,7 +15,7 @@
         },
         {
             "name": "Accounts_Channels",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

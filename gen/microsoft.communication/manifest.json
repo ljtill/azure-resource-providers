@@ -30,7 +30,7 @@
         },
         {
             "name": "emailServices_domains",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

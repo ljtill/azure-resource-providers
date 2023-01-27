@@ -51,7 +51,7 @@
         },
         {
             "name": "capacityReservationGroups_capacityReservations",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-04-01",
@@ -98,7 +98,7 @@
         },
         {
             "name": "diskAccesses_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-09-30",
@@ -189,7 +189,7 @@
         },
         {
             "name": "galleries_applications",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-03-01",
@@ -206,7 +206,7 @@
         },
         {
             "name": "galleries_applications_versions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-03-01",
@@ -223,7 +223,7 @@
         },
         {
             "name": "galleries_images",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-06-01",
@@ -241,7 +241,7 @@
         },
         {
             "name": "galleries_images_versions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-06-01",
@@ -280,7 +280,7 @@
         },
         {
             "name": "hostGroups_hosts",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-03-01",
@@ -369,7 +369,7 @@
         },
         {
             "name": "restorePointCollections_restorePoints",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-03-01",
@@ -462,7 +462,7 @@
         },
         {
             "name": "virtualMachines_runCommands",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-06-01",
@@ -511,7 +511,7 @@
         },
         {
             "name": "virtualMachineScaleSets_virtualmachines",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-12-01",
@@ -532,7 +532,7 @@
         },
         {
             "name": "virtualMachineScaleSets_virtualMachines",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-11-01",
@@ -545,7 +545,7 @@
         },
         {
             "name": "virtualMachineScaleSets_virtualMachines_extensions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-07-01",
@@ -565,7 +565,7 @@
         },
         {
             "name": "virtualMachineScaleSets_virtualMachines_runCommands",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-06-01",

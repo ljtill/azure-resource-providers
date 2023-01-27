@@ -17,7 +17,7 @@
         },
         {
             "name": "accounts_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-07-01"

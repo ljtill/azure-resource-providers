@@ -16,7 +16,7 @@
         },
         {
             "name": "testBaseAccounts_customerEvents",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -27,7 +27,7 @@
         },
         {
             "name": "testBaseAccounts_packages",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -38,7 +38,7 @@
         },
         {
             "name": "testBaseAccounts_packages_favoriteProcesses",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

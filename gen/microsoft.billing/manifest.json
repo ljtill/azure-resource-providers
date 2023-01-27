@@ -5,7 +5,7 @@
     "resourceTypes": [
         {
             "name": "billingAccounts_billingProfiles",
-            "scope": "tenant",
+            "scope": "managementGroup",
             "apiVersions": {
                 "stable": [
                     "2020-05-01"
@@ -18,7 +18,7 @@
         },
         {
             "name": "billingAccounts_billingProfiles_instructions",
-            "scope": "tenant",
+            "scope": "managementGroup",
             "apiVersions": {
                 "stable": [
                     "2020-05-01"
@@ -30,7 +30,7 @@
         },
         {
             "name": "billingAccounts_billingProfiles_invoiceSections",
-            "scope": "tenant",
+            "scope": "managementGroup",
             "apiVersions": {
                 "stable": [
                     "2020-05-01"
@@ -42,7 +42,7 @@
         },
         {
             "name": "billingAccounts_billingProfiles_policies",
-            "scope": "tenant",
+            "scope": "managementGroup",
             "apiVersions": {
                 "stable": [
                     "2020-05-01"
@@ -55,7 +55,7 @@
         },
         {
             "name": "billingAccounts_billingRoleAssignments",
-            "scope": "tenant",
+            "scope": "managementGroup",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -65,7 +65,7 @@
         },
         {
             "name": "billingAccounts_billingSubscriptionAliases",
-            "scope": "tenant",
+            "scope": "managementGroup",
             "apiVersions": {
                 "stable": [
                     "2021-10-01"
@@ -75,7 +75,7 @@
         },
         {
             "name": "billingAccounts_customers_policies",
-            "scope": "tenant",
+            "scope": "managementGroup",
             "apiVersions": {
                 "stable": [
                     "2020-05-01"
@@ -87,7 +87,7 @@
         },
         {
             "name": "billingAccounts_departments_billingRoleAssignments",
-            "scope": "tenant",
+            "scope": "managementGroup",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -97,7 +97,7 @@
         },
         {
             "name": "billingAccounts_enrollmentAccounts_billingRoleAssignments",
-            "scope": "tenant",
+            "scope": "managementGroup",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -107,7 +107,7 @@
         },
         {
             "name": "billingAccounts_invoiceSections",
-            "scope": "tenant",
+            "scope": "managementGroup",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -117,7 +117,7 @@
         },
         {
             "name": "billingAccounts_lineOfCredit",
-            "scope": "subscription",
+            "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
                 "preview": [

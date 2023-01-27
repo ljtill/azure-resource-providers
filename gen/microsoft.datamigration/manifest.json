@@ -37,7 +37,7 @@
         },
         {
             "name": "services_projects",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-04-19",
@@ -57,7 +57,7 @@
         },
         {
             "name": "services_projects_files",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-06-30"
@@ -72,7 +72,7 @@
         },
         {
             "name": "services_projects_tasks",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-04-19",
@@ -92,7 +92,7 @@
         },
         {
             "name": "services_serviceTasks",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-06-30"

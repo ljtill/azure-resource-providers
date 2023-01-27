@@ -15,7 +15,7 @@
         },
         {
             "name": "azureDevOpsConnectors_orgs",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -25,7 +25,7 @@
         },
         {
             "name": "azureDevOpsConnectors_orgs_projects",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -35,7 +35,7 @@
         },
         {
             "name": "azureDevOpsConnectors_orgs_projects_repos",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -55,7 +55,7 @@
         },
         {
             "name": "gitHubConnectors_owners",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -65,7 +65,7 @@
         },
         {
             "name": "gitHubConnectors_owners_repos",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

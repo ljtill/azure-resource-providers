@@ -23,7 +23,7 @@
         },
         {
             "name": "managementGroups_settings",
-            "scope": "tenant",
+            "scope": "managementGroup",
             "apiVersions": {
                 "stable": [
                     "2020-02-01",
@@ -36,7 +36,7 @@
         },
         {
             "name": "managementGroups_subscriptions",
-            "scope": "tenant",
+            "scope": "managementGroup",
             "apiVersions": {
                 "stable": [
                     "2019-11-01",

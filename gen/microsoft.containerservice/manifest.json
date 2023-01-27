@@ -30,7 +30,7 @@
         },
         {
             "name": "fleets_members",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -98,7 +98,7 @@
         },
         {
             "name": "managedClusters_agentPools",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-02-01",
@@ -151,7 +151,7 @@
         },
         {
             "name": "managedClusters_maintenanceConfigurations",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -190,7 +190,7 @@
         },
         {
             "name": "managedClusters_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-06-01",
@@ -233,7 +233,7 @@
         },
         {
             "name": "managedClusters_trustedAccessRoleBindings",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

@@ -15,7 +15,7 @@
         },
         {
             "name": "blockchainMembers_transactionNodes",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

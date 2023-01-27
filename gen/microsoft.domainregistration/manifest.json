@@ -26,7 +26,7 @@
         },
         {
             "name": "domains_domainOwnershipIdentifiers",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-04-01",
@@ -47,7 +47,7 @@
         },
         {
             "name": "domains_transferOut",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-03-01",

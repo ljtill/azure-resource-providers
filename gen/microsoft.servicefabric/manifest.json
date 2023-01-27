@@ -26,7 +26,7 @@
         },
         {
             "name": "clusters_applications",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-03-01",
@@ -44,7 +44,7 @@
         },
         {
             "name": "clusters_applications_services",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-03-01",
@@ -62,7 +62,7 @@
         },
         {
             "name": "clusters_applicationTypes",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-03-01",
@@ -80,7 +80,7 @@
         },
         {
             "name": "clusters_applicationTypes_versions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-03-01",
@@ -117,7 +117,7 @@
         },
         {
             "name": "managedclusters_applications",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-05-01",
@@ -135,7 +135,7 @@
         },
         {
             "name": "managedclusters_applications_services",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-05-01",
@@ -153,7 +153,7 @@
         },
         {
             "name": "managedclusters_applicationTypes",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-05-01",
@@ -171,7 +171,7 @@
         },
         {
             "name": "managedclusters_applicationTypes_versions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-05-01",
@@ -189,7 +189,7 @@
         },
         {
             "name": "managedClusters_nodeTypes",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-05-01",

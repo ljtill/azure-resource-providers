@@ -65,7 +65,7 @@
         },
         {
             "name": "vmmServers_inventoryItems",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

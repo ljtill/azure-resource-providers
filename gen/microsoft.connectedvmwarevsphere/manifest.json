@@ -65,7 +65,7 @@
         },
         {
             "name": "vcenters_inventoryItems",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -89,7 +89,7 @@
         },
         {
             "name": "virtualMachines_extensions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -101,7 +101,7 @@
         },
         {
             "name": "virtualMachines_guestAgents",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -113,7 +113,7 @@
         },
         {
             "name": "virtualMachines_hybridIdentityMetadata",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

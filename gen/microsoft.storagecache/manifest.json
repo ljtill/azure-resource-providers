@@ -24,7 +24,7 @@
         },
         {
             "name": "caches_storageTargets",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-11-01",

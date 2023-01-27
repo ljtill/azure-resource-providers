@@ -16,7 +16,7 @@
         },
         {
             "name": "privateLinkServicesForEDMUpload_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-01-11",
@@ -38,7 +38,7 @@
         },
         {
             "name": "privateLinkServicesForM365ComplianceCenter_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-01-11",
@@ -60,7 +60,7 @@
         },
         {
             "name": "privateLinkServicesForM365SecurityCenter_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-01-11",
@@ -81,7 +81,7 @@
         },
         {
             "name": "privateLinkServicesForMIPPolicySync_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-03-08"
@@ -102,7 +102,7 @@
         },
         {
             "name": "privateLinkServicesForO365ManagementActivityAPI_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-01-11",
@@ -124,7 +124,7 @@
         },
         {
             "name": "privateLinkServicesForSCCPowershell_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-01-11",

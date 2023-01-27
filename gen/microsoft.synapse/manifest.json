@@ -39,7 +39,7 @@
         },
         {
             "name": "workspaces_administrators",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -56,7 +56,7 @@
         },
         {
             "name": "workspaces_auditingSettings",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -73,7 +73,7 @@
         },
         {
             "name": "workspaces_azureADOnlyAuthentications",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-06-01"
@@ -85,7 +85,7 @@
         },
         {
             "name": "workspaces_bigDataPools",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -102,7 +102,7 @@
         },
         {
             "name": "workspaces_dedicatedSQLminimalTlsSettings",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-06-01"
@@ -114,7 +114,7 @@
         },
         {
             "name": "workspaces_encryptionProtector",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -130,7 +130,7 @@
         },
         {
             "name": "workspaces_extendedAuditingSettings",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -147,7 +147,7 @@
         },
         {
             "name": "workspaces_firewallRules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -164,7 +164,7 @@
         },
         {
             "name": "workspaces_integrationRuntimes",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -181,7 +181,7 @@
         },
         {
             "name": "workspaces_keys",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -198,7 +198,7 @@
         },
         {
             "name": "workspaces_kustoPools",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -209,7 +209,7 @@
         },
         {
             "name": "workspaces_kustoPools_attachedDatabaseConfigurations",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -219,7 +219,7 @@
         },
         {
             "name": "workspaces_kustoPools_databases",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -230,7 +230,7 @@
         },
         {
             "name": "workspaces_kustoPools_databases_dataConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -241,7 +241,7 @@
         },
         {
             "name": "workspaces_kustoPools_databases_principalAssignments",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -252,7 +252,7 @@
         },
         {
             "name": "workspaces_kustoPools_principalAssignments",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -263,7 +263,7 @@
         },
         {
             "name": "workspaces_managedIdentitySqlControlSettings",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -280,7 +280,7 @@
         },
         {
             "name": "workspaces_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -297,7 +297,7 @@
         },
         {
             "name": "workspaces_securityAlertPolicies",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -314,7 +314,7 @@
         },
         {
             "name": "workspaces_sqlAdministrators",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -331,7 +331,7 @@
         },
         {
             "name": "workspaces_sqlDatabases",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -341,7 +341,7 @@
         },
         {
             "name": "workspaces_sqlPools",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -359,7 +359,7 @@
         },
         {
             "name": "workspaces_sqlPools_auditingSettings",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -376,7 +376,7 @@
         },
         {
             "name": "workspaces_sqlPools_dataMaskingPolicies",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -393,7 +393,7 @@
         },
         {
             "name": "workspaces_sqlPools_dataMaskingPolicies_rules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -410,7 +410,7 @@
         },
         {
             "name": "workspaces_sqlPools_extendedAuditingSettings",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -427,7 +427,7 @@
         },
         {
             "name": "workspaces_sqlPools_geoBackupPolicies",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -444,7 +444,7 @@
         },
         {
             "name": "workspaces_sqlPools_maintenancewindows",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -461,7 +461,7 @@
         },
         {
             "name": "workspaces_sqlPools_metadataSync",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -478,7 +478,7 @@
         },
         {
             "name": "workspaces_sqlPools_schemas_tables_columns_sensitivityLabels",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -495,7 +495,7 @@
         },
         {
             "name": "workspaces_sqlPools_securityAlertPolicies",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -512,7 +512,7 @@
         },
         {
             "name": "workspaces_sqlPools_transparentDataEncryption",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -529,7 +529,7 @@
         },
         {
             "name": "workspaces_sqlPools_vulnerabilityAssessments",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -546,7 +546,7 @@
         },
         {
             "name": "workspaces_sqlPools_vulnerabilityAssessments_rules_baselines",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -563,7 +563,7 @@
         },
         {
             "name": "workspaces_sqlPools_workloadGroups",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -580,7 +580,7 @@
         },
         {
             "name": "workspaces_sqlPools_workloadGroups_workloadClassifiers",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -597,7 +597,7 @@
         },
         {
             "name": "workspaces_trustedServiceByPassConfiguration",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -607,7 +607,7 @@
         },
         {
             "name": "workspaces_vulnerabilityAssessments",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",

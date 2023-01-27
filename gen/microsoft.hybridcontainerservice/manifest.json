@@ -15,7 +15,7 @@
         },
         {
             "name": "provisionedClusters_agentPools",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -25,7 +25,7 @@
         },
         {
             "name": "provisionedClusters_hybridIdentityMetadata",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

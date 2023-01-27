@@ -23,7 +23,7 @@
         },
         {
             "name": "mediaServices_accountFilters",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-07-01",
@@ -37,7 +37,7 @@
         },
         {
             "name": "mediaServices_assets",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-07-01",
@@ -54,7 +54,7 @@
         },
         {
             "name": "mediaServices_assets_assetFilters",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-07-01",
@@ -68,7 +68,7 @@
         },
         {
             "name": "mediaServices_assets_tracks",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-11-01",
@@ -79,7 +79,7 @@
         },
         {
             "name": "mediaServices_contentKeyPolicies",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-07-01",
@@ -96,7 +96,7 @@
         },
         {
             "name": "mediaservices_liveEvents",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-05-01",
@@ -113,7 +113,7 @@
         },
         {
             "name": "mediaservices_liveEvents_liveOutputs",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-05-01",
@@ -130,7 +130,7 @@
         },
         {
             "name": "mediaServices_mediaGraphs",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -141,7 +141,7 @@
         },
         {
             "name": "mediaservices_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-05-01",
@@ -154,7 +154,7 @@
         },
         {
             "name": "mediaservices_streamingEndpoints",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-05-01",
@@ -171,7 +171,7 @@
         },
         {
             "name": "mediaServices_streamingLocators",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-07-01",
@@ -188,7 +188,7 @@
         },
         {
             "name": "mediaServices_streamingPolicies",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-07-01",
@@ -205,7 +205,7 @@
         },
         {
             "name": "mediaServices_transforms",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-07-01",
@@ -223,7 +223,7 @@
         },
         {
             "name": "mediaServices_transforms_jobs",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-07-01",

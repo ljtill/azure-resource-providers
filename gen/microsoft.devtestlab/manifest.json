@@ -18,7 +18,7 @@
         },
         {
             "name": "labs_artifactsources",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-05-15",
@@ -31,7 +31,7 @@
         },
         {
             "name": "labs_costs",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-05-15",
@@ -42,7 +42,7 @@
         },
         {
             "name": "labs_customimages",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-05-15",
@@ -55,7 +55,7 @@
         },
         {
             "name": "labs_formulas",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-05-15",
@@ -68,7 +68,7 @@
         },
         {
             "name": "labs_notificationchannels",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-05-15",
@@ -79,7 +79,7 @@
         },
         {
             "name": "labs_policysets_policies",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-05-15",
@@ -92,7 +92,7 @@
         },
         {
             "name": "labs_schedules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-05-15",
@@ -105,7 +105,7 @@
         },
         {
             "name": "labs_servicerunners",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-05-15",
@@ -116,7 +116,7 @@
         },
         {
             "name": "labs_users",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-05-15",
@@ -127,7 +127,7 @@
         },
         {
             "name": "labs_users_disks",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-05-15",
@@ -138,7 +138,7 @@
         },
         {
             "name": "labs_users_environments",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-05-15",
@@ -149,7 +149,7 @@
         },
         {
             "name": "labs_users_secrets",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-05-15",
@@ -160,7 +160,7 @@
         },
         {
             "name": "labs_users_servicefabrics",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-09-15"
@@ -170,7 +170,7 @@
         },
         {
             "name": "labs_users_servicefabrics_schedules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-09-15"
@@ -180,7 +180,7 @@
         },
         {
             "name": "labs_virtualmachines",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-05-15",
@@ -193,7 +193,7 @@
         },
         {
             "name": "labs_virtualmachines_schedules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-05-15",
@@ -204,7 +204,7 @@
         },
         {
             "name": "labs_virtualnetworks",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-05-15",

@@ -15,7 +15,7 @@
         },
         {
             "name": "privateClouds_clusters",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

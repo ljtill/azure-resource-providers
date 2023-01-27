@@ -16,7 +16,7 @@
         },
         {
             "name": "dataManagers_dataServices_jobDefinitions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-06-01",
@@ -27,7 +27,7 @@
         },
         {
             "name": "dataManagers_dataStores",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-06-01",

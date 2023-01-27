@@ -26,7 +26,7 @@
         },
         {
             "name": "certificateOrders_certificates",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01",

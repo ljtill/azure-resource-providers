@@ -29,7 +29,7 @@
         },
         {
             "name": "registrations_customerSubscriptions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-06-01",

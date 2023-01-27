@@ -32,7 +32,7 @@
         },
         {
             "name": "queryPacks_queries",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-09-01"
@@ -60,7 +60,7 @@
         },
         {
             "name": "workspaces_dataExports",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-08-01"
@@ -73,7 +73,7 @@
         },
         {
             "name": "workspaces_dataSources",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-08-01"
@@ -86,7 +86,7 @@
         },
         {
             "name": "workspaces_linkedServices",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-08-01"
@@ -100,7 +100,7 @@
         },
         {
             "name": "workspaces_linkedStorageAccounts",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-08-01"
@@ -113,7 +113,7 @@
         },
         {
             "name": "workspaces_savedSearches",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-03-20",
@@ -126,7 +126,7 @@
         },
         {
             "name": "workspaces_storageInsightConfigs",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-03-20",
@@ -139,7 +139,7 @@
         },
         {
             "name": "workspaces_tables",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

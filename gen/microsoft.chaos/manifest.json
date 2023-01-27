@@ -29,7 +29,7 @@
         },
         {
             "name": "targets_capabilities",
-            "scope": "resource",
+            "scope": "extensionResource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

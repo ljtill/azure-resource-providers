@@ -40,7 +40,7 @@
         },
         {
             "name": "IotHubs_certificates",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-07-01",
@@ -73,7 +73,7 @@
         },
         {
             "name": "IotHubs_eventHubEndpoints_ConsumerGroups",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-02-03",
@@ -108,7 +108,7 @@
         },
         {
             "name": "iotHubs_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-03-01",
@@ -151,7 +151,7 @@
         },
         {
             "name": "provisioningServices_certificates",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-11-15",
@@ -169,7 +169,7 @@
         },
         {
             "name": "provisioningServices_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-03-01",

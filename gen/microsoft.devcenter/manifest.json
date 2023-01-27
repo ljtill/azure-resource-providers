@@ -18,7 +18,7 @@
         },
         {
             "name": "devcenters_attachednetworks",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -31,7 +31,7 @@
         },
         {
             "name": "devcenters_catalogs",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -44,7 +44,7 @@
         },
         {
             "name": "devcenters_devboxdefinitions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -57,7 +57,7 @@
         },
         {
             "name": "devcenters_environmentTypes",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -70,7 +70,7 @@
         },
         {
             "name": "devcenters_galleries",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -109,7 +109,7 @@
         },
         {
             "name": "projects_environmentTypes",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -122,7 +122,7 @@
         },
         {
             "name": "projects_pools",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -135,7 +135,7 @@
         },
         {
             "name": "projects_pools_schedules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

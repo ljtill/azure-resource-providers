@@ -32,7 +32,7 @@
         },
         {
             "name": "machines_extensions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-12-12",
@@ -80,7 +80,7 @@
         },
         {
             "name": "privateLinkScopes_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-05-20",
@@ -102,7 +102,7 @@
         },
         {
             "name": "privateLinkScopes_scopedResources",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

@@ -30,7 +30,7 @@
         },
         {
             "name": "dataBoxEdgeDevices_bandwidthSchedules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-03-01",
@@ -55,7 +55,7 @@
         },
         {
             "name": "dataBoxEdgeDevices_diagnosticProactiveLogCollectionSettings",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-02-01",
@@ -72,7 +72,7 @@
         },
         {
             "name": "dataBoxEdgeDevices_diagnosticRemoteSupportSettings",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-02-01",
@@ -89,7 +89,7 @@
         },
         {
             "name": "dataBoxEdgeDevices_orders",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-03-01",
@@ -114,7 +114,7 @@
         },
         {
             "name": "dataBoxEdgeDevices_roles",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-03-01",
@@ -139,7 +139,7 @@
         },
         {
             "name": "dataBoxEdgeDevices_roles_addons",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-09-01",
@@ -160,7 +160,7 @@
         },
         {
             "name": "dataBoxEdgeDevices_roles_monitoringConfig",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-09-01",
@@ -181,7 +181,7 @@
         },
         {
             "name": "dataBoxEdgeDevices_shares",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-03-01",
@@ -206,7 +206,7 @@
         },
         {
             "name": "dataBoxEdgeDevices_storageAccountCredentials",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-03-01",
@@ -231,7 +231,7 @@
         },
         {
             "name": "dataBoxEdgeDevices_storageAccounts",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-08-01",
@@ -254,7 +254,7 @@
         },
         {
             "name": "dataBoxEdgeDevices_storageAccounts_containers",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-08-01",
@@ -277,7 +277,7 @@
         },
         {
             "name": "dataBoxEdgeDevices_triggers",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-03-01",
@@ -302,7 +302,7 @@
         },
         {
             "name": "dataBoxEdgeDevices_users",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-03-01",

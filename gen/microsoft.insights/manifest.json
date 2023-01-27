@@ -30,7 +30,7 @@
         },
         {
             "name": "components_linkedStorageAccounts",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -40,7 +40,7 @@
         },
         {
             "name": "components_pricingPlans",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-10-01"
@@ -81,7 +81,7 @@
         },
         {
             "name": "privateLinkScopes_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -92,7 +92,7 @@
         },
         {
             "name": "privateLinkScopes_scopedResources",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

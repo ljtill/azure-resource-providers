@@ -21,7 +21,7 @@
         },
         {
             "name": "privateClouds_addons",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-06-01",
@@ -36,7 +36,7 @@
         },
         {
             "name": "privateClouds_authorizations",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-03-20",
@@ -52,7 +52,7 @@
         },
         {
             "name": "privateClouds_cloudLinks",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-06-01",
@@ -64,7 +64,7 @@
         },
         {
             "name": "privateClouds_clusters",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-03-20",
@@ -80,7 +80,7 @@
         },
         {
             "name": "privateClouds_clusters_datastores",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-06-01",
@@ -94,7 +94,7 @@
         },
         {
             "name": "privateClouds_clusters_placementPolicies",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-12-01",
@@ -105,7 +105,7 @@
         },
         {
             "name": "privateClouds_globalReachConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-06-01",
@@ -120,7 +120,7 @@
         },
         {
             "name": "privateClouds_hcxEnterpriseSites",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-03-20",
@@ -136,7 +136,7 @@
         },
         {
             "name": "privateClouds_scriptExecutions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-06-01",
@@ -148,7 +148,7 @@
         },
         {
             "name": "privateClouds_workloadNetworks_dhcpConfigurations",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-06-01",
@@ -163,7 +163,7 @@
         },
         {
             "name": "privateClouds_workloadNetworks_dnsServices",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-06-01",
@@ -178,7 +178,7 @@
         },
         {
             "name": "privateClouds_workloadNetworks_dnsZones",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-06-01",
@@ -193,7 +193,7 @@
         },
         {
             "name": "privateClouds_workloadNetworks_portMirroringProfiles",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-06-01",
@@ -208,7 +208,7 @@
         },
         {
             "name": "privateClouds_workloadNetworks_publicIPs",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-06-01",
@@ -220,7 +220,7 @@
         },
         {
             "name": "privateClouds_workloadNetworks_segments",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-06-01",
@@ -235,7 +235,7 @@
         },
         {
             "name": "privateClouds_workloadNetworks_vmGroups",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-06-01",

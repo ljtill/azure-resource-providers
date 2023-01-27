@@ -19,7 +19,7 @@
         },
         {
             "name": "userAssignedIdentities_federatedIdentityCredentials",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

@@ -25,7 +25,7 @@
         },
         {
             "name": "enterprisePolicies_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

@@ -16,7 +16,7 @@
         },
         {
             "name": "farmBeats_extensions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -27,7 +27,7 @@
         },
         {
             "name": "farmBeats_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -37,7 +37,7 @@
         },
         {
             "name": "farmBeats_solutions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

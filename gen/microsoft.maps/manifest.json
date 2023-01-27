@@ -21,7 +21,7 @@
         },
         {
             "name": "accounts_creators",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-02-01"
@@ -35,7 +35,7 @@
         },
         {
             "name": "accounts_privateAtlases",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

@@ -110,7 +110,7 @@
         },
         {
             "name": "locations_applicationWhitelistings",
-            "scope": "subscription",
+            "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
                     "2020-01-01"
@@ -122,7 +122,7 @@
         },
         {
             "name": "locations_jitNetworkAccessPolicies",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-01-01"

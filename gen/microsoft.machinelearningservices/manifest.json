@@ -15,7 +15,7 @@
         },
         {
             "name": "registries_codes",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -25,7 +25,7 @@
         },
         {
             "name": "registries_codes_versions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -35,7 +35,7 @@
         },
         {
             "name": "registries_components",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -45,7 +45,7 @@
         },
         {
             "name": "registries_components_versions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -55,7 +55,7 @@
         },
         {
             "name": "registries_environments",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -65,7 +65,7 @@
         },
         {
             "name": "registries_environments_versions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -75,7 +75,7 @@
         },
         {
             "name": "registries_models",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -85,7 +85,7 @@
         },
         {
             "name": "registries_models_versions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -129,7 +129,7 @@
         },
         {
             "name": "workspaces_batchEndpoints",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-05-01",
@@ -145,7 +145,7 @@
         },
         {
             "name": "workspaces_batchEndpoints_deployments",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-05-01",
@@ -161,7 +161,7 @@
         },
         {
             "name": "workspaces_codes",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-05-01",
@@ -177,7 +177,7 @@
         },
         {
             "name": "workspaces_codes_versions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-05-01",
@@ -193,7 +193,7 @@
         },
         {
             "name": "workspaces_components",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-05-01",
@@ -208,7 +208,7 @@
         },
         {
             "name": "workspaces_components_versions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-05-01",
@@ -223,7 +223,7 @@
         },
         {
             "name": "workspaces_computes",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-11-19",
@@ -257,7 +257,7 @@
         },
         {
             "name": "workspaces_connections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-06-01",
@@ -280,7 +280,7 @@
         },
         {
             "name": "workspaces_data",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-05-01",
@@ -296,7 +296,7 @@
         },
         {
             "name": "workspaces_data_versions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-05-01",
@@ -312,7 +312,7 @@
         },
         {
             "name": "workspaces_datasets",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -322,7 +322,7 @@
         },
         {
             "name": "workspaces_datastores",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-05-01",
@@ -339,7 +339,7 @@
         },
         {
             "name": "workspaces_environments",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-05-01",
@@ -355,7 +355,7 @@
         },
         {
             "name": "workspaces_environments_versions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-05-01",
@@ -371,7 +371,7 @@
         },
         {
             "name": "workspaces_jobs",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-05-01",
@@ -387,7 +387,7 @@
         },
         {
             "name": "workspaces_labelingJobs",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -400,7 +400,7 @@
         },
         {
             "name": "workspaces_linkedServices",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -410,7 +410,7 @@
         },
         {
             "name": "workspaces_linkedWorkspaces",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -421,7 +421,7 @@
         },
         {
             "name": "workspaces_models",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-05-01",
@@ -437,7 +437,7 @@
         },
         {
             "name": "workspaces_models_versions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-05-01",
@@ -453,7 +453,7 @@
         },
         {
             "name": "workspaces_onlineEndpoints",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-05-01",
@@ -469,7 +469,7 @@
         },
         {
             "name": "workspaces_onlineEndpoints_deployments",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-05-01",
@@ -485,7 +485,7 @@
         },
         {
             "name": "workspaces_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-01-01",
@@ -514,7 +514,7 @@
         },
         {
             "name": "workspaces_schedules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-10-01"
@@ -527,7 +527,7 @@
         },
         {
             "name": "workspaces_services",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-01-01",
