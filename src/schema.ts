@@ -17,6 +17,7 @@ export type Definition = {
 
 export type DefinitionObject = {
     type?: string;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     properties?: any;
     required?: string[];
     description?: string;
