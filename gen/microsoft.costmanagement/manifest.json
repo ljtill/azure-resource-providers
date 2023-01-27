@@ -58,7 +58,6 @@
             "scope": "subscription",
             "apiVersions": {
                 "stable": [
-                    "2018-05-31",
                     "2018-05-31"
                 ],
                 "preview": []
@@ -70,8 +69,6 @@
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2018-08-01-preview",
-                    "2018-08-01-preview",
                     "2018-08-01-preview"
                 ]
             }

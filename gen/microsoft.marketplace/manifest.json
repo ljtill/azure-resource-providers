@@ -62,7 +62,6 @@
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [
-                    "2020-01-01",
                     "2020-01-01"
                 ],
                 "preview": []
