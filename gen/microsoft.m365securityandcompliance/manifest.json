@@ -1,7 +1,7 @@
 {
     "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
     "metadata": {},
-    "providerNamespace": "Microsoft.M365securityandcompliance",
+    "providerNamespace": "Microsoft.M365SecurityAndCompliance",
     "resourceTypes": [
         {
             "name": "privateLinkServicesForEDMUpload",

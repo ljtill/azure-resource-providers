@@ -1,7 +1,7 @@
 {
     "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
     "metadata": {},
-    "providerNamespace": "Microsoft.Insights",
+    "providerNamespace": "microsoft.insights",
     "resourceTypes": [
         {
             "name": "actionGroups",
@@ -9,13 +9,9 @@
             "apiVersions": {
                 "stable": [
                     "2017-04-01",
-                    "2018-03-01",
                     "2018-09-01",
                     "2019-03-01",
-                    "2019-06-01",
-                    "2021-09-01",
-                    "2022-04-01",
-                    "2022-06-01"
+                    "2019-06-01"
                 ],
                 "preview": []
             }
@@ -25,103 +21,11 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2017-04-01",
-                    "2020-10-01"
+                    "2017-04-01"
                 ],
                 "preview": [
                     "2017-03-01-preview"
                 ]
-            }
-        },
-        {
-            "name": "alertrules",
-            "scope": "resourceGroup",
-            "apiVersions": {
-                "stable": [
-                    "2014-04-01",
-                    "2016-03-01"
-                ],
-                "preview": []
-            }
-        },
-        {
-            "name": "autoscalesettings",
-            "scope": "resourceGroup",
-            "apiVersions": {
-                "stable": [
-                    "2014-04-01",
-                    "2014-04-01",
-                    "2015-04-01",
-                    "2022-10-01"
-                ],
-                "preview": [
-                    "2021-05-01-preview"
-                ]
-            }
-        },
-        {
-            "name": "components",
-            "scope": "resourceGroup",
-            "apiVersions": {
-                "stable": [
-                    "2014-04-01",
-                    "2015-05-01",
-                    "2020-02-02"
-                ],
-                "preview": [
-                    "2018-05-01-preview",
-                    "2020-02-02-preview"
-                ]
-            }
-        },
-        {
-            "name": "components_analyticsItems",
-            "scope": "resourceGroup",
-            "apiVersions": {
-                "stable": [
-                    "2015-05-01"
-                ],
-                "preview": []
-            }
-        },
-        {
-            "name": "components_Annotations",
-            "scope": "resourceGroup",
-            "apiVersions": {
-                "stable": [
-                    "2015-05-01"
-                ],
-                "preview": []
-            }
-        },
-        {
-            "name": "components_currentbillingfeatures",
-            "scope": "resourceGroup",
-            "apiVersions": {
-                "stable": [
-                    "2015-05-01"
-                ],
-                "preview": []
-            }
-        },
-        {
-            "name": "components_exportconfiguration",
-            "scope": "resourceGroup",
-            "apiVersions": {
-                "stable": [
-                    "2015-05-01"
-                ],
-                "preview": []
-            }
-        },
-        {
-            "name": "components_favorites",
-            "scope": "resourceGroup",
-            "apiVersions": {
-                "stable": [
-                    "2015-05-01"
-                ],
-                "preview": []
             }
         },
         {
@@ -135,16 +39,6 @@
             }
         },
         {
-            "name": "components_myanalyticsItems",
-            "scope": "resourceGroup",
-            "apiVersions": {
-                "stable": [
-                    "2015-05-01"
-                ],
-                "preview": []
-            }
-        },
-        {
             "name": "components_pricingPlans",
             "scope": "resourceGroup",
             "apiVersions": {
@@ -155,52 +49,12 @@
             }
         },
         {
-            "name": "components_ProactiveDetectionConfigs",
-            "scope": "resourceGroup",
-            "apiVersions": {
-                "stable": [
-                    "2015-05-01"
-                ],
-                "preview": [
-                    "2018-05-01-preview"
-                ]
-            }
-        },
-        {
-            "name": "dataCollectionEndpoints",
-            "scope": "resourceGroup",
-            "apiVersions": {
-                "stable": [
-                    "2021-04-01"
-                ],
-                "preview": [
-                    "2021-09-01-preview"
-                ]
-            }
-        },
-        {
-            "name": "dataCollectionRules",
-            "scope": "resourceGroup",
-            "apiVersions": {
-                "stable": [
-                    "2021-04-01"
-                ],
-                "preview": [
-                    "2019-11-01-preview",
-                    "2021-09-01-preview"
-                ]
-            }
-        },
-        {
             "name": "diagnosticSettings",
-            "scope": "subscription",
+            "scope": "managementGroup",
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2017-05-01-preview",
-                    "2020-01-01-preview",
-                    "2021-05-01-preview",
-                    "2021-05-01-preview"
+                    "2020-01-01-preview"
                 ]
             }
         },
@@ -212,38 +66,6 @@
                 "preview": [
                     "2018-06-01-preview"
                 ]
-            }
-        },
-        {
-            "name": "logprofiles",
-            "scope": "subscription",
-            "apiVersions": {
-                "stable": [
-                    "2016-03-01"
-                ],
-                "preview": []
-            }
-        },
-        {
-            "name": "metricAlerts",
-            "scope": "resourceGroup",
-            "apiVersions": {
-                "stable": [
-                    "2018-03-01"
-                ],
-                "preview": []
-            }
-        },
-        {
-            "name": "myWorkbooks",
-            "scope": "resourceGroup",
-            "apiVersions": {
-                "stable": [
-                    "2015-05-01",
-                    "2020-10-20",
-                    "2021-03-08"
-                ],
-                "preview": []
             }
         },
         {
@@ -280,47 +102,10 @@
             }
         },
         {
-            "name": "scheduledQueryRules",
-            "scope": "resourceGroup",
-            "apiVersions": {
-                "stable": [
-                    "2018-04-16",
-                    "2021-08-01",
-                    "2022-06-15"
-                ],
-                "preview": [
-                    "2020-05-01-preview",
-                    "2021-02-01-preview",
-                    "2022-08-01-preview"
-                ]
-            }
-        },
-        {
-            "name": "webtests",
-            "scope": "resourceGroup",
-            "apiVersions": {
-                "stable": [
-                    "2014-04-01",
-                    "2015-05-01",
-                    "2022-06-15"
-                ],
-                "preview": [
-                    "2018-05-01-preview",
-                    "2020-10-05-preview"
-                ]
-            }
-        },
-        {
             "name": "workbooks",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [
-                    "2015-05-01",
-                    "2020-10-20",
-                    "2021-03-08",
-                    "2021-08-01",
-                    "2022-04-01"
-                ],
+                "stable": [],
                 "preview": [
                     "2018-06-17-preview"
                 ]
@@ -330,9 +115,7 @@
             "name": "workbooktemplates",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [
-                    "2020-11-20"
-                ],
+                "stable": [],
                 "preview": [
                     "2019-10-17-preview"
                 ]
