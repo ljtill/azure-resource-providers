@@ -40,15 +40,6 @@ function generate(): void {
         try {
             const content = fs.readFileSync(element).toString()
             const schema = JSON.parse(content) as Schema
-
-            schema.title = schema.title.toLowerCase()
-
-            let firstPart = schema.title.split(".")[0]
-            let secondPart = schema.title.split(".")[1]
-            firstPart = firstPart.charAt(0).toUpperCase() + firstPart.slice(1)
-            secondPart = secondPart.charAt(0).toUpperCase() + secondPart.slice(1)
-            schema.title = firstPart + '.' + secondPart
-
             schemas.push(schema)
         } catch (err) {
             logger.error("Error parsing schema file:" + element)
