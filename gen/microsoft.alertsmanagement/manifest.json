@@ -1,31 +1,8 @@
 {
     "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
     "metadata": {},
-    "providerNamespace": "Microsoft.Alertsmanagement",
+    "providerNamespace": "microsoft.alertsManagement",
     "resourceTypes": [
-        {
-            "name": "actionRules",
-            "scope": "resourceGroup",
-            "apiVersions": {
-                "stable": [
-                    "2021-08-08"
-                ],
-                "preview": [
-                    "2019-05-05-preview",
-                    "2021-08-08-preview"
-                ]
-            }
-        },
-        {
-            "name": "prometheusRuleGroups",
-            "scope": "resourceGroup",
-            "apiVersions": {
-                "stable": [],
-                "preview": [
-                    "2021-07-22-preview"
-                ]
-            }
-        },
         {
             "name": "smartDetectorAlertRules",
             "scope": "resourceGroup",

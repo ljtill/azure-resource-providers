@@ -1,7 +1,7 @@
 {
     "$schema": "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#",
     "metadata": {},
-    "providerNamespace": "Microsoft.Dbformysql",
+    "providerNamespace": "Microsoft.DBforMySQL",
     "resourceTypes": [
         {
             "name": "flexibleServers",
@@ -11,7 +11,6 @@
                     "2021-05-01"
                 ],
                 "preview": [
-                    "2020-07-01-preview",
                     "2021-05-01-preview",
                     "2021-12-01-preview"
                 ]
@@ -45,7 +44,6 @@
                     "2021-05-01"
                 ],
                 "preview": [
-                    "2020-07-01-preview",
                     "2021-05-01-preview",
                     "2021-12-01-preview"
                 ]
@@ -59,19 +57,8 @@
                     "2021-05-01"
                 ],
                 "preview": [
-                    "2020-07-01-preview",
                     "2021-05-01-preview",
                     "2021-12-01-preview"
-                ]
-            }
-        },
-        {
-            "name": "flexibleServers_keys",
-            "scope": "resourceGroup",
-            "apiVersions": {
-                "stable": [],
-                "preview": [
-                    "2020-07-01-preview"
                 ]
             }
         },
