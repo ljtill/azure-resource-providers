@@ -26,7 +26,7 @@
         },
         {
             "name": "services_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-03-30",
@@ -60,7 +60,7 @@
         },
         {
             "name": "workspaces_analyticsconnectors",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -70,7 +70,7 @@
         },
         {
             "name": "workspaces_dicomservices",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-11-01",
@@ -86,7 +86,7 @@
         },
         {
             "name": "workspaces_fhirservices",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-11-01",
@@ -102,7 +102,7 @@
         },
         {
             "name": "workspaces_iotconnectors",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-11-01",
@@ -118,7 +118,7 @@
         },
         {
             "name": "workspaces_iotconnectors_fhirdestinations",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-11-01",
@@ -134,7 +134,7 @@
         },
         {
             "name": "workspaces_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-11-01",

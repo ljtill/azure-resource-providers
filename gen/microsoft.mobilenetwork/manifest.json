@@ -18,7 +18,7 @@
         },
         {
             "name": "mobileNetworks_dataNetworks",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-11-01"
@@ -31,7 +31,7 @@
         },
         {
             "name": "mobileNetworks_services",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-11-01"
@@ -44,7 +44,7 @@
         },
         {
             "name": "mobileNetworks_simPolicies",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-11-01"
@@ -57,7 +57,7 @@
         },
         {
             "name": "mobileNetworks_sites",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-11-01"
@@ -70,7 +70,7 @@
         },
         {
             "name": "mobileNetworks_slices",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-11-01"
@@ -96,7 +96,7 @@
         },
         {
             "name": "packetCoreControlPlanes_packetCoreDataPlanes",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-11-01"
@@ -109,7 +109,7 @@
         },
         {
             "name": "packetCoreControlPlanes_packetCoreDataPlanes_attachedDataNetworks",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-11-01"
@@ -134,7 +134,7 @@
         },
         {
             "name": "simGroups_sims",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-11-01"

@@ -30,7 +30,7 @@
         },
         {
             "name": "accessReviewScheduleDefinitions_instances",
-            "scope": "subscription",
+            "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -164,7 +164,7 @@
         },
         {
             "name": "roleAssignmentApprovals_stages",
-            "scope": "tenant",
+            "scope": "managementGroup",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -207,7 +207,7 @@
         },
         {
             "name": "variables_values",
-            "scope": "managementGroup",
+            "scope": "subscription",
             "apiVersions": {
                 "stable": [],
                 "preview": [

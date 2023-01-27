@@ -18,7 +18,7 @@
         },
         {
             "name": "recommendations_suppressions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-03-31",

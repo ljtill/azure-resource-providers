@@ -21,7 +21,7 @@
         },
         {
             "name": "dataControllers_activeDirectoryConnectors",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -77,7 +77,7 @@
         },
         {
             "name": "sqlServerInstances_databases",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

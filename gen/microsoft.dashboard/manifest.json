@@ -18,7 +18,7 @@
         },
         {
             "name": "grafana_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-08-01"

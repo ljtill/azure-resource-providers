@@ -29,7 +29,7 @@
         },
         {
             "name": "registries_agentPools",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -39,7 +39,7 @@
         },
         {
             "name": "registries_buildTasks",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -49,7 +49,7 @@
         },
         {
             "name": "registries_buildTasks_steps",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -59,7 +59,7 @@
         },
         {
             "name": "registries_cacheRules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -69,7 +69,7 @@
         },
         {
             "name": "registries_connectedRegistries",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -84,7 +84,7 @@
         },
         {
             "name": "registries_credentialSets",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -94,7 +94,7 @@
         },
         {
             "name": "registries_exportPipelines",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -110,7 +110,7 @@
         },
         {
             "name": "registries_importPipelines",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -126,7 +126,7 @@
         },
         {
             "name": "registries_pipelineRuns",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -142,7 +142,7 @@
         },
         {
             "name": "registries_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-09-01",
@@ -161,7 +161,7 @@
         },
         {
             "name": "registries_replications",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-10-01",
@@ -183,7 +183,7 @@
         },
         {
             "name": "registries_scopeMaps",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-12-01"
@@ -201,7 +201,7 @@
         },
         {
             "name": "registries_taskRuns",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -211,7 +211,7 @@
         },
         {
             "name": "registries_tasks",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-09-01",
@@ -224,7 +224,7 @@
         },
         {
             "name": "registries_tokens",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-12-01"
@@ -242,7 +242,7 @@
         },
         {
             "name": "registries_webhooks",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-10-01",

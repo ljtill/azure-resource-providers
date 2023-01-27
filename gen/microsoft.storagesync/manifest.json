@@ -26,7 +26,7 @@
         },
         {
             "name": "storageSyncServices_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-03-01",
@@ -38,7 +38,7 @@
         },
         {
             "name": "storageSyncServices_registeredServers",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-04-02",
@@ -59,7 +59,7 @@
         },
         {
             "name": "storageSyncServices_syncGroups",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-04-02",
@@ -80,7 +80,7 @@
         },
         {
             "name": "storageSyncServices_syncGroups_cloudEndpoints",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-04-02",
@@ -101,7 +101,7 @@
         },
         {
             "name": "storageSyncServices_syncGroups_serverEndpoints",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-04-02",

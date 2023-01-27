@@ -17,7 +17,7 @@
         },
         {
             "name": "connectedEnvironments_certificates",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-10-01"
@@ -29,7 +29,7 @@
         },
         {
             "name": "connectedEnvironments_daprComponents",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-10-01"
@@ -41,7 +41,7 @@
         },
         {
             "name": "connectedEnvironments_storages",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-10-01"
@@ -67,7 +67,7 @@
         },
         {
             "name": "containerApps_authConfigs",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-03-01",
@@ -81,7 +81,7 @@
         },
         {
             "name": "containerApps_sourcecontrols",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-03-01",
@@ -109,7 +109,7 @@
         },
         {
             "name": "managedEnvironments_certificates",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-03-01",
@@ -123,7 +123,7 @@
         },
         {
             "name": "managedEnvironments_daprComponents",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-03-01",
@@ -137,7 +137,7 @@
         },
         {
             "name": "managedEnvironments_storages",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-03-01",

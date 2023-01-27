@@ -21,7 +21,7 @@
         },
         {
             "name": "sqlVirtualMachineGroups_availabilityGroupListeners",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-02-01"

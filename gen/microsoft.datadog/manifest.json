@@ -31,7 +31,7 @@
         },
         {
             "name": "monitors_singleSignOnConfigurations",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-03-01",
@@ -44,7 +44,7 @@
         },
         {
             "name": "monitors_tagRules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-03-01",

@@ -26,7 +26,7 @@
         },
         {
             "name": "clusters_arcSettings",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-09-01",
@@ -45,7 +45,7 @@
         },
         {
             "name": "clusters_arcSettings_extensions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-09-01",
@@ -64,7 +64,7 @@
         },
         {
             "name": "clusters_updates",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-12-01"
@@ -74,7 +74,7 @@
         },
         {
             "name": "clusters_updates_updateRuns",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-12-01"
@@ -84,7 +84,7 @@
         },
         {
             "name": "clusters_updateSummaries",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-12-01"
@@ -158,7 +158,7 @@
         },
         {
             "name": "virtualMachines_extensions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -168,7 +168,7 @@
         },
         {
             "name": "virtualMachines_guestAgents",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -178,7 +178,7 @@
         },
         {
             "name": "virtualMachines_hybridIdentityMetadata",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

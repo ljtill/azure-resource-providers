@@ -16,7 +16,7 @@
         },
         {
             "name": "HyperVSites_clusters",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-01-01",
@@ -27,7 +27,7 @@
         },
         {
             "name": "HyperVSites_hosts",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-01-01",
@@ -48,7 +48,7 @@
         },
         {
             "name": "masterSites_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-07-07"
@@ -69,7 +69,7 @@
         },
         {
             "name": "VMwareSites_vCenters",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-01-01",

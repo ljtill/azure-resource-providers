@@ -103,7 +103,7 @@
         },
         {
             "name": "hostingEnvironments_configurations",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -118,7 +118,7 @@
         },
         {
             "name": "hostingEnvironments_multiRolePools",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01",
@@ -140,7 +140,7 @@
         },
         {
             "name": "hostingEnvironments_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -155,7 +155,7 @@
         },
         {
             "name": "hostingEnvironments_workerPools",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01",
@@ -255,7 +255,7 @@
         },
         {
             "name": "serverfarms_virtualNetworkConnections_gateways",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01",
@@ -277,7 +277,7 @@
         },
         {
             "name": "serverfarms_virtualNetworkConnections_routes",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01",
@@ -322,7 +322,7 @@
         },
         {
             "name": "sites_backups",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01",
@@ -333,7 +333,7 @@
         },
         {
             "name": "sites_basicPublishingCredentialsPolicies",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-08-01",
@@ -352,7 +352,7 @@
         },
         {
             "name": "sites_config",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01",
@@ -375,7 +375,7 @@
         },
         {
             "name": "sites_deployments",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01",
@@ -398,7 +398,7 @@
         },
         {
             "name": "sites_domainOwnershipIdentifiers",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-08-01",
@@ -420,7 +420,7 @@
         },
         {
             "name": "sites_extensions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-08-01",
@@ -442,7 +442,7 @@
         },
         {
             "name": "sites_functions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-08-01",
@@ -464,7 +464,7 @@
         },
         {
             "name": "sites_functions_keys",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-02-01",
@@ -484,7 +484,7 @@
         },
         {
             "name": "sites_hostNameBindings",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01",
@@ -507,7 +507,7 @@
         },
         {
             "name": "sites_hybridconnection",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01",
@@ -530,7 +530,7 @@
         },
         {
             "name": "sites_hybridConnectionNamespaces_relays",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-08-01",
@@ -552,7 +552,7 @@
         },
         {
             "name": "sites_instances_deployments",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01"
@@ -562,7 +562,7 @@
         },
         {
             "name": "sites_instances_extensions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-08-01",
@@ -584,7 +584,7 @@
         },
         {
             "name": "sites_migrate",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-08-01",
@@ -606,7 +606,7 @@
         },
         {
             "name": "sites_networkConfig",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-02-01",
@@ -627,7 +627,7 @@
         },
         {
             "name": "sites_premieraddons",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01",
@@ -650,7 +650,7 @@
         },
         {
             "name": "sites_privateAccess",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-02-01",
@@ -671,7 +671,7 @@
         },
         {
             "name": "sites_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-08-01",
@@ -690,7 +690,7 @@
         },
         {
             "name": "sites_publicCertificates",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-08-01",
@@ -712,7 +712,7 @@
         },
         {
             "name": "sites_siteextensions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-08-01",
@@ -734,7 +734,7 @@
         },
         {
             "name": "sites_slots",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01",
@@ -757,7 +757,7 @@
         },
         {
             "name": "sites_slots_backups",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01",
@@ -768,7 +768,7 @@
         },
         {
             "name": "sites_slots_basicPublishingCredentialsPolicies",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -783,7 +783,7 @@
         },
         {
             "name": "sites_slots_config",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01",
@@ -806,7 +806,7 @@
         },
         {
             "name": "sites_slots_deployments",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01",
@@ -829,7 +829,7 @@
         },
         {
             "name": "sites_slots_domainOwnershipIdentifiers",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-08-01",
@@ -851,7 +851,7 @@
         },
         {
             "name": "sites_slots_extensions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-08-01",
@@ -873,7 +873,7 @@
         },
         {
             "name": "sites_slots_functions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-08-01",
@@ -895,7 +895,7 @@
         },
         {
             "name": "sites_slots_functions_keys",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-02-01",
@@ -915,7 +915,7 @@
         },
         {
             "name": "sites_slots_hostNameBindings",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01",
@@ -938,7 +938,7 @@
         },
         {
             "name": "sites_slots_hybridconnection",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01",
@@ -961,7 +961,7 @@
         },
         {
             "name": "sites_slots_hybridConnectionNamespaces_relays",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-08-01",
@@ -983,7 +983,7 @@
         },
         {
             "name": "sites_slots_instances_deployments",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01"
@@ -993,7 +993,7 @@
         },
         {
             "name": "sites_slots_instances_extensions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-08-01",
@@ -1015,7 +1015,7 @@
         },
         {
             "name": "sites_slots_networkConfig",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-02-01",
@@ -1034,7 +1034,7 @@
         },
         {
             "name": "sites_slots_premieraddons",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01",
@@ -1057,7 +1057,7 @@
         },
         {
             "name": "sites_slots_privateAccess",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-02-01",
@@ -1078,7 +1078,7 @@
         },
         {
             "name": "sites_slots_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -1093,7 +1093,7 @@
         },
         {
             "name": "sites_slots_publicCertificates",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-08-01",
@@ -1115,7 +1115,7 @@
         },
         {
             "name": "sites_slots_siteextensions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-08-01",
@@ -1137,7 +1137,7 @@
         },
         {
             "name": "sites_slots_snapshots",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01"
@@ -1147,7 +1147,7 @@
         },
         {
             "name": "sites_slots_sourcecontrols",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01",
@@ -1170,7 +1170,7 @@
         },
         {
             "name": "sites_slots_virtualNetworkConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01",
@@ -1193,7 +1193,7 @@
         },
         {
             "name": "sites_slots_virtualNetworkConnections_gateways",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01",
@@ -1216,7 +1216,7 @@
         },
         {
             "name": "sites_snapshots",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01"
@@ -1226,7 +1226,7 @@
         },
         {
             "name": "sites_sourcecontrols",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01",
@@ -1249,7 +1249,7 @@
         },
         {
             "name": "sites_virtualNetworkConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01",
@@ -1272,7 +1272,7 @@
         },
         {
             "name": "sites_virtualNetworkConnections_gateways",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01",
@@ -1336,7 +1336,7 @@
         },
         {
             "name": "staticSites_builds_config",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-08-01",
@@ -1355,7 +1355,7 @@
         },
         {
             "name": "staticSites_builds_linkedBackends",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-03-01"
@@ -1365,7 +1365,7 @@
         },
         {
             "name": "staticSites_builds_userProvidedFunctionApps",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -1380,7 +1380,7 @@
         },
         {
             "name": "staticSites_config",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-08-01",
@@ -1399,7 +1399,7 @@
         },
         {
             "name": "staticSites_customDomains",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-08-01",
@@ -1418,7 +1418,7 @@
         },
         {
             "name": "staticSites_linkedBackends",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-03-01"
@@ -1428,7 +1428,7 @@
         },
         {
             "name": "staticSites_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",
@@ -1443,7 +1443,7 @@
         },
         {
             "name": "staticSites_userProvidedFunctionApps",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-12-01",

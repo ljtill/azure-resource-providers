@@ -131,7 +131,7 @@
         },
         {
             "name": "templateSpecs_versions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-05-01",

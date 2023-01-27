@@ -19,7 +19,7 @@
         },
         {
             "name": "accounts_instances",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-10-01"
@@ -33,7 +33,7 @@
         },
         {
             "name": "accounts_privateEndpointConnectionProxies",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-10-01"
@@ -47,7 +47,7 @@
         },
         {
             "name": "accounts_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-10-01"

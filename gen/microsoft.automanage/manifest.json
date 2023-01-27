@@ -50,7 +50,7 @@
         },
         {
             "name": "configurationProfiles_versions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-05-04"

@@ -15,7 +15,7 @@
         },
         {
             "name": "monitors_providerInstances",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -35,7 +35,7 @@
         },
         {
             "name": "phpWorkloads_wordpressInstances",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -55,7 +55,7 @@
         },
         {
             "name": "sapVirtualInstances_applicationInstances",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -65,7 +65,7 @@
         },
         {
             "name": "sapVirtualInstances_centralInstances",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -75,7 +75,7 @@
         },
         {
             "name": "sapVirtualInstances_databaseInstances",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

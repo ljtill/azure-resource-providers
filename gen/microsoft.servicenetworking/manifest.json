@@ -15,7 +15,7 @@
         },
         {
             "name": "trafficControllers_associations",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -25,7 +25,7 @@
         },
         {
             "name": "trafficControllers_frontends",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

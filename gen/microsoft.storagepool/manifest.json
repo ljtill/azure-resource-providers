@@ -18,7 +18,7 @@
         },
         {
             "name": "diskPools_iscsiTargets",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-08-01"

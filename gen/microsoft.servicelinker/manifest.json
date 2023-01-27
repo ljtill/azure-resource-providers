@@ -5,7 +5,7 @@
     "resourceTypes": [
         {
             "name": "locations_connectors",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -15,7 +15,7 @@
         },
         {
             "name": "locations_dryruns",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

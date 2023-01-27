@@ -17,7 +17,7 @@
         },
         {
             "name": "accounts_firewallRules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-11-01"
@@ -29,7 +29,7 @@
         },
         {
             "name": "accounts_trustedIdProviders",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-11-01"
@@ -39,7 +39,7 @@
         },
         {
             "name": "accounts_virtualNetworkRules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-11-01"

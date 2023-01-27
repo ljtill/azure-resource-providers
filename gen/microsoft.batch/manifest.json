@@ -29,7 +29,7 @@
         },
         {
             "name": "batchAccounts_applications",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-12-01",
@@ -53,7 +53,7 @@
         },
         {
             "name": "batchAccounts_applications_versions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-12-01",
@@ -77,7 +77,7 @@
         },
         {
             "name": "batchAccounts_certificates",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-09-01",
@@ -98,7 +98,7 @@
         },
         {
             "name": "batchAccounts_pools",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-09-01",

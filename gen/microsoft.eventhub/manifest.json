@@ -39,7 +39,7 @@
         },
         {
             "name": "namespaces_applicationGroups",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -50,7 +50,7 @@
         },
         {
             "name": "namespaces_authorizationRules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-04-01",
@@ -67,7 +67,7 @@
         },
         {
             "name": "namespaces_AuthorizationRules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2014-09-01",
@@ -78,7 +78,7 @@
         },
         {
             "name": "namespaces_disasterRecoveryConfigs",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-04-01",
@@ -95,7 +95,7 @@
         },
         {
             "name": "namespaces_eventhubs",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2014-09-01",
@@ -114,7 +114,7 @@
         },
         {
             "name": "namespaces_eventhubs_authorizationRules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2014-09-01",
@@ -133,7 +133,7 @@
         },
         {
             "name": "namespaces_eventhubs_consumergroups",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2014-09-01",
@@ -152,7 +152,7 @@
         },
         {
             "name": "namespaces_ipfilterrules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -162,7 +162,7 @@
         },
         {
             "name": "namespaces_networkRuleSets",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-04-01",
@@ -179,7 +179,7 @@
         },
         {
             "name": "namespaces_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-11-01"
@@ -195,7 +195,7 @@
         },
         {
             "name": "namespaces_schemagroups",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-11-01"
@@ -208,7 +208,7 @@
         },
         {
             "name": "namespaces_virtualnetworkrules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

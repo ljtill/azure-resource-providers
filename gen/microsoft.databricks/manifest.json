@@ -28,7 +28,7 @@
         },
         {
             "name": "workspaces_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -39,7 +39,7 @@
         },
         {
             "name": "workspaces_virtualNetworkPeerings",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-04-01"

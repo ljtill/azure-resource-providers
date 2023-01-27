@@ -18,7 +18,7 @@
         },
         {
             "name": "locations_vendors_networkFunctions",
-            "scope": "subscription",
+            "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
                     "2021-05-01"
@@ -57,7 +57,7 @@
         },
         {
             "name": "vendors_vendorSkus",
-            "scope": "subscription",
+            "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
                     "2021-05-01"
@@ -70,7 +70,7 @@
         },
         {
             "name": "vendors_vendorSkus_previewSubscriptions",
-            "scope": "subscription",
+            "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
                     "2021-05-01"
