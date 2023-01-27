@@ -23,7 +23,7 @@
         },
         {
             "name": "namespaces_AuthorizationRules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01",
@@ -41,7 +41,7 @@
         },
         {
             "name": "namespaces_disasterRecoveryConfigs",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-04-01",
@@ -58,7 +58,7 @@
         },
         {
             "name": "namespaces_ipfilterrules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -68,7 +68,7 @@
         },
         {
             "name": "namespaces_migrationConfigurations",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-04-01",
@@ -85,7 +85,7 @@
         },
         {
             "name": "namespaces_networkRuleSets",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-04-01",
@@ -102,7 +102,7 @@
         },
         {
             "name": "namespaces_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-11-01"
@@ -118,7 +118,7 @@
         },
         {
             "name": "namespaces_queues",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01",
@@ -136,7 +136,7 @@
         },
         {
             "name": "namespaces_queues_authorizationRules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01",
@@ -154,7 +154,7 @@
         },
         {
             "name": "namespaces_topics",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01",
@@ -172,7 +172,7 @@
         },
         {
             "name": "namespaces_topics_authorizationRules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01",
@@ -190,7 +190,7 @@
         },
         {
             "name": "namespaces_topics_subscriptions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-08-01",
@@ -208,7 +208,7 @@
         },
         {
             "name": "namespaces_topics_subscriptions_rules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-04-01",
@@ -225,7 +225,7 @@
         },
         {
             "name": "namespaces_virtualnetworkrules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

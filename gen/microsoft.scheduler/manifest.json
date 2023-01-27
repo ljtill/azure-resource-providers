@@ -18,7 +18,7 @@
         },
         {
             "name": "jobCollections_jobs",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-01-01",

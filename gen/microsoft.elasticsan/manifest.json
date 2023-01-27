@@ -15,7 +15,7 @@
         },
         {
             "name": "elasticSans_volumegroups",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -25,7 +25,7 @@
         },
         {
             "name": "elasticSans_volumegroups_volumes",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

@@ -56,7 +56,7 @@
         },
         {
             "name": "profiles_afdEndpoints",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-09-01",
@@ -70,7 +70,7 @@
         },
         {
             "name": "profiles_afdEndpoints_routes",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-09-01",
@@ -84,7 +84,7 @@
         },
         {
             "name": "profiles_customDomains",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-09-01",
@@ -98,7 +98,7 @@
         },
         {
             "name": "profiles_endpoints",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-06-01",
@@ -122,7 +122,7 @@
         },
         {
             "name": "profiles_endpoints_customDomains",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-06-01",
@@ -146,7 +146,7 @@
         },
         {
             "name": "profiles_endpoints_originGroups",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-12-31",
@@ -162,7 +162,7 @@
         },
         {
             "name": "profiles_endpoints_origins",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-06-01",
@@ -180,7 +180,7 @@
         },
         {
             "name": "profiles_originGroups",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-09-01",
@@ -194,7 +194,7 @@
         },
         {
             "name": "profiles_originGroups_origins",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-09-01",
@@ -208,7 +208,7 @@
         },
         {
             "name": "profiles_ruleSets",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-09-01",
@@ -222,7 +222,7 @@
         },
         {
             "name": "profiles_ruleSets_rules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-09-01",
@@ -236,7 +236,7 @@
         },
         {
             "name": "profiles_secrets",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-09-01",
@@ -250,7 +250,7 @@
         },
         {
             "name": "profiles_securityPolicies",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-09-01",

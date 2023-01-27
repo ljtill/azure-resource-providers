@@ -15,7 +15,7 @@
         },
         {
             "name": "storageMovers_agents",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -25,7 +25,7 @@
         },
         {
             "name": "storageMovers_endpoints",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -35,7 +35,7 @@
         },
         {
             "name": "storageMovers_projects",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -45,7 +45,7 @@
         },
         {
             "name": "storageMovers_projects_jobDefinitions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

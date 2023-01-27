@@ -17,7 +17,7 @@
         },
         {
             "name": "supportTickets_communications",
-            "scope": "subscription",
+            "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
                     "2020-04-01"

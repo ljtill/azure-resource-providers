@@ -16,7 +16,7 @@
         },
         {
             "name": "assessmentProjects_groups",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-10-01",
@@ -27,7 +27,7 @@
         },
         {
             "name": "assessmentProjects_groups_assessments",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-10-01",
@@ -38,7 +38,7 @@
         },
         {
             "name": "assessmentProjects_hypervcollectors",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-10-01",
@@ -49,7 +49,7 @@
         },
         {
             "name": "assessmentProjects_importcollectors",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-10-01",
@@ -60,7 +60,7 @@
         },
         {
             "name": "assessmentprojects_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-10-01",
@@ -71,7 +71,7 @@
         },
         {
             "name": "assessmentProjects_servercollectors",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-10-01",
@@ -82,7 +82,7 @@
         },
         {
             "name": "assessmentProjects_vmwarecollectors",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-10-01",
@@ -107,7 +107,7 @@
         },
         {
             "name": "migrateProjects_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-05-01",
@@ -118,7 +118,7 @@
         },
         {
             "name": "migrateProjects_solutions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -142,7 +142,7 @@
         },
         {
             "name": "moveCollections_moveResources",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-01-01",
@@ -166,7 +166,7 @@
         },
         {
             "name": "projects_groups",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-02-02",
@@ -177,7 +177,7 @@
         },
         {
             "name": "projects_groups_assessments",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-02-02",

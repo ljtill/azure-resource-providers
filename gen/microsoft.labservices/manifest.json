@@ -15,7 +15,7 @@
         },
         {
             "name": "labaccounts_galleryimages",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-10-15"
@@ -25,7 +25,7 @@
         },
         {
             "name": "labaccounts_labs",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-10-15"
@@ -35,7 +35,7 @@
         },
         {
             "name": "labaccounts_labs_environmentsettings",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-10-15"
@@ -45,7 +45,7 @@
         },
         {
             "name": "labaccounts_labs_environmentsettings_environments",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-10-15"
@@ -55,7 +55,7 @@
         },
         {
             "name": "labaccounts_labs_users",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-10-15"
@@ -78,7 +78,7 @@
         },
         {
             "name": "labPlans_images",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-08-01"
@@ -104,7 +104,7 @@
         },
         {
             "name": "labs_schedules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-08-01"
@@ -117,7 +117,7 @@
         },
         {
             "name": "labs_users",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-08-01"

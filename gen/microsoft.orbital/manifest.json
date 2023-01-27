@@ -29,7 +29,7 @@
         },
         {
             "name": "spacecrafts_contacts",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-03-01"

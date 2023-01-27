@@ -16,7 +16,7 @@
         },
         {
             "name": "managers_accessControlRecords",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-10-01",
@@ -27,7 +27,7 @@
         },
         {
             "name": "managers_bandwidthSettings",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-06-01"
@@ -37,7 +37,7 @@
         },
         {
             "name": "managers_certificates",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-10-01"
@@ -47,7 +47,7 @@
         },
         {
             "name": "managers_devices_alertSettings",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-10-01",
@@ -58,7 +58,7 @@
         },
         {
             "name": "managers_devices_backupPolicies",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-06-01"
@@ -68,7 +68,7 @@
         },
         {
             "name": "managers_devices_backupPolicies_schedules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-06-01"
@@ -78,7 +78,7 @@
         },
         {
             "name": "managers_devices_backupScheduleGroups",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-10-01"
@@ -88,7 +88,7 @@
         },
         {
             "name": "managers_devices_chapSettings",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-10-01"
@@ -98,7 +98,7 @@
         },
         {
             "name": "managers_devices_fileservers",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-10-01"
@@ -108,7 +108,7 @@
         },
         {
             "name": "managers_devices_fileservers_shares",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-10-01"
@@ -118,7 +118,7 @@
         },
         {
             "name": "managers_devices_iscsiservers",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-10-01"
@@ -128,7 +128,7 @@
         },
         {
             "name": "managers_devices_iscsiservers_disks",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-10-01"
@@ -138,7 +138,7 @@
         },
         {
             "name": "managers_devices_timeSettings",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-06-01"
@@ -148,7 +148,7 @@
         },
         {
             "name": "managers_devices_volumeContainers",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-06-01"
@@ -158,7 +158,7 @@
         },
         {
             "name": "managers_devices_volumeContainers_volumes",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-06-01"
@@ -168,7 +168,7 @@
         },
         {
             "name": "managers_extendedInformation",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-10-01",
@@ -179,7 +179,7 @@
         },
         {
             "name": "managers_storageAccountCredentials",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-10-01",
@@ -190,7 +190,7 @@
         },
         {
             "name": "managers_storageDomains",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-10-01"

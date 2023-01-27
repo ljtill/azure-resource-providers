@@ -19,7 +19,7 @@
         },
         {
             "name": "openshiftclusters_machinePool",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-09-04"
@@ -29,7 +29,7 @@
         },
         {
             "name": "openshiftclusters_secret",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-09-04"
@@ -39,7 +39,7 @@
         },
         {
             "name": "openshiftclusters_syncIdentityProvider",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-09-04"
@@ -49,7 +49,7 @@
         },
         {
             "name": "openshiftclusters_syncSet",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-09-04"

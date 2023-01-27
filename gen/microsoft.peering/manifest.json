@@ -45,7 +45,7 @@
         },
         {
             "name": "peerings_registeredAsns",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-04-01",
@@ -63,7 +63,7 @@
         },
         {
             "name": "peerings_registeredPrefixes",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-04-01",
@@ -101,7 +101,7 @@
         },
         {
             "name": "peeringServices_connectionMonitorTests",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-06-01",
@@ -114,7 +114,7 @@
         },
         {
             "name": "peeringServices_prefixes",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-04-01",

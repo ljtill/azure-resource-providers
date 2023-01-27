@@ -25,7 +25,7 @@
         },
         {
             "name": "blueprints_artifacts",
-            "scope": "managementGroup",
+            "scope": "subscription",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -35,7 +35,7 @@
         },
         {
             "name": "blueprints_versions",
-            "scope": "managementGroup",
+            "scope": "subscription",
             "apiVersions": {
                 "stable": [],
                 "preview": [

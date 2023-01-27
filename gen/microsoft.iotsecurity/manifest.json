@@ -15,7 +15,7 @@
         },
         {
             "name": "locations_deviceGroups",
-            "scope": "subscription",
+            "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
                 "preview": [

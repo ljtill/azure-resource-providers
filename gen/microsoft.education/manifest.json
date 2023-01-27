@@ -15,7 +15,7 @@
         },
         {
             "name": "labs_students",
-            "scope": "resource",
+            "scope": "extensionResource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

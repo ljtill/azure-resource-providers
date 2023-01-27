@@ -30,7 +30,7 @@
         },
         {
             "name": "alertRules_actions",
-            "scope": "resource",
+            "scope": "extensionResource",
             "apiVersions": {
                 "stable": [
                     "2020-01-01",
@@ -102,7 +102,7 @@
         },
         {
             "name": "bookmarks_relations",
-            "scope": "resource",
+            "scope": "extensionResource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -132,7 +132,7 @@
         },
         {
             "name": "cases_comments",
-            "scope": "resource",
+            "scope": "extensionResource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -142,7 +142,7 @@
         },
         {
             "name": "cases_relations",
-            "scope": "resource",
+            "scope": "extensionResource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -235,7 +235,7 @@
         },
         {
             "name": "incidents_comments",
-            "scope": "resource",
+            "scope": "extensionResource",
             "apiVersions": {
                 "stable": [
                     "2020-01-01",
@@ -261,7 +261,7 @@
         },
         {
             "name": "incidents_relations",
-            "scope": "resource",
+            "scope": "extensionResource",
             "apiVersions": {
                 "stable": [
                     "2021-04-01",
@@ -385,7 +385,7 @@
         },
         {
             "name": "threatIntelligence_indicators",
-            "scope": "resource",
+            "scope": "extensionResource",
             "apiVersions": {
                 "stable": [
                     "2021-04-01",
@@ -434,7 +434,7 @@
         },
         {
             "name": "watchlists_watchlistItems",
-            "scope": "resource",
+            "scope": "extensionResource",
             "apiVersions": {
                 "stable": [
                     "2021-04-01",

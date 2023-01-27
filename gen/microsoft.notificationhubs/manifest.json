@@ -17,7 +17,7 @@
         },
         {
             "name": "namespaces_AuthorizationRules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2014-09-01",
@@ -29,7 +29,7 @@
         },
         {
             "name": "namespaces_notificationHubs",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2014-09-01",
@@ -41,7 +41,7 @@
         },
         {
             "name": "namespaces_notificationHubs_AuthorizationRules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2014-09-01",

@@ -26,7 +26,7 @@
         },
         {
             "name": "domains_eventSubscriptions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-06-15"
@@ -38,7 +38,7 @@
         },
         {
             "name": "domains_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-06-01",
@@ -55,7 +55,7 @@
         },
         {
             "name": "domains_topics",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-06-01",
@@ -75,7 +75,7 @@
         },
         {
             "name": "domains_topics_eventSubscriptions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-06-15"
@@ -124,7 +124,7 @@
         },
         {
             "name": "partnerNamespaces_channels",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-06-15"
@@ -136,7 +136,7 @@
         },
         {
             "name": "partnerNamespaces_eventChannels",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -149,7 +149,7 @@
         },
         {
             "name": "partnerNamespaces_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-06-15"
@@ -189,7 +189,7 @@
         },
         {
             "name": "partnerTopics_eventSubscriptions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-06-15"
@@ -220,7 +220,7 @@
         },
         {
             "name": "systemTopics_eventSubscriptions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-12-01",
@@ -262,7 +262,7 @@
         },
         {
             "name": "topics_eventSubscriptions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-06-15"
@@ -274,7 +274,7 @@
         },
         {
             "name": "topics_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-06-01",

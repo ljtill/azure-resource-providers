@@ -5,7 +5,7 @@
     "resourceTypes": [
         {
             "name": "virtualMachines_extensions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2015-06-15",
@@ -35,7 +35,7 @@
         },
         {
             "name": "virtualMachineScaleSets_extensions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-03-30",

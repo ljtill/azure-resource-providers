@@ -40,7 +40,7 @@
         },
         {
             "name": "netAppAccounts_backupPolicies",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-05-01",
@@ -66,7 +66,7 @@
         },
         {
             "name": "netAppAccounts_capacityPools",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-08-15",
@@ -101,7 +101,7 @@
         },
         {
             "name": "netAppAccounts_capacityPools_volumes",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-08-15",
@@ -136,7 +136,7 @@
         },
         {
             "name": "netAppAccounts_capacityPools_volumes_backups",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-05-01",
@@ -162,7 +162,7 @@
         },
         {
             "name": "netAppAccounts_capacityPools_volumes_snapshots",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-08-15",
@@ -197,7 +197,7 @@
         },
         {
             "name": "netAppAccounts_capacityPools_volumes_subvolumes",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-10-01",
@@ -210,7 +210,7 @@
         },
         {
             "name": "netAppAccounts_capacityPools_volumes_volumeQuotaRules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-01-01",
@@ -222,7 +222,7 @@
         },
         {
             "name": "netAppAccounts_snapshotPolicies",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-05-01",
@@ -248,7 +248,7 @@
         },
         {
             "name": "netAppAccounts_volumeGroups",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-08-01",

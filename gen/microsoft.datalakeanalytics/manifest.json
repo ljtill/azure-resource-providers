@@ -18,7 +18,7 @@
         },
         {
             "name": "accounts_computePolicies",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-11-01"
@@ -31,7 +31,7 @@
         },
         {
             "name": "accounts_dataLakeStoreAccounts",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-11-01"
@@ -43,7 +43,7 @@
         },
         {
             "name": "accounts_DataLakeStoreAccounts",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -53,7 +53,7 @@
         },
         {
             "name": "accounts_firewallRules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-11-01"
@@ -66,7 +66,7 @@
         },
         {
             "name": "accounts_storageAccounts",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2016-11-01"
@@ -78,7 +78,7 @@
         },
         {
             "name": "accounts_StorageAccounts",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [

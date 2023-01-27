@@ -22,7 +22,7 @@
         },
         {
             "name": "accounts_commitmentPlans",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-10-01",
@@ -35,7 +35,7 @@
         },
         {
             "name": "accounts_deployments",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-10-01",
@@ -48,7 +48,7 @@
         },
         {
             "name": "accounts_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-04-18",
@@ -73,7 +73,7 @@
         },
         {
             "name": "commitmentPlans_accountAssociations",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-12-01"

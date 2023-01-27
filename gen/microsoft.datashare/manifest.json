@@ -20,7 +20,7 @@
         },
         {
             "name": "accounts_shares",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-11-01",
@@ -35,7 +35,7 @@
         },
         {
             "name": "accounts_shares_dataSets",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-11-01",
@@ -50,7 +50,7 @@
         },
         {
             "name": "accounts_shares_invitations",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-11-01",
@@ -65,7 +65,7 @@
         },
         {
             "name": "accounts_shares_synchronizationSettings",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-11-01",
@@ -80,7 +80,7 @@
         },
         {
             "name": "accounts_shareSubscriptions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-11-01",
@@ -95,7 +95,7 @@
         },
         {
             "name": "accounts_shareSubscriptions_dataSetMappings",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-11-01",
@@ -110,7 +110,7 @@
         },
         {
             "name": "accounts_shareSubscriptions_triggers",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2019-11-01",

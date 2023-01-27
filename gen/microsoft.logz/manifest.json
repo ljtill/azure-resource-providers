@@ -18,7 +18,7 @@
         },
         {
             "name": "monitors_accounts",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-10-01"
@@ -31,7 +31,7 @@
         },
         {
             "name": "monitors_accounts_tagRules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-10-01"
@@ -44,7 +44,7 @@
         },
         {
             "name": "monitors_metricsSource",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -54,7 +54,7 @@
         },
         {
             "name": "monitors_metricsSource_tagRules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -64,7 +64,7 @@
         },
         {
             "name": "monitors_singleSignOnConfigurations",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-10-01"
@@ -77,7 +77,7 @@
         },
         {
             "name": "monitors_tagRules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-10-01"

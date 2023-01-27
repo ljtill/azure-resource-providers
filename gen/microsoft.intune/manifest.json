@@ -5,7 +5,7 @@
     "resourceTypes": [
         {
             "name": "locations_androidPolicies",
-            "scope": "tenant",
+            "scope": "managementGroup",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -15,7 +15,7 @@
         },
         {
             "name": "locations_androidPolicies_apps",
-            "scope": "tenant",
+            "scope": "managementGroup",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -25,7 +25,7 @@
         },
         {
             "name": "locations_androidPolicies_groups",
-            "scope": "tenant",
+            "scope": "managementGroup",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -35,7 +35,7 @@
         },
         {
             "name": "locations_iosPolicies",
-            "scope": "tenant",
+            "scope": "managementGroup",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -45,7 +45,7 @@
         },
         {
             "name": "locations_iosPolicies_apps",
-            "scope": "tenant",
+            "scope": "managementGroup",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -55,7 +55,7 @@
         },
         {
             "name": "locations_iosPolicies_groups",
-            "scope": "tenant",
+            "scope": "managementGroup",
             "apiVersions": {
                 "stable": [],
                 "preview": [

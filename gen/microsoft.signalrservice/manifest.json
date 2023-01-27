@@ -34,7 +34,7 @@
         },
         {
             "name": "signalR_customCertificates",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-02-01"
@@ -46,7 +46,7 @@
         },
         {
             "name": "signalR_customDomains",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-02-01"
@@ -58,7 +58,7 @@
         },
         {
             "name": "signalR_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-05-01",
@@ -76,7 +76,7 @@
         },
         {
             "name": "signalR_sharedPrivateLinkResources",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-10-01",
@@ -107,7 +107,7 @@
         },
         {
             "name": "webPubSub_customCertificates",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -117,7 +117,7 @@
         },
         {
             "name": "webPubSub_customDomains",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -127,7 +127,7 @@
         },
         {
             "name": "webPubSub_hubs",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-10-01"
@@ -139,7 +139,7 @@
         },
         {
             "name": "webPubSub_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-10-01"
@@ -154,7 +154,7 @@
         },
         {
             "name": "webPubSub_sharedPrivateLinkResources",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-10-01"

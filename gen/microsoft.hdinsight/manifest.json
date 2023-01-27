@@ -18,7 +18,7 @@
         },
         {
             "name": "clusters_applications",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-06-01"
@@ -31,7 +31,7 @@
         },
         {
             "name": "clusters_extensions",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-06-01"
@@ -44,7 +44,7 @@
         },
         {
             "name": "clusters_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-06-01"

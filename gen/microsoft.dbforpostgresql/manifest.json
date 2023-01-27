@@ -20,7 +20,7 @@
         },
         {
             "name": "flexibleServers_administrators",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2022-12-01"
@@ -32,7 +32,7 @@
         },
         {
             "name": "flexibleServers_configurations",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-06-01",
@@ -47,7 +47,7 @@
         },
         {
             "name": "flexibleServers_databases",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-06-01",
@@ -62,7 +62,7 @@
         },
         {
             "name": "flexibleServers_firewallRules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2021-06-01",
@@ -89,7 +89,7 @@
         },
         {
             "name": "servers_administrators",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-12-01"
@@ -101,7 +101,7 @@
         },
         {
             "name": "servers_configurations",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-12-01"
@@ -113,7 +113,7 @@
         },
         {
             "name": "servers_databases",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-12-01"
@@ -125,7 +125,7 @@
         },
         {
             "name": "servers_firewallRules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-12-01"
@@ -137,7 +137,7 @@
         },
         {
             "name": "servers_keys",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-01-01"
@@ -147,7 +147,7 @@
         },
         {
             "name": "servers_privateEndpointConnections",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-06-01"
@@ -157,7 +157,7 @@
         },
         {
             "name": "servers_securityAlertPolicies",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-12-01"
@@ -169,7 +169,7 @@
         },
         {
             "name": "servers_virtualNetworkRules",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2017-12-01"

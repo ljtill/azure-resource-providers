@@ -51,7 +51,7 @@
         },
         {
             "name": "workspaces_clusters",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-05-01"
@@ -61,7 +61,7 @@
         },
         {
             "name": "workspaces_experiments",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-05-01"
@@ -71,7 +71,7 @@
         },
         {
             "name": "workspaces_experiments_jobs",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-05-01"
@@ -81,7 +81,7 @@
         },
         {
             "name": "workspaces_fileServers",
-            "scope": "resourceGroup",
+            "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2018-05-01"
