@@ -7,7 +7,7 @@ export class Manifest {
     public resourceTypes: ResourceType[]
 
     constructor(namespace: string) {
-        this.$schema = "https://schema.ljtill.com/schemas/0000-00-00/manifest.json#"
+        this.$schema = "https://schema.ljtill.com/schemas/manifest.json#"
         this.metadata = new Metadata()
         this.providerNamespace = namespace
         this.resourceTypes = []
