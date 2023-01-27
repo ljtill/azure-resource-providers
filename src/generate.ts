@@ -64,9 +64,10 @@ function generate(): void {
                 const definitions = schema.tenant_resourceDefinitions
                 Object.keys(definitions).forEach(key => {
                     const apiVersion = definitions[key].properties.apiVersion.enum[0]
+                    const scope = key.includes("_") ? Scope.ManagementGroup : Scope.Tenant
 
                     manifest.getResourceType(key)?.addApiVersion(apiVersion)
-                        ?? manifest.addResourceType(key, Scope.Tenant, apiVersion)
+                        ?? manifest.addResourceType(key, scope, apiVersion)
                 })
             }
 
@@ -74,9 +75,10 @@ function generate(): void {
                 const definitions = schema.managementGroup_resourceDefinitions
                 Object.keys(definitions).forEach(key => {
                     const apiVersion = definitions[key].properties.apiVersion.enum[0]
+                    const scope = key.includes("_") ? Scope.Subscription : Scope.ManagementGroup
 
                     manifest.getResourceType(key)?.addApiVersion(apiVersion)
-                        ?? manifest.addResourceType(key, Scope.ManagementGroup, apiVersion)
+                        ?? manifest.addResourceType(key, scope, apiVersion)
                 })
             }
 
@@ -84,9 +86,10 @@ function generate(): void {
                 const definitions = schema.subscription_resourceDefinitions
                 Object.keys(definitions).forEach(key => {
                     const apiVersion = definitions[key].properties.apiVersion.enum[0]
+                    const scope = key.includes("_") ? Scope.ResourceGroup : Scope.Subscription
 
                     manifest.getResourceType(key)?.addApiVersion(apiVersion)
-                        ?? manifest.addResourceType(key, Scope.Subscription, apiVersion)
+                        ?? manifest.addResourceType(key, scope, apiVersion)
                 })
             }
 
@@ -94,9 +97,10 @@ function generate(): void {
                 const definitions = schema.resourceDefinitions
                 Object.keys(definitions).forEach(key => {
                     const apiVersion = definitions[key].properties.apiVersion.enum[0]
+                    const scope = key.includes("_") ? Scope.Resource : Scope.ResourceGroup
 
                     manifest.getResourceType(key)?.addApiVersion(apiVersion)
-                        ?? manifest.addResourceType(key, Scope.ResourceGroup, apiVersion)
+                        ?? manifest.addResourceType(key, scope, apiVersion)
                 })
             }
 
@@ -104,9 +108,10 @@ function generate(): void {
                 const definitions = schema.extension_resourceDefinitions
                 Object.keys(definitions).forEach(key => {
                     const apiVersion = definitions[key].properties.apiVersion.enum[0]
+                    const scope = key.includes("_") ? Scope.Extension : Scope.Resource
 
                     manifest.getResourceType(key)?.addApiVersion(apiVersion)
-                        ?? manifest.addResourceType(key, Scope.Resource, apiVersion)
+                        ?? manifest.addResourceType(key, scope, apiVersion)
                 })
             }
 
