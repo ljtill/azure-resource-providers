@@ -11,6 +11,8 @@ import {
 const logger = new Logger()
 
 function generate(): void {
+    logger.info("Starting process")
+
     /**
      * Setup Environment
      */
@@ -26,6 +28,8 @@ function generate(): void {
     /**
      * Parse Schemas
      */
+    logger.info("Parsing schemas")
+
     const schemas: Schema[] = []
     const schemasFiles = utils.listFiles(dirPath)
 
@@ -51,6 +55,8 @@ function generate(): void {
     /**
      * Generate Manifests
      */
+    logger.info("Generating manifests")
+
     const providerNamespaces = schemas.map(item => item.title)
         .filter((value, index, self) => { return self.indexOf(value) === index })
         .sort()
@@ -116,7 +122,6 @@ function generate(): void {
             }
 
             if (schema.definitions) {
-                logger.debug("Skipping definitions: " + schema.title)
                 // FIX: Unsupported data structure
                 // NOTE: Throws unhandled expection for apiVersion enum
                 // const definitions = schema.definitions
@@ -132,6 +137,8 @@ function generate(): void {
         manifest.sortResourceTypes()
         utils.writeJsonFile("./gen/" + element.toLowerCase() + "/manifest.json", manifest)
     })
+
+    logger.info("Completed process")
 }
 
 generate()
