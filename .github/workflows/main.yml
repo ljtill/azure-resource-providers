@@ -53,12 +53,12 @@ jobs:
 
       - name: "Merge schemas"
         run: |
-          if [ -n "$(git status --porcelain)" ]; then
-            git checkout -b gen/schemas
-            git add ./gen/
+          if [ -n "$(git status gen/ --porcelain)" ]; then
+            git checkout -b gen/manifests
+            git add gen/
             git commit -m 'gen: update manifests'
-            git push origin gen/schemas
+            git push origin gen/manifests
             gh pr create --title "gen: update manifests" --body ""
-            gh pr merge gen/schemas --auto --squash
+            gh pr merge gen/manifests --auto --squash
           fi
         working-directory: checkout
