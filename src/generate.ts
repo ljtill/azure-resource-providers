@@ -4,7 +4,7 @@ import { Scope } from './enums'
 import { Logger } from "./logger"
 import { Manifest } from "./manifest"
 import {
-    Definition, Schema,
+    Schema,
     validateApiVersion, validateNamespace
 } from './schema'
 
@@ -14,7 +14,6 @@ function generate(): void {
     /**
      * Setup Environment
      */
-
     let dirPath = ""
     if (process.env.USER === "runner") {
         // GitHub Actions
