@@ -31,9 +31,7 @@ export class Manifest {
     }
 }
 
-class Metadata {
-    constructor() { }
-}
+class Metadata { }
 
 class ResourceType {
     public name: string
