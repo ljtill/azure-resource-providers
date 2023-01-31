@@ -72,8 +72,8 @@ function generate(): void {
                     const apiVersion = definitions[key].properties.apiVersion.enum[0]
                     const scope = key.includes("_") ? Scope.ManagementGroup : Scope.Tenant
 
-                    manifest.getResourceType(key)?.addApiVersion(apiVersion)
-                        ?? manifest.addResourceType(key, scope, apiVersion)
+                    manifest.getResourceType(key.toLowerCase())?.addApiVersion(apiVersion)
+                        ?? manifest.addResourceType(key.toLowerCase(), scope, apiVersion)
                 })
             }
 
@@ -83,8 +83,8 @@ function generate(): void {
                     const apiVersion = definitions[key].properties.apiVersion.enum[0]
                     const scope = key.includes("_") ? Scope.Subscription : Scope.ManagementGroup
 
-                    manifest.getResourceType(key)?.addApiVersion(apiVersion)
-                        ?? manifest.addResourceType(key, scope, apiVersion)
+                    manifest.getResourceType(key.toLowerCase())?.addApiVersion(apiVersion)
+                        ?? manifest.addResourceType(key.toLowerCase(), scope, apiVersion)
                 })
             }
 
@@ -94,8 +94,8 @@ function generate(): void {
                     const apiVersion = definitions[key].properties.apiVersion.enum[0]
                     const scope = key.includes("_") ? Scope.ResourceGroup : Scope.Subscription
 
-                    manifest.getResourceType(key)?.addApiVersion(apiVersion)
-                        ?? manifest.addResourceType(key, scope, apiVersion)
+                    manifest.getResourceType(key.toLowerCase())?.addApiVersion(apiVersion)
+                        ?? manifest.addResourceType(key.toLowerCase(), scope, apiVersion)
                 })
             }
 
@@ -105,8 +105,8 @@ function generate(): void {
                     const apiVersion = definitions[key].properties.apiVersion.enum[0]
                     const scope = key.includes("_") ? Scope.Resource : Scope.ResourceGroup
 
-                    manifest.getResourceType(key)?.addApiVersion(apiVersion)
-                        ?? manifest.addResourceType(key, scope, apiVersion)
+                    manifest.getResourceType(key.toLowerCase())?.addApiVersion(apiVersion)
+                        ?? manifest.addResourceType(key.toLowerCase(), scope, apiVersion)
                 })
             }
 
@@ -116,21 +116,13 @@ function generate(): void {
                     const apiVersion = definitions[key].properties.apiVersion.enum[0]
                     const scope = key.includes("_") ? Scope.Extension : Scope.Resource
 
-                    manifest.getResourceType(key)?.addApiVersion(apiVersion)
-                        ?? manifest.addResourceType(key, scope, apiVersion)
+                    manifest.getResourceType(key.toLowerCase())?.addApiVersion(apiVersion)
+                        ?? manifest.addResourceType(key.toLowerCase(), scope, apiVersion)
                 })
             }
 
             if (schema.definitions) {
-                // FIX: Unsupported data structure
-                // NOTE: Throws unhandled expection for apiVersion enum
-                // const definitions = schema.definitions
-                // Object.keys(definitions).forEach(key => {
-                //     const apiVersion = definitions[key].properties.apiVersion.enum[0]
-
-                //     manifest.getResourceType(key)?.addApiVersion(apiVersion)
-                //         ?? manifest.addResourceType(key, Scope.Extension, apiVersion)
-                // })
+                // NOTE: Unsupported data structure
             }
         })
 
