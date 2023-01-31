@@ -1,27 +1,26 @@
 export type Schema = {
-    id: string;
-    $schema: string;
-    title: string;
-    description: string;
-    tenant_resourceDefinitions?: Definition;
-    managementGroup_resourceDefinitions?: Definition;
-    subscription_resourceDefinitions?: Definition;
-    resourceDefinitions?: Definition;
-    extension_resourceDefinitions?: Definition;
-    definitions?: Definition;
-};
+    id: string
+    $schema: string
+    title: string
+    description: string
+    tenant_resourceDefinitions?: Definition
+    managementGroup_resourceDefinitions?: Definition
+    subscription_resourceDefinitions?: Definition
+    resourceDefinitions?: Definition
+    extension_resourceDefinitions?: Definition
+    definitions?: Definition
+}
 
 export type Definition = {
-    [key: string]: DefinitionObject;
-};
+    [key: string]: DefinitionObject
+}
 
 export type DefinitionObject = {
-    type?: string;
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    properties?: any;
-    required?: string[];
-    description?: string;
-};
+    type?: string
+    properties?: any
+    required?: string[]
+    description?: string
+}
 
 export function validateApiVersion(filePath: string): boolean {
     const apiVersion = filePath.split("/").reverse()[1]
