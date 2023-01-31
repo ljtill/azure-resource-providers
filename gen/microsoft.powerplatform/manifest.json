@@ -14,7 +14,7 @@
             }
         },
         {
-            "name": "enterprisepolicies",
+            "name": "enterprisePolicies",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -24,7 +24,7 @@
             }
         },
         {
-            "name": "enterprisepolicies_privateendpointconnections",
+            "name": "enterprisePolicies_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

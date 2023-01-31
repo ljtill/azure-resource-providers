@@ -29,7 +29,7 @@
             }
         },
         {
-            "name": "clusters_attacheddatabaseconfigurations",
+            "name": "clusters_attachedDatabaseConfigurations",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -74,7 +74,7 @@
             }
         },
         {
-            "name": "clusters_databases_dataconnections",
+            "name": "clusters_databases_dataConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -106,7 +106,7 @@
             }
         },
         {
-            "name": "clusters_databases_principalassignments",
+            "name": "clusters_databases_principalAssignments",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -140,7 +140,7 @@
             }
         },
         {
-            "name": "clusters_dataconnections",
+            "name": "clusters_dataConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -159,7 +159,7 @@
             }
         },
         {
-            "name": "clusters_managedprivateendpoints",
+            "name": "clusters_managedPrivateEndpoints",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -173,7 +173,7 @@
             }
         },
         {
-            "name": "clusters_principalassignments",
+            "name": "clusters_principalAssignments",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -192,7 +192,7 @@
             }
         },
         {
-            "name": "clusters_privateendpointconnections",
+            "name": "clusters_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

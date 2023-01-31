@@ -17,7 +17,7 @@
             }
         },
         {
-            "name": "locations_vendors_networkfunctions",
+            "name": "locations_vendors_networkFunctions",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -30,7 +30,7 @@
             }
         },
         {
-            "name": "networkfunctions",
+            "name": "networkFunctions",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -56,7 +56,7 @@
             }
         },
         {
-            "name": "vendors_vendorskus",
+            "name": "vendors_vendorSkus",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -69,7 +69,7 @@
             }
         },
         {
-            "name": "vendors_vendorskus_previewsubscriptions",
+            "name": "vendors_vendorSkus_previewSubscriptions",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

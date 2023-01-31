@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.PlayFab",
     "resourceTypes": [
         {
-            "name": "playeraccountpools",
+            "name": "playerAccountPools",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],

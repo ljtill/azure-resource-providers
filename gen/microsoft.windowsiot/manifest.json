@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.WindowsIoT",
     "resourceTypes": [
         {
-            "name": "deviceservices",
+            "name": "deviceServices",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

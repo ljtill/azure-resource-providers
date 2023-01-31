@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.AAD",
     "resourceTypes": [
         {
-            "name": "domainservices",
+            "name": "domainServices",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -17,7 +17,7 @@
             }
         },
         {
-            "name": "domainservices_oucontainer",
+            "name": "domainServices_ouContainer",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

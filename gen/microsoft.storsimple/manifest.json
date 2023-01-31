@@ -15,7 +15,7 @@
             }
         },
         {
-            "name": "managers_accesscontrolrecords",
+            "name": "managers_accessControlRecords",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -26,7 +26,7 @@
             }
         },
         {
-            "name": "managers_bandwidthsettings",
+            "name": "managers_bandwidthSettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -46,7 +46,7 @@
             }
         },
         {
-            "name": "managers_devices_alertsettings",
+            "name": "managers_devices_alertSettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -57,7 +57,7 @@
             }
         },
         {
-            "name": "managers_devices_backuppolicies",
+            "name": "managers_devices_backupPolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -67,7 +67,7 @@
             }
         },
         {
-            "name": "managers_devices_backuppolicies_schedules",
+            "name": "managers_devices_backupPolicies_schedules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -77,7 +77,7 @@
             }
         },
         {
-            "name": "managers_devices_backupschedulegroups",
+            "name": "managers_devices_backupScheduleGroups",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -87,7 +87,7 @@
             }
         },
         {
-            "name": "managers_devices_chapsettings",
+            "name": "managers_devices_chapSettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -137,7 +137,7 @@
             }
         },
         {
-            "name": "managers_devices_timesettings",
+            "name": "managers_devices_timeSettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -147,7 +147,7 @@
             }
         },
         {
-            "name": "managers_devices_volumecontainers",
+            "name": "managers_devices_volumeContainers",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -157,7 +157,7 @@
             }
         },
         {
-            "name": "managers_devices_volumecontainers_volumes",
+            "name": "managers_devices_volumeContainers_volumes",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -167,18 +167,7 @@
             }
         },
         {
-            "name": "managers_extendedinformation",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2016-10-01",
-                    "2017-06-01"
-                ],
-                "preview": []
-            }
-        },
-        {
-            "name": "managers_storageaccountcredentials",
+            "name": "managers_extendedInformation",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -189,7 +178,18 @@
             }
         },
         {
-            "name": "managers_storagedomains",
+            "name": "managers_storageAccountCredentials",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2016-10-01",
+                    "2017-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "managers_storageDomains",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

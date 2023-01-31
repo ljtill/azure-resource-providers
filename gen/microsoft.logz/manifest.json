@@ -30,7 +30,7 @@
             }
         },
         {
-            "name": "monitors_accounts_tagrules",
+            "name": "monitors_accounts_tagRules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -43,7 +43,7 @@
             }
         },
         {
-            "name": "monitors_metricssource",
+            "name": "monitors_metricsSource",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -53,7 +53,7 @@
             }
         },
         {
-            "name": "monitors_metricssource_tagrules",
+            "name": "monitors_metricsSource_tagRules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -63,7 +63,7 @@
             }
         },
         {
-            "name": "monitors_singlesignonconfigurations",
+            "name": "monitors_singleSignOnConfigurations",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -76,7 +76,7 @@
             }
         },
         {
-            "name": "monitors_tagrules",
+            "name": "monitors_tagRules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

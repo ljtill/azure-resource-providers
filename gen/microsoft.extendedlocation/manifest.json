@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.ExtendedLocation",
     "resourceTypes": [
         {
-            "name": "customlocations",
+            "name": "customLocations",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -17,7 +17,7 @@
             }
         },
         {
-            "name": "customlocations_resourcesyncrules",
+            "name": "customLocations_resourceSyncRules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

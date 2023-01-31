@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.AzureStack",
     "resourceTypes": [
         {
-            "name": "linkedsubscriptions",
+            "name": "linkedSubscriptions",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -28,7 +28,7 @@
             }
         },
         {
-            "name": "registrations_customersubscriptions",
+            "name": "registrations_customerSubscriptions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

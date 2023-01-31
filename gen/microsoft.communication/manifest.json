@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Communication",
     "resourceTypes": [
         {
-            "name": "communicationservices",
+            "name": "communicationServices",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -18,7 +18,7 @@
             }
         },
         {
-            "name": "emailservices",
+            "name": "emailServices",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -29,7 +29,7 @@
             }
         },
         {
-            "name": "emailservices_domains",
+            "name": "emailServices_domains",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

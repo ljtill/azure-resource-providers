@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Maintenance",
     "resourceTypes": [
         {
-            "name": "applyupdates",
+            "name": "applyUpdates",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -22,7 +22,7 @@
             }
         },
         {
-            "name": "configurationassignments",
+            "name": "configurationAssignments",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -40,7 +40,7 @@
             }
         },
         {
-            "name": "maintenanceconfigurations",
+            "name": "maintenanceConfigurations",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

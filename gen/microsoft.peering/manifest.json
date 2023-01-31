@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Peering",
     "resourceTypes": [
         {
-            "name": "peerasns",
+            "name": "peerAsns",
             "scope": "subscription",
             "apiVersions": {
                 "stable": [
@@ -44,7 +44,7 @@
             }
         },
         {
-            "name": "peerings_registeredasns",
+            "name": "peerings_registeredAsns",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -62,7 +62,7 @@
             }
         },
         {
-            "name": "peerings_registeredprefixes",
+            "name": "peerings_registeredPrefixes",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -80,7 +80,7 @@
             }
         },
         {
-            "name": "peeringservices",
+            "name": "peeringServices",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -100,7 +100,7 @@
             }
         },
         {
-            "name": "peeringservices_connectionmonitortests",
+            "name": "peeringServices_connectionMonitorTests",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -113,7 +113,7 @@
             }
         },
         {
-            "name": "peeringservices_prefixes",
+            "name": "peeringServices_prefixes",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

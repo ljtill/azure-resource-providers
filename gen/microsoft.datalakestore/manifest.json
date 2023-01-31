@@ -16,7 +16,7 @@
             }
         },
         {
-            "name": "accounts_firewallrules",
+            "name": "accounts_firewallRules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -28,7 +28,7 @@
             }
         },
         {
-            "name": "accounts_trustedidproviders",
+            "name": "accounts_trustedIdProviders",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -38,7 +38,7 @@
             }
         },
         {
-            "name": "accounts_virtualnetworkrules",
+            "name": "accounts_virtualNetworkRules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

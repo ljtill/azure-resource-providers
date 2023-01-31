@@ -14,7 +14,7 @@
             }
         },
         {
-            "name": "configurationprofileassignments",
+            "name": "configurationProfileAssignments",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -27,7 +27,7 @@
             }
         },
         {
-            "name": "configurationprofilepreferences",
+            "name": "configurationProfilePreferences",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -37,7 +37,7 @@
             }
         },
         {
-            "name": "configurationprofiles",
+            "name": "configurationProfiles",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -49,7 +49,7 @@
             }
         },
         {
-            "name": "configurationprofiles_versions",
+            "name": "configurationProfiles_versions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

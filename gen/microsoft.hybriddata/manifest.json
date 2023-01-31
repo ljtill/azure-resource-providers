@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.HybridData",
     "resourceTypes": [
         {
-            "name": "datamanagers",
+            "name": "dataManagers",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -15,7 +15,7 @@
             }
         },
         {
-            "name": "datamanagers_dataservices_jobdefinitions",
+            "name": "dataManagers_dataServices_jobDefinitions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -26,7 +26,7 @@
             }
         },
         {
-            "name": "datamanagers_datastores",
+            "name": "dataManagers_dataStores",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

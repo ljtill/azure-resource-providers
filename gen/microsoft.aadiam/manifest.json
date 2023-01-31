@@ -4,7 +4,7 @@
     "providerNamespace": "microsoft.aadiam",
     "resourceTypes": [
         {
-            "name": "azureadmetrics",
+            "name": "azureADMetrics",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -14,7 +14,7 @@
             }
         },
         {
-            "name": "diagnosticsettings",
+            "name": "diagnosticSettings",
             "scope": "tenant",
             "apiVersions": {
                 "stable": [
@@ -26,7 +26,7 @@
             }
         },
         {
-            "name": "privatelinkforazuread",
+            "name": "privateLinkForAzureAd",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -38,7 +38,7 @@
             }
         },
         {
-            "name": "privatelinkforazuread_privateendpointconnections",
+            "name": "privateLinkForAzureAd_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

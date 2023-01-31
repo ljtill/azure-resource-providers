@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Support",
     "resourceTypes": [
         {
-            "name": "supporttickets",
+            "name": "supportTickets",
             "scope": "subscription",
             "apiVersions": {
                 "stable": [
@@ -16,7 +16,7 @@
             }
         },
         {
-            "name": "supporttickets_communications",
+            "name": "supportTickets_communications",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

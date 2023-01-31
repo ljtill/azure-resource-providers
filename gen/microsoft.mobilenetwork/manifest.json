@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.MobileNetwork",
     "resourceTypes": [
         {
-            "name": "mobilenetworks",
+            "name": "mobileNetworks",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -17,7 +17,7 @@
             }
         },
         {
-            "name": "mobilenetworks_datanetworks",
+            "name": "mobileNetworks_dataNetworks",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -30,7 +30,7 @@
             }
         },
         {
-            "name": "mobilenetworks_services",
+            "name": "mobileNetworks_services",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -43,7 +43,7 @@
             }
         },
         {
-            "name": "mobilenetworks_simpolicies",
+            "name": "mobileNetworks_simPolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -56,7 +56,7 @@
             }
         },
         {
-            "name": "mobilenetworks_sites",
+            "name": "mobileNetworks_sites",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -69,7 +69,7 @@
             }
         },
         {
-            "name": "mobilenetworks_slices",
+            "name": "mobileNetworks_slices",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -82,7 +82,7 @@
             }
         },
         {
-            "name": "packetcorecontrolplanes",
+            "name": "packetCoreControlPlanes",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -95,7 +95,7 @@
             }
         },
         {
-            "name": "packetcorecontrolplanes_packetcoredataplanes",
+            "name": "packetCoreControlPlanes_packetCoreDataPlanes",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -108,7 +108,7 @@
             }
         },
         {
-            "name": "packetcorecontrolplanes_packetcoredataplanes_attacheddatanetworks",
+            "name": "packetCoreControlPlanes_packetCoreDataPlanes_attachedDataNetworks",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -121,7 +121,7 @@
             }
         },
         {
-            "name": "simgroups",
+            "name": "simGroups",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -133,7 +133,7 @@
             }
         },
         {
-            "name": "simgroups_sims",
+            "name": "simGroups_sims",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

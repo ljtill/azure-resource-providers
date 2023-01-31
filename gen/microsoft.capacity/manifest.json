@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Capacity",
     "resourceTypes": [
         {
-            "name": "autoquotaincrease",
+            "name": "autoQuotaIncrease",
             "scope": "subscription",
             "apiVersions": {
                 "stable": [],
@@ -14,7 +14,7 @@
             }
         },
         {
-            "name": "reservationorders",
+            "name": "reservationOrders",
             "scope": "tenant",
             "apiVersions": {
                 "stable": [
@@ -29,7 +29,7 @@
             }
         },
         {
-            "name": "resourceproviders_locations_servicelimits",
+            "name": "resourceProviders_locations_serviceLimits",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

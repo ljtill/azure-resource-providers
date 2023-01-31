@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.ProviderHub",
     "resourceTypes": [
         {
-            "name": "providerregistrations",
+            "name": "providerRegistrations",
             "scope": "subscription",
             "apiVersions": {
                 "stable": [
@@ -18,7 +18,7 @@
             }
         },
         {
-            "name": "providerregistrations_customrollouts",
+            "name": "providerRegistrations_customRollouts",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -32,7 +32,7 @@
             }
         },
         {
-            "name": "providerregistrations_defaultrollouts",
+            "name": "providerRegistrations_defaultRollouts",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -46,7 +46,7 @@
             }
         },
         {
-            "name": "providerregistrations_notificationregistrations",
+            "name": "providerRegistrations_notificationRegistrations",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -60,7 +60,7 @@
             }
         },
         {
-            "name": "providerregistrations_operations",
+            "name": "providerRegistrations_operations",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -74,7 +74,7 @@
             }
         },
         {
-            "name": "providerregistrations_resourcetyperegistrations",
+            "name": "providerRegistrations_resourcetypeRegistrations",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -88,7 +88,7 @@
             }
         },
         {
-            "name": "providerregistrations_resourcetyperegistrations_resourcetyperegistrations_resourcetyperegistrations_resourcetyperegistrations_skus",
+            "name": "providerRegistrations_resourcetypeRegistrations_resourcetypeRegistrations_resourcetypeRegistrations_resourcetypeRegistrations_skus",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -102,7 +102,7 @@
             }
         },
         {
-            "name": "providerregistrations_resourcetyperegistrations_resourcetyperegistrations_resourcetyperegistrations_skus",
+            "name": "providerRegistrations_resourcetypeRegistrations_resourcetypeRegistrations_resourcetypeRegistrations_skus",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -116,7 +116,7 @@
             }
         },
         {
-            "name": "providerregistrations_resourcetyperegistrations_resourcetyperegistrations_skus",
+            "name": "providerRegistrations_resourcetypeRegistrations_resourcetypeRegistrations_skus",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -130,7 +130,7 @@
             }
         },
         {
-            "name": "providerregistrations_resourcetyperegistrations_skus",
+            "name": "providerRegistrations_resourcetypeRegistrations_skus",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

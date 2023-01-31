@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Migrate",
     "resourceTypes": [
         {
-            "name": "assessmentprojects",
+            "name": "assessmentProjects",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -14,7 +14,7 @@
             }
         },
         {
-            "name": "assessmentprojects_groups",
+            "name": "assessmentProjects_groups",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -24,7 +24,7 @@
             }
         },
         {
-            "name": "assessmentprojects_groups_assessments",
+            "name": "assessmentProjects_groups_assessments",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -34,7 +34,7 @@
             }
         },
         {
-            "name": "assessmentprojects_hypervcollectors",
+            "name": "assessmentProjects_hypervcollectors",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -44,7 +44,7 @@
             }
         },
         {
-            "name": "assessmentprojects_importcollectors",
+            "name": "assessmentProjects_importcollectors",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -54,7 +54,7 @@
             }
         },
         {
-            "name": "assessmentprojects_privateendpointconnections",
+            "name": "assessmentprojects_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -64,7 +64,7 @@
             }
         },
         {
-            "name": "assessmentprojects_servercollectors",
+            "name": "assessmentProjects_servercollectors",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -74,7 +74,7 @@
             }
         },
         {
-            "name": "assessmentprojects_vmwarecollectors",
+            "name": "assessmentProjects_vmwarecollectors",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -84,7 +84,7 @@
             }
         },
         {
-            "name": "migrateprojects",
+            "name": "migrateProjects",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -96,7 +96,7 @@
             }
         },
         {
-            "name": "migrateprojects_privateendpointconnections",
+            "name": "migrateProjects_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -106,7 +106,7 @@
             }
         },
         {
-            "name": "migrateprojects_solutions",
+            "name": "migrateProjects_solutions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -116,7 +116,7 @@
             }
         },
         {
-            "name": "movecollections",
+            "name": "moveCollections",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -129,7 +129,7 @@
             }
         },
         {
-            "name": "movecollections_moveresources",
+            "name": "moveCollections_moveResources",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

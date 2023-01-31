@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Addons",
     "resourceTypes": [
         {
-            "name": "supportproviders_supportplantypes",
+            "name": "supportProviders_supportPlanTypes",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

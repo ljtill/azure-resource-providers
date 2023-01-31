@@ -56,7 +56,7 @@
             }
         },
         {
-            "name": "devcenters_environmenttypes",
+            "name": "devcenters_environmentTypes",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -82,7 +82,7 @@
             }
         },
         {
-            "name": "networkconnections",
+            "name": "networkConnections",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -108,7 +108,7 @@
             }
         },
         {
-            "name": "projects_environmenttypes",
+            "name": "projects_environmentTypes",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

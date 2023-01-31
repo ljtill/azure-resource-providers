@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.CertificateRegistration",
     "resourceTypes": [
         {
-            "name": "certificateorders",
+            "name": "certificateOrders",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -25,7 +25,7 @@
             }
         },
         {
-            "name": "certificateorders_certificates",
+            "name": "certificateOrders_certificates",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

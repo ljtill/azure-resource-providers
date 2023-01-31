@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.ContainerService",
     "resourceTypes": [
         {
-            "name": "containerservices",
+            "name": "containerServices",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -41,7 +41,7 @@
             }
         },
         {
-            "name": "managedclusters",
+            "name": "managedClusters",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -97,7 +97,7 @@
             }
         },
         {
-            "name": "managedclusters_agentpools",
+            "name": "managedClusters_agentPools",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -150,7 +150,7 @@
             }
         },
         {
-            "name": "managedclusters_maintenanceconfigurations",
+            "name": "managedClusters_maintenanceConfigurations",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -189,7 +189,7 @@
             }
         },
         {
-            "name": "managedclusters_privateendpointconnections",
+            "name": "managedClusters_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -232,7 +232,7 @@
             }
         },
         {
-            "name": "managedclusters_trustedaccessrolebindings",
+            "name": "managedClusters_trustedAccessRoleBindings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -270,7 +270,7 @@
             }
         },
         {
-            "name": "openshiftmanagedclusters",
+            "name": "openShiftManagedClusters",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

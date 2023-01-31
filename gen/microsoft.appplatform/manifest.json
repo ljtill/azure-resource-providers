@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.AppPlatform",
     "resourceTypes": [
         {
-            "name": "spring",
+            "name": "Spring",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -25,7 +25,7 @@
             }
         },
         {
-            "name": "spring_apiportals",
+            "name": "Spring_apiPortals",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -41,7 +41,7 @@
             }
         },
         {
-            "name": "spring_apiportals_domains",
+            "name": "Spring_apiPortals_domains",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -57,7 +57,7 @@
             }
         },
         {
-            "name": "spring_applicationaccelerators",
+            "name": "Spring_applicationAccelerators",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -67,7 +67,7 @@
             }
         },
         {
-            "name": "spring_applicationaccelerators_customizedaccelerators",
+            "name": "Spring_applicationAccelerators_customizedAccelerators",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -77,7 +77,7 @@
             }
         },
         {
-            "name": "spring_applicationliveviews",
+            "name": "Spring_applicationLiveViews",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -87,7 +87,7 @@
             }
         },
         {
-            "name": "spring_apps",
+            "name": "Spring_apps",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -108,7 +108,7 @@
             }
         },
         {
-            "name": "spring_apps_bindings",
+            "name": "Spring_apps_bindings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -129,7 +129,7 @@
             }
         },
         {
-            "name": "spring_apps_deployments",
+            "name": "Spring_apps_deployments",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -150,7 +150,7 @@
             }
         },
         {
-            "name": "spring_apps_domains",
+            "name": "Spring_apps_domains",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -171,7 +171,7 @@
             }
         },
         {
-            "name": "spring_buildservices_agentpools",
+            "name": "Spring_buildServices_agentPools",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -188,7 +188,7 @@
             }
         },
         {
-            "name": "spring_buildservices_builders",
+            "name": "Spring_buildServices_builders",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -205,7 +205,7 @@
             }
         },
         {
-            "name": "spring_buildservices_builders_buildpackbindings",
+            "name": "Spring_buildServices_builders_buildpackBindings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -222,7 +222,7 @@
             }
         },
         {
-            "name": "spring_buildservices_builds",
+            "name": "Spring_buildServices_builds",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -239,28 +239,7 @@
             }
         },
         {
-            "name": "spring_certificates",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2020-07-01",
-                    "2022-04-01",
-                    "2022-12-01"
-                ],
-                "preview": [
-                    "2020-11-01-preview",
-                    "2021-06-01-preview",
-                    "2021-09-01-preview",
-                    "2022-01-01-preview",
-                    "2022-03-01-preview",
-                    "2022-05-01-preview",
-                    "2022-09-01-preview",
-                    "2022-11-01-preview"
-                ]
-            }
-        },
-        {
-            "name": "spring_configservers",
+            "name": "Spring_certificates",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -281,7 +260,28 @@
             }
         },
         {
-            "name": "spring_configurationservices",
+            "name": "Spring_configServers",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2020-07-01",
+                    "2022-04-01",
+                    "2022-12-01"
+                ],
+                "preview": [
+                    "2020-11-01-preview",
+                    "2021-06-01-preview",
+                    "2021-09-01-preview",
+                    "2022-01-01-preview",
+                    "2022-03-01-preview",
+                    "2022-05-01-preview",
+                    "2022-09-01-preview",
+                    "2022-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "Spring_configurationServices",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -298,7 +298,7 @@
             }
         },
         {
-            "name": "spring_devtoolportals",
+            "name": "Spring_DevToolPortals",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -308,7 +308,7 @@
             }
         },
         {
-            "name": "spring_gateways",
+            "name": "Spring_gateways",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -324,7 +324,7 @@
             }
         },
         {
-            "name": "spring_gateways_domains",
+            "name": "Spring_gateways_domains",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -340,7 +340,7 @@
             }
         },
         {
-            "name": "spring_gateways_routeconfigs",
+            "name": "Spring_gateways_routeConfigs",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -356,7 +356,7 @@
             }
         },
         {
-            "name": "spring_monitoringsettings",
+            "name": "Spring_monitoringSettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -377,7 +377,7 @@
             }
         },
         {
-            "name": "spring_serviceregistries",
+            "name": "Spring_serviceRegistries",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -394,7 +394,7 @@
             }
         },
         {
-            "name": "spring_storages",
+            "name": "Spring_storages",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

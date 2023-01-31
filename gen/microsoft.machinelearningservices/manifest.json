@@ -128,7 +128,7 @@
             }
         },
         {
-            "name": "workspaces_batchendpoints",
+            "name": "workspaces_batchEndpoints",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -144,7 +144,7 @@
             }
         },
         {
-            "name": "workspaces_batchendpoints_deployments",
+            "name": "workspaces_batchEndpoints_deployments",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -386,7 +386,7 @@
             }
         },
         {
-            "name": "workspaces_labelingjobs",
+            "name": "workspaces_labelingJobs",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -399,7 +399,7 @@
             }
         },
         {
-            "name": "workspaces_linkedservices",
+            "name": "workspaces_linkedServices",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -409,7 +409,7 @@
             }
         },
         {
-            "name": "workspaces_linkedworkspaces",
+            "name": "workspaces_linkedWorkspaces",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -452,7 +452,7 @@
             }
         },
         {
-            "name": "workspaces_onlineendpoints",
+            "name": "workspaces_onlineEndpoints",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -468,7 +468,7 @@
             }
         },
         {
-            "name": "workspaces_onlineendpoints_deployments",
+            "name": "workspaces_onlineEndpoints_deployments",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -484,7 +484,7 @@
             }
         },
         {
-            "name": "workspaces_privateendpointconnections",
+            "name": "workspaces_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

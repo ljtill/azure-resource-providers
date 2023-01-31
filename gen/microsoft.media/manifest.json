@@ -22,7 +22,7 @@
             }
         },
         {
-            "name": "mediaservices_accountfilters",
+            "name": "mediaServices_accountFilters",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -36,7 +36,7 @@
             }
         },
         {
-            "name": "mediaservices_assets",
+            "name": "mediaServices_assets",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -53,7 +53,7 @@
             }
         },
         {
-            "name": "mediaservices_assets_assetfilters",
+            "name": "mediaServices_assets_assetFilters",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -67,7 +67,7 @@
             }
         },
         {
-            "name": "mediaservices_assets_tracks",
+            "name": "mediaServices_assets_tracks",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -78,7 +78,7 @@
             }
         },
         {
-            "name": "mediaservices_contentkeypolicies",
+            "name": "mediaServices_contentKeyPolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -95,7 +95,7 @@
             }
         },
         {
-            "name": "mediaservices_liveevents",
+            "name": "mediaservices_liveEvents",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -112,7 +112,7 @@
             }
         },
         {
-            "name": "mediaservices_liveevents_liveoutputs",
+            "name": "mediaservices_liveEvents_liveOutputs",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -129,7 +129,7 @@
             }
         },
         {
-            "name": "mediaservices_mediagraphs",
+            "name": "mediaServices_mediaGraphs",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -140,7 +140,7 @@
             }
         },
         {
-            "name": "mediaservices_privateendpointconnections",
+            "name": "mediaservices_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -153,7 +153,7 @@
             }
         },
         {
-            "name": "mediaservices_streamingendpoints",
+            "name": "mediaservices_streamingEndpoints",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -170,7 +170,7 @@
             }
         },
         {
-            "name": "mediaservices_streaminglocators",
+            "name": "mediaServices_streamingLocators",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -187,7 +187,7 @@
             }
         },
         {
-            "name": "mediaservices_streamingpolicies",
+            "name": "mediaServices_streamingPolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -204,7 +204,7 @@
             }
         },
         {
-            "name": "mediaservices_transforms",
+            "name": "mediaServices_transforms",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -222,7 +222,7 @@
             }
         },
         {
-            "name": "mediaservices_transforms_jobs",
+            "name": "mediaServices_transforms_jobs",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

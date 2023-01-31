@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Authorization",
     "resourceTypes": [
         {
-            "name": "accessreviewhistorydefinitions",
+            "name": "accessReviewHistoryDefinitions",
             "scope": "subscription",
             "apiVersions": {
                 "stable": [],
@@ -15,7 +15,7 @@
             }
         },
         {
-            "name": "accessreviewscheduledefinitions",
+            "name": "accessReviewScheduleDefinitions",
             "scope": "subscription",
             "apiVersions": {
                 "stable": [],
@@ -29,7 +29,7 @@
             }
         },
         {
-            "name": "accessreviewscheduledefinitions_instances",
+            "name": "accessReviewScheduleDefinitions_instances",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -41,7 +41,7 @@
             }
         },
         {
-            "name": "accessreviewschedulesettings",
+            "name": "accessReviewScheduleSettings",
             "scope": "subscription",
             "apiVersions": {
                 "stable": [],
@@ -89,7 +89,7 @@
             }
         },
         {
-            "name": "policysetdefinitions",
+            "name": "policySetDefinitions",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [
@@ -108,7 +108,7 @@
             }
         },
         {
-            "name": "privatelinkassociations",
+            "name": "privateLinkAssociations",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [
@@ -118,7 +118,7 @@
             }
         },
         {
-            "name": "resourcemanagementprivatelinks",
+            "name": "resourceManagementPrivateLinks",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -128,7 +128,7 @@
             }
         },
         {
-            "name": "roleassignmentapprovals_stages",
+            "name": "roleAssignmentApprovals_stages",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [],
@@ -138,7 +138,7 @@
             }
         },
         {
-            "name": "roleassignments",
+            "name": "roleAssignments",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -150,7 +150,7 @@
             }
         },
         {
-            "name": "roledefinitions",
+            "name": "roleDefinitions",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

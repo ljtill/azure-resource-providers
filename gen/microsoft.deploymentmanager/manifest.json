@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.DeploymentManager",
     "resourceTypes": [
         {
-            "name": "artifactsources",
+            "name": "artifactSources",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -26,7 +26,7 @@
             }
         },
         {
-            "name": "servicetopologies",
+            "name": "serviceTopologies",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -37,7 +37,7 @@
             }
         },
         {
-            "name": "servicetopologies_services",
+            "name": "serviceTopologies_services",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -48,7 +48,7 @@
             }
         },
         {
-            "name": "servicetopologies_services_serviceunits",
+            "name": "serviceTopologies_services_serviceUnits",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

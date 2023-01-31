@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.RedHatOpenShift",
     "resourceTypes": [
         {
-            "name": "openshiftclusters",
+            "name": "openShiftClusters",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -18,7 +18,7 @@
             }
         },
         {
-            "name": "openshiftclusters_machinepool",
+            "name": "openshiftclusters_machinePool",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -38,7 +38,7 @@
             }
         },
         {
-            "name": "openshiftclusters_syncidentityprovider",
+            "name": "openshiftclusters_syncIdentityProvider",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -48,7 +48,7 @@
             }
         },
         {
-            "name": "openshiftclusters_syncset",
+            "name": "openshiftclusters_syncSet",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

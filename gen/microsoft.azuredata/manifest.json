@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.AzureData",
     "resourceTypes": [
         {
-            "name": "sqlserverregistrations",
+            "name": "sqlServerRegistrations",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -14,7 +14,7 @@
             }
         },
         {
-            "name": "sqlserverregistrations_sqlservers",
+            "name": "sqlServerRegistrations_sqlServers",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

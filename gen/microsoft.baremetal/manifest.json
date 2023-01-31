@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.BareMetal",
     "resourceTypes": [
         {
-            "name": "crayservers",
+            "name": "crayServers",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
