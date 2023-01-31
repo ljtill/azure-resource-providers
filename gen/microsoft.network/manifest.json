@@ -3008,6 +3008,24 @@
             }
         },
         {
+            "name": "trafficmanagerprofiles",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-11-01",
+                    "2017-03-01",
+                    "2017-05-01",
+                    "2018-02-01",
+                    "2018-03-01",
+                    "2018-04-01",
+                    "2018-08-01"
+                ],
+                "preview": [
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
             "name": "trafficManagerProfiles",
             "scope": "resourceGroup",
             "apiVersions": {
@@ -3018,6 +3036,56 @@
                     "2018-04-01"
                 ],
                 "preview": []
+            }
+        },
+        {
+            "name": "trafficmanagerprofiles_AzureEndpoints",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2018-08-01"
+                ],
+                "preview": [
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "trafficmanagerprofiles_ExternalEndpoints",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2018-08-01"
+                ],
+                "preview": [
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "trafficmanagerprofiles_NestedEndpoints",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2018-08-01"
+                ],
+                "preview": [
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "trafficManagerUserMetricsKeys",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [
+                    "2018-04-01",
+                    "2018-08-01"
+                ],
+                "preview": [
+                    "2017-09-01-preview",
+                    "2022-04-01-preview"
+                ]
             }
         },
         {
