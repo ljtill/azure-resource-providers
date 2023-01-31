@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.PowerBI",
     "resourceTypes": [
         {
-            "name": "privateLinkServicesForPowerBI",
+            "name": "privatelinkservicesforpowerbi",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -14,7 +14,7 @@
             }
         },
         {
-            "name": "privateLinkServicesForPowerBI_privateEndpointConnections",
+            "name": "privatelinkservicesforpowerbi_privateendpointconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -24,7 +24,7 @@
             }
         },
         {
-            "name": "workspaceCollections",
+            "name": "workspacecollections",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

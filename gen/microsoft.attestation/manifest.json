@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Attestation",
     "resourceTypes": [
         {
-            "name": "attestationProviders",
+            "name": "attestationproviders",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -17,7 +17,7 @@
             }
         },
         {
-            "name": "attestationProviders_privateEndpointConnections",
+            "name": "attestationproviders_privateendpointconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.DocumentDB",
     "resourceTypes": [
         {
-            "name": "cassandraClusters",
+            "name": "cassandraclusters",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -25,7 +25,7 @@
             }
         },
         {
-            "name": "cassandraClusters_dataCenters",
+            "name": "cassandraclusters_datacenters",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -46,7 +46,7 @@
             }
         },
         {
-            "name": "databaseAccounts",
+            "name": "databaseaccounts",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -83,7 +83,7 @@
             }
         },
         {
-            "name": "databaseAccounts_apis_databases",
+            "name": "databaseaccounts_apis_databases",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -97,7 +97,7 @@
             }
         },
         {
-            "name": "databaseAccounts_apis_databases_collections",
+            "name": "databaseaccounts_apis_databases_collections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -111,7 +111,7 @@
             }
         },
         {
-            "name": "databaseAccounts_apis_databases_collections_settings",
+            "name": "databaseaccounts_apis_databases_collections_settings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -125,7 +125,7 @@
             }
         },
         {
-            "name": "databaseAccounts_apis_databases_containers",
+            "name": "databaseaccounts_apis_databases_containers",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -139,7 +139,7 @@
             }
         },
         {
-            "name": "databaseAccounts_apis_databases_containers_settings",
+            "name": "databaseaccounts_apis_databases_containers_settings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -153,7 +153,7 @@
             }
         },
         {
-            "name": "databaseAccounts_apis_databases_graphs",
+            "name": "databaseaccounts_apis_databases_graphs",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -167,7 +167,7 @@
             }
         },
         {
-            "name": "databaseAccounts_apis_databases_graphs_settings",
+            "name": "databaseaccounts_apis_databases_graphs_settings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -181,7 +181,7 @@
             }
         },
         {
-            "name": "databaseAccounts_apis_databases_settings",
+            "name": "databaseaccounts_apis_databases_settings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -195,7 +195,7 @@
             }
         },
         {
-            "name": "databaseAccounts_apis_keyspaces",
+            "name": "databaseaccounts_apis_keyspaces",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -209,7 +209,7 @@
             }
         },
         {
-            "name": "databaseAccounts_apis_keyspaces_settings",
+            "name": "databaseaccounts_apis_keyspaces_settings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -223,7 +223,7 @@
             }
         },
         {
-            "name": "databaseAccounts_apis_keyspaces_tables",
+            "name": "databaseaccounts_apis_keyspaces_tables",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -237,7 +237,7 @@
             }
         },
         {
-            "name": "databaseAccounts_apis_keyspaces_tables_settings",
+            "name": "databaseaccounts_apis_keyspaces_tables_settings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -251,7 +251,7 @@
             }
         },
         {
-            "name": "databaseAccounts_apis_tables",
+            "name": "databaseaccounts_apis_tables",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -265,7 +265,7 @@
             }
         },
         {
-            "name": "databaseAccounts_apis_tables_settings",
+            "name": "databaseaccounts_apis_tables_settings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -279,7 +279,7 @@
             }
         },
         {
-            "name": "databaseAccounts_cassandraKeyspaces",
+            "name": "databaseaccounts_cassandrakeyspaces",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -311,7 +311,7 @@
             }
         },
         {
-            "name": "databaseAccounts_cassandraKeyspaces_tables",
+            "name": "databaseaccounts_cassandrakeyspaces_tables",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -343,7 +343,7 @@
             }
         },
         {
-            "name": "databaseAccounts_cassandraKeyspaces_tables_throughputSettings",
+            "name": "databaseaccounts_cassandrakeyspaces_tables_throughputsettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -375,7 +375,7 @@
             }
         },
         {
-            "name": "databaseAccounts_cassandraKeyspaces_throughputSettings",
+            "name": "databaseaccounts_cassandrakeyspaces_throughputsettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -407,7 +407,7 @@
             }
         },
         {
-            "name": "databaseAccounts_cassandraKeyspaces_views",
+            "name": "databaseaccounts_cassandrakeyspaces_views",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -422,7 +422,7 @@
             }
         },
         {
-            "name": "databaseAccounts_cassandraKeyspaces_views_throughputSettings",
+            "name": "databaseaccounts_cassandrakeyspaces_views_throughputsettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -437,7 +437,7 @@
             }
         },
         {
-            "name": "databaseAccounts_dataTransferJobs",
+            "name": "databaseaccounts_datatransferjobs",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -451,7 +451,7 @@
             }
         },
         {
-            "name": "databaseAccounts_graphs",
+            "name": "databaseaccounts_graphs",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -466,7 +466,7 @@
             }
         },
         {
-            "name": "databaseAccounts_gremlinDatabases",
+            "name": "databaseaccounts_gremlindatabases",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -498,7 +498,7 @@
             }
         },
         {
-            "name": "databaseAccounts_gremlinDatabases_graphs",
+            "name": "databaseaccounts_gremlindatabases_graphs",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -530,7 +530,7 @@
             }
         },
         {
-            "name": "databaseAccounts_gremlinDatabases_graphs_throughputSettings",
+            "name": "databaseaccounts_gremlindatabases_graphs_throughputsettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -562,7 +562,7 @@
             }
         },
         {
-            "name": "databaseAccounts_gremlinDatabases_throughputSettings",
+            "name": "databaseaccounts_gremlindatabases_throughputsettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -594,7 +594,7 @@
             }
         },
         {
-            "name": "databaseAccounts_mongodbDatabases",
+            "name": "databaseaccounts_mongodbdatabases",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -626,7 +626,7 @@
             }
         },
         {
-            "name": "databaseAccounts_mongodbDatabases_collections",
+            "name": "databaseaccounts_mongodbdatabases_collections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -658,7 +658,7 @@
             }
         },
         {
-            "name": "databaseAccounts_mongodbDatabases_collections_throughputSettings",
+            "name": "databaseaccounts_mongodbdatabases_collections_throughputsettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -690,7 +690,7 @@
             }
         },
         {
-            "name": "databaseAccounts_mongodbDatabases_throughputSettings",
+            "name": "databaseaccounts_mongodbdatabases_throughputsettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -722,7 +722,7 @@
             }
         },
         {
-            "name": "databaseAccounts_mongodbRoleDefinitions",
+            "name": "databaseaccounts_mongodbroledefinitions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -738,7 +738,7 @@
             }
         },
         {
-            "name": "databaseAccounts_mongodbUserDefinitions",
+            "name": "databaseaccounts_mongodbuserdefinitions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -754,7 +754,7 @@
             }
         },
         {
-            "name": "databaseAccounts_notebookWorkspaces",
+            "name": "databaseaccounts_notebookworkspaces",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -786,7 +786,7 @@
             }
         },
         {
-            "name": "databaseAccounts_privateEndpointConnections",
+            "name": "databaseaccounts_privateendpointconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -813,7 +813,7 @@
             }
         },
         {
-            "name": "databaseAccounts_services",
+            "name": "databaseaccounts_services",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -832,7 +832,7 @@
             }
         },
         {
-            "name": "databaseAccounts_sqlDatabases",
+            "name": "databaseaccounts_sqldatabases",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -864,7 +864,7 @@
             }
         },
         {
-            "name": "databaseAccounts_sqlDatabases_clientEncryptionKeys",
+            "name": "databaseaccounts_sqldatabases_clientencryptionkeys",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -878,7 +878,7 @@
             }
         },
         {
-            "name": "databaseAccounts_sqlDatabases_containers",
+            "name": "databaseaccounts_sqldatabases_containers",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -910,7 +910,7 @@
             }
         },
         {
-            "name": "databaseAccounts_sqlDatabases_containers_storedProcedures",
+            "name": "databaseaccounts_sqldatabases_containers_storedprocedures",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -942,7 +942,7 @@
             }
         },
         {
-            "name": "databaseAccounts_sqlDatabases_containers_throughputSettings",
+            "name": "databaseaccounts_sqldatabases_containers_throughputsettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -974,7 +974,7 @@
             }
         },
         {
-            "name": "databaseAccounts_sqlDatabases_containers_triggers",
+            "name": "databaseaccounts_sqldatabases_containers_triggers",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1006,7 +1006,7 @@
             }
         },
         {
-            "name": "databaseAccounts_sqlDatabases_containers_userDefinedFunctions",
+            "name": "databaseaccounts_sqldatabases_containers_userdefinedfunctions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1038,7 +1038,7 @@
             }
         },
         {
-            "name": "databaseAccounts_sqlDatabases_throughputSettings",
+            "name": "databaseaccounts_sqldatabases_throughputsettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1070,7 +1070,7 @@
             }
         },
         {
-            "name": "databaseAccounts_sqlRoleAssignments",
+            "name": "databaseaccounts_sqlroleassignments",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1095,7 +1095,7 @@
             }
         },
         {
-            "name": "databaseAccounts_sqlRoleDefinitions",
+            "name": "databaseaccounts_sqlroledefinitions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1120,7 +1120,7 @@
             }
         },
         {
-            "name": "databaseAccounts_tables",
+            "name": "databaseaccounts_tables",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1152,7 +1152,7 @@
             }
         },
         {
-            "name": "databaseAccounts_tables_throughputSettings",
+            "name": "databaseaccounts_tables_throughputsettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

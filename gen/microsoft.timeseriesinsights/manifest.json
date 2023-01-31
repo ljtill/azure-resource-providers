@@ -20,7 +20,7 @@
             }
         },
         {
-            "name": "environments_accessPolicies",
+            "name": "environments_accesspolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -36,7 +36,7 @@
             }
         },
         {
-            "name": "environments_eventSources",
+            "name": "environments_eventsources",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -52,7 +52,7 @@
             }
         },
         {
-            "name": "environments_privateEndpointConnections",
+            "name": "environments_privateendpointconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -62,7 +62,7 @@
             }
         },
         {
-            "name": "environments_referenceDataSets",
+            "name": "environments_referencedatasets",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

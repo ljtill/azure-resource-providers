@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.App",
     "resourceTypes": [
         {
-            "name": "connectedEnvironments",
+            "name": "connectedenvironments",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -16,7 +16,7 @@
             }
         },
         {
-            "name": "connectedEnvironments_certificates",
+            "name": "connectedenvironments_certificates",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -28,7 +28,7 @@
             }
         },
         {
-            "name": "connectedEnvironments_daprComponents",
+            "name": "connectedenvironments_daprcomponents",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -40,7 +40,7 @@
             }
         },
         {
-            "name": "connectedEnvironments_storages",
+            "name": "connectedenvironments_storages",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -52,49 +52,7 @@
             }
         },
         {
-            "name": "containerApps",
-            "scope": "resourceGroup",
-            "apiVersions": {
-                "stable": [
-                    "2022-03-01",
-                    "2022-10-01"
-                ],
-                "preview": [
-                    "2022-01-01-preview",
-                    "2022-06-01-preview"
-                ]
-            }
-        },
-        {
-            "name": "containerApps_authConfigs",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2022-03-01",
-                    "2022-10-01"
-                ],
-                "preview": [
-                    "2022-01-01-preview",
-                    "2022-06-01-preview"
-                ]
-            }
-        },
-        {
-            "name": "containerApps_sourcecontrols",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2022-03-01",
-                    "2022-10-01"
-                ],
-                "preview": [
-                    "2022-01-01-preview",
-                    "2022-06-01-preview"
-                ]
-            }
-        },
-        {
-            "name": "managedEnvironments",
+            "name": "containerapps",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -108,7 +66,7 @@
             }
         },
         {
-            "name": "managedEnvironments_certificates",
+            "name": "containerapps_authconfigs",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -122,7 +80,7 @@
             }
         },
         {
-            "name": "managedEnvironments_daprComponents",
+            "name": "containerapps_sourcecontrols",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -136,7 +94,49 @@
             }
         },
         {
-            "name": "managedEnvironments_storages",
+            "name": "managedenvironments",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-03-01",
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2022-01-01-preview",
+                    "2022-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedenvironments_certificates",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2022-03-01",
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2022-01-01-preview",
+                    "2022-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedenvironments_daprcomponents",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2022-03-01",
+                    "2022-10-01"
+                ],
+                "preview": [
+                    "2022-01-01-preview",
+                    "2022-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedenvironments_storages",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

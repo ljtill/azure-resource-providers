@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Security",
     "resourceTypes": [
         {
-            "name": "alertsSuppressionRules",
+            "name": "alertssuppressionrules",
             "scope": "subscription",
             "apiVersions": {
                 "stable": [],
@@ -14,7 +14,7 @@
             }
         },
         {
-            "name": "assessmentMetadata",
+            "name": "assessmentmetadata",
             "scope": "subscription",
             "apiVersions": {
                 "stable": [
@@ -47,7 +47,7 @@
             }
         },
         {
-            "name": "autoProvisioningSettings",
+            "name": "autoprovisioningsettings",
             "scope": "subscription",
             "apiVersions": {
                 "stable": [],
@@ -67,7 +67,7 @@
             }
         },
         {
-            "name": "customAssessmentAutomations",
+            "name": "customassessmentautomations",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -77,7 +77,7 @@
             }
         },
         {
-            "name": "customEntityStoreAssignments",
+            "name": "customentitystoreassignments",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -87,7 +87,7 @@
             }
         },
         {
-            "name": "ingestionSettings",
+            "name": "ingestionsettings",
             "scope": "subscription",
             "apiVersions": {
                 "stable": [],
@@ -97,7 +97,7 @@
             }
         },
         {
-            "name": "iotSecuritySolutions",
+            "name": "iotsecuritysolutions",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -109,7 +109,7 @@
             }
         },
         {
-            "name": "locations_applicationWhitelistings",
+            "name": "locations_applicationwhitelistings",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -121,7 +121,7 @@
             }
         },
         {
-            "name": "locations_jitNetworkAccessPolicies",
+            "name": "locations_jitnetworkaccesspolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -145,7 +145,7 @@
             }
         },
         {
-            "name": "securityConnectors",
+            "name": "securityconnectors",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -156,7 +156,7 @@
             }
         },
         {
-            "name": "securityContacts",
+            "name": "securitycontacts",
             "scope": "subscription",
             "apiVersions": {
                 "stable": [],
@@ -167,7 +167,7 @@
             }
         },
         {
-            "name": "serverVulnerabilityAssessments",
+            "name": "servervulnerabilityassessments",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -201,7 +201,7 @@
             }
         },
         {
-            "name": "workspaceSettings",
+            "name": "workspacesettings",
             "scope": "subscription",
             "apiVersions": {
                 "stable": [],

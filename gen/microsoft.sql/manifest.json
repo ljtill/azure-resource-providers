@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Sql",
     "resourceTypes": [
         {
-            "name": "instancePools",
+            "name": "instancepools",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -25,7 +25,7 @@
             }
         },
         {
-            "name": "locations_instanceFailoverGroups",
+            "name": "locations_instancefailovergroups",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -46,7 +46,7 @@
             }
         },
         {
-            "name": "locations_serverTrustGroups",
+            "name": "locations_servertrustgroups",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -66,7 +66,7 @@
             }
         },
         {
-            "name": "managedInstances",
+            "name": "managedinstances",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -88,7 +88,7 @@
             }
         },
         {
-            "name": "managedInstances_administrators",
+            "name": "managedinstances_administrators",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -109,7 +109,7 @@
             }
         },
         {
-            "name": "managedInstances_advancedThreatProtectionSettings",
+            "name": "managedinstances_advancedthreatprotectionsettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -120,7 +120,7 @@
             }
         },
         {
-            "name": "managedInstances_azureADOnlyAuthentications",
+            "name": "managedinstances_azureadonlyauthentications",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -140,7 +140,7 @@
             }
         },
         {
-            "name": "managedInstances_databases",
+            "name": "managedinstances_databases",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -163,7 +163,7 @@
             }
         },
         {
-            "name": "managedInstances_databases_advancedThreatProtectionSettings",
+            "name": "managedinstances_databases_advancedthreatprotectionsettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -174,7 +174,7 @@
             }
         },
         {
-            "name": "managedInstances_databases_backupLongTermRetentionPolicies",
+            "name": "managedinstances_databases_backuplongtermretentionpolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -195,7 +195,7 @@
             }
         },
         {
-            "name": "managedInstances_databases_backupShortTermRetentionPolicies",
+            "name": "managedinstances_databases_backupshorttermretentionpolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -216,7 +216,7 @@
             }
         },
         {
-            "name": "managedInstances_databases_schemas_tables_columns_sensitivityLabels",
+            "name": "managedinstances_databases_schemas_tables_columns_sensitivitylabels",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -237,7 +237,7 @@
             }
         },
         {
-            "name": "managedInstances_databases_securityAlertPolicies",
+            "name": "managedinstances_databases_securityalertpolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -258,7 +258,7 @@
             }
         },
         {
-            "name": "managedInstances_databases_transparentDataEncryption",
+            "name": "managedinstances_databases_transparentdataencryption",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -278,7 +278,7 @@
             }
         },
         {
-            "name": "managedInstances_databases_vulnerabilityAssessments",
+            "name": "managedinstances_databases_vulnerabilityassessments",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -299,7 +299,7 @@
             }
         },
         {
-            "name": "managedInstances_databases_vulnerabilityAssessments_rules_baselines",
+            "name": "managedinstances_databases_vulnerabilityassessments_rules_baselines",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -320,7 +320,7 @@
             }
         },
         {
-            "name": "managedInstances_distributedAvailabilityGroups",
+            "name": "managedinstances_distributedavailabilitygroups",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -336,7 +336,7 @@
             }
         },
         {
-            "name": "managedInstances_dnsAliases",
+            "name": "managedinstances_dnsaliases",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -350,7 +350,7 @@
             }
         },
         {
-            "name": "managedInstances_dtc",
+            "name": "managedinstances_dtc",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -361,7 +361,7 @@
             }
         },
         {
-            "name": "managedInstances_encryptionProtector",
+            "name": "managedinstances_encryptionprotector",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -382,7 +382,7 @@
             }
         },
         {
-            "name": "managedInstances_keys",
+            "name": "managedinstances_keys",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -403,7 +403,7 @@
             }
         },
         {
-            "name": "managedInstances_privateEndpointConnections",
+            "name": "managedinstances_privateendpointconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -423,7 +423,7 @@
             }
         },
         {
-            "name": "managedInstances_restorableDroppedDatabases_backupShortTermRetentionPolicies",
+            "name": "managedinstances_restorabledroppeddatabases_backupshorttermretentionpolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -444,7 +444,7 @@
             }
         },
         {
-            "name": "managedInstances_securityAlertPolicies",
+            "name": "managedinstances_securityalertpolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -465,7 +465,7 @@
             }
         },
         {
-            "name": "managedInstances_serverTrustCertificates",
+            "name": "managedinstances_servertrustcertificates",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -481,7 +481,7 @@
             }
         },
         {
-            "name": "managedInstances_sqlAgent",
+            "name": "managedinstances_sqlagent",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -501,7 +501,7 @@
             }
         },
         {
-            "name": "managedInstances_vulnerabilityAssessments",
+            "name": "managedinstances_vulnerabilityassessments",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -568,7 +568,7 @@
             }
         },
         {
-            "name": "servers_advancedThreatProtectionSettings",
+            "name": "servers_advancedthreatprotectionsettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -592,7 +592,7 @@
             }
         },
         {
-            "name": "servers_auditingPolicies",
+            "name": "servers_auditingpolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -602,7 +602,7 @@
             }
         },
         {
-            "name": "servers_auditingSettings",
+            "name": "servers_auditingsettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -623,7 +623,7 @@
             }
         },
         {
-            "name": "servers_azureADOnlyAuthentications",
+            "name": "servers_azureadonlyauthentications",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -643,7 +643,7 @@
             }
         },
         {
-            "name": "servers_communicationLinks",
+            "name": "servers_communicationlinks",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -653,7 +653,7 @@
             }
         },
         {
-            "name": "servers_connectionPolicies",
+            "name": "servers_connectionpolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -694,7 +694,7 @@
             }
         },
         {
-            "name": "servers_databases_advancedThreatProtectionSettings",
+            "name": "servers_databases_advancedthreatprotectionsettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -718,7 +718,7 @@
             }
         },
         {
-            "name": "servers_databases_auditingPolicies",
+            "name": "servers_databases_auditingpolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -728,7 +728,7 @@
             }
         },
         {
-            "name": "servers_databases_auditingSettings",
+            "name": "servers_databases_auditingsettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -750,7 +750,7 @@
             }
         },
         {
-            "name": "servers_databases_backupLongTermRetentionPolicies",
+            "name": "servers_databases_backuplongtermretentionpolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -771,7 +771,7 @@
             }
         },
         {
-            "name": "servers_databases_backupShortTermRetentionPolicies",
+            "name": "servers_databases_backupshorttermretentionpolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -792,7 +792,7 @@
             }
         },
         {
-            "name": "servers_databases_connectionPolicies",
+            "name": "servers_databases_connectionpolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -802,7 +802,7 @@
             }
         },
         {
-            "name": "servers_databases_dataMaskingPolicies",
+            "name": "servers_databases_datamaskingpolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -816,7 +816,7 @@
             }
         },
         {
-            "name": "servers_databases_dataMaskingPolicies_rules",
+            "name": "servers_databases_datamaskingpolicies_rules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -830,7 +830,7 @@
             }
         },
         {
-            "name": "servers_databases_extendedAuditingSettings",
+            "name": "servers_databases_extendedauditingsettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -871,7 +871,7 @@
             }
         },
         {
-            "name": "servers_databases_geoBackupPolicies",
+            "name": "servers_databases_geobackuppolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -885,7 +885,7 @@
             }
         },
         {
-            "name": "servers_databases_ledgerDigestUploads",
+            "name": "servers_databases_ledgerdigestuploads",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -902,7 +902,7 @@
             }
         },
         {
-            "name": "servers_databases_maintenanceWindows",
+            "name": "servers_databases_maintenancewindows",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -922,7 +922,7 @@
             }
         },
         {
-            "name": "servers_databases_schemas_tables_columns_sensitivityLabels",
+            "name": "servers_databases_schemas_tables_columns_sensitivitylabels",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -943,7 +943,7 @@
             }
         },
         {
-            "name": "servers_databases_securityAlertPolicies",
+            "name": "servers_databases_securityalertpolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -965,7 +965,7 @@
             }
         },
         {
-            "name": "servers_databases_sqlVulnerabilityAssessments_baselines",
+            "name": "servers_databases_sqlvulnerabilityassessments_baselines",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -976,7 +976,7 @@
             }
         },
         {
-            "name": "servers_databases_sqlVulnerabilityAssessments_baselines_rules",
+            "name": "servers_databases_sqlvulnerabilityassessments_baselines_rules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -987,7 +987,7 @@
             }
         },
         {
-            "name": "servers_databases_syncGroups",
+            "name": "servers_databases_syncgroups",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1009,7 +1009,7 @@
             }
         },
         {
-            "name": "servers_databases_syncGroups_syncMembers",
+            "name": "servers_databases_syncgroups_syncmembers",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1031,7 +1031,7 @@
             }
         },
         {
-            "name": "servers_databases_transparentDataEncryption",
+            "name": "servers_databases_transparentdataencryption",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1052,7 +1052,7 @@
             }
         },
         {
-            "name": "servers_databases_vulnerabilityAssessments",
+            "name": "servers_databases_vulnerabilityassessments",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1073,7 +1073,7 @@
             }
         },
         {
-            "name": "servers_databases_vulnerabilityAssessments_rules_baselines",
+            "name": "servers_databases_vulnerabilityassessments_rules_baselines",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1094,7 +1094,7 @@
             }
         },
         {
-            "name": "servers_databases_workloadGroups",
+            "name": "servers_databases_workloadgroups",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1115,7 +1115,7 @@
             }
         },
         {
-            "name": "servers_databases_workloadGroups_workloadClassifiers",
+            "name": "servers_databases_workloadgroups_workloadclassifiers",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1136,7 +1136,7 @@
             }
         },
         {
-            "name": "servers_devOpsAuditingSettings",
+            "name": "servers_devopsauditingsettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1156,7 +1156,7 @@
             }
         },
         {
-            "name": "servers_disasterRecoveryConfiguration",
+            "name": "servers_disasterrecoveryconfiguration",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1166,7 +1166,7 @@
             }
         },
         {
-            "name": "servers_dnsAliases",
+            "name": "servers_dnsaliases",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1187,7 +1187,7 @@
             }
         },
         {
-            "name": "servers_elasticPools",
+            "name": "servers_elasticpools",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1209,7 +1209,7 @@
             }
         },
         {
-            "name": "servers_encryptionProtector",
+            "name": "servers_encryptionprotector",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1230,7 +1230,7 @@
             }
         },
         {
-            "name": "servers_extendedAuditingSettings",
+            "name": "servers_extendedauditingsettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1251,7 +1251,7 @@
             }
         },
         {
-            "name": "servers_failoverGroups",
+            "name": "servers_failovergroups",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1272,7 +1272,7 @@
             }
         },
         {
-            "name": "servers_firewallRules",
+            "name": "servers_firewallrules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1294,7 +1294,7 @@
             }
         },
         {
-            "name": "servers_ipv6FirewallRules",
+            "name": "servers_ipv6firewallrules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1309,28 +1309,7 @@
             }
         },
         {
-            "name": "servers_jobAgents",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2021-11-01"
-                ],
-                "preview": [
-                    "2017-03-01-preview",
-                    "2020-02-02-preview",
-                    "2020-08-01-preview",
-                    "2020-11-01-preview",
-                    "2021-02-01-preview",
-                    "2021-05-01-preview",
-                    "2021-08-01-preview",
-                    "2021-11-01-preview",
-                    "2022-02-01-preview",
-                    "2022-05-01-preview"
-                ]
-            }
-        },
-        {
-            "name": "servers_jobAgents_credentials",
+            "name": "servers_jobagents",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1351,7 +1330,7 @@
             }
         },
         {
-            "name": "servers_jobAgents_jobs",
+            "name": "servers_jobagents_credentials",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1372,7 +1351,7 @@
             }
         },
         {
-            "name": "servers_jobAgents_jobs_executions",
+            "name": "servers_jobagents_jobs",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1393,7 +1372,7 @@
             }
         },
         {
-            "name": "servers_jobAgents_jobs_steps",
+            "name": "servers_jobagents_jobs_executions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1414,7 +1393,28 @@
             }
         },
         {
-            "name": "servers_jobAgents_targetGroups",
+            "name": "servers_jobagents_jobs_steps",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2021-11-01"
+                ],
+                "preview": [
+                    "2017-03-01-preview",
+                    "2020-02-02-preview",
+                    "2020-08-01-preview",
+                    "2020-11-01-preview",
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2021-08-01-preview",
+                    "2021-11-01-preview",
+                    "2022-02-01-preview",
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "servers_jobagents_targetgroups",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1456,7 +1456,7 @@
             }
         },
         {
-            "name": "servers_outboundFirewallRules",
+            "name": "servers_outboundfirewallrules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1473,7 +1473,7 @@
             }
         },
         {
-            "name": "servers_privateEndpointConnections",
+            "name": "servers_privateendpointconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1494,7 +1494,7 @@
             }
         },
         {
-            "name": "servers_securityAlertPolicies",
+            "name": "servers_securityalertpolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1515,7 +1515,7 @@
             }
         },
         {
-            "name": "servers_sqlVulnerabilityAssessments",
+            "name": "servers_sqlvulnerabilityassessments",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -1526,7 +1526,7 @@
             }
         },
         {
-            "name": "servers_sqlVulnerabilityAssessments_baselines",
+            "name": "servers_sqlvulnerabilityassessments_baselines",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -1537,7 +1537,7 @@
             }
         },
         {
-            "name": "servers_sqlVulnerabilityAssessments_baselines_rules",
+            "name": "servers_sqlvulnerabilityassessments_baselines_rules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -1548,7 +1548,7 @@
             }
         },
         {
-            "name": "servers_syncAgents",
+            "name": "servers_syncagents",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1569,7 +1569,7 @@
             }
         },
         {
-            "name": "servers_virtualNetworkRules",
+            "name": "servers_virtualnetworkrules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1590,7 +1590,7 @@
             }
         },
         {
-            "name": "servers_vulnerabilityAssessments",
+            "name": "servers_vulnerabilityassessments",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

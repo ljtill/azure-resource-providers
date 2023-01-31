@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Search",
     "resourceTypes": [
         {
-            "name": "searchServices",
+            "name": "searchservices",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -22,7 +22,7 @@
             }
         },
         {
-            "name": "searchServices_privateEndpointConnections",
+            "name": "searchservices_privateendpointconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -38,7 +38,7 @@
             }
         },
         {
-            "name": "searchServices_sharedPrivateLinkResources",
+            "name": "searchservices_sharedprivatelinkresources",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

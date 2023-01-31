@@ -16,7 +16,7 @@
             }
         },
         {
-            "name": "fileServers",
+            "name": "fileservers",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -80,7 +80,7 @@
             }
         },
         {
-            "name": "workspaces_fileServers",
+            "name": "workspaces_fileservers",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

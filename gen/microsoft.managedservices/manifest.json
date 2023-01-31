@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.ManagedServices",
     "resourceTypes": [
         {
-            "name": "registrationAssignments",
+            "name": "registrationassignments",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -16,7 +16,7 @@
             }
         },
         {
-            "name": "registrationDefinitions",
+            "name": "registrationdefinitions",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

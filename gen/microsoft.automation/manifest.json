@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Automation",
     "resourceTypes": [
         {
-            "name": "automationAccounts",
+            "name": "automationaccounts",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -19,7 +19,7 @@
             }
         },
         {
-            "name": "automationAccounts_certificates",
+            "name": "automationaccounts_certificates",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -33,7 +33,7 @@
             }
         },
         {
-            "name": "automationAccounts_compilationjobs",
+            "name": "automationaccounts_compilationjobs",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -47,7 +47,7 @@
             }
         },
         {
-            "name": "automationAccounts_configurations",
+            "name": "automationaccounts_configurations",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -59,7 +59,7 @@
             }
         },
         {
-            "name": "automationAccounts_connections",
+            "name": "automationaccounts_connections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -73,7 +73,7 @@
             }
         },
         {
-            "name": "automationAccounts_connectionTypes",
+            "name": "automationaccounts_connectiontypes",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -87,7 +87,7 @@
             }
         },
         {
-            "name": "automationAccounts_credentials",
+            "name": "automationaccounts_credentials",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -101,7 +101,7 @@
             }
         },
         {
-            "name": "automationAccounts_hybridRunbookWorkerGroups",
+            "name": "automationaccounts_hybridrunbookworkergroups",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -113,7 +113,7 @@
             }
         },
         {
-            "name": "automationAccounts_hybridRunbookWorkerGroups_hybridRunbookWorkers",
+            "name": "automationaccounts_hybridrunbookworkergroups_hybridrunbookworkers",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -124,7 +124,7 @@
             }
         },
         {
-            "name": "automationAccounts_jobs",
+            "name": "automationaccounts_jobs",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -138,7 +138,7 @@
             }
         },
         {
-            "name": "automationAccounts_jobSchedules",
+            "name": "automationaccounts_jobschedules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -152,7 +152,7 @@
             }
         },
         {
-            "name": "automationAccounts_modules",
+            "name": "automationaccounts_modules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -166,7 +166,7 @@
             }
         },
         {
-            "name": "automationAccounts_nodeConfigurations",
+            "name": "automationaccounts_nodeconfigurations",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -181,7 +181,7 @@
             }
         },
         {
-            "name": "automationAccounts_privateEndpointConnections",
+            "name": "automationaccounts_privateendpointconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -191,7 +191,7 @@
             }
         },
         {
-            "name": "automationAccounts_python2Packages",
+            "name": "automationaccounts_python2packages",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -205,7 +205,7 @@
             }
         },
         {
-            "name": "automationAccounts_python3Packages",
+            "name": "automationaccounts_python3packages",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -215,20 +215,7 @@
             }
         },
         {
-            "name": "automationAccounts_runbooks",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2015-10-31",
-                    "2018-06-30",
-                    "2019-06-01",
-                    "2022-08-08"
-                ],
-                "preview": []
-            }
-        },
-        {
-            "name": "automationAccounts_runbooks_draft",
+            "name": "automationaccounts_runbooks",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -241,7 +228,20 @@
             }
         },
         {
-            "name": "automationAccounts_schedules",
+            "name": "automationaccounts_runbooks_draft",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2015-10-31",
+                    "2018-06-30",
+                    "2019-06-01",
+                    "2022-08-08"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "automationaccounts_schedules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -255,7 +255,7 @@
             }
         },
         {
-            "name": "automationAccounts_softwareUpdateConfigurations",
+            "name": "automationaccounts_softwareupdateconfigurations",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -267,7 +267,7 @@
             }
         },
         {
-            "name": "automationAccounts_sourceControls",
+            "name": "automationaccounts_sourcecontrols",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -281,7 +281,7 @@
             }
         },
         {
-            "name": "automationAccounts_sourceControls_sourceControlSyncJobs",
+            "name": "automationaccounts_sourcecontrols_sourcecontrolsyncjobs",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -295,7 +295,7 @@
             }
         },
         {
-            "name": "automationAccounts_variables",
+            "name": "automationaccounts_variables",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -309,7 +309,7 @@
             }
         },
         {
-            "name": "automationAccounts_watchers",
+            "name": "automationaccounts_watchers",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -322,7 +322,7 @@
             }
         },
         {
-            "name": "automationAccounts_webhooks",
+            "name": "automationaccounts_webhooks",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

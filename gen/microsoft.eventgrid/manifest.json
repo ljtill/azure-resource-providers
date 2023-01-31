@@ -25,7 +25,7 @@
             }
         },
         {
-            "name": "domains_eventSubscriptions",
+            "name": "domains_eventsubscriptions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -37,7 +37,7 @@
             }
         },
         {
-            "name": "domains_privateEndpointConnections",
+            "name": "domains_privateendpointconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -74,7 +74,7 @@
             }
         },
         {
-            "name": "domains_topics_eventSubscriptions",
+            "name": "domains_topics_eventsubscriptions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -86,7 +86,7 @@
             }
         },
         {
-            "name": "partnerConfigurations",
+            "name": "partnerconfigurations",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -98,7 +98,7 @@
             }
         },
         {
-            "name": "partnerDestinations",
+            "name": "partnerdestinations",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -108,7 +108,7 @@
             }
         },
         {
-            "name": "partnerNamespaces",
+            "name": "partnernamespaces",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -123,7 +123,7 @@
             }
         },
         {
-            "name": "partnerNamespaces_channels",
+            "name": "partnernamespaces_channels",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -135,7 +135,7 @@
             }
         },
         {
-            "name": "partnerNamespaces_eventChannels",
+            "name": "partnernamespaces_eventchannels",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -148,7 +148,7 @@
             }
         },
         {
-            "name": "partnerNamespaces_privateEndpointConnections",
+            "name": "partnernamespaces_privateendpointconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -161,7 +161,7 @@
             }
         },
         {
-            "name": "partnerRegistrations",
+            "name": "partnerregistrations",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -176,7 +176,7 @@
             }
         },
         {
-            "name": "partnerTopics",
+            "name": "partnertopics",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -188,7 +188,7 @@
             }
         },
         {
-            "name": "partnerTopics_eventSubscriptions",
+            "name": "partnertopics_eventsubscriptions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -203,7 +203,7 @@
             }
         },
         {
-            "name": "systemTopics",
+            "name": "systemtopics",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -219,7 +219,7 @@
             }
         },
         {
-            "name": "systemTopics_eventSubscriptions",
+            "name": "systemtopics_eventsubscriptions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -261,7 +261,7 @@
             }
         },
         {
-            "name": "topics_eventSubscriptions",
+            "name": "topics_eventsubscriptions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -273,7 +273,7 @@
             }
         },
         {
-            "name": "topics_privateEndpointConnections",
+            "name": "topics_privateendpointconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

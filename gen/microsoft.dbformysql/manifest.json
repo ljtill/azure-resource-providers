@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.DBforMySQL",
     "resourceTypes": [
         {
-            "name": "flexibleServers",
+            "name": "flexibleservers",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -17,7 +17,7 @@
             }
         },
         {
-            "name": "flexibleServers_administrators",
+            "name": "flexibleservers_administrators",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -27,7 +27,7 @@
             }
         },
         {
-            "name": "flexibleServers_backups",
+            "name": "flexibleservers_backups",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -37,7 +37,7 @@
             }
         },
         {
-            "name": "flexibleServers_databases",
+            "name": "flexibleservers_databases",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -50,7 +50,7 @@
             }
         },
         {
-            "name": "flexibleServers_firewallRules",
+            "name": "flexibleservers_firewallrules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -111,7 +111,7 @@
             }
         },
         {
-            "name": "servers_firewallRules",
+            "name": "servers_firewallrules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -133,7 +133,7 @@
             }
         },
         {
-            "name": "servers_privateEndpointConnections",
+            "name": "servers_privateendpointconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -143,7 +143,7 @@
             }
         },
         {
-            "name": "servers_securityAlertPolicies",
+            "name": "servers_securityalertpolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -155,7 +155,7 @@
             }
         },
         {
-            "name": "servers_virtualNetworkRules",
+            "name": "servers_virtualnetworkrules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

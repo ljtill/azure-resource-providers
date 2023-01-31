@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.AppConfiguration",
     "resourceTypes": [
         {
-            "name": "configurationStores",
+            "name": "configurationstores",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -23,7 +23,7 @@
             }
         },
         {
-            "name": "configurationStores_keyValues",
+            "name": "configurationstores_keyvalues",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -38,7 +38,7 @@
             }
         },
         {
-            "name": "configurationStores_privateEndpointConnections",
+            "name": "configurationstores_privateendpointconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -55,7 +55,7 @@
             }
         },
         {
-            "name": "configurationStores_replicas",
+            "name": "configurationstores_replicas",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

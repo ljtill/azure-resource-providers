@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.MixedReality",
     "resourceTypes": [
         {
-            "name": "objectAnchorsAccounts",
+            "name": "objectanchorsaccounts",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -14,7 +14,7 @@
             }
         },
         {
-            "name": "remoteRenderingAccounts",
+            "name": "remoterenderingaccounts",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -28,7 +28,7 @@
             }
         },
         {
-            "name": "spatialAnchorsAccounts",
+            "name": "spatialanchorsaccounts",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

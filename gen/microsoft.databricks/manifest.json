@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Databricks",
     "resourceTypes": [
         {
-            "name": "accessConnectors",
+            "name": "accessconnectors",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -27,7 +27,7 @@
             }
         },
         {
-            "name": "workspaces_privateEndpointConnections",
+            "name": "workspaces_privateendpointconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -38,7 +38,7 @@
             }
         },
         {
-            "name": "workspaces_virtualNetworkPeerings",
+            "name": "workspaces_virtualnetworkpeerings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

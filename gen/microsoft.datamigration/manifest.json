@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.DataMigration",
     "resourceTypes": [
         {
-            "name": "databaseMigrations",
+            "name": "databasemigrations",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -91,7 +91,7 @@
             }
         },
         {
-            "name": "services_serviceTasks",
+            "name": "services_servicetasks",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -106,7 +106,7 @@
             }
         },
         {
-            "name": "sqlMigrationServices",
+            "name": "sqlmigrationservices",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],

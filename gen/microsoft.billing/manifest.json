@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Billing",
     "resourceTypes": [
         {
-            "name": "billingAccounts_billingProfiles",
+            "name": "billingaccounts_billingprofiles",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [
@@ -17,7 +17,7 @@
             }
         },
         {
-            "name": "billingAccounts_billingProfiles_instructions",
+            "name": "billingaccounts_billingprofiles_instructions",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [
@@ -29,7 +29,7 @@
             }
         },
         {
-            "name": "billingAccounts_billingProfiles_invoiceSections",
+            "name": "billingaccounts_billingprofiles_invoicesections",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [
@@ -41,7 +41,7 @@
             }
         },
         {
-            "name": "billingAccounts_billingProfiles_policies",
+            "name": "billingaccounts_billingprofiles_policies",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [
@@ -54,7 +54,7 @@
             }
         },
         {
-            "name": "billingAccounts_billingRoleAssignments",
+            "name": "billingaccounts_billingroleassignments",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [],
@@ -64,7 +64,7 @@
             }
         },
         {
-            "name": "billingAccounts_billingSubscriptionAliases",
+            "name": "billingaccounts_billingsubscriptionaliases",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [
@@ -74,7 +74,7 @@
             }
         },
         {
-            "name": "billingAccounts_customers_policies",
+            "name": "billingaccounts_customers_policies",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [
@@ -86,7 +86,7 @@
             }
         },
         {
-            "name": "billingAccounts_departments_billingRoleAssignments",
+            "name": "billingaccounts_departments_billingroleassignments",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [],
@@ -96,7 +96,7 @@
             }
         },
         {
-            "name": "billingAccounts_enrollmentAccounts_billingRoleAssignments",
+            "name": "billingaccounts_enrollmentaccounts_billingroleassignments",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [],
@@ -106,7 +106,7 @@
             }
         },
         {
-            "name": "billingAccounts_invoiceSections",
+            "name": "billingaccounts_invoicesections",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [],
@@ -116,7 +116,7 @@
             }
         },
         {
-            "name": "billingAccounts_lineOfCredit",
+            "name": "billingaccounts_lineofcredit",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],

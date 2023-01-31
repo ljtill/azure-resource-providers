@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Blockchain",
     "resourceTypes": [
         {
-            "name": "blockchainMembers",
+            "name": "blockchainmembers",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -14,7 +14,7 @@
             }
         },
         {
-            "name": "blockchainMembers_transactionNodes",
+            "name": "blockchainmembers_transactionnodes",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

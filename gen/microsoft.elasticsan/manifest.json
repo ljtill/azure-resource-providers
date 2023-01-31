@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.ElasticSan",
     "resourceTypes": [
         {
-            "name": "elasticSans",
+            "name": "elasticsans",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -14,7 +14,7 @@
             }
         },
         {
-            "name": "elasticSans_volumegroups",
+            "name": "elasticsans_volumegroups",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -24,7 +24,7 @@
             }
         },
         {
-            "name": "elasticSans_volumegroups_volumes",
+            "name": "elasticsans_volumegroups_volumes",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

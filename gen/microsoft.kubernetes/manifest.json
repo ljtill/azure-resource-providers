@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Kubernetes",
     "resourceTypes": [
         {
-            "name": "connectedClusters",
+            "name": "connectedclusters",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

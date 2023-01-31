@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.LoadTestService",
     "resourceTypes": [
         {
-            "name": "loadTests",
+            "name": "loadtests",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

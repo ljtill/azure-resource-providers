@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.SecurityDevOps",
     "resourceTypes": [
         {
-            "name": "azureDevOpsConnectors",
+            "name": "azuredevopsconnectors",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -14,7 +14,7 @@
             }
         },
         {
-            "name": "azureDevOpsConnectors_orgs",
+            "name": "azuredevopsconnectors_orgs",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -24,7 +24,7 @@
             }
         },
         {
-            "name": "azureDevOpsConnectors_orgs_projects",
+            "name": "azuredevopsconnectors_orgs_projects",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -34,7 +34,7 @@
             }
         },
         {
-            "name": "azureDevOpsConnectors_orgs_projects_repos",
+            "name": "azuredevopsconnectors_orgs_projects_repos",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -44,7 +44,7 @@
             }
         },
         {
-            "name": "gitHubConnectors",
+            "name": "githubconnectors",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -54,7 +54,7 @@
             }
         },
         {
-            "name": "gitHubConnectors_owners",
+            "name": "githubconnectors_owners",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -64,7 +64,7 @@
             }
         },
         {
-            "name": "gitHubConnectors_owners_repos",
+            "name": "githubconnectors_owners_repos",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

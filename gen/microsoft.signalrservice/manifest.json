@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.SignalRService",
     "resourceTypes": [
         {
-            "name": "signalR",
+            "name": "signalr",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -14,6 +14,7 @@
                     "2022-02-01"
                 ],
                 "preview": [
+                    "2018-03-01-preview",
                     "2020-07-01-preview",
                     "2021-04-01-preview",
                     "2021-06-01-preview",
@@ -23,17 +24,7 @@
             }
         },
         {
-            "name": "SignalR",
-            "scope": "resourceGroup",
-            "apiVersions": {
-                "stable": [],
-                "preview": [
-                    "2018-03-01-preview"
-                ]
-            }
-        },
-        {
-            "name": "signalR_customCertificates",
+            "name": "signalr_customcertificates",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -45,7 +36,7 @@
             }
         },
         {
-            "name": "signalR_customDomains",
+            "name": "signalr_customdomains",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -57,7 +48,7 @@
             }
         },
         {
-            "name": "signalR_privateEndpointConnections",
+            "name": "signalr_privateendpointconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -75,7 +66,7 @@
             }
         },
         {
-            "name": "signalR_sharedPrivateLinkResources",
+            "name": "signalr_sharedprivatelinkresources",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -91,7 +82,7 @@
             }
         },
         {
-            "name": "webPubSub",
+            "name": "webpubsub",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -106,7 +97,7 @@
             }
         },
         {
-            "name": "webPubSub_customCertificates",
+            "name": "webpubsub_customcertificates",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -116,7 +107,7 @@
             }
         },
         {
-            "name": "webPubSub_customDomains",
+            "name": "webpubsub_customdomains",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -126,7 +117,7 @@
             }
         },
         {
-            "name": "webPubSub_hubs",
+            "name": "webpubsub_hubs",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -138,7 +129,7 @@
             }
         },
         {
-            "name": "webPubSub_privateEndpointConnections",
+            "name": "webpubsub_privateendpointconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -153,7 +144,7 @@
             }
         },
         {
-            "name": "webPubSub_sharedPrivateLinkResources",
+            "name": "webpubsub_sharedprivatelinkresources",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

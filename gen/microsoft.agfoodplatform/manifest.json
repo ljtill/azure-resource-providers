@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.AgFoodPlatform",
     "resourceTypes": [
         {
-            "name": "farmBeats",
+            "name": "farmbeats",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -15,7 +15,7 @@
             }
         },
         {
-            "name": "farmBeats_extensions",
+            "name": "farmbeats_extensions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -26,7 +26,7 @@
             }
         },
         {
-            "name": "farmBeats_privateEndpointConnections",
+            "name": "farmbeats_privateendpointconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -36,7 +36,7 @@
             }
         },
         {
-            "name": "farmBeats_solutions",
+            "name": "farmbeats_solutions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

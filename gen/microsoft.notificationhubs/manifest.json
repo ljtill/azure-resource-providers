@@ -16,7 +16,7 @@
             }
         },
         {
-            "name": "namespaces_AuthorizationRules",
+            "name": "namespaces_authorizationrules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -28,7 +28,7 @@
             }
         },
         {
-            "name": "namespaces_notificationHubs",
+            "name": "namespaces_notificationhubs",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -40,7 +40,7 @@
             }
         },
         {
-            "name": "namespaces_notificationHubs_AuthorizationRules",
+            "name": "namespaces_notificationhubs_authorizationrules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

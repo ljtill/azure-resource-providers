@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.MarketplaceOrdering",
     "resourceTypes": [
         {
-            "name": "offerTypes_publishers_offers_plans_agreements",
+            "name": "offertypes_publishers_offers_plans_agreements",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

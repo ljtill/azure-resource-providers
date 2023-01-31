@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.SecurityInsights",
     "resourceTypes": [
         {
-            "name": "alertRules",
+            "name": "alertrules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -29,7 +29,7 @@
             }
         },
         {
-            "name": "alertRules_actions",
+            "name": "alertrules_actions",
             "scope": "extensionResource",
             "apiVersions": {
                 "stable": [
@@ -54,7 +54,7 @@
             }
         },
         {
-            "name": "automationRules",
+            "name": "automationrules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -151,7 +151,7 @@
             }
         },
         {
-            "name": "dataConnectors",
+            "name": "dataconnectors",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -176,7 +176,7 @@
             }
         },
         {
-            "name": "entityQueries",
+            "name": "entityqueries",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -196,7 +196,7 @@
             }
         },
         {
-            "name": "fileImports",
+            "name": "fileimports",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -305,7 +305,7 @@
             }
         },
         {
-            "name": "onboardingStates",
+            "name": "onboardingstates",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -328,7 +328,7 @@
             }
         },
         {
-            "name": "securityMLAnalyticsSettings",
+            "name": "securitymlanalyticssettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -384,7 +384,7 @@
             }
         },
         {
-            "name": "threatIntelligence_indicators",
+            "name": "threatintelligence_indicators",
             "scope": "extensionResource",
             "apiVersions": {
                 "stable": [
@@ -433,7 +433,7 @@
             }
         },
         {
-            "name": "watchlists_watchlistItems",
+            "name": "watchlists_watchlistitems",
             "scope": "extensionResource",
             "apiVersions": {
                 "stable": [

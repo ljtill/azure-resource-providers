@@ -9,22 +9,34 @@
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2021-12-01-preview"
+                    "2021-12-01-preview",
+                    "2022-11-01-preview"
                 ]
             }
         },
         {
-            "name": "monitors_providerInstances",
+            "name": "monitors_providerinstances",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2021-12-01-preview"
+                    "2021-12-01-preview",
+                    "2022-11-01-preview"
                 ]
             }
         },
         {
-            "name": "phpWorkloads",
+            "name": "monitors_saplandscapemonitor",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "phpworkloads",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -34,7 +46,7 @@
             }
         },
         {
-            "name": "phpWorkloads_wordpressInstances",
+            "name": "phpworkloads_wordpressinstances",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -44,42 +56,46 @@
             }
         },
         {
-            "name": "sapVirtualInstances",
+            "name": "sapvirtualinstances",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2021-12-01-preview"
+                    "2021-12-01-preview",
+                    "2022-11-01-preview"
                 ]
             }
         },
         {
-            "name": "sapVirtualInstances_applicationInstances",
+            "name": "sapvirtualinstances_applicationinstances",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2021-12-01-preview"
+                    "2021-12-01-preview",
+                    "2022-11-01-preview"
                 ]
             }
         },
         {
-            "name": "sapVirtualInstances_centralInstances",
+            "name": "sapvirtualinstances_centralinstances",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2021-12-01-preview"
+                    "2021-12-01-preview",
+                    "2022-11-01-preview"
                 ]
             }
         },
         {
-            "name": "sapVirtualInstances_databaseInstances",
+            "name": "sapvirtualinstances_databaseinstances",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2021-12-01-preview"
+                    "2021-12-01-preview",
+                    "2022-11-01-preview"
                 ]
             }
         }

@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.VirtualMachineImages",
     "resourceTypes": [
         {
-            "name": "imageTemplates",
+            "name": "imagetemplates",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.HealthBot",
     "resourceTypes": [
         {
-            "name": "healthBots",
+            "name": "healthbots",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

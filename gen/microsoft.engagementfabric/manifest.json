@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.EngagementFabric",
     "resourceTypes": [
         {
-            "name": "Accounts",
+            "name": "accounts",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -14,7 +14,7 @@
             }
         },
         {
-            "name": "Accounts_Channels",
+            "name": "accounts_channels",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

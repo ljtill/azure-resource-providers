@@ -16,7 +16,7 @@
             }
         },
         {
-            "name": "accounts_dataPools",
+            "name": "accounts_datapools",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

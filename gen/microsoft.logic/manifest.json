@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Logic",
     "resourceTypes": [
         {
-            "name": "integrationAccounts",
+            "name": "integrationaccounts",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -14,7 +14,7 @@
             }
         },
         {
-            "name": "integrationAccounts_agreements",
+            "name": "integrationaccounts_agreements",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -24,7 +24,7 @@
             }
         },
         {
-            "name": "integrationAccounts_assemblies",
+            "name": "integrationaccounts_assemblies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -34,7 +34,7 @@
             }
         },
         {
-            "name": "integrationAccounts_batchConfigurations",
+            "name": "integrationaccounts_batchconfigurations",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -44,7 +44,7 @@
             }
         },
         {
-            "name": "integrationAccounts_certificates",
+            "name": "integrationaccounts_certificates",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -54,7 +54,7 @@
             }
         },
         {
-            "name": "integrationAccounts_maps",
+            "name": "integrationaccounts_maps",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -64,7 +64,7 @@
             }
         },
         {
-            "name": "integrationAccounts_partners",
+            "name": "integrationaccounts_partners",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -74,7 +74,7 @@
             }
         },
         {
-            "name": "integrationAccounts_schemas",
+            "name": "integrationaccounts_schemas",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

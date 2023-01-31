@@ -17,7 +17,7 @@
             }
         },
         {
-            "name": "tenantConfigurations",
+            "name": "tenantconfigurations",
             "scope": "tenant",
             "apiVersions": {
                 "stable": [],

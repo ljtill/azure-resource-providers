@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.NetApp",
     "resourceTypes": [
         {
-            "name": "netAppAccounts",
+            "name": "netappaccounts",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -39,7 +39,7 @@
             }
         },
         {
-            "name": "netAppAccounts_backupPolicies",
+            "name": "netappaccounts_backuppolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -65,42 +65,7 @@
             }
         },
         {
-            "name": "netAppAccounts_capacityPools",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2017-08-15",
-                    "2019-05-01",
-                    "2019-06-01",
-                    "2019-07-01",
-                    "2019-08-01",
-                    "2019-10-01",
-                    "2019-11-01",
-                    "2020-02-01",
-                    "2020-03-01",
-                    "2020-05-01",
-                    "2020-06-01",
-                    "2020-07-01",
-                    "2020-08-01",
-                    "2020-09-01",
-                    "2020-11-01",
-                    "2020-12-01",
-                    "2021-02-01",
-                    "2021-04-01",
-                    "2021-06-01",
-                    "2021-08-01",
-                    "2021-10-01",
-                    "2022-01-01",
-                    "2022-03-01",
-                    "2022-05-01"
-                ],
-                "preview": [
-                    "2021-04-01-preview"
-                ]
-            }
-        },
-        {
-            "name": "netAppAccounts_capacityPools_volumes",
+            "name": "netappaccounts_capacitypools",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -135,33 +100,7 @@
             }
         },
         {
-            "name": "netAppAccounts_capacityPools_volumes_backups",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2020-05-01",
-                    "2020-06-01",
-                    "2020-07-01",
-                    "2020-08-01",
-                    "2020-09-01",
-                    "2020-11-01",
-                    "2020-12-01",
-                    "2021-02-01",
-                    "2021-04-01",
-                    "2021-06-01",
-                    "2021-08-01",
-                    "2021-10-01",
-                    "2022-01-01",
-                    "2022-03-01",
-                    "2022-05-01"
-                ],
-                "preview": [
-                    "2021-04-01-preview"
-                ]
-            }
-        },
-        {
-            "name": "netAppAccounts_capacityPools_volumes_snapshots",
+            "name": "netappaccounts_capacitypools_volumes",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -196,7 +135,68 @@
             }
         },
         {
-            "name": "netAppAccounts_capacityPools_volumes_subvolumes",
+            "name": "netappaccounts_capacitypools_volumes_backups",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2020-05-01",
+                    "2020-06-01",
+                    "2020-07-01",
+                    "2020-08-01",
+                    "2020-09-01",
+                    "2020-11-01",
+                    "2020-12-01",
+                    "2021-02-01",
+                    "2021-04-01",
+                    "2021-06-01",
+                    "2021-08-01",
+                    "2021-10-01",
+                    "2022-01-01",
+                    "2022-03-01",
+                    "2022-05-01"
+                ],
+                "preview": [
+                    "2021-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "netappaccounts_capacitypools_volumes_snapshots",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2017-08-15",
+                    "2019-05-01",
+                    "2019-06-01",
+                    "2019-07-01",
+                    "2019-08-01",
+                    "2019-10-01",
+                    "2019-11-01",
+                    "2020-02-01",
+                    "2020-03-01",
+                    "2020-05-01",
+                    "2020-06-01",
+                    "2020-07-01",
+                    "2020-08-01",
+                    "2020-09-01",
+                    "2020-11-01",
+                    "2020-12-01",
+                    "2021-02-01",
+                    "2021-04-01",
+                    "2021-06-01",
+                    "2021-08-01",
+                    "2021-10-01",
+                    "2022-01-01",
+                    "2022-03-01",
+                    "2022-05-01"
+                ],
+                "preview": [
+                    "2021-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "netappaccounts_capacitypools_volumes_subvolumes",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -209,7 +209,7 @@
             }
         },
         {
-            "name": "netAppAccounts_capacityPools_volumes_volumeQuotaRules",
+            "name": "netappaccounts_capacitypools_volumes_volumequotarules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -221,7 +221,7 @@
             }
         },
         {
-            "name": "netAppAccounts_snapshotPolicies",
+            "name": "netappaccounts_snapshotpolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -247,7 +247,7 @@
             }
         },
         {
-            "name": "netAppAccounts_volumeGroups",
+            "name": "netappaccounts_volumegroups",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

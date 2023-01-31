@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Compute.Extensions",
     "resourceTypes": [
         {
-            "name": "virtualMachines_extensions",
+            "name": "virtualmachines_extensions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -34,7 +34,7 @@
             }
         },
         {
-            "name": "virtualMachineScaleSets_extensions",
+            "name": "virtualmachinescalesets_extensions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

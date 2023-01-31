@@ -30,7 +30,7 @@
             }
         },
         {
-            "name": "monitors_singleSignOnConfigurations",
+            "name": "monitors_singlesignonconfigurations",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -43,7 +43,7 @@
             }
         },
         {
-            "name": "monitors_tagRules",
+            "name": "monitors_tagrules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

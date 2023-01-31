@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Features",
     "resourceTypes": [
         {
-            "name": "featureProviders_subscriptionFeatureRegistrations",
+            "name": "featureproviders_subscriptionfeatureregistrations",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

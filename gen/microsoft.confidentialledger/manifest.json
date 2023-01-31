@@ -18,7 +18,7 @@
             }
         },
         {
-            "name": "managedCCFs",
+            "name": "managedccfs",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],

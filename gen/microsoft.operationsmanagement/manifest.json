@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.OperationsManagement",
     "resourceTypes": [
         {
-            "name": "ManagementConfigurations",
+            "name": "managementconfigurations",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],

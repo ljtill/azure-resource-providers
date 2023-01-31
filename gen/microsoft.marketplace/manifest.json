@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Marketplace",
     "resourceTypes": [
         {
-            "name": "privateStores",
+            "name": "privatestores",
             "scope": "tenant",
             "apiVersions": {
                 "stable": [
@@ -18,7 +18,7 @@
             }
         },
         {
-            "name": "privateStores_adminRequestApprovals",
+            "name": "privatestores_adminrequestapprovals",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [
@@ -32,7 +32,7 @@
             }
         },
         {
-            "name": "privateStores_collections",
+            "name": "privatestores_collections",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [
@@ -45,7 +45,7 @@
             }
         },
         {
-            "name": "privateStores_collections_offers",
+            "name": "privatestores_collections_offers",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [
@@ -58,7 +58,7 @@
             }
         },
         {
-            "name": "privateStores_offers",
+            "name": "privatestores_offers",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [
@@ -68,7 +68,7 @@
             }
         },
         {
-            "name": "privateStores_requestApprovals",
+            "name": "privatestores_requestapprovals",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [

@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Synapse",
     "resourceTypes": [
         {
-            "name": "privateLinkHubs",
+            "name": "privatelinkhubs",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -55,7 +55,7 @@
             }
         },
         {
-            "name": "workspaces_auditingSettings",
+            "name": "workspaces_auditingsettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -72,7 +72,7 @@
             }
         },
         {
-            "name": "workspaces_azureADOnlyAuthentications",
+            "name": "workspaces_azureadonlyauthentications",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -84,52 +84,7 @@
             }
         },
         {
-            "name": "workspaces_bigDataPools",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2020-12-01",
-                    "2021-03-01",
-                    "2021-05-01",
-                    "2021-06-01"
-                ],
-                "preview": [
-                    "2019-06-01-preview",
-                    "2021-04-01-preview",
-                    "2021-06-01-preview"
-                ]
-            }
-        },
-        {
-            "name": "workspaces_dedicatedSQLminimalTlsSettings",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2021-06-01"
-                ],
-                "preview": [
-                    "2021-06-01-preview"
-                ]
-            }
-        },
-        {
-            "name": "workspaces_encryptionProtector",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2020-12-01",
-                    "2021-03-01",
-                    "2021-05-01",
-                    "2021-06-01"
-                ],
-                "preview": [
-                    "2021-04-01-preview",
-                    "2021-06-01-preview"
-                ]
-            }
-        },
-        {
-            "name": "workspaces_extendedAuditingSettings",
+            "name": "workspaces_bigdatapools",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -146,7 +101,35 @@
             }
         },
         {
-            "name": "workspaces_firewallRules",
+            "name": "workspaces_dedicatedsqlminimaltlssettings",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2021-06-01"
+                ],
+                "preview": [
+                    "2021-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_encryptionprotector",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2020-12-01",
+                    "2021-03-01",
+                    "2021-05-01",
+                    "2021-06-01"
+                ],
+                "preview": [
+                    "2021-04-01-preview",
+                    "2021-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_extendedauditingsettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -163,7 +146,24 @@
             }
         },
         {
-            "name": "workspaces_integrationRuntimes",
+            "name": "workspaces_firewallrules",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2020-12-01",
+                    "2021-03-01",
+                    "2021-05-01",
+                    "2021-06-01"
+                ],
+                "preview": [
+                    "2019-06-01-preview",
+                    "2021-04-01-preview",
+                    "2021-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_integrationruntimes",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -197,7 +197,7 @@
             }
         },
         {
-            "name": "workspaces_kustoPools",
+            "name": "workspaces_kustopools",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -208,7 +208,7 @@
             }
         },
         {
-            "name": "workspaces_kustoPools_attachedDatabaseConfigurations",
+            "name": "workspaces_kustopools_attacheddatabaseconfigurations",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -218,18 +218,7 @@
             }
         },
         {
-            "name": "workspaces_kustoPools_databases",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [],
-                "preview": [
-                    "2021-04-01-preview",
-                    "2021-06-01-preview"
-                ]
-            }
-        },
-        {
-            "name": "workspaces_kustoPools_databases_dataConnections",
+            "name": "workspaces_kustopools_databases",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -240,7 +229,7 @@
             }
         },
         {
-            "name": "workspaces_kustoPools_databases_principalAssignments",
+            "name": "workspaces_kustopools_databases_dataconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -251,7 +240,7 @@
             }
         },
         {
-            "name": "workspaces_kustoPools_principalAssignments",
+            "name": "workspaces_kustopools_databases_principalassignments",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -262,7 +251,18 @@
             }
         },
         {
-            "name": "workspaces_managedIdentitySqlControlSettings",
+            "name": "workspaces_kustopools_principalassignments",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-04-01-preview",
+                    "2021-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_managedidentitysqlcontrolsettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -279,7 +279,7 @@
             }
         },
         {
-            "name": "workspaces_privateEndpointConnections",
+            "name": "workspaces_privateendpointconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -296,7 +296,7 @@
             }
         },
         {
-            "name": "workspaces_securityAlertPolicies",
+            "name": "workspaces_securityalertpolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -313,7 +313,7 @@
             }
         },
         {
-            "name": "workspaces_sqlAdministrators",
+            "name": "workspaces_sqladministrators",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -330,7 +330,7 @@
             }
         },
         {
-            "name": "workspaces_sqlDatabases",
+            "name": "workspaces_sqldatabases",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -340,7 +340,7 @@
             }
         },
         {
-            "name": "workspaces_sqlPools",
+            "name": "workspaces_sqlpools",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -358,7 +358,7 @@
             }
         },
         {
-            "name": "workspaces_sqlPools_auditingSettings",
+            "name": "workspaces_sqlpools_auditingsettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -375,7 +375,7 @@
             }
         },
         {
-            "name": "workspaces_sqlPools_dataMaskingPolicies",
+            "name": "workspaces_sqlpools_datamaskingpolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -392,7 +392,7 @@
             }
         },
         {
-            "name": "workspaces_sqlPools_dataMaskingPolicies_rules",
+            "name": "workspaces_sqlpools_datamaskingpolicies_rules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -409,7 +409,7 @@
             }
         },
         {
-            "name": "workspaces_sqlPools_extendedAuditingSettings",
+            "name": "workspaces_sqlpools_extendedauditingsettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -426,7 +426,7 @@
             }
         },
         {
-            "name": "workspaces_sqlPools_geoBackupPolicies",
+            "name": "workspaces_sqlpools_geobackuppolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -443,7 +443,7 @@
             }
         },
         {
-            "name": "workspaces_sqlPools_maintenancewindows",
+            "name": "workspaces_sqlpools_maintenancewindows",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -460,7 +460,7 @@
             }
         },
         {
-            "name": "workspaces_sqlPools_metadataSync",
+            "name": "workspaces_sqlpools_metadatasync",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -477,7 +477,7 @@
             }
         },
         {
-            "name": "workspaces_sqlPools_schemas_tables_columns_sensitivityLabels",
+            "name": "workspaces_sqlpools_schemas_tables_columns_sensitivitylabels",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -494,7 +494,7 @@
             }
         },
         {
-            "name": "workspaces_sqlPools_securityAlertPolicies",
+            "name": "workspaces_sqlpools_securityalertpolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -511,7 +511,7 @@
             }
         },
         {
-            "name": "workspaces_sqlPools_transparentDataEncryption",
+            "name": "workspaces_sqlpools_transparentdataencryption",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -528,7 +528,7 @@
             }
         },
         {
-            "name": "workspaces_sqlPools_vulnerabilityAssessments",
+            "name": "workspaces_sqlpools_vulnerabilityassessments",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -545,7 +545,7 @@
             }
         },
         {
-            "name": "workspaces_sqlPools_vulnerabilityAssessments_rules_baselines",
+            "name": "workspaces_sqlpools_vulnerabilityassessments_rules_baselines",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -562,7 +562,7 @@
             }
         },
         {
-            "name": "workspaces_sqlPools_workloadGroups",
+            "name": "workspaces_sqlpools_workloadgroups",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -579,7 +579,7 @@
             }
         },
         {
-            "name": "workspaces_sqlPools_workloadGroups_workloadClassifiers",
+            "name": "workspaces_sqlpools_workloadgroups_workloadclassifiers",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -596,7 +596,7 @@
             }
         },
         {
-            "name": "workspaces_trustedServiceByPassConfiguration",
+            "name": "workspaces_trustedservicebypassconfiguration",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -606,7 +606,7 @@
             }
         },
         {
-            "name": "workspaces_vulnerabilityAssessments",
+            "name": "workspaces_vulnerabilityassessments",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

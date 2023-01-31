@@ -25,7 +25,7 @@
             }
         },
         {
-            "name": "clusters_arcSettings",
+            "name": "clusters_arcsettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -44,7 +44,7 @@
             }
         },
         {
-            "name": "clusters_arcSettings_extensions",
+            "name": "clusters_arcsettings_extensions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -73,7 +73,7 @@
             }
         },
         {
-            "name": "clusters_updates_updateRuns",
+            "name": "clusters_updates_updateruns",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -83,7 +83,7 @@
             }
         },
         {
-            "name": "clusters_updateSummaries",
+            "name": "clusters_updatesummaries",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -157,7 +157,7 @@
             }
         },
         {
-            "name": "virtualMachines_extensions",
+            "name": "virtualmachines_extensions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -167,7 +167,7 @@
             }
         },
         {
-            "name": "virtualMachines_guestAgents",
+            "name": "virtualmachines_guestagents",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -177,7 +177,7 @@
             }
         },
         {
-            "name": "virtualMachines_hybridIdentityMetadata",
+            "name": "virtualmachines_hybrididentitymetadata",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

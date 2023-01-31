@@ -16,7 +16,7 @@
             }
         },
         {
-            "name": "clusters_privateEndpoints",
+            "name": "clusters_privateendpoints",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

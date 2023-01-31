@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.DBforPostgreSQL",
     "resourceTypes": [
         {
-            "name": "flexibleServers",
+            "name": "flexibleservers",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -19,7 +19,7 @@
             }
         },
         {
-            "name": "flexibleServers_administrators",
+            "name": "flexibleservers_administrators",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -31,22 +31,7 @@
             }
         },
         {
-            "name": "flexibleServers_configurations",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2021-06-01",
-                    "2022-12-01"
-                ],
-                "preview": [
-                    "2021-06-01-preview",
-                    "2022-01-20-preview",
-                    "2022-03-08-preview"
-                ]
-            }
-        },
-        {
-            "name": "flexibleServers_databases",
+            "name": "flexibleservers_configurations",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -61,7 +46,22 @@
             }
         },
         {
-            "name": "flexibleServers_firewallRules",
+            "name": "flexibleservers_databases",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2021-06-01",
+                    "2022-12-01"
+                ],
+                "preview": [
+                    "2021-06-01-preview",
+                    "2022-01-20-preview",
+                    "2022-03-08-preview"
+                ]
+            }
+        },
+        {
+            "name": "flexibleservers_firewallrules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -124,7 +124,7 @@
             }
         },
         {
-            "name": "servers_firewallRules",
+            "name": "servers_firewallrules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -146,7 +146,7 @@
             }
         },
         {
-            "name": "servers_privateEndpointConnections",
+            "name": "servers_privateendpointconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -156,7 +156,7 @@
             }
         },
         {
-            "name": "servers_securityAlertPolicies",
+            "name": "servers_securityalertpolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -168,7 +168,7 @@
             }
         },
         {
-            "name": "servers_virtualNetworkRules",
+            "name": "servers_virtualnetworkrules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

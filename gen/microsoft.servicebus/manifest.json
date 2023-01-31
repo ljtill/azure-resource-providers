@@ -22,7 +22,7 @@
             }
         },
         {
-            "name": "namespaces_AuthorizationRules",
+            "name": "namespaces_authorizationrules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -40,7 +40,7 @@
             }
         },
         {
-            "name": "namespaces_disasterRecoveryConfigs",
+            "name": "namespaces_disasterrecoveryconfigs",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -67,7 +67,7 @@
             }
         },
         {
-            "name": "namespaces_migrationConfigurations",
+            "name": "namespaces_migrationconfigurations",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -84,7 +84,7 @@
             }
         },
         {
-            "name": "namespaces_networkRuleSets",
+            "name": "namespaces_networkrulesets",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -101,7 +101,7 @@
             }
         },
         {
-            "name": "namespaces_privateEndpointConnections",
+            "name": "namespaces_privateendpointconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -135,7 +135,7 @@
             }
         },
         {
-            "name": "namespaces_queues_authorizationRules",
+            "name": "namespaces_queues_authorizationrules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -171,7 +171,7 @@
             }
         },
         {
-            "name": "namespaces_topics_authorizationRules",
+            "name": "namespaces_topics_authorizationrules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

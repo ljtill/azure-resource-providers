@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Syntex",
     "resourceTypes": [
         {
-            "name": "documentProcessors",
+            "name": "documentprocessors",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],

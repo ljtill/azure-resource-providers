@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.TestBase",
     "resourceTypes": [
         {
-            "name": "testBaseAccounts",
+            "name": "testbaseaccounts",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -15,7 +15,7 @@
             }
         },
         {
-            "name": "testBaseAccounts_customerEvents",
+            "name": "testbaseaccounts_customerevents",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -26,7 +26,7 @@
             }
         },
         {
-            "name": "testBaseAccounts_packages",
+            "name": "testbaseaccounts_packages",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -37,7 +37,7 @@
             }
         },
         {
-            "name": "testBaseAccounts_packages_favoriteProcesses",
+            "name": "testbaseaccounts_packages_favoriteprocesses",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

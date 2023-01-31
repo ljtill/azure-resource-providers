@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.HybridContainerService",
     "resourceTypes": [
         {
-            "name": "provisionedClusters",
+            "name": "provisionedclusters",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -14,7 +14,7 @@
             }
         },
         {
-            "name": "provisionedClusters_agentPools",
+            "name": "provisionedclusters_agentpools",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -24,7 +24,7 @@
             }
         },
         {
-            "name": "provisionedClusters_hybridIdentityMetadata",
+            "name": "provisionedclusters_hybrididentitymetadata",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -34,7 +34,7 @@
             }
         },
         {
-            "name": "storageSpaces",
+            "name": "storagespaces",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -44,7 +44,7 @@
             }
         },
         {
-            "name": "virtualNetworks",
+            "name": "virtualnetworks",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],

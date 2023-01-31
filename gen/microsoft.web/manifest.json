@@ -27,7 +27,7 @@
             }
         },
         {
-            "name": "connectionGateways",
+            "name": "connectiongateways",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -49,7 +49,7 @@
             }
         },
         {
-            "name": "containerApps",
+            "name": "containerapps",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -70,7 +70,7 @@
             }
         },
         {
-            "name": "customApis",
+            "name": "customapis",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -80,7 +80,7 @@
             }
         },
         {
-            "name": "hostingEnvironments",
+            "name": "hostingenvironments",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -102,7 +102,7 @@
             }
         },
         {
-            "name": "hostingEnvironments_configurations",
+            "name": "hostingenvironments_configurations",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -117,44 +117,7 @@
             }
         },
         {
-            "name": "hostingEnvironments_multiRolePools",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2015-08-01",
-                    "2016-09-01",
-                    "2018-02-01",
-                    "2019-08-01",
-                    "2020-06-01",
-                    "2020-09-01",
-                    "2020-10-01",
-                    "2020-12-01",
-                    "2021-01-01",
-                    "2021-01-15",
-                    "2021-02-01",
-                    "2021-03-01",
-                    "2022-03-01"
-                ],
-                "preview": []
-            }
-        },
-        {
-            "name": "hostingEnvironments_privateEndpointConnections",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2020-12-01",
-                    "2021-01-01",
-                    "2021-01-15",
-                    "2021-02-01",
-                    "2021-03-01",
-                    "2022-03-01"
-                ],
-                "preview": []
-            }
-        },
-        {
-            "name": "hostingEnvironments_workerPools",
+            "name": "hostingenvironments_multirolepools",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -176,7 +139,44 @@
             }
         },
         {
-            "name": "kubeEnvironments",
+            "name": "hostingenvironments_privateendpointconnections",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2020-12-01",
+                    "2021-01-01",
+                    "2021-01-15",
+                    "2021-02-01",
+                    "2021-03-01",
+                    "2022-03-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "hostingenvironments_workerpools",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2015-08-01",
+                    "2016-09-01",
+                    "2018-02-01",
+                    "2019-08-01",
+                    "2020-06-01",
+                    "2020-09-01",
+                    "2020-10-01",
+                    "2020-12-01",
+                    "2021-01-01",
+                    "2021-01-15",
+                    "2021-02-01",
+                    "2021-03-01",
+                    "2022-03-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "kubeenvironments",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -190,7 +190,7 @@
             }
         },
         {
-            "name": "managedHostingEnvironments",
+            "name": "managedhostingenvironments",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -200,7 +200,7 @@
             }
         },
         {
-            "name": "publishingCredentials",
+            "name": "publishingcredentials",
             "scope": "subscription",
             "apiVersions": {
                 "stable": [
@@ -210,7 +210,7 @@
             }
         },
         {
-            "name": "publishingUsers",
+            "name": "publishingusers",
             "scope": "tenant",
             "apiVersions": {
                 "stable": [
@@ -254,7 +254,7 @@
             }
         },
         {
-            "name": "serverfarms_virtualNetworkConnections_gateways",
+            "name": "serverfarms_virtualnetworkconnections_gateways",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -276,7 +276,7 @@
             }
         },
         {
-            "name": "serverfarms_virtualNetworkConnections_routes",
+            "name": "serverfarms_virtualnetworkconnections_routes",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -332,7 +332,7 @@
             }
         },
         {
-            "name": "sites_basicPublishingCredentialsPolicies",
+            "name": "sites_basicpublishingcredentialspolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -397,7 +397,7 @@
             }
         },
         {
-            "name": "sites_domainOwnershipIdentifiers",
+            "name": "sites_domainownershipidentifiers",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -483,7 +483,7 @@
             }
         },
         {
-            "name": "sites_hostNameBindings",
+            "name": "sites_hostnamebindings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -529,7 +529,7 @@
             }
         },
         {
-            "name": "sites_hybridConnectionNamespaces_relays",
+            "name": "sites_hybridconnectionnamespaces_relays",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -605,7 +605,7 @@
             }
         },
         {
-            "name": "sites_networkConfig",
+            "name": "sites_networkconfig",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -649,7 +649,7 @@
             }
         },
         {
-            "name": "sites_privateAccess",
+            "name": "sites_privateaccess",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -670,7 +670,7 @@
             }
         },
         {
-            "name": "sites_privateEndpointConnections",
+            "name": "sites_privateendpointconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -689,7 +689,7 @@
             }
         },
         {
-            "name": "sites_publicCertificates",
+            "name": "sites_publiccertificates",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -767,7 +767,7 @@
             }
         },
         {
-            "name": "sites_slots_basicPublishingCredentialsPolicies",
+            "name": "sites_slots_basicpublishingcredentialspolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -828,7 +828,7 @@
             }
         },
         {
-            "name": "sites_slots_domainOwnershipIdentifiers",
+            "name": "sites_slots_domainownershipidentifiers",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -914,7 +914,7 @@
             }
         },
         {
-            "name": "sites_slots_hostNameBindings",
+            "name": "sites_slots_hostnamebindings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -960,7 +960,7 @@
             }
         },
         {
-            "name": "sites_slots_hybridConnectionNamespaces_relays",
+            "name": "sites_slots_hybridconnectionnamespaces_relays",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1014,7 +1014,7 @@
             }
         },
         {
-            "name": "sites_slots_networkConfig",
+            "name": "sites_slots_networkconfig",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1056,7 +1056,7 @@
             }
         },
         {
-            "name": "sites_slots_privateAccess",
+            "name": "sites_slots_privateaccess",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1077,7 +1077,7 @@
             }
         },
         {
-            "name": "sites_slots_privateEndpointConnections",
+            "name": "sites_slots_privateendpointconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1092,7 +1092,7 @@
             }
         },
         {
-            "name": "sites_slots_publicCertificates",
+            "name": "sites_slots_publiccertificates",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1169,7 +1169,7 @@
             }
         },
         {
-            "name": "sites_slots_virtualNetworkConnections",
+            "name": "sites_slots_virtualnetworkconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1192,7 +1192,7 @@
             }
         },
         {
-            "name": "sites_slots_virtualNetworkConnections_gateways",
+            "name": "sites_slots_virtualnetworkconnections_gateways",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1248,7 +1248,7 @@
             }
         },
         {
-            "name": "sites_virtualNetworkConnections",
+            "name": "sites_virtualnetworkconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1271,7 +1271,7 @@
             }
         },
         {
-            "name": "sites_virtualNetworkConnections_gateways",
+            "name": "sites_virtualnetworkconnections_gateways",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1316,7 +1316,7 @@
             }
         },
         {
-            "name": "staticSites",
+            "name": "staticsites",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -1335,7 +1335,7 @@
             }
         },
         {
-            "name": "staticSites_builds_config",
+            "name": "staticsites_builds_config",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1354,7 +1354,7 @@
             }
         },
         {
-            "name": "staticSites_builds_linkedBackends",
+            "name": "staticsites_builds_linkedbackends",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1364,7 +1364,7 @@
             }
         },
         {
-            "name": "staticSites_builds_userProvidedFunctionApps",
+            "name": "staticsites_builds_userprovidedfunctionapps",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1379,7 +1379,7 @@
             }
         },
         {
-            "name": "staticSites_config",
+            "name": "staticsites_config",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1398,7 +1398,7 @@
             }
         },
         {
-            "name": "staticSites_customDomains",
+            "name": "staticsites_customdomains",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1417,7 +1417,7 @@
             }
         },
         {
-            "name": "staticSites_linkedBackends",
+            "name": "staticsites_linkedbackends",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1427,7 +1427,7 @@
             }
         },
         {
-            "name": "staticSites_privateEndpointConnections",
+            "name": "staticsites_privateendpointconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1442,7 +1442,7 @@
             }
         },
         {
-            "name": "staticSites_userProvidedFunctionApps",
+            "name": "staticsites_userprovidedfunctionapps",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
