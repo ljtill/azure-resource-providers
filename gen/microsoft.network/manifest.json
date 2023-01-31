@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Network",
     "resourceTypes": [
         {
-            "name": "applicationgateways",
+            "name": "applicationGateways",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -57,7 +57,7 @@
             }
         },
         {
-            "name": "applicationgateways_privateendpointconnections",
+            "name": "applicationGateways_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -78,7 +78,7 @@
             }
         },
         {
-            "name": "applicationgatewaywebapplicationfirewallpolicies",
+            "name": "ApplicationGatewayWebApplicationFirewallPolicies",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -110,7 +110,7 @@
             }
         },
         {
-            "name": "applicationsecuritygroups",
+            "name": "applicationSecurityGroups",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -153,7 +153,7 @@
             }
         },
         {
-            "name": "azurefirewalls",
+            "name": "azureFirewalls",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -191,7 +191,7 @@
             }
         },
         {
-            "name": "bastionhosts",
+            "name": "bastionHosts",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -221,7 +221,7 @@
             }
         },
         {
-            "name": "cloudserviceslots",
+            "name": "cloudServiceSlots",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -338,7 +338,7 @@
             }
         },
         {
-            "name": "customipprefixes",
+            "name": "customIpPrefixes",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -358,7 +358,7 @@
             }
         },
         {
-            "name": "ddoscustompolicies",
+            "name": "ddosCustomPolicies",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -391,7 +391,7 @@
             }
         },
         {
-            "name": "ddosprotectionplans",
+            "name": "ddosProtectionPlans",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -430,7 +430,7 @@
             }
         },
         {
-            "name": "dnsforwardingrulesets",
+            "name": "dnsForwardingRulesets",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -442,7 +442,7 @@
             }
         },
         {
-            "name": "dnsforwardingrulesets_forwardingrules",
+            "name": "dnsForwardingRulesets_forwardingRules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -454,7 +454,7 @@
             }
         },
         {
-            "name": "dnsforwardingrulesets_virtualnetworklinks",
+            "name": "dnsForwardingRulesets_virtualNetworkLinks",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -466,7 +466,7 @@
             }
         },
         {
-            "name": "dnsresolvers",
+            "name": "dnsResolvers",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -478,7 +478,7 @@
             }
         },
         {
-            "name": "dnsresolvers_inboundendpoints",
+            "name": "dnsResolvers_inboundEndpoints",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -490,7 +490,7 @@
             }
         },
         {
-            "name": "dnsresolvers_outboundendpoints",
+            "name": "dnsResolvers_outboundEndpoints",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -517,7 +517,7 @@
             }
         },
         {
-            "name": "dnszones_a",
+            "name": "dnszones_A",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -532,7 +532,7 @@
             }
         },
         {
-            "name": "dnszones_aaaa",
+            "name": "dnszones_AAAA",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -547,7 +547,7 @@
             }
         },
         {
-            "name": "dnszones_caa",
+            "name": "dnsZones_CAA",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -559,7 +559,7 @@
             }
         },
         {
-            "name": "dnszones_cname",
+            "name": "dnszones_CNAME",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -574,7 +574,7 @@
             }
         },
         {
-            "name": "dnszones_mx",
+            "name": "dnszones_MX",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -589,7 +589,7 @@
             }
         },
         {
-            "name": "dnszones_ns",
+            "name": "dnszones_NS",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -604,7 +604,7 @@
             }
         },
         {
-            "name": "dnszones_ptr",
+            "name": "dnszones_PTR",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -619,7 +619,7 @@
             }
         },
         {
-            "name": "dnszones_soa",
+            "name": "dnszones_SOA",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -634,7 +634,7 @@
             }
         },
         {
-            "name": "dnszones_srv",
+            "name": "dnszones_SRV",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -649,7 +649,7 @@
             }
         },
         {
-            "name": "dnszones_txt",
+            "name": "dnszones_TXT",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -664,7 +664,7 @@
             }
         },
         {
-            "name": "dscpconfigurations",
+            "name": "dscpConfigurations",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -684,7 +684,7 @@
             }
         },
         {
-            "name": "expressroutecircuits",
+            "name": "expressRouteCircuits",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -735,7 +735,7 @@
             }
         },
         {
-            "name": "expressroutecircuits_",
+            "name": "expressRouteCircuits_",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -745,7 +745,7 @@
             }
         },
         {
-            "name": "expressroutecircuits_authorizations",
+            "name": "expressRouteCircuits_authorizations",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -798,7 +798,7 @@
             }
         },
         {
-            "name": "expressroutecircuits_peerings",
+            "name": "expressRouteCircuits_peerings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -851,7 +851,7 @@
             }
         },
         {
-            "name": "expressroutecircuits_peerings_connections",
+            "name": "expressRouteCircuits_peerings_connections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -890,7 +890,7 @@
             }
         },
         {
-            "name": "expressroutecrossconnections",
+            "name": "expressRouteCrossConnections",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -929,7 +929,7 @@
             }
         },
         {
-            "name": "expressroutecrossconnections_peerings",
+            "name": "expressRouteCrossConnections_peerings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -968,7 +968,7 @@
             }
         },
         {
-            "name": "expressroutegateways",
+            "name": "expressRouteGateways",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -1003,7 +1003,7 @@
             }
         },
         {
-            "name": "expressroutegateways_expressrouteconnections",
+            "name": "expressRouteGateways_expressRouteConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1038,7 +1038,7 @@
             }
         },
         {
-            "name": "expressrouteports",
+            "name": "ExpressRoutePorts",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -1073,7 +1073,7 @@
             }
         },
         {
-            "name": "expressrouteports_authorizations",
+            "name": "expressRoutePorts_authorizations",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1086,7 +1086,7 @@
             }
         },
         {
-            "name": "firewallpolicies",
+            "name": "firewallPolicies",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -1115,7 +1115,7 @@
             }
         },
         {
-            "name": "firewallpolicies_rulecollectiongroups",
+            "name": "firewallPolicies_ruleCollectionGroups",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1136,7 +1136,7 @@
             }
         },
         {
-            "name": "firewallpolicies_rulegroups",
+            "name": "firewallPolicies_ruleGroups",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1153,7 +1153,7 @@
             }
         },
         {
-            "name": "firewallpolicies_signatureoverrides",
+            "name": "firewallPolicies_signatureOverrides",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1167,7 +1167,7 @@
             }
         },
         {
-            "name": "frontdoors",
+            "name": "frontDoors",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -1183,7 +1183,7 @@
             }
         },
         {
-            "name": "frontdoors_backendpools",
+            "name": "frontDoors_backendPools",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1193,7 +1193,7 @@
             }
         },
         {
-            "name": "frontdoors_healthprobesettings",
+            "name": "frontDoors_healthProbeSettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1203,7 +1203,7 @@
             }
         },
         {
-            "name": "frontdoors_loadbalancingsettings",
+            "name": "frontDoors_loadBalancingSettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1213,7 +1213,7 @@
             }
         },
         {
-            "name": "frontdoors_routingrules",
+            "name": "frontDoors_routingRules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1223,7 +1223,7 @@
             }
         },
         {
-            "name": "frontdoors_rulesengines",
+            "name": "frontDoors_rulesEngines",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1236,7 +1236,7 @@
             }
         },
         {
-            "name": "frontdoorwebapplicationfirewallpolicies",
+            "name": "FrontDoorWebApplicationFirewallPolicies",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -1252,7 +1252,7 @@
             }
         },
         {
-            "name": "interfaceendpoints",
+            "name": "interfaceEndpoints",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -1266,7 +1266,7 @@
             }
         },
         {
-            "name": "ipallocations",
+            "name": "IpAllocations",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -1289,7 +1289,7 @@
             }
         },
         {
-            "name": "ipgroups",
+            "name": "ipGroups",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -1315,7 +1315,7 @@
             }
         },
         {
-            "name": "loadbalancers",
+            "name": "loadBalancers",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -1372,7 +1372,7 @@
             }
         },
         {
-            "name": "loadbalancers_backendaddresspools",
+            "name": "loadBalancers_backendAddressPools",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1394,7 +1394,7 @@
             }
         },
         {
-            "name": "loadbalancers_inboundnatrules",
+            "name": "loadBalancers_inboundNatRules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1439,7 +1439,7 @@
             }
         },
         {
-            "name": "localnetworkgateways",
+            "name": "localNetworkGateways",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -1492,7 +1492,7 @@
             }
         },
         {
-            "name": "managementgroups_networkmanagerconnections",
+            "name": "managementGroups_networkManagerConnections",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [],
@@ -1502,7 +1502,7 @@
             }
         },
         {
-            "name": "natgateways",
+            "name": "natGateways",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -1533,7 +1533,7 @@
             }
         },
         {
-            "name": "networkexperimentprofiles",
+            "name": "NetworkExperimentProfiles",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -1543,7 +1543,7 @@
             }
         },
         {
-            "name": "networkexperimentprofiles_experiments",
+            "name": "NetworkExperimentProfiles_Experiments",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1553,7 +1553,7 @@
             }
         },
         {
-            "name": "networkinterfaces",
+            "name": "networkInterfaces",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -1610,7 +1610,7 @@
             }
         },
         {
-            "name": "networkinterfaces_tapconfigurations",
+            "name": "networkInterfaces_tapConfigurations",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1645,7 +1645,7 @@
             }
         },
         {
-            "name": "networkmanagerconnections",
+            "name": "networkManagerConnections",
             "scope": "subscription",
             "apiVersions": {
                 "stable": [
@@ -1661,7 +1661,7 @@
             }
         },
         {
-            "name": "networkmanagers",
+            "name": "networkManagers",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -1678,7 +1678,7 @@
             }
         },
         {
-            "name": "networkmanagers_connectivityconfigurations",
+            "name": "networkManagers_connectivityConfigurations",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1695,7 +1695,7 @@
             }
         },
         {
-            "name": "networkmanagers_networkgroups",
+            "name": "networkManagers_networkGroups",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1712,7 +1712,7 @@
             }
         },
         {
-            "name": "networkmanagers_networkgroups_staticmembers",
+            "name": "networkManagers_networkGroups_staticMembers",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1728,7 +1728,7 @@
             }
         },
         {
-            "name": "networkmanagers_scopeconnections",
+            "name": "networkManagers_scopeConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1744,24 +1744,7 @@
             }
         },
         {
-            "name": "networkmanagers_securityadminconfigurations",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2022-01-01",
-                    "2022-05-01",
-                    "2022-07-01"
-                ],
-                "preview": [
-                    "2021-02-01-preview",
-                    "2021-05-01-preview",
-                    "2022-02-01-preview",
-                    "2022-04-01-preview"
-                ]
-            }
-        },
-        {
-            "name": "networkmanagers_securityadminconfigurations_rulecollections",
+            "name": "networkManagers_securityAdminConfigurations",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1778,7 +1761,7 @@
             }
         },
         {
-            "name": "networkmanagers_securityadminconfigurations_rulecollections_rules",
+            "name": "networkManagers_securityAdminConfigurations_ruleCollections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1795,7 +1778,24 @@
             }
         },
         {
-            "name": "networkmanagers_securityuserconfigurations",
+            "name": "networkManagers_securityAdminConfigurations_ruleCollections_rules",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2022-01-01",
+                    "2022-05-01",
+                    "2022-07-01"
+                ],
+                "preview": [
+                    "2021-02-01-preview",
+                    "2021-05-01-preview",
+                    "2022-02-01-preview",
+                    "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "networkManagers_securityUserConfigurations",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -1808,7 +1808,7 @@
             }
         },
         {
-            "name": "networkmanagers_securityuserconfigurations_rulecollections",
+            "name": "networkManagers_securityUserConfigurations_ruleCollections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -1821,7 +1821,7 @@
             }
         },
         {
-            "name": "networkmanagers_securityuserconfigurations_rulecollections_rules",
+            "name": "networkManagers_securityUserConfigurations_ruleCollections_rules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -1834,7 +1834,7 @@
             }
         },
         {
-            "name": "networkprofiles",
+            "name": "networkProfiles",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -1869,7 +1869,7 @@
             }
         },
         {
-            "name": "networksecuritygroups",
+            "name": "networkSecurityGroups",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -1926,7 +1926,7 @@
             }
         },
         {
-            "name": "networksecuritygroups_securityrules",
+            "name": "networkSecurityGroups_securityRules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1979,7 +1979,7 @@
             }
         },
         {
-            "name": "networksecurityperimeters",
+            "name": "networkSecurityPerimeters",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -1990,7 +1990,7 @@
             }
         },
         {
-            "name": "networksecurityperimeters_links",
+            "name": "networkSecurityPerimeters_links",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -2000,7 +2000,7 @@
             }
         },
         {
-            "name": "networksecurityperimeters_profiles",
+            "name": "networkSecurityPerimeters_profiles",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -2010,7 +2010,7 @@
             }
         },
         {
-            "name": "networksecurityperimeters_profiles_accessrules",
+            "name": "networkSecurityPerimeters_profiles_accessRules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -2020,7 +2020,7 @@
             }
         },
         {
-            "name": "networksecurityperimeters_resourceassociations",
+            "name": "networkSecurityPerimeters_resourceAssociations",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -2030,7 +2030,7 @@
             }
         },
         {
-            "name": "networkvirtualappliances",
+            "name": "networkVirtualAppliances",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -2054,7 +2054,7 @@
             }
         },
         {
-            "name": "networkvirtualappliances_inboundsecurityrules",
+            "name": "networkVirtualAppliances_inboundSecurityRules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -2074,7 +2074,7 @@
             }
         },
         {
-            "name": "networkvirtualappliances_virtualappliancesites",
+            "name": "networkVirtualAppliances_virtualApplianceSites",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -2095,7 +2095,7 @@
             }
         },
         {
-            "name": "networkwatchers",
+            "name": "networkWatchers",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -2143,7 +2143,7 @@
             }
         },
         {
-            "name": "networkwatchers_connectionmonitors",
+            "name": "networkWatchers_connectionMonitors",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -2185,7 +2185,7 @@
             }
         },
         {
-            "name": "networkwatchers_flowlogs",
+            "name": "networkWatchers_flowLogs",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -2210,7 +2210,7 @@
             }
         },
         {
-            "name": "networkwatchers_packetcaptures",
+            "name": "networkWatchers_packetCaptures",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -2258,7 +2258,7 @@
             }
         },
         {
-            "name": "p2svpngateways",
+            "name": "p2svpnGateways",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -2293,7 +2293,7 @@
             }
         },
         {
-            "name": "privatednszones",
+            "name": "privateDnsZones",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -2303,7 +2303,7 @@
             }
         },
         {
-            "name": "privatednszones_a",
+            "name": "privateDnsZones_A",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -2313,7 +2313,7 @@
             }
         },
         {
-            "name": "privatednszones_aaaa",
+            "name": "privateDnsZones_AAAA",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -2323,7 +2323,7 @@
             }
         },
         {
-            "name": "privatednszones_cname",
+            "name": "privateDnsZones_CNAME",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -2333,7 +2333,7 @@
             }
         },
         {
-            "name": "privatednszones_mx",
+            "name": "privateDnsZones_MX",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -2343,7 +2343,7 @@
             }
         },
         {
-            "name": "privatednszones_ptr",
+            "name": "privateDnsZones_PTR",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -2353,7 +2353,7 @@
             }
         },
         {
-            "name": "privatednszones_soa",
+            "name": "privateDnsZones_SOA",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -2363,7 +2363,7 @@
             }
         },
         {
-            "name": "privatednszones_srv",
+            "name": "privateDnsZones_SRV",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -2373,7 +2373,7 @@
             }
         },
         {
-            "name": "privatednszones_txt",
+            "name": "privateDnsZones_TXT",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -2383,7 +2383,7 @@
             }
         },
         {
-            "name": "privatednszones_virtualnetworklinks",
+            "name": "privateDnsZones_virtualNetworkLinks",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -2393,60 +2393,7 @@
             }
         },
         {
-            "name": "privateendpoints",
-            "scope": "resourceGroup",
-            "apiVersions": {
-                "stable": [
-                    "2019-04-01",
-                    "2019-06-01",
-                    "2019-07-01",
-                    "2019-08-01",
-                    "2019-09-01",
-                    "2019-11-01",
-                    "2019-12-01",
-                    "2020-03-01",
-                    "2020-04-01",
-                    "2020-05-01",
-                    "2020-06-01",
-                    "2020-07-01",
-                    "2020-08-01",
-                    "2020-11-01",
-                    "2021-02-01",
-                    "2021-03-01",
-                    "2021-05-01",
-                    "2021-08-01",
-                    "2022-01-01",
-                    "2022-05-01",
-                    "2022-07-01"
-                ],
-                "preview": []
-            }
-        },
-        {
-            "name": "privateendpoints_privatednszonegroups",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2020-03-01",
-                    "2020-04-01",
-                    "2020-05-01",
-                    "2020-06-01",
-                    "2020-07-01",
-                    "2020-08-01",
-                    "2020-11-01",
-                    "2021-02-01",
-                    "2021-03-01",
-                    "2021-05-01",
-                    "2021-08-01",
-                    "2022-01-01",
-                    "2022-05-01",
-                    "2022-07-01"
-                ],
-                "preview": []
-            }
-        },
-        {
-            "name": "privatelinkservices",
+            "name": "privateEndpoints",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -2476,7 +2423,60 @@
             }
         },
         {
-            "name": "privatelinkservices_privateendpointconnections",
+            "name": "privateEndpoints_privateDnsZoneGroups",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-05-01",
+                    "2020-06-01",
+                    "2020-07-01",
+                    "2020-08-01",
+                    "2020-11-01",
+                    "2021-02-01",
+                    "2021-03-01",
+                    "2021-05-01",
+                    "2021-08-01",
+                    "2022-01-01",
+                    "2022-05-01",
+                    "2022-07-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "privateLinkServices",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2019-04-01",
+                    "2019-06-01",
+                    "2019-07-01",
+                    "2019-08-01",
+                    "2019-09-01",
+                    "2019-11-01",
+                    "2019-12-01",
+                    "2020-03-01",
+                    "2020-04-01",
+                    "2020-05-01",
+                    "2020-06-01",
+                    "2020-07-01",
+                    "2020-08-01",
+                    "2020-11-01",
+                    "2021-02-01",
+                    "2021-03-01",
+                    "2021-05-01",
+                    "2021-08-01",
+                    "2022-01-01",
+                    "2022-05-01",
+                    "2022-07-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "privateLinkServices_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -2506,7 +2506,7 @@
             }
         },
         {
-            "name": "publicipaddresses",
+            "name": "publicIPAddresses",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -2563,7 +2563,7 @@
             }
         },
         {
-            "name": "publicipaddresses_",
+            "name": "publicIPAddresses_",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -2573,7 +2573,7 @@
             }
         },
         {
-            "name": "publicipprefixes",
+            "name": "publicIPPrefixes",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -2609,7 +2609,7 @@
             }
         },
         {
-            "name": "routefilters",
+            "name": "routeFilters",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -2656,7 +2656,7 @@
             }
         },
         {
-            "name": "routefilters_routefilterrules",
+            "name": "routeFilters_routeFilterRules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -2703,7 +2703,7 @@
             }
         },
         {
-            "name": "routetables",
+            "name": "routeTables",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -2760,7 +2760,7 @@
             }
         },
         {
-            "name": "routetables_routes",
+            "name": "routeTables_routes",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -2813,7 +2813,7 @@
             }
         },
         {
-            "name": "securitypartnerproviders",
+            "name": "securityPartnerProviders",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -2836,7 +2836,7 @@
             }
         },
         {
-            "name": "serviceendpointpolicies",
+            "name": "serviceEndpointPolicies",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -2872,7 +2872,7 @@
             }
         },
         {
-            "name": "serviceendpointpolicies_serviceendpointpolicydefinitions",
+            "name": "serviceEndpointPolicies_serviceEndpointPolicyDefinitions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -2926,7 +2926,7 @@
             }
         },
         {
-            "name": "trafficmanagerprofiles_azureendpoints",
+            "name": "trafficmanagerprofiles_AzureEndpoints",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -2938,7 +2938,7 @@
             }
         },
         {
-            "name": "trafficmanagerprofiles_externalendpoints",
+            "name": "trafficmanagerprofiles_ExternalEndpoints",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -2950,7 +2950,7 @@
             }
         },
         {
-            "name": "trafficmanagerprofiles_nestedendpoints",
+            "name": "trafficmanagerprofiles_NestedEndpoints",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -2962,7 +2962,7 @@
             }
         },
         {
-            "name": "trafficmanagerusermetricskeys",
+            "name": "trafficManagerUserMetricsKeys",
             "scope": "subscription",
             "apiVersions": {
                 "stable": [
@@ -2976,7 +2976,7 @@
             }
         },
         {
-            "name": "virtualhubs",
+            "name": "virtualHubs",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -3014,7 +3014,7 @@
             }
         },
         {
-            "name": "virtualhubs_bgpconnections",
+            "name": "virtualHubs_bgpConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -3035,7 +3035,7 @@
             }
         },
         {
-            "name": "virtualhubs_hubroutetables",
+            "name": "virtualHubs_hubRouteTables",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -3057,7 +3057,7 @@
             }
         },
         {
-            "name": "virtualhubs_hubvirtualnetworkconnections",
+            "name": "virtualHubs_hubVirtualNetworkConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -3078,7 +3078,7 @@
             }
         },
         {
-            "name": "virtualhubs_ipconfigurations",
+            "name": "virtualHubs_ipConfigurations",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -3099,7 +3099,7 @@
             }
         },
         {
-            "name": "virtualhubs_routemaps",
+            "name": "virtualHubs_routeMaps",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -3110,7 +3110,7 @@
             }
         },
         {
-            "name": "virtualhubs_routetables",
+            "name": "virtualHubs_routeTables",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -3136,7 +3136,7 @@
             }
         },
         {
-            "name": "virtualhubs_routingintent",
+            "name": "virtualHubs_routingIntent",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -3203,7 +3203,7 @@
             }
         },
         {
-            "name": "virtualnetworkgateways_natrules",
+            "name": "virtualNetworkGateways_natRules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -3329,7 +3329,7 @@
             }
         },
         {
-            "name": "virtualnetworks_virtualnetworkpeerings",
+            "name": "virtualNetworks_virtualNetworkPeerings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -3378,7 +3378,7 @@
             }
         },
         {
-            "name": "virtualnetworktaps",
+            "name": "virtualNetworkTaps",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -3413,7 +3413,7 @@
             }
         },
         {
-            "name": "virtualrouters",
+            "name": "virtualRouters",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -3441,7 +3441,7 @@
             }
         },
         {
-            "name": "virtualrouters_peerings",
+            "name": "virtualRouters_peerings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -3469,7 +3469,7 @@
             }
         },
         {
-            "name": "virtualwans",
+            "name": "virtualWans",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -3507,7 +3507,7 @@
             }
         },
         {
-            "name": "virtualwans_p2svpnserverconfigurations",
+            "name": "virtualWans_p2sVpnServerConfigurations",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -3524,7 +3524,7 @@
             }
         },
         {
-            "name": "vpngateways",
+            "name": "vpnGateways",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -3562,7 +3562,7 @@
             }
         },
         {
-            "name": "vpngateways_natrules",
+            "name": "vpnGateways_natRules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -3580,7 +3580,7 @@
             }
         },
         {
-            "name": "vpngateways_vpnconnections",
+            "name": "vpnGateways_vpnConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -3618,7 +3618,7 @@
             }
         },
         {
-            "name": "vpnserverconfigurations",
+            "name": "vpnServerConfigurations",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -3645,7 +3645,7 @@
             }
         },
         {
-            "name": "vpnserverconfigurations_configurationpolicygroups",
+            "name": "vpnServerConfigurations_configurationPolicyGroups",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -3658,7 +3658,7 @@
             }
         },
         {
-            "name": "vpnsites",
+            "name": "vpnSites",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

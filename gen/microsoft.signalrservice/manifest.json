@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.SignalRService",
     "resourceTypes": [
         {
-            "name": "signalr",
+            "name": "SignalR",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -24,7 +24,7 @@
             }
         },
         {
-            "name": "signalr_customcertificates",
+            "name": "signalR_customCertificates",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -36,7 +36,7 @@
             }
         },
         {
-            "name": "signalr_customdomains",
+            "name": "signalR_customDomains",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -48,7 +48,7 @@
             }
         },
         {
-            "name": "signalr_privateendpointconnections",
+            "name": "signalR_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -66,7 +66,7 @@
             }
         },
         {
-            "name": "signalr_sharedprivatelinkresources",
+            "name": "signalR_sharedPrivateLinkResources",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -82,7 +82,7 @@
             }
         },
         {
-            "name": "webpubsub",
+            "name": "webPubSub",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -97,7 +97,7 @@
             }
         },
         {
-            "name": "webpubsub_customcertificates",
+            "name": "webPubSub_customCertificates",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -107,7 +107,7 @@
             }
         },
         {
-            "name": "webpubsub_customdomains",
+            "name": "webPubSub_customDomains",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -117,7 +117,7 @@
             }
         },
         {
-            "name": "webpubsub_hubs",
+            "name": "webPubSub_hubs",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -129,7 +129,7 @@
             }
         },
         {
-            "name": "webpubsub_privateendpointconnections",
+            "name": "webPubSub_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -144,7 +144,7 @@
             }
         },
         {
-            "name": "webpubsub_sharedprivatelinkresources",
+            "name": "webPubSub_sharedPrivateLinkResources",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

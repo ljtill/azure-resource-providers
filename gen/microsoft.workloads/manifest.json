@@ -15,7 +15,7 @@
             }
         },
         {
-            "name": "monitors_providerinstances",
+            "name": "monitors_providerInstances",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -26,7 +26,7 @@
             }
         },
         {
-            "name": "monitors_saplandscapemonitor",
+            "name": "monitors_sapLandscapeMonitor",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -36,7 +36,7 @@
             }
         },
         {
-            "name": "phpworkloads",
+            "name": "phpWorkloads",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -46,7 +46,7 @@
             }
         },
         {
-            "name": "phpworkloads_wordpressinstances",
+            "name": "phpWorkloads_wordpressInstances",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -56,7 +56,7 @@
             }
         },
         {
-            "name": "sapvirtualinstances",
+            "name": "sapVirtualInstances",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -67,7 +67,7 @@
             }
         },
         {
-            "name": "sapvirtualinstances_applicationinstances",
+            "name": "sapVirtualInstances_applicationInstances",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -78,7 +78,7 @@
             }
         },
         {
-            "name": "sapvirtualinstances_centralinstances",
+            "name": "sapVirtualInstances_centralInstances",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -89,7 +89,7 @@
             }
         },
         {
-            "name": "sapvirtualinstances_databaseinstances",
+            "name": "sapVirtualInstances_databaseInstances",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

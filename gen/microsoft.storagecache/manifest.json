@@ -23,7 +23,7 @@
             }
         },
         {
-            "name": "caches_storagetargets",
+            "name": "caches_storageTargets",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

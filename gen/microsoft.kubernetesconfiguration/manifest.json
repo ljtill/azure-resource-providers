@@ -23,7 +23,7 @@
             }
         },
         {
-            "name": "fluxconfigurations",
+            "name": "fluxConfigurations",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -38,7 +38,7 @@
             }
         },
         {
-            "name": "privatelinkscopes",
+            "name": "privateLinkScopes",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -48,7 +48,7 @@
             }
         },
         {
-            "name": "privatelinkscopes_privateendpointconnections",
+            "name": "privateLinkScopes_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -58,7 +58,7 @@
             }
         },
         {
-            "name": "sourcecontrolconfigurations",
+            "name": "sourceControlConfigurations",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

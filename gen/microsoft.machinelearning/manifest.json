@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.MachineLearning",
     "resourceTypes": [
         {
-            "name": "commitmentplans",
+            "name": "commitmentPlans",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -14,7 +14,7 @@
             }
         },
         {
-            "name": "webservices",
+            "name": "webServices",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

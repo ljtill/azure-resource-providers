@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Cache",
     "resourceTypes": [
         {
-            "name": "redis",
+            "name": "Redis",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -26,7 +26,7 @@
             }
         },
         {
-            "name": "redis_firewallrules",
+            "name": "Redis_firewallRules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -45,7 +45,7 @@
             }
         },
         {
-            "name": "redis_linkedservers",
+            "name": "Redis_linkedServers",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -63,7 +63,7 @@
             }
         },
         {
-            "name": "redis_patchschedules",
+            "name": "Redis_patchSchedules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -82,7 +82,7 @@
             }
         },
         {
-            "name": "redis_privateendpointconnections",
+            "name": "redis_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -96,7 +96,7 @@
             }
         },
         {
-            "name": "redisenterprise",
+            "name": "redisEnterprise",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -111,7 +111,7 @@
             }
         },
         {
-            "name": "redisenterprise_databases",
+            "name": "redisEnterprise_databases",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -126,7 +126,7 @@
             }
         },
         {
-            "name": "redisenterprise_privateendpointconnections",
+            "name": "redisEnterprise_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

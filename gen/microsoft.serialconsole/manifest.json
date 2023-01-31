@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.SerialConsole",
     "resourceTypes": [
         {
-            "name": "serialports",
+            "name": "serialPorts",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

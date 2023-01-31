@@ -40,7 +40,7 @@
             }
         },
         {
-            "name": "servers_firewallrules",
+            "name": "servers_firewallRules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -52,7 +52,7 @@
             }
         },
         {
-            "name": "servers_privateendpointconnections",
+            "name": "servers_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -62,7 +62,7 @@
             }
         },
         {
-            "name": "servers_securityalertpolicies",
+            "name": "servers_securityAlertPolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -74,7 +74,7 @@
             }
         },
         {
-            "name": "servers_virtualnetworkrules",
+            "name": "servers_virtualNetworkRules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

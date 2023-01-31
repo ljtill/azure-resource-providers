@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.GuestConfiguration",
     "resourceTypes": [
         {
-            "name": "guestconfigurationassignments",
+            "name": "guestConfigurationAssignments",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

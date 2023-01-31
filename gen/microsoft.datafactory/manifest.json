@@ -48,7 +48,7 @@
             }
         },
         {
-            "name": "factories_globalparameters",
+            "name": "factories_globalParameters",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -58,7 +58,7 @@
             }
         },
         {
-            "name": "factories_integrationruntimes",
+            "name": "factories_integrationRuntimes",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -82,7 +82,7 @@
             }
         },
         {
-            "name": "factories_managedvirtualnetworks",
+            "name": "factories_managedVirtualNetworks",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -92,7 +92,7 @@
             }
         },
         {
-            "name": "factories_managedvirtualnetworks_managedprivateendpoints",
+            "name": "factories_managedVirtualNetworks_managedPrivateEndpoints",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -114,7 +114,7 @@
             }
         },
         {
-            "name": "factories_privateendpointconnections",
+            "name": "factories_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

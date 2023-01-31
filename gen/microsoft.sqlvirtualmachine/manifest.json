@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.SqlVirtualMachine",
     "resourceTypes": [
         {
-            "name": "sqlvirtualmachinegroups",
+            "name": "sqlVirtualMachineGroups",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -20,7 +20,7 @@
             }
         },
         {
-            "name": "sqlvirtualmachinegroups_availabilitygrouplisteners",
+            "name": "sqlVirtualMachineGroups_availabilityGroupListeners",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -36,7 +36,7 @@
             }
         },
         {
-            "name": "sqlvirtualmachines",
+            "name": "sqlVirtualMachines",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Blueprint",
     "resourceTypes": [
         {
-            "name": "blueprintassignments",
+            "name": "blueprintAssignments",
             "scope": "subscription",
             "apiVersions": {
                 "stable": [],

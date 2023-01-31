@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.BotService",
     "resourceTypes": [
         {
-            "name": "botservices",
+            "name": "botServices",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -21,7 +21,7 @@
             }
         },
         {
-            "name": "botservices_channels",
+            "name": "botServices_channels",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -38,7 +38,7 @@
             }
         },
         {
-            "name": "botservices_connections",
+            "name": "botServices_Connections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -55,7 +55,7 @@
             }
         },
         {
-            "name": "botservices_privateendpointconnections",
+            "name": "botServices_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -68,7 +68,7 @@
             }
         },
         {
-            "name": "enterprisechannels",
+            "name": "enterpriseChannels",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.DesktopVirtualization",
     "resourceTypes": [
         {
-            "name": "applicationgroups",
+            "name": "applicationGroups",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -31,7 +31,7 @@
             }
         },
         {
-            "name": "applicationgroups_applications",
+            "name": "applicationGroups_applications",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -58,7 +58,7 @@
             }
         },
         {
-            "name": "hostpools",
+            "name": "hostPools",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -85,7 +85,7 @@
             }
         },
         {
-            "name": "hostpools_msixpackages",
+            "name": "hostPools_msixPackages",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -109,7 +109,7 @@
             }
         },
         {
-            "name": "hostpools_privateendpointconnections",
+            "name": "hostPools_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -123,7 +123,7 @@
             }
         },
         {
-            "name": "scalingplans",
+            "name": "scalingPlans",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -144,7 +144,7 @@
             }
         },
         {
-            "name": "scalingplans_pooledschedules",
+            "name": "scalingPlans_pooledSchedules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -184,7 +184,7 @@
             }
         },
         {
-            "name": "workspaces_privateendpointconnections",
+            "name": "workspaces_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.StorageSync",
     "resourceTypes": [
         {
-            "name": "storagesyncservices",
+            "name": "storageSyncServices",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -25,7 +25,7 @@
             }
         },
         {
-            "name": "storagesyncservices_privateendpointconnections",
+            "name": "storageSyncServices_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -37,7 +37,7 @@
             }
         },
         {
-            "name": "storagesyncservices_registeredservers",
+            "name": "storageSyncServices_registeredServers",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -58,7 +58,7 @@
             }
         },
         {
-            "name": "storagesyncservices_syncgroups",
+            "name": "storageSyncServices_syncGroups",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -79,7 +79,7 @@
             }
         },
         {
-            "name": "storagesyncservices_syncgroups_cloudendpoints",
+            "name": "storageSyncServices_syncGroups_cloudEndpoints",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -100,7 +100,7 @@
             }
         },
         {
-            "name": "storagesyncservices_syncgroups_serverendpoints",
+            "name": "storageSyncServices_syncGroups_serverEndpoints",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

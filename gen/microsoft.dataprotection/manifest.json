@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.DataProtection",
     "resourceTypes": [
         {
-            "name": "backupvaults",
+            "name": "backupVaults",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -31,7 +31,7 @@
             }
         },
         {
-            "name": "backupvaults_backupinstances",
+            "name": "backupVaults_backupInstances",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -58,7 +58,7 @@
             }
         },
         {
-            "name": "backupvaults_backuppolicies",
+            "name": "backupVaults_backupPolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -85,7 +85,7 @@
             }
         },
         {
-            "name": "backupvaults_backupresourceguardproxies",
+            "name": "backupVaults_backupResourceGuardProxies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -97,7 +97,7 @@
             }
         },
         {
-            "name": "resourceguards",
+            "name": "resourceGuards",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

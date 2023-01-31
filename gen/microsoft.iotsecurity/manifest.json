@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.IoTSecurity",
     "resourceTypes": [
         {
-            "name": "defendersettings",
+            "name": "defenderSettings",
             "scope": "subscription",
             "apiVersions": {
                 "stable": [],
@@ -14,7 +14,7 @@
             }
         },
         {
-            "name": "locations_devicegroups",
+            "name": "locations_deviceGroups",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -24,7 +24,7 @@
             }
         },
         {
-            "name": "onpremisesensors",
+            "name": "onPremiseSensors",
             "scope": "subscription",
             "apiVersions": {
                 "stable": [],

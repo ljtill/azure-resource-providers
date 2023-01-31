@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.IoTCentral",
     "resourceTypes": [
         {
-            "name": "iotapps",
+            "name": "iotApps",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -17,7 +17,7 @@
             }
         },
         {
-            "name": "iotapps_privateendpointconnections",
+            "name": "iotApps_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

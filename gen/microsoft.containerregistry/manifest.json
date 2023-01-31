@@ -28,7 +28,7 @@
             }
         },
         {
-            "name": "registries_agentpools",
+            "name": "registries_agentPools",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -38,7 +38,7 @@
             }
         },
         {
-            "name": "registries_buildtasks",
+            "name": "registries_buildTasks",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -48,7 +48,7 @@
             }
         },
         {
-            "name": "registries_buildtasks_steps",
+            "name": "registries_buildTasks_steps",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -58,7 +58,7 @@
             }
         },
         {
-            "name": "registries_cacherules",
+            "name": "registries_cacheRules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -68,7 +68,7 @@
             }
         },
         {
-            "name": "registries_connectedregistries",
+            "name": "registries_connectedRegistries",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -83,7 +83,7 @@
             }
         },
         {
-            "name": "registries_credentialsets",
+            "name": "registries_credentialSets",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -93,7 +93,7 @@
             }
         },
         {
-            "name": "registries_exportpipelines",
+            "name": "registries_exportPipelines",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -109,7 +109,7 @@
             }
         },
         {
-            "name": "registries_importpipelines",
+            "name": "registries_importPipelines",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -125,7 +125,7 @@
             }
         },
         {
-            "name": "registries_pipelineruns",
+            "name": "registries_pipelineRuns",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -141,7 +141,7 @@
             }
         },
         {
-            "name": "registries_privateendpointconnections",
+            "name": "registries_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -182,7 +182,7 @@
             }
         },
         {
-            "name": "registries_scopemaps",
+            "name": "registries_scopeMaps",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -200,7 +200,7 @@
             }
         },
         {
-            "name": "registries_taskruns",
+            "name": "registries_taskRuns",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

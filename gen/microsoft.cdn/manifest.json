@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Cdn",
     "resourceTypes": [
         {
-            "name": "cdnwebapplicationfirewallpolicies",
+            "name": "CdnWebApplicationFirewallPolicies",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -45,7 +45,7 @@
             }
         },
         {
-            "name": "profiles_afdendpoints",
+            "name": "profiles_afdEndpoints",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -59,7 +59,7 @@
             }
         },
         {
-            "name": "profiles_afdendpoints_routes",
+            "name": "profiles_afdEndpoints_routes",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -73,7 +73,7 @@
             }
         },
         {
-            "name": "profiles_customdomains",
+            "name": "profiles_customDomains",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -111,7 +111,7 @@
             }
         },
         {
-            "name": "profiles_endpoints_customdomains",
+            "name": "profiles_endpoints_customDomains",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -135,7 +135,7 @@
             }
         },
         {
-            "name": "profiles_endpoints_origingroups",
+            "name": "profiles_endpoints_originGroups",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -169,7 +169,7 @@
             }
         },
         {
-            "name": "profiles_origingroups",
+            "name": "profiles_originGroups",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -183,7 +183,7 @@
             }
         },
         {
-            "name": "profiles_origingroups_origins",
+            "name": "profiles_originGroups_origins",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -197,7 +197,7 @@
             }
         },
         {
-            "name": "profiles_rulesets",
+            "name": "profiles_ruleSets",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -211,7 +211,7 @@
             }
         },
         {
-            "name": "profiles_rulesets_rules",
+            "name": "profiles_ruleSets_rules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -239,7 +239,7 @@
             }
         },
         {
-            "name": "profiles_securitypolicies",
+            "name": "profiles_securityPolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

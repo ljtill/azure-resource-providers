@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.VMwareVirtustream",
     "resourceTypes": [
         {
-            "name": "privateclouds",
+            "name": "privateClouds",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -14,7 +14,7 @@
             }
         },
         {
-            "name": "privateclouds_clusters",
+            "name": "privateClouds_clusters",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

@@ -64,7 +64,7 @@
             }
         },
         {
-            "name": "labplans",
+            "name": "labPlans",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -77,7 +77,7 @@
             }
         },
         {
-            "name": "labplans_images",
+            "name": "labPlans_images",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

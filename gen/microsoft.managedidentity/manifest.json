@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.ManagedIdentity",
     "resourceTypes": [
         {
-            "name": "userassignedidentities",
+            "name": "userAssignedIdentities",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -18,7 +18,7 @@
             }
         },
         {
-            "name": "userassignedidentities_federatedidentitycredentials",
+            "name": "userAssignedIdentities_federatedIdentityCredentials",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

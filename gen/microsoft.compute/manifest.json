@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Compute",
     "resourceTypes": [
         {
-            "name": "availabilitysets",
+            "name": "availabilitySets",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -35,7 +35,7 @@
             }
         },
         {
-            "name": "capacityreservationgroups",
+            "name": "capacityReservationGroups",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -50,7 +50,7 @@
             }
         },
         {
-            "name": "capacityreservationgroups_capacityreservations",
+            "name": "capacityReservationGroups_capacityReservations",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -65,7 +65,7 @@
             }
         },
         {
-            "name": "cloudservices",
+            "name": "cloudServices",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -79,7 +79,7 @@
             }
         },
         {
-            "name": "diskaccesses",
+            "name": "diskAccesses",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -97,7 +97,7 @@
             }
         },
         {
-            "name": "diskaccesses_privateendpointconnections",
+            "name": "diskAccesses_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -113,7 +113,7 @@
             }
         },
         {
-            "name": "diskencryptionsets",
+            "name": "diskEncryptionSets",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -258,7 +258,7 @@
             }
         },
         {
-            "name": "hostgroups",
+            "name": "hostGroups",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -279,7 +279,7 @@
             }
         },
         {
-            "name": "hostgroups_hosts",
+            "name": "hostGroups_hosts",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -328,7 +328,7 @@
             }
         },
         {
-            "name": "proximityplacementgroups",
+            "name": "proximityPlacementGroups",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -352,7 +352,7 @@
             }
         },
         {
-            "name": "restorepointcollections",
+            "name": "restorePointCollections",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -368,7 +368,7 @@
             }
         },
         {
-            "name": "restorepointcollections_restorepoints",
+            "name": "restorePointCollections_restorePoints",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -411,7 +411,7 @@
             }
         },
         {
-            "name": "sshpublickeys",
+            "name": "sshPublicKeys",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -430,56 +430,7 @@
             }
         },
         {
-            "name": "virtualmachines",
-            "scope": "resourceGroup",
-            "apiVersions": {
-                "stable": [
-                    "2015-06-15",
-                    "2016-03-30",
-                    "2017-03-30",
-                    "2017-12-01",
-                    "2018-04-01",
-                    "2018-06-01",
-                    "2018-10-01",
-                    "2019-03-01",
-                    "2019-07-01",
-                    "2019-12-01",
-                    "2020-06-01",
-                    "2020-12-01",
-                    "2021-03-01",
-                    "2021-04-01",
-                    "2021-07-01",
-                    "2021-11-01",
-                    "2022-03-01",
-                    "2022-08-01",
-                    "2022-11-01"
-                ],
-                "preview": [
-                    "2015-05-01-preview",
-                    "2016-04-30-preview"
-                ]
-            }
-        },
-        {
-            "name": "virtualmachines_runcommands",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2020-06-01",
-                    "2020-12-01",
-                    "2021-03-01",
-                    "2021-04-01",
-                    "2021-07-01",
-                    "2021-11-01",
-                    "2022-03-01",
-                    "2022-08-01",
-                    "2022-11-01"
-                ],
-                "preview": []
-            }
-        },
-        {
-            "name": "virtualmachinescalesets",
+            "name": "virtualMachines",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -510,7 +461,56 @@
             }
         },
         {
-            "name": "virtualmachinescalesets_virtualmachines",
+            "name": "virtualMachines_runCommands",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2020-06-01",
+                    "2020-12-01",
+                    "2021-03-01",
+                    "2021-04-01",
+                    "2021-07-01",
+                    "2021-11-01",
+                    "2022-03-01",
+                    "2022-08-01",
+                    "2022-11-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "virtualMachineScaleSets",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2015-06-15",
+                    "2016-03-30",
+                    "2017-03-30",
+                    "2017-12-01",
+                    "2018-04-01",
+                    "2018-06-01",
+                    "2018-10-01",
+                    "2019-03-01",
+                    "2019-07-01",
+                    "2019-12-01",
+                    "2020-06-01",
+                    "2020-12-01",
+                    "2021-03-01",
+                    "2021-04-01",
+                    "2021-07-01",
+                    "2021-11-01",
+                    "2022-03-01",
+                    "2022-08-01",
+                    "2022-11-01"
+                ],
+                "preview": [
+                    "2015-05-01-preview",
+                    "2016-04-30-preview"
+                ]
+            }
+        },
+        {
+            "name": "virtualMachineScaleSets_virtualmachines",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -535,7 +535,7 @@
             }
         },
         {
-            "name": "virtualmachinescalesets_virtualmachines_extensions",
+            "name": "virtualMachineScaleSets_virtualMachines_extensions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -555,7 +555,7 @@
             }
         },
         {
-            "name": "virtualmachinescalesets_virtualmachines_runcommands",
+            "name": "virtualMachineScaleSets_virtualMachines_runCommands",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

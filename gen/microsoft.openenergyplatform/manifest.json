@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.OpenEnergyPlatform",
     "resourceTypes": [
         {
-            "name": "energyservices",
+            "name": "energyServices",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],

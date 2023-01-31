@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Management",
     "resourceTypes": [
         {
-            "name": "managementgroups",
+            "name": "managementGroups",
             "scope": "tenant",
             "apiVersions": {
                 "stable": [
@@ -22,7 +22,7 @@
             }
         },
         {
-            "name": "managementgroups_settings",
+            "name": "managementGroups_settings",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [
@@ -35,7 +35,7 @@
             }
         },
         {
-            "name": "managementgroups_subscriptions",
+            "name": "managementGroups_subscriptions",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [

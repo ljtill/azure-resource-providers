@@ -57,7 +57,7 @@
             }
         },
         {
-            "name": "privatelinkscopes",
+            "name": "privateLinkScopes",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -79,7 +79,7 @@
             }
         },
         {
-            "name": "privatelinkscopes_privateendpointconnections",
+            "name": "privateLinkScopes_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -101,7 +101,7 @@
             }
         },
         {
-            "name": "privatelinkscopes_scopedresources",
+            "name": "privateLinkScopes_scopedResources",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

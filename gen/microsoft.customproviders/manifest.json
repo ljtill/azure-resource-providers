@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.CustomProviders",
     "resourceTypes": [
         {
-            "name": "resourceproviders",
+            "name": "resourceProviders",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],

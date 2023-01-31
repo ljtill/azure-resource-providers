@@ -330,7 +330,7 @@
             }
         },
         {
-            "name": "service_apis_tagdescriptions",
+            "name": "service_apis_tagDescriptions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -376,7 +376,7 @@
             }
         },
         {
-            "name": "service_apiversionsets",
+            "name": "service_apiVersionSets",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -396,7 +396,7 @@
             }
         },
         {
-            "name": "service_authorizationproviders",
+            "name": "service_authorizationProviders",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -406,7 +406,7 @@
             }
         },
         {
-            "name": "service_authorizationproviders_authorizations",
+            "name": "service_authorizationProviders_authorizations",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -416,7 +416,7 @@
             }
         },
         {
-            "name": "service_authorizationproviders_authorizations_accesspolicies",
+            "name": "service_authorizationProviders_authorizations_accessPolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -426,7 +426,7 @@
             }
         },
         {
-            "name": "service_authorizationservers",
+            "name": "service_authorizationServers",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -522,7 +522,7 @@
             }
         },
         {
-            "name": "service_contenttypes",
+            "name": "service_contentTypes",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -540,7 +540,7 @@
             }
         },
         {
-            "name": "service_contenttypes_contentitems",
+            "name": "service_contentTypes_contentItems",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -630,7 +630,7 @@
             }
         },
         {
-            "name": "service_gateways_certificateauthorities",
+            "name": "service_gateways_certificateAuthorities",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -647,7 +647,7 @@
             }
         },
         {
-            "name": "service_gateways_hostnameconfigurations",
+            "name": "service_gateways_hostnameConfigurations",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -716,7 +716,7 @@
             }
         },
         {
-            "name": "service_identityproviders",
+            "name": "service_identityProviders",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -766,7 +766,7 @@
             }
         },
         {
-            "name": "service_namedvalues",
+            "name": "service_namedValues",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -808,7 +808,7 @@
             }
         },
         {
-            "name": "service_notifications_recipientemails",
+            "name": "service_notifications_recipientEmails",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -831,7 +831,7 @@
             }
         },
         {
-            "name": "service_notifications_recipientusers",
+            "name": "service_notifications_recipientUsers",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -854,7 +854,7 @@
             }
         },
         {
-            "name": "service_openidconnectproviders",
+            "name": "service_openidConnectProviders",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -902,7 +902,7 @@
             }
         },
         {
-            "name": "service_policyfragments",
+            "name": "service_policyFragments",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -924,7 +924,7 @@
             }
         },
         {
-            "name": "service_portalrevisions",
+            "name": "service_portalRevisions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -964,7 +964,7 @@
             }
         },
         {
-            "name": "service_privateendpointconnections",
+            "name": "service_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

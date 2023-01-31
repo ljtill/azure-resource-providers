@@ -34,7 +34,7 @@
             }
         },
         {
-            "name": "accounts_shares_datasets",
+            "name": "accounts_shares_dataSets",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -64,7 +64,7 @@
             }
         },
         {
-            "name": "accounts_shares_synchronizationsettings",
+            "name": "accounts_shares_synchronizationSettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -79,7 +79,7 @@
             }
         },
         {
-            "name": "accounts_sharesubscriptions",
+            "name": "accounts_shareSubscriptions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -94,7 +94,7 @@
             }
         },
         {
-            "name": "accounts_sharesubscriptions_datasetmappings",
+            "name": "accounts_shareSubscriptions_dataSetMappings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -109,7 +109,7 @@
             }
         },
         {
-            "name": "accounts_sharesubscriptions_triggers",
+            "name": "accounts_shareSubscriptions_triggers",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

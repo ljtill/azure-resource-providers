@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.VMwareCloudSimple",
     "resourceTypes": [
         {
-            "name": "dedicatedcloudnodes",
+            "name": "dedicatedCloudNodes",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -14,7 +14,7 @@
             }
         },
         {
-            "name": "dedicatedcloudservices",
+            "name": "dedicatedCloudServices",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -24,7 +24,7 @@
             }
         },
         {
-            "name": "virtualmachines",
+            "name": "virtualMachines",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

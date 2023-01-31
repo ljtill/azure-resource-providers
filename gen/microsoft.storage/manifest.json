@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Storage",
     "resourceTypes": [
         {
-            "name": "storageaccounts",
+            "name": "storageAccounts",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -36,7 +36,7 @@
             }
         },
         {
-            "name": "storageaccounts_blobservices",
+            "name": "storageAccounts_blobServices",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -59,7 +59,7 @@
             }
         },
         {
-            "name": "storageaccounts_blobservices_containers",
+            "name": "storageAccounts_blobServices_containers",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -84,7 +84,7 @@
             }
         },
         {
-            "name": "storageaccounts_blobservices_containers_immutabilitypolicies",
+            "name": "storageAccounts_blobServices_containers_immutabilityPolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -109,7 +109,7 @@
             }
         },
         {
-            "name": "storageaccounts_encryptionscopes",
+            "name": "storageAccounts_encryptionScopes",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -129,28 +129,7 @@
             }
         },
         {
-            "name": "storageaccounts_fileservices",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2019-04-01",
-                    "2019-06-01",
-                    "2021-01-01",
-                    "2021-02-01",
-                    "2021-04-01",
-                    "2021-06-01",
-                    "2021-08-01",
-                    "2021-09-01",
-                    "2022-05-01",
-                    "2022-09-01"
-                ],
-                "preview": [
-                    "2020-08-01-preview"
-                ]
-            }
-        },
-        {
-            "name": "storageaccounts_fileservices_shares",
+            "name": "storageAccounts_fileServices",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -171,7 +150,28 @@
             }
         },
         {
-            "name": "storageaccounts_inventorypolicies",
+            "name": "storageAccounts_fileServices_shares",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2019-04-01",
+                    "2019-06-01",
+                    "2021-01-01",
+                    "2021-02-01",
+                    "2021-04-01",
+                    "2021-06-01",
+                    "2021-08-01",
+                    "2021-09-01",
+                    "2022-05-01",
+                    "2022-09-01"
+                ],
+                "preview": [
+                    "2020-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "storageAccounts_inventoryPolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -191,7 +191,7 @@
             }
         },
         {
-            "name": "storageaccounts_localusers",
+            "name": "storageAccounts_localUsers",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -204,7 +204,7 @@
             }
         },
         {
-            "name": "storageaccounts_managementpolicies",
+            "name": "storageAccounts_managementPolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -227,7 +227,7 @@
             }
         },
         {
-            "name": "storageaccounts_objectreplicationpolicies",
+            "name": "storageAccounts_objectReplicationPolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -247,7 +247,7 @@
             }
         },
         {
-            "name": "storageaccounts_privateendpointconnections",
+            "name": "storageAccounts_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -267,7 +267,7 @@
             }
         },
         {
-            "name": "storageaccounts_queueservices",
+            "name": "storageAccounts_queueServices",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -287,7 +287,7 @@
             }
         },
         {
-            "name": "storageaccounts_queueservices_queues",
+            "name": "storageAccounts_queueServices_queues",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -307,7 +307,7 @@
             }
         },
         {
-            "name": "storageaccounts_tableservices",
+            "name": "storageAccounts_tableServices",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -327,7 +327,7 @@
             }
         },
         {
-            "name": "storageaccounts_tableservices_tables",
+            "name": "storageAccounts_tableServices_tables",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

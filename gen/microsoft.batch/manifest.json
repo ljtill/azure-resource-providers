@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Batch",
     "resourceTypes": [
         {
-            "name": "batchaccounts",
+            "name": "batchAccounts",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -28,7 +28,7 @@
             }
         },
         {
-            "name": "batchaccounts_applications",
+            "name": "batchAccounts_applications",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -52,7 +52,7 @@
             }
         },
         {
-            "name": "batchaccounts_applications_versions",
+            "name": "batchAccounts_applications_versions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -76,7 +76,7 @@
             }
         },
         {
-            "name": "batchaccounts_certificates",
+            "name": "batchAccounts_certificates",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -97,7 +97,7 @@
             }
         },
         {
-            "name": "batchaccounts_pools",
+            "name": "batchAccounts_pools",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

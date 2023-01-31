@@ -33,7 +33,7 @@
             }
         },
         {
-            "name": "deploymentscripts",
+            "name": "deploymentScripts",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -55,7 +55,7 @@
             }
         },
         {
-            "name": "resourcegroups",
+            "name": "resourceGroups",
             "scope": "subscription",
             "apiVersions": {
                 "stable": [
@@ -83,7 +83,7 @@
             }
         },
         {
-            "name": "templatespecs",
+            "name": "templateSpecs",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -97,7 +97,7 @@
             }
         },
         {
-            "name": "templatespecs_versions",
+            "name": "templateSpecs_versions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

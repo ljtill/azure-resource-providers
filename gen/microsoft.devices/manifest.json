@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Devices",
     "resourceTypes": [
         {
-            "name": "iothubs",
+            "name": "IotHubs",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -39,7 +39,7 @@
             }
         },
         {
-            "name": "iothubs_certificates",
+            "name": "IotHubs_certificates",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -72,7 +72,7 @@
             }
         },
         {
-            "name": "iothubs_eventhubendpoints_consumergroups",
+            "name": "IotHubs_eventHubEndpoints_ConsumerGroups",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -107,7 +107,7 @@
             }
         },
         {
-            "name": "iothubs_privateendpointconnections",
+            "name": "iotHubs_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -132,7 +132,7 @@
             }
         },
         {
-            "name": "provisioningservices",
+            "name": "provisioningServices",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -151,7 +151,7 @@
             }
         },
         {
-            "name": "provisioningservices_certificates",
+            "name": "provisioningServices_certificates",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -170,7 +170,7 @@
             }
         },
         {
-            "name": "provisioningservices_privateendpointconnections",
+            "name": "provisioningServices_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

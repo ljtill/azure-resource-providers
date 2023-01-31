@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.KeyVault",
     "resourceTypes": [
         {
-            "name": "managedhsms",
+            "name": "managedHSMs",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -20,7 +20,7 @@
             }
         },
         {
-            "name": "managedhsms_privateendpointconnections",
+            "name": "managedHSMs_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -56,7 +56,7 @@
             }
         },
         {
-            "name": "vaults_accesspolicies",
+            "name": "vaults_accessPolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -93,7 +93,7 @@
             }
         },
         {
-            "name": "vaults_privateendpointconnections",
+            "name": "vaults_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

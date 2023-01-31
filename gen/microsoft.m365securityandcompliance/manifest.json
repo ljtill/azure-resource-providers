@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.M365SecurityAndCompliance",
     "resourceTypes": [
         {
-            "name": "privatelinkservicesforedmupload",
+            "name": "privateLinkServicesForEDMUpload",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -14,7 +14,7 @@
             }
         },
         {
-            "name": "privatelinkservicesforedmupload_privateendpointconnections",
+            "name": "privateLinkServicesForEDMUpload_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -24,7 +24,7 @@
             }
         },
         {
-            "name": "privatelinkservicesform365compliancecenter",
+            "name": "privateLinkServicesForM365ComplianceCenter",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -34,7 +34,7 @@
             }
         },
         {
-            "name": "privatelinkservicesform365compliancecenter_privateendpointconnections",
+            "name": "privateLinkServicesForM365ComplianceCenter_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -44,7 +44,7 @@
             }
         },
         {
-            "name": "privatelinkservicesform365securitycenter",
+            "name": "privateLinkServicesForM365SecurityCenter",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -54,7 +54,7 @@
             }
         },
         {
-            "name": "privatelinkservicesform365securitycenter_privateendpointconnections",
+            "name": "privateLinkServicesForM365SecurityCenter_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -64,7 +64,7 @@
             }
         },
         {
-            "name": "privatelinkservicesformippolicysync",
+            "name": "privateLinkServicesForMIPPolicySync",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -74,7 +74,7 @@
             }
         },
         {
-            "name": "privatelinkservicesformippolicysync_privateendpointconnections",
+            "name": "privateLinkServicesForMIPPolicySync_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -84,7 +84,7 @@
             }
         },
         {
-            "name": "privatelinkservicesforo365managementactivityapi",
+            "name": "privateLinkServicesForO365ManagementActivityAPI",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -94,7 +94,7 @@
             }
         },
         {
-            "name": "privatelinkservicesforo365managementactivityapi_privateendpointconnections",
+            "name": "privateLinkServicesForO365ManagementActivityAPI_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -104,7 +104,7 @@
             }
         },
         {
-            "name": "privatelinkservicesforsccpowershell",
+            "name": "privateLinkServicesForSCCPowershell",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -114,7 +114,7 @@
             }
         },
         {
-            "name": "privatelinkservicesforsccpowershell_privateendpointconnections",
+            "name": "privateLinkServicesForSCCPowershell_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

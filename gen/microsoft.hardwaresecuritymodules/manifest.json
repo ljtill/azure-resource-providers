@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.HardwareSecurityModules",
     "resourceTypes": [
         {
-            "name": "dedicatedhsms",
+            "name": "dedicatedHSMs",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
