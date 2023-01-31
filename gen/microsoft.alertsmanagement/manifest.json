@@ -4,7 +4,7 @@
     "providerNamespace": "microsoft.alertsManagement",
     "resourceTypes": [
         {
-            "name": "smartDetectorAlertRules",
+            "name": "smartdetectoralertrules",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

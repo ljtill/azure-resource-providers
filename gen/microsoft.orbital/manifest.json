@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Orbital",
     "resourceTypes": [
         {
-            "name": "contactProfiles",
+            "name": "contactprofiles",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.DigitalTwins",
     "resourceTypes": [
         {
-            "name": "digitalTwinsInstances",
+            "name": "digitaltwinsinstances",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -20,7 +20,7 @@
             }
         },
         {
-            "name": "digitalTwinsInstances_endpoints",
+            "name": "digitaltwinsinstances_endpoints",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -36,7 +36,7 @@
             }
         },
         {
-            "name": "digitalTwinsInstances_privateEndpointConnections",
+            "name": "digitaltwinsinstances_privateendpointconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -50,7 +50,7 @@
             }
         },
         {
-            "name": "digitalTwinsInstances_timeSeriesDatabaseConnections",
+            "name": "digitaltwinsinstances_timeseriesdatabaseconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

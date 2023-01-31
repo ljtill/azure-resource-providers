@@ -20,7 +20,7 @@
             }
         },
         {
-            "name": "monitors_tagRules",
+            "name": "monitors_tagrules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

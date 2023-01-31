@@ -19,7 +19,7 @@
             }
         },
         {
-            "name": "queryPacks",
+            "name": "querypacks",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -31,7 +31,7 @@
             }
         },
         {
-            "name": "queryPacks_queries",
+            "name": "querypacks_queries",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -59,7 +59,7 @@
             }
         },
         {
-            "name": "workspaces_dataExports",
+            "name": "workspaces_dataexports",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -72,7 +72,7 @@
             }
         },
         {
-            "name": "workspaces_dataSources",
+            "name": "workspaces_datasources",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -85,7 +85,7 @@
             }
         },
         {
-            "name": "workspaces_linkedServices",
+            "name": "workspaces_linkedservices",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -99,7 +99,7 @@
             }
         },
         {
-            "name": "workspaces_linkedStorageAccounts",
+            "name": "workspaces_linkedstorageaccounts",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -112,7 +112,7 @@
             }
         },
         {
-            "name": "workspaces_savedSearches",
+            "name": "workspaces_savedsearches",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -125,7 +125,7 @@
             }
         },
         {
-            "name": "workspaces_storageInsightConfigs",
+            "name": "workspaces_storageinsightconfigs",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

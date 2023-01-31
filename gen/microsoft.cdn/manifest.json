@@ -4,29 +4,19 @@
     "providerNamespace": "Microsoft.Cdn",
     "resourceTypes": [
         {
-            "name": "cdnWebApplicationFirewallPolicies",
-            "scope": "resourceGroup",
-            "apiVersions": {
-                "stable": [
-                    "2021-06-01"
-                ],
-                "preview": [
-                    "2022-05-01-preview",
-                    "2022-11-01-preview"
-                ]
-            }
-        },
-        {
-            "name": "CdnWebApplicationFirewallPolicies",
+            "name": "cdnwebapplicationfirewallpolicies",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
                     "2019-06-15",
                     "2020-04-15",
-                    "2020-09-01"
+                    "2020-09-01",
+                    "2021-06-01"
                 ],
                 "preview": [
-                    "2019-06-15-preview"
+                    "2019-06-15-preview",
+                    "2022-05-01-preview",
+                    "2022-11-01-preview"
                 ]
             }
         },
@@ -55,7 +45,7 @@
             }
         },
         {
-            "name": "profiles_afdEndpoints",
+            "name": "profiles_afdendpoints",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -69,7 +59,7 @@
             }
         },
         {
-            "name": "profiles_afdEndpoints_routes",
+            "name": "profiles_afdendpoints_routes",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -83,7 +73,7 @@
             }
         },
         {
-            "name": "profiles_customDomains",
+            "name": "profiles_customdomains",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -121,7 +111,7 @@
             }
         },
         {
-            "name": "profiles_endpoints_customDomains",
+            "name": "profiles_endpoints_customdomains",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -145,7 +135,7 @@
             }
         },
         {
-            "name": "profiles_endpoints_originGroups",
+            "name": "profiles_endpoints_origingroups",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -179,7 +169,7 @@
             }
         },
         {
-            "name": "profiles_originGroups",
+            "name": "profiles_origingroups",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -193,7 +183,7 @@
             }
         },
         {
-            "name": "profiles_originGroups_origins",
+            "name": "profiles_origingroups_origins",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -207,7 +197,7 @@
             }
         },
         {
-            "name": "profiles_ruleSets",
+            "name": "profiles_rulesets",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -221,7 +211,7 @@
             }
         },
         {
-            "name": "profiles_ruleSets_rules",
+            "name": "profiles_rulesets_rules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -249,7 +239,7 @@
             }
         },
         {
-            "name": "profiles_securityPolicies",
+            "name": "profiles_securitypolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

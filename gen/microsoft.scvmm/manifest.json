@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.ScVmm",
     "resourceTypes": [
         {
-            "name": "availabilitySets",
+            "name": "availabilitysets",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -24,7 +24,7 @@
             }
         },
         {
-            "name": "virtualMachines",
+            "name": "virtualmachines",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -34,7 +34,7 @@
             }
         },
         {
-            "name": "virtualMachineTemplates",
+            "name": "virtualmachinetemplates",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -44,7 +44,7 @@
             }
         },
         {
-            "name": "virtualNetworks",
+            "name": "virtualnetworks",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -54,7 +54,7 @@
             }
         },
         {
-            "name": "vmmServers",
+            "name": "vmmservers",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -64,7 +64,7 @@
             }
         },
         {
-            "name": "vmmServers_inventoryItems",
+            "name": "vmmservers_inventoryitems",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

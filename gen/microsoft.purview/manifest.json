@@ -16,7 +16,7 @@
             }
         },
         {
-            "name": "accounts_privateEndpointConnections",
+            "name": "accounts_privateendpointconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

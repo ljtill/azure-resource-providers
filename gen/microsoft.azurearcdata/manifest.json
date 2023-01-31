@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.AzureArcData",
     "resourceTypes": [
         {
-            "name": "dataControllers",
+            "name": "datacontrollers",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -20,7 +20,7 @@
             }
         },
         {
-            "name": "dataControllers_activeDirectoryConnectors",
+            "name": "datacontrollers_activedirectoryconnectors",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -31,7 +31,7 @@
             }
         },
         {
-            "name": "postgresInstances",
+            "name": "postgresinstances",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -44,7 +44,7 @@
             }
         },
         {
-            "name": "sqlManagedInstances",
+            "name": "sqlmanagedinstances",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -60,7 +60,7 @@
             }
         },
         {
-            "name": "sqlServerInstances",
+            "name": "sqlserverinstances",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -76,7 +76,7 @@
             }
         },
         {
-            "name": "sqlServerInstances_databases",
+            "name": "sqlserverinstances_databases",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

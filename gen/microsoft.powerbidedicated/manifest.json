@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.PowerBIDedicated",
     "resourceTypes": [
         {
-            "name": "autoScaleVCores",
+            "name": "autoscalevcores",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

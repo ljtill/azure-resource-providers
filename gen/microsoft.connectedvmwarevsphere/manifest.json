@@ -40,7 +40,7 @@
             }
         },
         {
-            "name": "resourcePools",
+            "name": "resourcepools",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -64,7 +64,7 @@
             }
         },
         {
-            "name": "vcenters_inventoryItems",
+            "name": "vcenters_inventoryitems",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -76,7 +76,7 @@
             }
         },
         {
-            "name": "virtualMachines",
+            "name": "virtualmachines",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -88,7 +88,7 @@
             }
         },
         {
-            "name": "virtualMachines_extensions",
+            "name": "virtualmachines_extensions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -100,7 +100,7 @@
             }
         },
         {
-            "name": "virtualMachines_guestAgents",
+            "name": "virtualmachines_guestagents",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -112,7 +112,7 @@
             }
         },
         {
-            "name": "virtualMachines_hybridIdentityMetadata",
+            "name": "virtualmachines_hybrididentitymetadata",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -124,7 +124,7 @@
             }
         },
         {
-            "name": "virtualMachineTemplates",
+            "name": "virtualmachinetemplates",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -136,7 +136,7 @@
             }
         },
         {
-            "name": "virtualNetworks",
+            "name": "virtualnetworks",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],

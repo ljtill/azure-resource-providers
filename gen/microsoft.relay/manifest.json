@@ -18,10 +18,11 @@
             }
         },
         {
-            "name": "namespaces_authorizationRules",
+            "name": "namespaces_authorizationrules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
+                    "2016-07-01",
                     "2017-04-01",
                     "2021-11-01"
                 ],
@@ -29,20 +30,11 @@
             }
         },
         {
-            "name": "namespaces_AuthorizationRules",
+            "name": "namespaces_hybridconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2016-07-01"
-                ],
-                "preview": []
-            }
-        },
-        {
-            "name": "namespaces_hybridConnections",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
+                    "2016-07-01",
                     "2017-04-01",
                     "2021-11-01"
                 ],
@@ -50,20 +42,11 @@
             }
         },
         {
-            "name": "namespaces_HybridConnections",
+            "name": "namespaces_hybridconnections_authorizationrules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2016-07-01"
-                ],
-                "preview": []
-            }
-        },
-        {
-            "name": "namespaces_hybridConnections_authorizationRules",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
+                    "2016-07-01",
                     "2017-04-01",
                     "2021-11-01"
                 ],
@@ -71,17 +54,7 @@
             }
         },
         {
-            "name": "namespaces_HybridConnections_authorizationRules",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2016-07-01"
-                ],
-                "preview": []
-            }
-        },
-        {
-            "name": "namespaces_networkRuleSets",
+            "name": "namespaces_networkrulesets",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -93,7 +66,7 @@
             }
         },
         {
-            "name": "namespaces_privateEndpointConnections",
+            "name": "namespaces_privateendpointconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -105,10 +78,11 @@
             }
         },
         {
-            "name": "namespaces_wcfRelays",
+            "name": "namespaces_wcfrelays",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
+                    "2016-07-01",
                     "2017-04-01",
                     "2021-11-01"
                 ],
@@ -116,32 +90,13 @@
             }
         },
         {
-            "name": "namespaces_WcfRelays",
+            "name": "namespaces_wcfrelays_authorizationrules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2016-07-01"
-                ],
-                "preview": []
-            }
-        },
-        {
-            "name": "namespaces_wcfRelays_authorizationRules",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
+                    "2016-07-01",
                     "2017-04-01",
                     "2021-11-01"
-                ],
-                "preview": []
-            }
-        },
-        {
-            "name": "namespaces_WcfRelays_authorizationRules",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2016-07-01"
                 ],
                 "preview": []
             }

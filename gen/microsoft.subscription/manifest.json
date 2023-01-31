@@ -27,7 +27,7 @@
             }
         },
         {
-            "name": "subscriptionDefinitions",
+            "name": "subscriptiondefinitions",
             "scope": "tenant",
             "apiVersions": {
                 "stable": [],

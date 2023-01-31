@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Authorization",
     "resourceTypes": [
         {
-            "name": "accessReviewHistoryDefinitions",
+            "name": "accessreviewhistorydefinitions",
             "scope": "subscription",
             "apiVersions": {
                 "stable": [],
@@ -15,7 +15,7 @@
             }
         },
         {
-            "name": "accessReviewScheduleDefinitions",
+            "name": "accessreviewscheduledefinitions",
             "scope": "subscription",
             "apiVersions": {
                 "stable": [],
@@ -29,7 +29,7 @@
             }
         },
         {
-            "name": "accessReviewScheduleDefinitions_instances",
+            "name": "accessreviewscheduledefinitions_instances",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -41,7 +41,7 @@
             }
         },
         {
-            "name": "accessReviewScheduleSettings",
+            "name": "accessreviewschedulesettings",
             "scope": "subscription",
             "apiVersions": {
                 "stable": [],
@@ -72,18 +72,7 @@
             "scope": "subscription",
             "apiVersions": {
                 "stable": [
-                    "2016-04-01"
-                ],
-                "preview": [
-                    "2015-10-01-preview"
-                ]
-            }
-        },
-        {
-            "name": "policyDefinitions",
-            "scope": "managementGroup",
-            "apiVersions": {
-                "stable": [
+                    "2016-04-01",
                     "2016-12-01",
                     "2018-03-01",
                     "2018-05-01",
@@ -94,11 +83,13 @@
                     "2020-09-01",
                     "2021-06-01"
                 ],
-                "preview": []
+                "preview": [
+                    "2015-10-01-preview"
+                ]
             }
         },
         {
-            "name": "policySetDefinitions",
+            "name": "policysetdefinitions",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [
@@ -117,7 +108,7 @@
             }
         },
         {
-            "name": "privateLinkAssociations",
+            "name": "privatelinkassociations",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [
@@ -127,7 +118,7 @@
             }
         },
         {
-            "name": "resourceManagementPrivateLinks",
+            "name": "resourcemanagementprivatelinks",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -137,7 +128,7 @@
             }
         },
         {
-            "name": "roleAssignmentApprovals_stages",
+            "name": "roleassignmentapprovals_stages",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [],
@@ -147,7 +138,7 @@
             }
         },
         {
-            "name": "roleAssignments",
+            "name": "roleassignments",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -159,7 +150,7 @@
             }
         },
         {
-            "name": "roleDefinitions",
+            "name": "roledefinitions",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

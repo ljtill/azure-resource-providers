@@ -28,7 +28,7 @@
             }
         },
         {
-            "name": "accounts_serviceEndpoints",
+            "name": "accounts_serviceendpoints",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

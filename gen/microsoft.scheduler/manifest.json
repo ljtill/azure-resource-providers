@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Scheduler",
     "resourceTypes": [
         {
-            "name": "jobCollections",
+            "name": "jobcollections",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -17,7 +17,7 @@
             }
         },
         {
-            "name": "jobCollections_jobs",
+            "name": "jobcollections_jobs",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

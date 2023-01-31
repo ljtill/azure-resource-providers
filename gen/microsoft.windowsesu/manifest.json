@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.WindowsESU",
     "resourceTypes": [
         {
-            "name": "multipleActivationKeys",
+            "name": "multipleactivationkeys",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],

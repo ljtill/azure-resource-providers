@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.BillingBenefits",
     "resourceTypes": [
         {
-            "name": "reservationOrderAliases",
+            "name": "reservationorderaliases",
             "scope": "tenant",
             "apiVersions": {
                 "stable": [
@@ -14,7 +14,7 @@
             }
         },
         {
-            "name": "savingsPlanOrderAliases",
+            "name": "savingsplanorderaliases",
             "scope": "tenant",
             "apiVersions": {
                 "stable": [

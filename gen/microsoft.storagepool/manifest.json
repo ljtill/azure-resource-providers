@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.StoragePool",
     "resourceTypes": [
         {
-            "name": "diskPools",
+            "name": "diskpools",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -17,7 +17,7 @@
             }
         },
         {
-            "name": "diskPools_iscsiTargets",
+            "name": "diskpools_iscsitargets",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

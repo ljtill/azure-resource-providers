@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.AVS",
     "resourceTypes": [
         {
-            "name": "privateClouds",
+            "name": "privateclouds",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -20,7 +20,7 @@
             }
         },
         {
-            "name": "privateClouds_addons",
+            "name": "privateclouds_addons",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -35,7 +35,7 @@
             }
         },
         {
-            "name": "privateClouds_authorizations",
+            "name": "privateclouds_authorizations",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -51,7 +51,7 @@
             }
         },
         {
-            "name": "privateClouds_cloudLinks",
+            "name": "privateclouds_cloudlinks",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -63,7 +63,7 @@
             }
         },
         {
-            "name": "privateClouds_clusters",
+            "name": "privateclouds_clusters",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -79,7 +79,7 @@
             }
         },
         {
-            "name": "privateClouds_clusters_datastores",
+            "name": "privateclouds_clusters_datastores",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -93,7 +93,7 @@
             }
         },
         {
-            "name": "privateClouds_clusters_placementPolicies",
+            "name": "privateclouds_clusters_placementpolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -104,7 +104,7 @@
             }
         },
         {
-            "name": "privateClouds_globalReachConnections",
+            "name": "privateclouds_globalreachconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -119,7 +119,7 @@
             }
         },
         {
-            "name": "privateClouds_hcxEnterpriseSites",
+            "name": "privateclouds_hcxenterprisesites",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -135,7 +135,7 @@
             }
         },
         {
-            "name": "privateClouds_scriptExecutions",
+            "name": "privateclouds_scriptexecutions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -147,7 +147,7 @@
             }
         },
         {
-            "name": "privateClouds_workloadNetworks_dhcpConfigurations",
+            "name": "privateclouds_workloadnetworks_dhcpconfigurations",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -162,7 +162,7 @@
             }
         },
         {
-            "name": "privateClouds_workloadNetworks_dnsServices",
+            "name": "privateclouds_workloadnetworks_dnsservices",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -177,7 +177,7 @@
             }
         },
         {
-            "name": "privateClouds_workloadNetworks_dnsZones",
+            "name": "privateclouds_workloadnetworks_dnszones",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -192,7 +192,7 @@
             }
         },
         {
-            "name": "privateClouds_workloadNetworks_portMirroringProfiles",
+            "name": "privateclouds_workloadnetworks_portmirroringprofiles",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -207,7 +207,7 @@
             }
         },
         {
-            "name": "privateClouds_workloadNetworks_publicIPs",
+            "name": "privateclouds_workloadnetworks_publicips",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -219,7 +219,7 @@
             }
         },
         {
-            "name": "privateClouds_workloadNetworks_segments",
+            "name": "privateclouds_workloadnetworks_segments",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -234,7 +234,7 @@
             }
         },
         {
-            "name": "privateClouds_workloadNetworks_vmGroups",
+            "name": "privateclouds_workloadnetworks_vmgroups",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

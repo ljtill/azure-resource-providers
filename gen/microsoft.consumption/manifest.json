@@ -20,7 +20,7 @@
             }
         },
         {
-            "name": "costTags",
+            "name": "costtags",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

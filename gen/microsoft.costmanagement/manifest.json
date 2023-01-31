@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.CostManagement",
     "resourceTypes": [
         {
-            "name": "cloudConnectors",
+            "name": "cloudconnectors",
             "scope": "tenant",
             "apiVersions": {
                 "stable": [],
@@ -24,7 +24,7 @@
             }
         },
         {
-            "name": "costAllocationRules",
+            "name": "costallocationrules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -34,7 +34,7 @@
             }
         },
         {
-            "name": "externalSubscriptions",
+            "name": "externalsubscriptions",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [],
@@ -44,7 +44,7 @@
             }
         },
         {
-            "name": "markupRules",
+            "name": "markuprules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -74,7 +74,7 @@
             }
         },
         {
-            "name": "scheduledActions",
+            "name": "scheduledactions",
             "scope": "tenant",
             "apiVersions": {
                 "stable": [
@@ -97,7 +97,7 @@
             }
         },
         {
-            "name": "showbackRules",
+            "name": "showbackrules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

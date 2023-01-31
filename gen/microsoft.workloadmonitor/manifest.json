@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.WorkloadMonitor",
     "resourceTypes": [
         {
-            "name": "notificationSettings",
+            "name": "notificationsettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

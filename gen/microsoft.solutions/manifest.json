@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Solutions",
     "resourceTypes": [
         {
-            "name": "applianceDefinitions",
+            "name": "appliancedefinitions",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -24,7 +24,7 @@
             }
         },
         {
-            "name": "applicationDefinitions",
+            "name": "applicationdefinitions",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -64,7 +64,7 @@
             }
         },
         {
-            "name": "jitRequests",
+            "name": "jitrequests",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

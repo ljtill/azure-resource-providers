@@ -61,7 +61,7 @@
             }
         },
         {
-            "name": "clusters_applicationTypes",
+            "name": "clusters_applicationtypes",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -79,7 +79,7 @@
             }
         },
         {
-            "name": "clusters_applicationTypes_versions",
+            "name": "clusters_applicationtypes_versions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -97,7 +97,7 @@
             }
         },
         {
-            "name": "managedClusters",
+            "name": "managedclusters",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -152,7 +152,7 @@
             }
         },
         {
-            "name": "managedclusters_applicationTypes",
+            "name": "managedclusters_applicationtypes",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -170,7 +170,7 @@
             }
         },
         {
-            "name": "managedclusters_applicationTypes_versions",
+            "name": "managedclusters_applicationtypes_versions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -188,7 +188,7 @@
             }
         },
         {
-            "name": "managedClusters_nodeTypes",
+            "name": "managedclusters_nodetypes",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

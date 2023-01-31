@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.MachineLearningCompute",
     "resourceTypes": [
         {
-            "name": "operationalizationClusters",
+            "name": "operationalizationclusters",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],

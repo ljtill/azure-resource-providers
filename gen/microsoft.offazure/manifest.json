@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.OffAzure",
     "resourceTypes": [
         {
-            "name": "HyperVSites",
+            "name": "hypervsites",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -15,7 +15,7 @@
             }
         },
         {
-            "name": "HyperVSites_clusters",
+            "name": "hypervsites_clusters",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -26,7 +26,7 @@
             }
         },
         {
-            "name": "HyperVSites_hosts",
+            "name": "hypervsites_hosts",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -37,7 +37,7 @@
             }
         },
         {
-            "name": "MasterSites",
+            "name": "mastersites",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -47,7 +47,7 @@
             }
         },
         {
-            "name": "masterSites_privateEndpointConnections",
+            "name": "mastersites_privateendpointconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -57,7 +57,7 @@
             }
         },
         {
-            "name": "VMwareSites",
+            "name": "vmwaresites",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -68,7 +68,7 @@
             }
         },
         {
-            "name": "VMwareSites_vCenters",
+            "name": "vmwaresites_vcenters",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

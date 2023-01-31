@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.ContainerInstance",
     "resourceTypes": [
         {
-            "name": "containerGroups",
+            "name": "containergroups",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

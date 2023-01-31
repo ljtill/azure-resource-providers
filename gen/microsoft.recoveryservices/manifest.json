@@ -70,7 +70,7 @@
             }
         },
         {
-            "name": "vaults_backupEncryptionConfigs",
+            "name": "vaults_backupencryptionconfigs",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -101,7 +101,7 @@
             }
         },
         {
-            "name": "vaults_backupFabrics_backupProtectionIntent",
+            "name": "vaults_backupfabrics_backupprotectionintent",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -130,7 +130,7 @@
             }
         },
         {
-            "name": "vaults_backupFabrics_protectionContainers",
+            "name": "vaults_backupfabrics_protectioncontainers",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -162,42 +162,7 @@
             }
         },
         {
-            "name": "vaults_backupFabrics_protectionContainers_protectedItems",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2016-06-01",
-                    "2016-12-01",
-                    "2019-05-13",
-                    "2019-06-15",
-                    "2020-10-01",
-                    "2020-12-01",
-                    "2021-01-01",
-                    "2021-02-01",
-                    "2021-02-10",
-                    "2021-03-01",
-                    "2021-04-01",
-                    "2021-06-01",
-                    "2021-07-01",
-                    "2021-08-01",
-                    "2021-10-01",
-                    "2021-12-01",
-                    "2022-01-01",
-                    "2022-02-01",
-                    "2022-03-01",
-                    "2022-04-01",
-                    "2022-10-01",
-                    "2023-01-01"
-                ],
-                "preview": [
-                    "2021-02-01-preview",
-                    "2022-06-01-preview",
-                    "2022-09-01-preview"
-                ]
-            }
-        },
-        {
-            "name": "vaults_backupPolicies",
+            "name": "vaults_backupfabrics_protectioncontainers_protecteditems",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -232,7 +197,42 @@
             }
         },
         {
-            "name": "vaults_backupResourceGuardProxies",
+            "name": "vaults_backuppolicies",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2016-06-01",
+                    "2016-12-01",
+                    "2019-05-13",
+                    "2019-06-15",
+                    "2020-10-01",
+                    "2020-12-01",
+                    "2021-01-01",
+                    "2021-02-01",
+                    "2021-02-10",
+                    "2021-03-01",
+                    "2021-04-01",
+                    "2021-06-01",
+                    "2021-07-01",
+                    "2021-08-01",
+                    "2021-10-01",
+                    "2021-12-01",
+                    "2022-01-01",
+                    "2022-02-01",
+                    "2022-03-01",
+                    "2022-04-01",
+                    "2022-10-01",
+                    "2023-01-01"
+                ],
+                "preview": [
+                    "2021-02-01-preview",
+                    "2022-06-01-preview",
+                    "2022-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "vaults_backupresourceguardproxies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -314,7 +314,7 @@
             }
         },
         {
-            "name": "vaults_extendedInformation",
+            "name": "vaults_extendedinformation",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -347,7 +347,7 @@
             }
         },
         {
-            "name": "vaults_privateEndpointConnections",
+            "name": "vaults_privateendpointconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -379,7 +379,7 @@
             }
         },
         {
-            "name": "vaults_replicationAlertSettings",
+            "name": "vaults_replicationalertsettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -408,7 +408,7 @@
             }
         },
         {
-            "name": "vaults_replicationFabrics",
+            "name": "vaults_replicationfabrics",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -437,7 +437,7 @@
             }
         },
         {
-            "name": "vaults_replicationFabrics_replicationNetworks_replicationNetworkMappings",
+            "name": "vaults_replicationfabrics_replicationnetworks_replicationnetworkmappings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -466,7 +466,7 @@
             }
         },
         {
-            "name": "vaults_replicationFabrics_replicationProtectionContainers",
+            "name": "vaults_replicationfabrics_replicationprotectioncontainers",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -495,7 +495,7 @@
             }
         },
         {
-            "name": "vaults_replicationFabrics_replicationProtectionContainers_replicationMigrationItems",
+            "name": "vaults_replicationfabrics_replicationprotectioncontainers_replicationmigrationitems",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -523,7 +523,7 @@
             }
         },
         {
-            "name": "vaults_replicationFabrics_replicationProtectionContainers_replicationProtectedItems",
+            "name": "vaults_replicationfabrics_replicationprotectioncontainers_replicationprotecteditems",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -552,7 +552,7 @@
             }
         },
         {
-            "name": "vaults_replicationFabrics_replicationProtectionContainers_replicationProtectionContainerMappings",
+            "name": "vaults_replicationfabrics_replicationprotectioncontainers_replicationprotectioncontainermappings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -581,7 +581,7 @@
             }
         },
         {
-            "name": "vaults_replicationFabrics_replicationRecoveryServicesProviders",
+            "name": "vaults_replicationfabrics_replicationrecoveryservicesproviders",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -609,7 +609,7 @@
             }
         },
         {
-            "name": "vaults_replicationFabrics_replicationStorageClassifications_replicationStorageClassificationMappings",
+            "name": "vaults_replicationfabrics_replicationstorageclassifications_replicationstorageclassificationmappings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -638,7 +638,7 @@
             }
         },
         {
-            "name": "vaults_replicationFabrics_replicationvCenters",
+            "name": "vaults_replicationfabrics_replicationvcenters",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -667,7 +667,7 @@
             }
         },
         {
-            "name": "vaults_replicationPolicies",
+            "name": "vaults_replicationpolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -696,7 +696,7 @@
             }
         },
         {
-            "name": "vaults_replicationProtectionIntents",
+            "name": "vaults_replicationprotectionintents",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -723,7 +723,7 @@
             }
         },
         {
-            "name": "vaults_replicationRecoveryPlans",
+            "name": "vaults_replicationrecoveryplans",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -752,7 +752,7 @@
             }
         },
         {
-            "name": "vaults_replicationVaultSettings",
+            "name": "vaults_replicationvaultsettings",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

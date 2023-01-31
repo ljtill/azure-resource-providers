@@ -25,7 +25,7 @@
             }
         },
         {
-            "name": "domains_domainOwnershipIdentifiers",
+            "name": "domains_domainownershipidentifiers",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -46,7 +46,7 @@
             }
         },
         {
-            "name": "domains_transferOut",
+            "name": "domains_transferout",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

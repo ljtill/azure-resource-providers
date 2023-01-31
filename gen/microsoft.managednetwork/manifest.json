@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.ManagedNetwork",
     "resourceTypes": [
         {
-            "name": "managedNetworks",
+            "name": "managednetworks",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -14,7 +14,7 @@
             }
         },
         {
-            "name": "managedNetworks_managedNetworkGroups",
+            "name": "managednetworks_managednetworkgroups",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -24,7 +24,7 @@
             }
         },
         {
-            "name": "managedNetworks_managedNetworkPeeringPolicies",
+            "name": "managednetworks_managednetworkpeeringpolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

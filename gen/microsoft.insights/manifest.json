@@ -4,7 +4,7 @@
     "providerNamespace": "microsoft.insights",
     "resourceTypes": [
         {
-            "name": "actionGroups",
+            "name": "actiongroups",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -17,7 +17,7 @@
             }
         },
         {
-            "name": "activityLogAlerts",
+            "name": "activitylogalerts",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -29,7 +29,7 @@
             }
         },
         {
-            "name": "components_linkedStorageAccounts",
+            "name": "components_linkedstorageaccounts",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -39,7 +39,7 @@
             }
         },
         {
-            "name": "components_pricingPlans",
+            "name": "components_pricingplans",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -49,7 +49,7 @@
             }
         },
         {
-            "name": "diagnosticSettings",
+            "name": "diagnosticsettings",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [],
@@ -59,7 +59,7 @@
             }
         },
         {
-            "name": "guestDiagnosticSettings",
+            "name": "guestdiagnosticsettings",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -69,7 +69,7 @@
             }
         },
         {
-            "name": "privateLinkScopes",
+            "name": "privatelinkscopes",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -80,7 +80,7 @@
             }
         },
         {
-            "name": "privateLinkScopes_privateEndpointConnections",
+            "name": "privatelinkscopes_privateendpointconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -91,7 +91,7 @@
             }
         },
         {
-            "name": "privateLinkScopes_scopedResources",
+            "name": "privatelinkscopes_scopedresources",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

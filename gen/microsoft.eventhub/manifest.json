@@ -38,7 +38,7 @@
             }
         },
         {
-            "name": "namespaces_applicationGroups",
+            "name": "namespaces_applicationgroups",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -49,10 +49,12 @@
             }
         },
         {
-            "name": "namespaces_authorizationRules",
+            "name": "namespaces_authorizationrules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
+                    "2014-09-01",
+                    "2015-08-01",
                     "2017-04-01",
                     "2021-11-01"
                 ],
@@ -66,18 +68,7 @@
             }
         },
         {
-            "name": "namespaces_AuthorizationRules",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2014-09-01",
-                    "2015-08-01"
-                ],
-                "preview": []
-            }
-        },
-        {
-            "name": "namespaces_disasterRecoveryConfigs",
+            "name": "namespaces_disasterrecoveryconfigs",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -113,7 +104,7 @@
             }
         },
         {
-            "name": "namespaces_eventhubs_authorizationRules",
+            "name": "namespaces_eventhubs_authorizationrules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -161,7 +152,7 @@
             }
         },
         {
-            "name": "namespaces_networkRuleSets",
+            "name": "namespaces_networkrulesets",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -178,7 +169,7 @@
             }
         },
         {
-            "name": "namespaces_privateEndpointConnections",
+            "name": "namespaces_privateendpointconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

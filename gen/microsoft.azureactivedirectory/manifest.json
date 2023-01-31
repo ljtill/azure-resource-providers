@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.AzureActiveDirectory",
     "resourceTypes": [
         {
-            "name": "b2cDirectories",
+            "name": "b2cdirectories",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -16,7 +16,7 @@
             }
         },
         {
-            "name": "guestUsages",
+            "name": "guestusages",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

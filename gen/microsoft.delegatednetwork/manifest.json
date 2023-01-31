@@ -16,7 +16,7 @@
             }
         },
         {
-            "name": "delegatedSubnets",
+            "name": "delegatedsubnets",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [

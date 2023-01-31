@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.NetworkFunction",
     "resourceTypes": [
         {
-            "name": "azureTrafficCollectors",
+            "name": "azuretrafficcollectors",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
@@ -18,7 +18,7 @@
             }
         },
         {
-            "name": "azureTrafficCollectors_collectorPolicies",
+            "name": "azuretrafficcollectors_collectorpolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

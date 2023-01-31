@@ -34,7 +34,7 @@
             }
         },
         {
-            "name": "accounts_privateAtlases",
+            "name": "accounts_privateatlases",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

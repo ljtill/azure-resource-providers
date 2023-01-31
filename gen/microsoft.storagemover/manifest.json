@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.StorageMover",
     "resourceTypes": [
         {
-            "name": "storageMovers",
+            "name": "storagemovers",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -14,7 +14,7 @@
             }
         },
         {
-            "name": "storageMovers_agents",
+            "name": "storagemovers_agents",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -24,7 +24,7 @@
             }
         },
         {
-            "name": "storageMovers_endpoints",
+            "name": "storagemovers_endpoints",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -34,7 +34,7 @@
             }
         },
         {
-            "name": "storageMovers_projects",
+            "name": "storagemovers_projects",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -44,7 +44,7 @@
             }
         },
         {
-            "name": "storageMovers_projects_jobDefinitions",
+            "name": "storagemovers_projects_jobdefinitions",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

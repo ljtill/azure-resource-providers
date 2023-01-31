@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.ServiceNetworking",
     "resourceTypes": [
         {
-            "name": "trafficControllers",
+            "name": "trafficcontrollers",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -14,7 +14,7 @@
             }
         },
         {
-            "name": "trafficControllers_associations",
+            "name": "trafficcontrollers_associations",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
@@ -24,7 +24,7 @@
             }
         },
         {
-            "name": "trafficControllers_frontends",
+            "name": "trafficcontrollers_frontends",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],

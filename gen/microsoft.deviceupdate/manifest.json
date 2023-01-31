@@ -32,7 +32,7 @@
             }
         },
         {
-            "name": "accounts_privateEndpointConnectionProxies",
+            "name": "accounts_privateendpointconnectionproxies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -46,7 +46,7 @@
             }
         },
         {
-            "name": "accounts_privateEndpointConnections",
+            "name": "accounts_privateendpointconnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [

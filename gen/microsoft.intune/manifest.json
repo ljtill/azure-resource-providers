@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.Intune",
     "resourceTypes": [
         {
-            "name": "locations_androidPolicies",
+            "name": "locations_androidpolicies",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [],
@@ -14,7 +14,7 @@
             }
         },
         {
-            "name": "locations_androidPolicies_apps",
+            "name": "locations_androidpolicies_apps",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [],
@@ -24,7 +24,7 @@
             }
         },
         {
-            "name": "locations_androidPolicies_groups",
+            "name": "locations_androidpolicies_groups",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [],
@@ -34,7 +34,7 @@
             }
         },
         {
-            "name": "locations_iosPolicies",
+            "name": "locations_iospolicies",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [],
@@ -44,7 +44,7 @@
             }
         },
         {
-            "name": "locations_iosPolicies_apps",
+            "name": "locations_iospolicies_apps",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [],
@@ -54,7 +54,7 @@
             }
         },
         {
-            "name": "locations_iosPolicies_groups",
+            "name": "locations_iospolicies_groups",
             "scope": "managementGroup",
             "apiVersions": {
                 "stable": [],

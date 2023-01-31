@@ -4,7 +4,7 @@
     "providerNamespace": "Microsoft.HanaOnAzure",
     "resourceTypes": [
         {
-            "name": "hanaInstances",
+            "name": "hanainstances",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -14,7 +14,7 @@
             }
         },
         {
-            "name": "sapMonitors",
+            "name": "sapmonitors",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
@@ -24,7 +24,7 @@
             }
         },
         {
-            "name": "sapMonitors_providerInstances",
+            "name": "sapmonitors_providerinstances",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
