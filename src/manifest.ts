@@ -14,14 +14,10 @@ export class Manifest {
     }
 
     public getResourceType(name: string): ResourceType | undefined {
-        return this.resourceTypes.find((item) => item.name === name)
+        return this.resourceTypes.find((item) => item.name.toLowerCase() === name.toLowerCase())
     }
     public addResourceType(name: string, scope: Scope, apiVersion: string): ResourceType[] {
         this.resourceTypes.push(new ResourceType(name, scope, apiVersion))
-        return this.resourceTypes
-    }
-    public updateResourceType(name: string, apiVersion: string): ResourceType[] {
-        this.resourceTypes.find((item) => item.name === name)?.addApiVersion(apiVersion)
         return this.resourceTypes
     }
     public sortResourceTypes(): ResourceType[] {
@@ -57,7 +53,6 @@ class ResourceType {
 
         return this.apiVersions
     }
-
     public sortApiVersions(): ApiVersion {
         this.apiVersions.stable.sort()
         this.apiVersions.preview.sort()

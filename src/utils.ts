@@ -27,7 +27,6 @@ export function writeJsonFile(filePath: string, manifest: Manifest): void {
         if (err instanceof Error) {
             logger.error(err.message)
         }
-        process.abort
     }
 }
 
@@ -40,7 +39,7 @@ export function listFiles(dirPath: string, filePaths: string[] = []): string[] {
         } else {
             filePaths.push(path.join(dirPath, "/", element))
         }
-    });
+    })
 
     return filePaths
 }
