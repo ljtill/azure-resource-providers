@@ -18,7 +18,8 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2018-04-01"
+                    "2018-04-01",
+                    "2023-02-01"
                 ],
                 "preview": [
                     "2021-04-01-preview",
@@ -30,7 +31,9 @@
             "name": "workspaces_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-02-01"
+                ],
                 "preview": [
                     "2021-04-01-preview",
                     "2022-04-01-preview"
@@ -42,7 +45,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2018-04-01"
+                    "2018-04-01",
+                    "2023-02-01"
                 ],
                 "preview": [
                     "2021-04-01-preview",

@@ -7,7 +7,9 @@
             "name": "storageMovers",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-03-01"
+                ],
                 "preview": [
                     "2022-07-01-preview"
                 ]
@@ -17,7 +19,9 @@
             "name": "storageMovers_agents",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-03-01"
+                ],
                 "preview": [
                     "2022-07-01-preview"
                 ]
@@ -27,7 +31,9 @@
             "name": "storageMovers_endpoints",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-03-01"
+                ],
                 "preview": [
                     "2022-07-01-preview"
                 ]
@@ -37,7 +43,9 @@
             "name": "storageMovers_projects",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-03-01"
+                ],
                 "preview": [
                     "2022-07-01-preview"
                 ]
@@ -47,7 +55,9 @@
             "name": "storageMovers_projects_jobDefinitions",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-03-01"
+                ],
                 "preview": [
                     "2022-07-01-preview"
                 ]
