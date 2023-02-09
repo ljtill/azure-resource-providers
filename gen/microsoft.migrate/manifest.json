@@ -116,6 +116,46 @@
             }
         },
         {
+            "name": "modernizeProjects",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "modernizeProjects_migrateAgents",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "modernizeProjects_workloadDeployments",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "modernizeProjects_workloadInstances",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
             "name": "moveCollections",
             "scope": "resourceGroup",
             "apiVersions": {
