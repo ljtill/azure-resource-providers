@@ -1,0 +1,177 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.NetworkCloud",
+    "resourceTypes": [
+        {
+            "name": "bareMetalMachines",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-12-12-preview"
+                ]
+            }
+        },
+        {
+            "name": "cloudServicesNetworks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-12-12-preview"
+                ]
+            }
+        },
+        {
+            "name": "clusterManagers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-12-12-preview"
+                ]
+            }
+        },
+        {
+            "name": "clusters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-12-12-preview"
+                ]
+            }
+        },
+        {
+            "name": "clusters_bareMetalMachineKeySets",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-12-12-preview"
+                ]
+            }
+        },
+        {
+            "name": "clusters_bmcKeySets",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-12-12-preview"
+                ]
+            }
+        },
+        {
+            "name": "clusters_metricsConfigurations",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-12-12-preview"
+                ]
+            }
+        },
+        {
+            "name": "defaultCniNetworks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-12-12-preview"
+                ]
+            }
+        },
+        {
+            "name": "hybridAksClusters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-12-12-preview"
+                ]
+            }
+        },
+        {
+            "name": "l2Networks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-12-12-preview"
+                ]
+            }
+        },
+        {
+            "name": "l3Networks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-12-12-preview"
+                ]
+            }
+        },
+        {
+            "name": "racks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-12-12-preview"
+                ]
+            }
+        },
+        {
+            "name": "storageAppliances",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-12-12-preview"
+                ]
+            }
+        },
+        {
+            "name": "trunkedNetworks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-12-12-preview"
+                ]
+            }
+        },
+        {
+            "name": "virtualMachines",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-12-12-preview"
+                ]
+            }
+        },
+        {
+            "name": "virtualMachines_consoles",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-12-12-preview"
+                ]
+            }
+        },
+        {
+            "name": "volumes",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-12-12-preview"
+                ]
+            }
+        }
+    ]
+}
