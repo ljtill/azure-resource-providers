@@ -4,6 +4,16 @@
     "providerNamespace": "Microsoft.StorageCache",
     "resourceTypes": [
         {
+            "name": "amlFilesystems",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-03-01-preview"
+                ]
+            }
+        },
+        {
             "name": "caches",
             "scope": "resourceGroup",
             "apiVersions": {
@@ -19,7 +29,8 @@
                     "2023-01-01"
                 ],
                 "preview": [
-                    "2019-08-01-preview"
+                    "2019-08-01-preview",
+                    "2023-03-01-preview"
                 ]
             }
         },
@@ -39,7 +50,8 @@
                     "2023-01-01"
                 ],
                 "preview": [
-                    "2019-08-01-preview"
+                    "2019-08-01-preview",
+                    "2023-03-01-preview"
                 ]
             }
         }
