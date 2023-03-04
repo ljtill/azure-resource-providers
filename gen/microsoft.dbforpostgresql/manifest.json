@@ -76,6 +76,66 @@
             }
         },
         {
+            "name": "serverGroupsv2",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2022-11-08"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "serverGroupsv2_coordinatorConfigurations",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2022-11-08"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "serverGroupsv2_firewallRules",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2022-11-08"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "serverGroupsv2_nodeConfigurations",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2022-11-08"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "serverGroupsv2_privateEndpointConnections",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2022-11-08"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "serverGroupsv2_roles",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2022-11-08"
+                ],
+                "preview": []
+            }
+        },
+        {
             "name": "servers",
             "scope": "resourceGroup",
             "apiVersions": {

@@ -1,0 +1,17 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.GraphServices",
+    "resourceTypes": [
+        {
+            "name": "accounts",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-09-22-preview"
+                ]
+            }
+        }
+    ]
+}

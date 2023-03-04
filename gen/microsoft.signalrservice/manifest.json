@@ -11,7 +11,8 @@
                     "2018-10-01",
                     "2020-05-01",
                     "2021-10-01",
-                    "2022-02-01"
+                    "2022-02-01",
+                    "2023-02-01"
                 ],
                 "preview": [
                     "2018-03-01-preview",
@@ -28,7 +29,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2022-02-01"
+                    "2022-02-01",
+                    "2023-02-01"
                 ],
                 "preview": [
                     "2022-08-01-preview"
@@ -40,7 +42,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2022-02-01"
+                    "2022-02-01",
+                    "2023-02-01"
                 ],
                 "preview": [
                     "2022-08-01-preview"
@@ -54,7 +57,8 @@
                 "stable": [
                     "2020-05-01",
                     "2021-10-01",
-                    "2022-02-01"
+                    "2022-02-01",
+                    "2023-02-01"
                 ],
                 "preview": [
                     "2020-07-01-preview",
@@ -71,7 +75,8 @@
             "apiVersions": {
                 "stable": [
                     "2021-10-01",
-                    "2022-02-01"
+                    "2022-02-01",
+                    "2023-02-01"
                 ],
                 "preview": [
                     "2021-04-01-preview",
@@ -86,7 +91,8 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2021-10-01"
+                    "2021-10-01",
+                    "2023-02-01"
                 ],
                 "preview": [
                     "2021-04-01-preview",
@@ -100,7 +106,9 @@
             "name": "webPubSub_customCertificates",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-02-01"
+                ],
                 "preview": [
                     "2022-08-01-preview"
                 ]
@@ -110,7 +118,9 @@
             "name": "webPubSub_customDomains",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-02-01"
+                ],
                 "preview": [
                     "2022-08-01-preview"
                 ]
@@ -121,7 +131,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2021-10-01"
+                    "2021-10-01",
+                    "2023-02-01"
                 ],
                 "preview": [
                     "2022-08-01-preview"
@@ -133,7 +144,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2021-10-01"
+                    "2021-10-01",
+                    "2023-02-01"
                 ],
                 "preview": [
                     "2021-04-01-preview",
@@ -148,7 +160,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2021-10-01"
+                    "2021-10-01",
+                    "2023-02-01"
                 ],
                 "preview": [
                     "2021-04-01-preview",
