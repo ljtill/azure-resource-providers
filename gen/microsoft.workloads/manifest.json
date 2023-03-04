@@ -7,7 +7,9 @@
             "name": "monitors",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-04-01"
+                ],
                 "preview": [
                     "2021-12-01-preview",
                     "2022-11-01-preview"
@@ -18,7 +20,9 @@
             "name": "monitors_providerInstances",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-04-01"
+                ],
                 "preview": [
                     "2021-12-01-preview",
                     "2022-11-01-preview"
@@ -29,7 +33,9 @@
             "name": "monitors_sapLandscapeMonitor",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-04-01"
+                ],
                 "preview": [
                     "2022-11-01-preview"
                 ]
@@ -59,7 +65,9 @@
             "name": "sapVirtualInstances",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-04-01"
+                ],
                 "preview": [
                     "2021-12-01-preview",
                     "2022-11-01-preview"
@@ -70,7 +78,9 @@
             "name": "sapVirtualInstances_applicationInstances",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-04-01"
+                ],
                 "preview": [
                     "2021-12-01-preview",
                     "2022-11-01-preview"
@@ -81,7 +91,9 @@
             "name": "sapVirtualInstances_centralInstances",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-04-01"
+                ],
                 "preview": [
                     "2021-12-01-preview",
                     "2022-11-01-preview"
@@ -92,7 +104,9 @@
             "name": "sapVirtualInstances_databaseInstances",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-04-01"
+                ],
                 "preview": [
                     "2021-12-01-preview",
                     "2022-11-01-preview"

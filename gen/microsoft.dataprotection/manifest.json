@@ -88,7 +88,9 @@
             "name": "backupVaults_backupResourceGuardProxies",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-01-01"
+                ],
                 "preview": [
                     "2022-09-01-preview",
                     "2022-10-01-preview",
