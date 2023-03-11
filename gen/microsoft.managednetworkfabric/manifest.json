@@ -1,0 +1,147 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.ManagedNetworkFabric",
+    "resourceTypes": [
+        {
+            "name": "accessControlLists",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-02-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "ipCommunityLists",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-02-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "ipPrefixLists",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-02-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "l2IsolationDomains",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-02-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "l3IsolationDomains",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-02-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "l3IsolationDomains_externalNetworks",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-02-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "l3IsolationDomains_internalNetworks",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-02-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "networkDevices",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-02-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "networkDevices_networkInterfaces",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-02-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "networkFabricControllers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-02-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "networkFabrics",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-02-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "networkFabrics_networkToNetworkInterconnects",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-02-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "networkRacks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-02-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "routePolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-02-01-preview"
+                ]
+            }
+        }
+    ]
+}

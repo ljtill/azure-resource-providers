@@ -10,7 +10,8 @@
                 "stable": [],
                 "preview": [
                     "2022-10-01-preview",
-                    "2022-12-01-preview"
+                    "2022-12-01-preview",
+                    "2023-02-01-preview"
                 ]
             }
         },
@@ -21,7 +22,8 @@
                 "stable": [],
                 "preview": [
                     "2022-10-01-preview",
-                    "2022-12-01-preview"
+                    "2022-12-01-preview",
+                    "2023-02-01-preview"
                 ]
             }
         },
@@ -32,7 +34,8 @@
                 "stable": [],
                 "preview": [
                     "2022-10-01-preview",
-                    "2022-12-01-preview"
+                    "2022-12-01-preview",
+                    "2023-02-01-preview"
                 ]
             }
         },
@@ -43,7 +46,8 @@
                 "stable": [],
                 "preview": [
                     "2022-10-01-preview",
-                    "2022-12-01-preview"
+                    "2022-12-01-preview",
+                    "2023-02-01-preview"
                 ]
             }
         },
@@ -54,7 +58,28 @@
                 "stable": [],
                 "preview": [
                     "2022-10-01-preview",
-                    "2022-12-01-preview"
+                    "2022-12-01-preview",
+                    "2023-02-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "registries_data",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-02-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "registries_data_versions",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-02-01-preview"
                 ]
             }
         },
@@ -65,7 +90,8 @@
                 "stable": [],
                 "preview": [
                     "2022-10-01-preview",
-                    "2022-12-01-preview"
+                    "2022-12-01-preview",
+                    "2023-02-01-preview"
                 ]
             }
         },
@@ -76,7 +102,8 @@
                 "stable": [],
                 "preview": [
                     "2022-10-01-preview",
-                    "2022-12-01-preview"
+                    "2022-12-01-preview",
+                    "2023-02-01-preview"
                 ]
             }
         },
@@ -87,7 +114,8 @@
                 "stable": [],
                 "preview": [
                     "2022-10-01-preview",
-                    "2022-12-01-preview"
+                    "2022-12-01-preview",
+                    "2023-02-01-preview"
                 ]
             }
         },
@@ -98,7 +126,8 @@
                 "stable": [],
                 "preview": [
                     "2022-10-01-preview",
-                    "2022-12-01-preview"
+                    "2022-12-01-preview",
+                    "2023-02-01-preview"
                 ]
             }
         },
@@ -133,7 +162,8 @@
                     "2022-02-01-preview",
                     "2022-06-01-preview",
                     "2022-10-01-preview",
-                    "2022-12-01-preview"
+                    "2022-12-01-preview",
+                    "2023-02-01-preview"
                 ]
             }
         },
@@ -150,7 +180,8 @@
                     "2022-02-01-preview",
                     "2022-06-01-preview",
                     "2022-10-01-preview",
-                    "2022-12-01-preview"
+                    "2022-12-01-preview",
+                    "2023-02-01-preview"
                 ]
             }
         },
@@ -167,7 +198,8 @@
                     "2022-02-01-preview",
                     "2022-06-01-preview",
                     "2022-10-01-preview",
-                    "2022-12-01-preview"
+                    "2022-12-01-preview",
+                    "2023-02-01-preview"
                 ]
             }
         },
@@ -184,7 +216,8 @@
                     "2022-02-01-preview",
                     "2022-06-01-preview",
                     "2022-10-01-preview",
-                    "2022-12-01-preview"
+                    "2022-12-01-preview",
+                    "2023-02-01-preview"
                 ]
             }
         },
@@ -201,7 +234,8 @@
                     "2022-02-01-preview",
                     "2022-06-01-preview",
                     "2022-10-01-preview",
-                    "2022-12-01-preview"
+                    "2022-12-01-preview",
+                    "2023-02-01-preview"
                 ]
             }
         },
@@ -217,7 +251,8 @@
                     "2022-02-01-preview",
                     "2022-06-01-preview",
                     "2022-10-01-preview",
-                    "2022-12-01-preview"
+                    "2022-12-01-preview",
+                    "2023-02-01-preview"
                 ]
             }
         },
@@ -233,7 +268,8 @@
                     "2022-02-01-preview",
                     "2022-06-01-preview",
                     "2022-10-01-preview",
-                    "2022-12-01-preview"
+                    "2022-12-01-preview",
+                    "2023-02-01-preview"
                 ]
             }
         },
@@ -268,7 +304,8 @@
                     "2022-02-01-preview",
                     "2022-06-01-preview",
                     "2022-10-01-preview",
-                    "2022-12-01-preview"
+                    "2022-12-01-preview",
+                    "2023-02-01-preview"
                 ]
             }
         },
@@ -292,7 +329,8 @@
                     "2022-02-01-preview",
                     "2022-06-01-preview",
                     "2022-10-01-preview",
-                    "2022-12-01-preview"
+                    "2022-12-01-preview",
+                    "2023-02-01-preview"
                 ]
             }
         },
@@ -309,7 +347,8 @@
                     "2022-02-01-preview",
                     "2022-06-01-preview",
                     "2022-10-01-preview",
-                    "2022-12-01-preview"
+                    "2022-12-01-preview",
+                    "2023-02-01-preview"
                 ]
             }
         },
@@ -326,7 +365,8 @@
                     "2022-02-01-preview",
                     "2022-06-01-preview",
                     "2022-10-01-preview",
-                    "2022-12-01-preview"
+                    "2022-12-01-preview",
+                    "2023-02-01-preview"
                 ]
             }
         },
@@ -354,7 +394,8 @@
                     "2022-02-01-preview",
                     "2022-06-01-preview",
                     "2022-10-01-preview",
-                    "2022-12-01-preview"
+                    "2022-12-01-preview",
+                    "2023-02-01-preview"
                 ]
             }
         },
@@ -371,7 +412,8 @@
                     "2022-02-01-preview",
                     "2022-06-01-preview",
                     "2022-10-01-preview",
-                    "2022-12-01-preview"
+                    "2022-12-01-preview",
+                    "2023-02-01-preview"
                 ]
             }
         },
@@ -388,7 +430,48 @@
                     "2022-02-01-preview",
                     "2022-06-01-preview",
                     "2022-10-01-preview",
-                    "2022-12-01-preview"
+                    "2022-12-01-preview",
+                    "2023-02-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_featuresets",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-02-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_featuresets_versions",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-02-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_featurestoreEntities",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-02-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_featurestoreEntities_versions",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-02-01-preview"
                 ]
             }
         },
@@ -405,7 +488,8 @@
                     "2022-02-01-preview",
                     "2022-06-01-preview",
                     "2022-10-01-preview",
-                    "2022-12-01-preview"
+                    "2022-12-01-preview",
+                    "2023-02-01-preview"
                 ]
             }
         },
@@ -419,7 +503,8 @@
                     "2021-03-01-preview",
                     "2022-06-01-preview",
                     "2022-10-01-preview",
-                    "2022-12-01-preview"
+                    "2022-12-01-preview",
+                    "2023-02-01-preview"
                 ]
             }
         },
@@ -457,7 +542,8 @@
                     "2022-02-01-preview",
                     "2022-06-01-preview",
                     "2022-10-01-preview",
-                    "2022-12-01-preview"
+                    "2022-12-01-preview",
+                    "2023-02-01-preview"
                 ]
             }
         },
@@ -474,7 +560,8 @@
                     "2022-02-01-preview",
                     "2022-06-01-preview",
                     "2022-10-01-preview",
-                    "2022-12-01-preview"
+                    "2022-12-01-preview",
+                    "2023-02-01-preview"
                 ]
             }
         },
@@ -491,7 +578,8 @@
                     "2022-02-01-preview",
                     "2022-06-01-preview",
                     "2022-10-01-preview",
-                    "2022-12-01-preview"
+                    "2022-12-01-preview",
+                    "2023-02-01-preview"
                 ]
             }
         },
@@ -508,7 +596,8 @@
                     "2022-02-01-preview",
                     "2022-06-01-preview",
                     "2022-10-01-preview",
-                    "2022-12-01-preview"
+                    "2022-12-01-preview",
+                    "2023-02-01-preview"
                 ]
             }
         },
@@ -538,7 +627,8 @@
                     "2022-02-01-preview",
                     "2022-06-01-preview",
                     "2022-10-01-preview",
-                    "2022-12-01-preview"
+                    "2022-12-01-preview",
+                    "2023-02-01-preview"
                 ]
             }
         },
@@ -552,7 +642,8 @@
                 "preview": [
                     "2022-06-01-preview",
                     "2022-10-01-preview",
-                    "2022-12-01-preview"
+                    "2022-12-01-preview",
+                    "2023-02-01-preview"
                 ]
             }
         },

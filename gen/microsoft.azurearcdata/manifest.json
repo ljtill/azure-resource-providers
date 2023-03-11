@@ -16,7 +16,8 @@
                     "2021-07-01-preview",
                     "2022-03-01-preview",
                     "2022-06-15-preview",
-                    "2023-01-15-preview"
+                    "2023-01-15-preview",
+                    "2023-03-15-preview"
                 ]
             }
         },
@@ -28,7 +29,8 @@
                 "preview": [
                     "2022-03-01-preview",
                     "2022-06-15-preview",
-                    "2023-01-15-preview"
+                    "2023-01-15-preview",
+                    "2023-03-15-preview"
                 ]
             }
         },
@@ -42,7 +44,38 @@
                     "2021-07-01-preview",
                     "2022-03-01-preview",
                     "2022-06-15-preview",
-                    "2023-01-15-preview"
+                    "2023-01-15-preview",
+                    "2023-03-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "sqlAvailabilityGroups",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-03-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "sqlAvailabilityGroups_databases",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-03-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "sqlAvailabilityGroups_sqlServerInstances",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-03-15-preview"
                 ]
             }
         },
@@ -59,7 +92,8 @@
                     "2021-07-01-preview",
                     "2022-03-01-preview",
                     "2022-06-15-preview",
-                    "2023-01-15-preview"
+                    "2023-01-15-preview",
+                    "2023-03-15-preview"
                 ]
             }
         },
@@ -69,7 +103,8 @@
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2023-01-15-preview"
+                    "2023-01-15-preview",
+                    "2023-03-15-preview"
                 ]
             }
         },
@@ -86,7 +121,8 @@
                     "2021-07-01-preview",
                     "2022-03-01-preview",
                     "2022-06-15-preview",
-                    "2023-01-15-preview"
+                    "2023-01-15-preview",
+                    "2023-03-15-preview"
                 ]
             }
         },
@@ -97,7 +133,18 @@
                 "stable": [],
                 "preview": [
                     "2022-06-15-preview",
-                    "2023-01-15-preview"
+                    "2023-01-15-preview",
+                    "2023-03-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "sqlServerInstances_sqlAvailabilityGroups",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-03-15-preview"
                 ]
             }
         }

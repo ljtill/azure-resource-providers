@@ -76,6 +76,16 @@
             }
         },
         {
+            "name": "flexibleServers_migrations",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-05-01-preview"
+                ]
+            }
+        },
+        {
             "name": "serverGroupsv2",
             "scope": "resourceGroup",
             "apiVersions": {
