@@ -1,0 +1,17 @@
+{
+    "$schema": "https://schema.ljtill.com/schemas/manifest.json#",
+    "metadata": {},
+    "providerNamespace": "Microsoft.ProfessionalService",
+    "resourceTypes": [
+        {
+            "name": "resources",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-07-01-preview"
+                ]
+            }
+        }
+    ]
+}
