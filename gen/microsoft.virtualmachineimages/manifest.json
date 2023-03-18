@@ -10,13 +10,24 @@
                 "stable": [
                     "2020-02-14",
                     "2021-10-01",
-                    "2022-02-14"
+                    "2022-02-14",
+                    "2022-07-01"
                 ],
                 "preview": [
                     "2018-02-01-preview",
                     "2019-02-01-preview",
                     "2019-05-01-preview"
                 ]
+            }
+        },
+        {
+            "name": "imageTemplates_triggers",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2022-07-01"
+                ],
+                "preview": []
             }
         }
     ]
