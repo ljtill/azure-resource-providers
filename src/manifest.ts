@@ -1,13 +1,11 @@
 import { Scope } from './enums'
 
 export class Manifest {
-    public $schema: string
     public metadata: Metadata
     public providerNamespace: string
     public resourceTypes: ResourceType[]
 
     constructor(namespace: string) {
-        this.$schema = "https://schema.ljtill.com/schemas/manifest.json#"
         this.metadata = new Metadata()
         this.providerNamespace = namespace
         this.resourceTypes = []
