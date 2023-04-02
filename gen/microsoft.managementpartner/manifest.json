@@ -1,5 +1,4 @@
 {
-    "$schema": "https://schema.ljtill.com/schemas/manifest.json#",
     "metadata": {},
     "providerNamespace": "Microsoft.ManagementPartner",
     "resourceTypes": [
