@@ -1,12 +1,10 @@
 import { Scope } from './enums'
 
 export class Manifest {
-    public metadata: Metadata
     public providerNamespace: string
     public resourceTypes: ResourceType[]
 
     constructor(namespace: string) {
-        this.metadata = new Metadata()
         this.providerNamespace = namespace
         this.resourceTypes = []
     }
@@ -24,8 +22,6 @@ export class Manifest {
         return this.resourceTypes
     }
 }
-
-class Metadata { }
 
 class ResourceType {
     public name: string
