@@ -43,6 +43,16 @@
             }
         },
         {
+            "name": "deploymentStacks",
+            "scope": "managementGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-08-01-preview"
+                ]
+            }
+        },
+        {
             "name": "links",
             "scope": "resourceGroup",
             "apiVersions": {
@@ -76,7 +86,8 @@
                 "preview": [
                     "2019-06-01-preview",
                     "2019-10-01-preview",
-                    "2021-03-01-preview"
+                    "2021-03-01-preview",
+                    "2022-08-01-preview"
                 ]
             }
         },

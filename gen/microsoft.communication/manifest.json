@@ -6,7 +6,8 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2020-08-20"
+                    "2020-08-20",
+                    "2023-03-31"
                 ],
                 "preview": [
                     "2020-08-20-preview",
@@ -20,7 +21,9 @@
             "name": "emailServices",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-03-31"
+                ],
                 "preview": [
                     "2021-10-01-preview",
                     "2022-07-01-preview",
@@ -32,7 +35,9 @@
             "name": "emailServices_domains",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-03-31"
+                ],
                 "preview": [
                     "2021-10-01-preview",
                     "2022-07-01-preview",
@@ -44,7 +49,9 @@
             "name": "emailServices_domains_senderUsernames",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-03-31"
+                ],
                 "preview": [
                     "2023-03-01-preview"
                 ]
