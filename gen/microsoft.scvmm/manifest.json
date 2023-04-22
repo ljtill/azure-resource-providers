@@ -7,7 +7,8 @@
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2020-06-05-preview"
+                    "2020-06-05-preview",
+                    "2022-05-21-preview"
                 ]
             }
         },
@@ -17,7 +18,8 @@
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2020-06-05-preview"
+                    "2020-06-05-preview",
+                    "2022-05-21-preview"
                 ]
             }
         },
@@ -27,7 +29,38 @@
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2020-06-05-preview"
+                    "2020-06-05-preview",
+                    "2022-05-21-preview"
+                ]
+            }
+        },
+        {
+            "name": "virtualMachines_extensions",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-05-21-preview"
+                ]
+            }
+        },
+        {
+            "name": "virtualMachines_guestAgents",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-05-21-preview"
+                ]
+            }
+        },
+        {
+            "name": "virtualMachines_hybridIdentityMetadata",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-05-21-preview"
                 ]
             }
         },
@@ -37,7 +70,8 @@
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2020-06-05-preview"
+                    "2020-06-05-preview",
+                    "2022-05-21-preview"
                 ]
             }
         },
@@ -47,7 +81,8 @@
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2020-06-05-preview"
+                    "2020-06-05-preview",
+                    "2022-05-21-preview"
                 ]
             }
         },
@@ -57,7 +92,8 @@
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2020-06-05-preview"
+                    "2020-06-05-preview",
+                    "2022-05-21-preview"
                 ]
             }
         },
@@ -67,7 +103,8 @@
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2020-06-05-preview"
+                    "2020-06-05-preview",
+                    "2022-05-21-preview"
                 ]
             }
         }
