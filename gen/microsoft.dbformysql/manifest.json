@@ -6,7 +6,8 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2021-05-01"
+                    "2021-05-01",
+                    "2022-01-01"
                 ],
                 "preview": [
                     "2021-05-01-preview",
@@ -18,7 +19,9 @@
             "name": "flexibleServers_administrators",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2022-01-01"
+                ],
                 "preview": [
                     "2021-12-01-preview"
                 ]
@@ -28,7 +31,21 @@
             "name": "flexibleServers_backups",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2022-01-01"
+                ],
+                "preview": [
+                    "2021-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "flexibleServers_configurations",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2022-01-01"
+                ],
                 "preview": [
                     "2021-12-01-preview"
                 ]
@@ -39,7 +56,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2021-05-01"
+                    "2021-05-01",
+                    "2022-01-01"
                 ],
                 "preview": [
                     "2021-05-01-preview",
@@ -52,11 +70,22 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2021-05-01"
+                    "2021-05-01",
+                    "2022-01-01"
                 ],
                 "preview": [
                     "2021-05-01-preview",
                     "2021-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "flexibleServers_privateEndpointConnections",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-09-30-preview"
                 ]
             }
         },
