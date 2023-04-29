@@ -1,0 +1,25 @@
+{
+    "providerNamespace": "Microsoft.HybridCloud",
+    "resourceTypes": [
+        {
+            "name": "cloudConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "cloudConnectors",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-01-01-preview"
+                ]
+            }
+        }
+    ]
+}
