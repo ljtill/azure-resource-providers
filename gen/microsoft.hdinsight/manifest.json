@@ -10,7 +10,8 @@
                 ],
                 "preview": [
                     "2015-03-01-preview",
-                    "2018-06-01-preview"
+                    "2018-06-01-preview",
+                    "2023-04-15-preview"
                 ]
             }
         },
@@ -23,7 +24,8 @@
                 ],
                 "preview": [
                     "2015-03-01-preview",
-                    "2018-06-01-preview"
+                    "2018-06-01-preview",
+                    "2023-04-15-preview"
                 ]
             }
         },
@@ -36,7 +38,8 @@
                 ],
                 "preview": [
                     "2015-03-01-preview",
-                    "2018-06-01-preview"
+                    "2018-06-01-preview",
+                    "2023-04-15-preview"
                 ]
             }
         },
@@ -47,7 +50,9 @@
                 "stable": [
                     "2021-06-01"
                 ],
-                "preview": []
+                "preview": [
+                    "2023-04-15-preview"
+                ]
             }
         }
     ]

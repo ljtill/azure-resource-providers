@@ -1,0 +1,65 @@
+{
+    "providerNamespace": "Microsoft.AzureSphere",
+    "resourceTypes": [
+        {
+            "name": "catalogs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "catalogs_images",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "catalogs_products",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "catalogs_products_deviceGroups",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "catalogs_products_deviceGroups_deployments",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "catalogs_products_deviceGroups_devices",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-09-01-preview"
+                ]
+            }
+        }
+    ]
+}
