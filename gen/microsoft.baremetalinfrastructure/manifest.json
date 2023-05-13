@@ -1,0 +1,15 @@
+{
+    "providerNamespace": "Microsoft.BareMetalInfrastructure",
+    "resourceTypes": [
+        {
+            "name": "bareMetalStorageInstances",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2023-04-06"
+                ],
+                "preview": []
+            }
+        }
+    ]
+}
