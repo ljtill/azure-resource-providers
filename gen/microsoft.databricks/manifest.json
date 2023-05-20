@@ -5,7 +5,9 @@
             "name": "accessConnectors",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-05-01"
+                ],
                 "preview": [
                     "2022-04-01-preview",
                     "2022-10-01-preview"
