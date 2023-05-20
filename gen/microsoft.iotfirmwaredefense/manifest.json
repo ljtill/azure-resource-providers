@@ -1,0 +1,25 @@
+{
+    "providerNamespace": "Microsoft.IoTFirmwareDefense",
+    "resourceTypes": [
+        {
+            "name": "workspaces",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-02-08-preview"
+                ]
+            }
+        },
+        {
+            "name": "workspaces_firmwares",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-02-08-preview"
+                ]
+            }
+        }
+    ]
+}
