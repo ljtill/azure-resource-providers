@@ -14,6 +14,16 @@
             }
         },
         {
+            "name": "factories_adfcdcs",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2018-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
             "name": "factories_credentials",
             "scope": "resource",
             "apiVersions": {

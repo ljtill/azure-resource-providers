@@ -12,7 +12,8 @@
                 "preview": [
                     "2021-06-01-preview",
                     "2022-01-20-preview",
-                    "2022-03-08-preview"
+                    "2022-03-08-preview",
+                    "2023-03-01-preview"
                 ]
             }
         },
@@ -24,7 +25,8 @@
                     "2022-12-01"
                 ],
                 "preview": [
-                    "2022-03-08-preview"
+                    "2022-03-08-preview",
+                    "2023-03-01-preview"
                 ]
             }
         },
@@ -39,7 +41,8 @@
                 "preview": [
                     "2021-06-01-preview",
                     "2022-01-20-preview",
-                    "2022-03-08-preview"
+                    "2022-03-08-preview",
+                    "2023-03-01-preview"
                 ]
             }
         },
@@ -54,7 +57,8 @@
                 "preview": [
                     "2021-06-01-preview",
                     "2022-01-20-preview",
-                    "2022-03-08-preview"
+                    "2022-03-08-preview",
+                    "2023-03-01-preview"
                 ]
             }
         },
@@ -69,7 +73,8 @@
                 "preview": [
                     "2021-06-01-preview",
                     "2022-01-20-preview",
-                    "2022-03-08-preview"
+                    "2022-03-08-preview",
+                    "2023-03-01-preview"
                 ]
             }
         },
@@ -79,68 +84,9 @@
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2022-05-01-preview"
+                    "2022-05-01-preview",
+                    "2023-03-01-preview"
                 ]
-            }
-        },
-        {
-            "name": "serverGroupsv2",
-            "scope": "resourceGroup",
-            "apiVersions": {
-                "stable": [
-                    "2022-11-08"
-                ],
-                "preview": []
-            }
-        },
-        {
-            "name": "serverGroupsv2_coordinatorConfigurations",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2022-11-08"
-                ],
-                "preview": []
-            }
-        },
-        {
-            "name": "serverGroupsv2_firewallRules",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2022-11-08"
-                ],
-                "preview": []
-            }
-        },
-        {
-            "name": "serverGroupsv2_nodeConfigurations",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2022-11-08"
-                ],
-                "preview": []
-            }
-        },
-        {
-            "name": "serverGroupsv2_privateEndpointConnections",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2022-11-08"
-                ],
-                "preview": []
-            }
-        },
-        {
-            "name": "serverGroupsv2_roles",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2022-11-08"
-                ],
-                "preview": []
             }
         },
         {
