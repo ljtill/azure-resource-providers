@@ -5,7 +5,9 @@
             "name": "accounts",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-04-13"
+                ],
                 "preview": [
                     "2022-09-22-preview"
                 ]

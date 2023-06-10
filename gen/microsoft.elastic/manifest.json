@@ -6,7 +6,8 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2020-07-01"
+                    "2020-07-01",
+                    "2023-06-01"
                 ],
                 "preview": [
                     "2020-07-01-preview",
@@ -15,7 +16,9 @@
                     "2022-05-05-preview",
                     "2022-07-01-preview",
                     "2022-09-01-preview",
-                    "2023-02-01-preview"
+                    "2023-02-01-preview",
+                    "2023-05-01-preview",
+                    "2023-06-15-preview"
                 ]
             }
         },
@@ -24,7 +27,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2020-07-01"
+                    "2020-07-01",
+                    "2023-06-01"
                 ],
                 "preview": [
                     "2020-07-01-preview",
@@ -33,7 +37,9 @@
                     "2022-05-05-preview",
                     "2022-07-01-preview",
                     "2022-09-01-preview",
-                    "2023-02-01-preview"
+                    "2023-02-01-preview",
+                    "2023-05-01-preview",
+                    "2023-06-15-preview"
                 ]
             }
         }
