@@ -2,6 +2,26 @@
     "providerNamespace": "Microsoft.HardwareSecurityModules",
     "resourceTypes": [
         {
+            "name": "cloudHsmClusters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-08-31-preview"
+                ]
+            }
+        },
+        {
+            "name": "cloudHsmClusters_privateEndpointConnections",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-08-31-preview"
+                ]
+            }
+        },
+        {
             "name": "dedicatedHSMs",
             "scope": "resourceGroup",
             "apiVersions": {
