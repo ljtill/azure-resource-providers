@@ -8,7 +8,18 @@
                 "stable": [],
                 "preview": [
                     "2020-05-12-preview",
-                    "2021-09-01-preview"
+                    "2021-09-01-preview",
+                    "2023-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "farmBeats_dataConnectors",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-06-01-preview"
                 ]
             }
         },
@@ -19,7 +30,8 @@
                 "stable": [],
                 "preview": [
                     "2020-05-12-preview",
-                    "2021-09-01-preview"
+                    "2021-09-01-preview",
+                    "2023-06-01-preview"
                 ]
             }
         },
@@ -29,7 +41,8 @@
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2021-09-01-preview"
+                    "2021-09-01-preview",
+                    "2023-06-01-preview"
                 ]
             }
         },
@@ -39,7 +52,8 @@
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2021-09-01-preview"
+                    "2021-09-01-preview",
+                    "2023-06-01-preview"
                 ]
             }
         }
