@@ -7,7 +7,18 @@
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2021-11-20-preview"
+                    "2021-11-20-preview",
+                    "2022-12-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "elasticSans_privateEndpointConnections",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-12-01-preview"
                 ]
             }
         },
@@ -17,7 +28,8 @@
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2021-11-20-preview"
+                    "2021-11-20-preview",
+                    "2022-12-01-preview"
                 ]
             }
         },
@@ -27,7 +39,8 @@
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2021-11-20-preview"
+                    "2021-11-20-preview",
+                    "2022-12-01-preview"
                 ]
             }
         }
