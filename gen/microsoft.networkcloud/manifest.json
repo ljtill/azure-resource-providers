@@ -5,7 +5,9 @@
             "name": "bareMetalMachines",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-07-01"
+                ],
                 "preview": [
                     "2022-12-12-preview",
                     "2023-05-01-preview"
@@ -16,7 +18,9 @@
             "name": "cloudServicesNetworks",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-07-01"
+                ],
                 "preview": [
                     "2022-12-12-preview",
                     "2023-05-01-preview"
@@ -27,7 +31,9 @@
             "name": "clusterManagers",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-07-01"
+                ],
                 "preview": [
                     "2022-12-12-preview",
                     "2023-05-01-preview"
@@ -38,7 +44,9 @@
             "name": "clusters",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-07-01"
+                ],
                 "preview": [
                     "2022-12-12-preview",
                     "2023-05-01-preview"
@@ -49,7 +57,9 @@
             "name": "clusters_bareMetalMachineKeySets",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-07-01"
+                ],
                 "preview": [
                     "2022-12-12-preview",
                     "2023-05-01-preview"
@@ -60,7 +70,9 @@
             "name": "clusters_bmcKeySets",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-07-01"
+                ],
                 "preview": [
                     "2022-12-12-preview",
                     "2023-05-01-preview"
@@ -71,7 +83,9 @@
             "name": "clusters_metricsConfigurations",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-07-01"
+                ],
                 "preview": [
                     "2022-12-12-preview",
                     "2023-05-01-preview"
@@ -102,7 +116,9 @@
             "name": "kubernetesClusters",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-07-01"
+                ],
                 "preview": [
                     "2023-05-01-preview"
                 ]
@@ -112,7 +128,9 @@
             "name": "kubernetesClusters_agentPools",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-07-01"
+                ],
                 "preview": [
                     "2023-05-01-preview"
                 ]
@@ -122,7 +140,9 @@
             "name": "l2Networks",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-07-01"
+                ],
                 "preview": [
                     "2022-12-12-preview",
                     "2023-05-01-preview"
@@ -133,7 +153,9 @@
             "name": "l3Networks",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-07-01"
+                ],
                 "preview": [
                     "2022-12-12-preview",
                     "2023-05-01-preview"
@@ -144,7 +166,9 @@
             "name": "racks",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-07-01"
+                ],
                 "preview": [
                     "2022-12-12-preview",
                     "2023-05-01-preview"
@@ -155,7 +179,9 @@
             "name": "storageAppliances",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-07-01"
+                ],
                 "preview": [
                     "2022-12-12-preview",
                     "2023-05-01-preview"
@@ -166,7 +192,9 @@
             "name": "trunkedNetworks",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-07-01"
+                ],
                 "preview": [
                     "2022-12-12-preview",
                     "2023-05-01-preview"
@@ -177,7 +205,9 @@
             "name": "virtualMachines",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-07-01"
+                ],
                 "preview": [
                     "2022-12-12-preview",
                     "2023-05-01-preview"
@@ -188,7 +218,9 @@
             "name": "virtualMachines_consoles",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-07-01"
+                ],
                 "preview": [
                     "2022-12-12-preview",
                     "2023-05-01-preview"
@@ -199,7 +231,9 @@
             "name": "volumes",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-07-01"
+                ],
                 "preview": [
                     "2022-12-12-preview",
                     "2023-05-01-preview"
