@@ -85,7 +85,9 @@
             "name": "flexibleServers_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-06-30"
+                ],
                 "preview": [
                     "2022-09-30-preview"
                 ]
