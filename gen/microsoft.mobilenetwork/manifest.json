@@ -6,7 +6,8 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2022-11-01"
+                    "2022-11-01",
+                    "2023-06-01"
                 ],
                 "preview": [
                     "2022-03-01-preview",
@@ -19,7 +20,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2022-11-01"
+                    "2022-11-01",
+                    "2023-06-01"
                 ],
                 "preview": [
                     "2022-03-01-preview",
@@ -32,7 +34,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2022-11-01"
+                    "2022-11-01",
+                    "2023-06-01"
                 ],
                 "preview": [
                     "2022-03-01-preview",
@@ -45,7 +48,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2022-11-01"
+                    "2022-11-01",
+                    "2023-06-01"
                 ],
                 "preview": [
                     "2022-03-01-preview",
@@ -58,7 +62,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2022-11-01"
+                    "2022-11-01",
+                    "2023-06-01"
                 ],
                 "preview": [
                     "2022-03-01-preview",
@@ -71,7 +76,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2022-11-01"
+                    "2022-11-01",
+                    "2023-06-01"
                 ],
                 "preview": [
                     "2022-03-01-preview",
@@ -84,7 +90,8 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2022-11-01"
+                    "2022-11-01",
+                    "2023-06-01"
                 ],
                 "preview": [
                     "2022-03-01-preview",
@@ -93,11 +100,32 @@
             }
         },
         {
+            "name": "packetCoreControlPlanes_diagnosticsPackages",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2023-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "packetCoreControlPlanes_packetCaptures",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2023-06-01"
+                ],
+                "preview": []
+            }
+        },
+        {
             "name": "packetCoreControlPlanes_packetCoreDataPlanes",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2022-11-01"
+                    "2022-11-01",
+                    "2023-06-01"
                 ],
                 "preview": [
                     "2022-03-01-preview",
@@ -110,7 +138,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2022-11-01"
+                    "2022-11-01",
+                    "2023-06-01"
                 ],
                 "preview": [
                     "2022-03-01-preview",
@@ -123,7 +152,8 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2022-11-01"
+                    "2022-11-01",
+                    "2023-06-01"
                 ],
                 "preview": [
                     "2022-04-01-preview"
@@ -135,7 +165,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2022-11-01"
+                    "2022-11-01",
+                    "2023-06-01"
                 ],
                 "preview": [
                     "2022-04-01-preview"
