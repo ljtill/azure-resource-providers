@@ -21,7 +21,8 @@
                     "2021-08-01-preview",
                     "2021-12-01-preview",
                     "2022-02-01-preview",
-                    "2023-01-01-preview"
+                    "2023-01-01-preview",
+                    "2023-06-01-preview"
                 ]
             }
         },
@@ -61,7 +62,8 @@
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2023-01-01-preview"
+                    "2023-01-01-preview",
+                    "2023-06-01-preview"
                 ]
             }
         },
@@ -76,7 +78,8 @@
                     "2021-08-01-preview",
                     "2021-12-01-preview",
                     "2022-02-01-preview",
-                    "2023-01-01-preview"
+                    "2023-01-01-preview",
+                    "2023-06-01-preview"
                 ]
             }
         },
@@ -86,7 +89,8 @@
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2023-01-01-preview"
+                    "2023-01-01-preview",
+                    "2023-06-01-preview"
                 ]
             }
         },
@@ -102,7 +106,8 @@
                     "2021-08-01-preview",
                     "2021-12-01-preview",
                     "2022-02-01-preview",
-                    "2023-01-01-preview"
+                    "2023-01-01-preview",
+                    "2023-06-01-preview"
                 ]
             }
         },
@@ -118,7 +123,28 @@
                     "2021-08-01-preview",
                     "2021-12-01-preview",
                     "2022-02-01-preview",
-                    "2023-01-01-preview"
+                    "2023-01-01-preview",
+                    "2023-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "registries_packages_archives",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "registries_packages_archives_versions",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-06-01-preview"
                 ]
             }
         },
@@ -134,7 +160,8 @@
                     "2021-08-01-preview",
                     "2021-12-01-preview",
                     "2022-02-01-preview",
-                    "2023-01-01-preview"
+                    "2023-01-01-preview",
+                    "2023-06-01-preview"
                 ]
             }
         },
@@ -153,7 +180,8 @@
                     "2021-08-01-preview",
                     "2021-12-01-preview",
                     "2022-02-01-preview",
-                    "2023-01-01-preview"
+                    "2023-01-01-preview",
+                    "2023-06-01-preview"
                 ]
             }
         },
@@ -175,7 +203,8 @@
                     "2021-08-01-preview",
                     "2021-12-01-preview",
                     "2022-02-01-preview",
-                    "2023-01-01-preview"
+                    "2023-01-01-preview",
+                    "2023-06-01-preview"
                 ]
             }
         },
@@ -193,7 +222,8 @@
                     "2021-08-01-preview",
                     "2021-12-01-preview",
                     "2022-02-01-preview",
-                    "2023-01-01-preview"
+                    "2023-01-01-preview",
+                    "2023-06-01-preview"
                 ]
             }
         },
@@ -234,7 +264,8 @@
                     "2021-08-01-preview",
                     "2021-12-01-preview",
                     "2022-02-01-preview",
-                    "2023-01-01-preview"
+                    "2023-01-01-preview",
+                    "2023-06-01-preview"
                 ]
             }
         },
@@ -256,7 +287,8 @@
                     "2021-08-01-preview",
                     "2021-12-01-preview",
                     "2022-02-01-preview",
-                    "2023-01-01-preview"
+                    "2023-01-01-preview",
+                    "2023-06-01-preview"
                 ]
             }
         }
