@@ -66,7 +66,8 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2022-08-01"
+                    "2022-08-01",
+                    "2023-06-07"
                 ],
                 "preview": [
                     "2021-10-01-preview",
@@ -79,7 +80,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2022-08-01"
+                    "2022-08-01",
+                    "2023-06-07"
                 ],
                 "preview": [
                     "2021-10-01-preview",
@@ -92,7 +94,8 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2022-08-01"
+                    "2022-08-01",
+                    "2023-06-07"
                 ],
                 "preview": [
                     "2021-10-01-preview",
@@ -105,7 +108,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2022-08-01"
+                    "2022-08-01",
+                    "2023-06-07"
                 ],
                 "preview": [
                     "2021-10-01-preview",
@@ -118,7 +122,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2022-08-01"
+                    "2022-08-01",
+                    "2023-06-07"
                 ],
                 "preview": [
                     "2021-10-01-preview",

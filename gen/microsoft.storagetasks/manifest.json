@@ -1,0 +1,15 @@
+{
+    "providerNamespace": "Microsoft.StorageTasks",
+    "resourceTypes": [
+        {
+            "name": "storageTasks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2023-01-01"
+                ],
+                "preview": []
+            }
+        }
+    ]
+}
