@@ -24,7 +24,8 @@
                     "2021-09-03-preview",
                     "2022-02-10-preview",
                     "2022-04-01-preview",
-                    "2022-10-14-preview"
+                    "2022-10-14-preview",
+                    "2023-07-07-preview"
                 ]
             }
         },
@@ -51,7 +52,8 @@
                     "2021-09-03-preview",
                     "2022-02-10-preview",
                     "2022-04-01-preview",
-                    "2022-10-14-preview"
+                    "2022-10-14-preview",
+                    "2023-07-07-preview"
                 ]
             }
         },
@@ -78,7 +80,8 @@
                     "2021-09-03-preview",
                     "2022-02-10-preview",
                     "2022-04-01-preview",
-                    "2022-10-14-preview"
+                    "2022-10-14-preview",
+                    "2023-07-07-preview"
                 ]
             }
         },
@@ -102,7 +105,8 @@
                     "2021-09-03-preview",
                     "2022-02-10-preview",
                     "2022-04-01-preview",
-                    "2022-10-14-preview"
+                    "2022-10-14-preview",
+                    "2023-07-07-preview"
                 ]
             }
         },
@@ -116,7 +120,8 @@
                     "2021-09-03-preview",
                     "2022-02-10-preview",
                     "2022-04-01-preview",
-                    "2022-10-14-preview"
+                    "2022-10-14-preview",
+                    "2023-07-07-preview"
                 ]
             }
         },
@@ -137,7 +142,18 @@
                     "2021-09-03-preview",
                     "2022-02-10-preview",
                     "2022-04-01-preview",
-                    "2022-10-14-preview"
+                    "2022-10-14-preview",
+                    "2023-07-07-preview"
+                ]
+            }
+        },
+        {
+            "name": "scalingPlans_personalSchedules",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-07-07-preview"
                 ]
             }
         },
@@ -150,7 +166,8 @@
                 ],
                 "preview": [
                     "2022-04-01-preview",
-                    "2022-10-14-preview"
+                    "2022-10-14-preview",
+                    "2023-07-07-preview"
                 ]
             }
         },
@@ -177,7 +194,8 @@
                     "2021-09-03-preview",
                     "2022-02-10-preview",
                     "2022-04-01-preview",
-                    "2022-10-14-preview"
+                    "2022-10-14-preview",
+                    "2023-07-07-preview"
                 ]
             }
         },
@@ -191,7 +209,8 @@
                     "2021-09-03-preview",
                     "2022-02-10-preview",
                     "2022-04-01-preview",
-                    "2022-10-14-preview"
+                    "2022-10-14-preview",
+                    "2023-07-07-preview"
                 ]
             }
         }

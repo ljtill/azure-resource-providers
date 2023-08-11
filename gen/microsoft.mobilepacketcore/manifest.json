@@ -1,0 +1,15 @@
+{
+    "providerNamespace": "Microsoft.MobilePacketCore",
+    "resourceTypes": [
+        {
+            "name": "networkFunctions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-05-15-preview"
+                ]
+            }
+        }
+    ]
+}
