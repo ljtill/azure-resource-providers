@@ -34,7 +34,8 @@
                     "2022-11-01"
                 ],
                 "preview": [
-                    "2021-04-01-preview"
+                    "2021-04-01-preview",
+                    "2022-11-01-preview"
                 ]
             }
         },
@@ -62,7 +63,28 @@
                     "2022-11-01"
                 ],
                 "preview": [
-                    "2021-04-01-preview"
+                    "2021-04-01-preview",
+                    "2022-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "netAppAccounts_backupVaults",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "netAppAccounts_backupVaults_backups",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-11-01-preview"
                 ]
             }
         },
@@ -99,7 +121,8 @@
                     "2022-11-01"
                 ],
                 "preview": [
-                    "2021-04-01-preview"
+                    "2021-04-01-preview",
+                    "2022-11-01-preview"
                 ]
             }
         },
@@ -136,7 +159,8 @@
                     "2022-11-01"
                 ],
                 "preview": [
-                    "2021-04-01-preview"
+                    "2021-04-01-preview",
+                    "2022-11-01-preview"
                 ]
             }
         },
@@ -201,7 +225,8 @@
                     "2022-11-01"
                 ],
                 "preview": [
-                    "2021-04-01-preview"
+                    "2021-04-01-preview",
+                    "2022-11-01-preview"
                 ]
             }
         },
@@ -217,7 +242,9 @@
                     "2022-09-01",
                     "2022-11-01"
                 ],
-                "preview": []
+                "preview": [
+                    "2022-11-01-preview"
+                ]
             }
         },
         {
@@ -231,7 +258,9 @@
                     "2022-09-01",
                     "2022-11-01"
                 ],
-                "preview": []
+                "preview": [
+                    "2022-11-01-preview"
+                ]
             }
         },
         {
@@ -258,7 +287,8 @@
                     "2022-11-01"
                 ],
                 "preview": [
-                    "2021-04-01-preview"
+                    "2021-04-01-preview",
+                    "2022-11-01-preview"
                 ]
             }
         },
@@ -275,7 +305,9 @@
                     "2022-09-01",
                     "2022-11-01"
                 ],
-                "preview": []
+                "preview": [
+                    "2022-11-01-preview"
+                ]
             }
         }
     ]
