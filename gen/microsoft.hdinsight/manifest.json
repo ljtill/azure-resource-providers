@@ -2,6 +2,26 @@
     "providerNamespace": "Microsoft.HDInsight",
     "resourceTypes": [
         {
+            "name": "clusterpools",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "clusterpools_clusters",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-06-01-preview"
+                ]
+            }
+        },
+        {
             "name": "clusters",
             "scope": "resourceGroup",
             "apiVersions": {
