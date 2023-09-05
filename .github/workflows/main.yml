@@ -14,18 +14,18 @@ jobs:
 
     steps:
       - name: "Checkout repository"
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           path: checkout
 
       - name: "Checkout repository"
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: azure/azure-rest-api-specs
           path: specs
 
       - name: "Checkout repository"
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: azure/azure-resource-manager-schemas
           path: schemas
