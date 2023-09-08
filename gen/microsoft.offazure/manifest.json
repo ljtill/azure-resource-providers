@@ -7,7 +7,8 @@
             "apiVersions": {
                 "stable": [
                     "2020-01-01",
-                    "2020-07-07"
+                    "2020-07-07",
+                    "2023-06-06"
                 ],
                 "preview": []
             }
@@ -18,7 +19,8 @@
             "apiVersions": {
                 "stable": [
                     "2020-01-01",
-                    "2020-07-07"
+                    "2020-07-07",
+                    "2023-06-06"
                 ],
                 "preview": []
             }
@@ -29,7 +31,18 @@
             "apiVersions": {
                 "stable": [
                     "2020-01-01",
-                    "2020-07-07"
+                    "2020-07-07",
+                    "2023-06-06"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "importSites",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2023-06-06"
                 ],
                 "preview": []
             }
@@ -39,7 +52,8 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2020-07-07"
+                    "2020-07-07",
+                    "2023-06-06"
                 ],
                 "preview": []
             }
@@ -49,7 +63,58 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2020-07-07"
+                    "2020-07-07",
+                    "2023-06-06"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "masterSites_sqlSites",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2023-06-06"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "masterSites_sqlSites_discoverySiteDataSources",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2023-06-06"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "masterSites_webAppSites",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2023-06-06"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "masterSites_webAppSites_discoverySiteDataSources",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2023-06-06"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "serverSites",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2023-06-06"
                 ],
                 "preview": []
             }
@@ -60,7 +125,8 @@
             "apiVersions": {
                 "stable": [
                     "2020-01-01",
-                    "2020-07-07"
+                    "2020-07-07",
+                    "2023-06-06"
                 ],
                 "preview": []
             }
@@ -71,7 +137,8 @@
             "apiVersions": {
                 "stable": [
                     "2020-01-01",
-                    "2020-07-07"
+                    "2020-07-07",
+                    "2023-06-06"
                 ],
                 "preview": []
             }
