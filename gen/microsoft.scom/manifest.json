@@ -1,0 +1,35 @@
+{
+    "providerNamespace": "Microsoft.Scom",
+    "resourceTypes": [
+        {
+            "name": "managedInstances",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-07-07-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedInstances_managedGateways",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-07-07-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedInstances_monitoredResources",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-07-07-preview"
+                ]
+            }
+        }
+    ]
+}

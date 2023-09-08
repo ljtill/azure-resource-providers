@@ -1,0 +1,75 @@
+{
+    "providerNamespace": "Microsoft.DataReplication",
+    "resourceTypes": [
+        {
+            "name": "replicationFabrics",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-02-16-preview"
+                ]
+            }
+        },
+        {
+            "name": "replicationFabrics_fabricAgents",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-02-16-preview"
+                ]
+            }
+        },
+        {
+            "name": "replicationVaults",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-02-16-preview"
+                ]
+            }
+        },
+        {
+            "name": "replicationVaults_alertSettings",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-02-16-preview"
+                ]
+            }
+        },
+        {
+            "name": "replicationVaults_protectedItems",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-02-16-preview"
+                ]
+            }
+        },
+        {
+            "name": "replicationVaults_replicationExtensions",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-02-16-preview"
+                ]
+            }
+        },
+        {
+            "name": "replicationVaults_replicationPolicies",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-02-16-preview"
+                ]
+            }
+        }
+    ]
+}
