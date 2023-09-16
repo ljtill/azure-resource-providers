@@ -33,7 +33,6 @@ export class Manifest {
         return this.resourceTypes
     }
 }
-
 class ResourceType {
     public name: string
     public scope: Scope
@@ -64,7 +63,6 @@ class ResourceType {
         return this.apiVersions
     }
 }
-
 class ApiVersion {
     public stable: string[]
     public preview: string[]
@@ -78,7 +76,8 @@ class ApiVersion {
 /**
  * Filesystem
  */
-export function writeFile(filePath: string, manifest: Manifest): void {
+
+export function writeManifestFile(filePath: string, manifest: Manifest): void {
     const parsedContent = JSON.stringify(manifest, null, 4)
 
     if (!fs.existsSync(path.dirname(filePath))) {

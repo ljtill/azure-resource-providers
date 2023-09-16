@@ -14,12 +14,10 @@ export type Schema = {
     extension_resourceDefinitions?: Definition
     definitions?: Definition
 }
-
-export type Definition = {
+type Definition = {
     [key: string]: DefinitionObject
 }
-
-export type DefinitionObject = {
+type DefinitionObject = {
     type?: string
     properties?: any
     required?: string[]
@@ -29,7 +27,8 @@ export type DefinitionObject = {
 /**
  * Filesystem
  */
-export function getDirPath(): string {
+
+export function getSchemasPath(): string {
     if (process.env.USER === "runner") {
         return "../schemas/schemas"
     }
@@ -42,12 +41,12 @@ export function getDirPath(): string {
     process.exit(1)
 }
 
-export function listFilePaths(dirPath: string, filePaths: string[] = []): string[] {
+export function listSchemaFilePaths(dirPath: string, filePaths: string[] = []): string[] {
     filePaths = filePaths || []
 
     fs.readdirSync(dirPath).forEach(element => {
         if (fs.statSync(dirPath + "/" + element).isDirectory()) {
-            filePaths = listFilePaths(dirPath + "/" + element, filePaths)
+            filePaths = listSchemaFilePaths(dirPath + "/" + element, filePaths)
         } else {
             filePaths.push(path.join(dirPath, "/", element))
         }
@@ -56,7 +55,7 @@ export function listFilePaths(dirPath: string, filePaths: string[] = []): string
     return filePaths
 }
 
-export function parseFile(filePath: string): Schema {
+export function parseSchemaFile(filePath: string): Schema {
     const content = fs.readFileSync(filePath).toString()
     return JSON.parse(content) as Schema
 }
@@ -64,7 +63,8 @@ export function parseFile(filePath: string): Schema {
 /**
  * Validation
  */
-export function validateApiVersion(filePath: string): boolean {
+
+export function validateSchemaApiVersion(filePath: string): boolean {
     const apiVersion = filePath.split("/").reverse()[1]
     if (!apiVersion.match("[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]")) {
         return false
@@ -73,7 +73,7 @@ export function validateApiVersion(filePath: string): boolean {
     return true
 }
 
-export function validateNamespace(filePath: string): boolean {
+export function validateSchemaNamespace(filePath: string): boolean {
     const namespace = filePath.split("/").reverse()[0]
     if (!namespace.match("Microsoft.*")) {
         return false
