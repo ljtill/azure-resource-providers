@@ -1,132 +1,111 @@
-import fs from "fs"
 import * as utils from './utils'
-import { LogLevel, Scope } from './enums'
-import { Manifest } from "./manifest"
-import {
-    Schema,
-    validateApiVersion, validateNamespace
-} from './schema'
+import * as manifest from "./manifest"
+import * as schema from './schema'
 
-function generate(): void {
-    utils.log("Starting process", LogLevel.Info)
+utils.writeInfo("Starting process")
 
-    /**
-     * Setup Environment
-     */
-    let dirPath = ""
-    if (process.env.USER === "runner") {
-        // GitHub Actions
-        dirPath = "../schemas/schemas"
-    } else {
-        // Local
-        dirPath = "../resource-manager-schemas/schemas"
+/**
+ * Parse Schemas
+ */
+utils.writeInfo("Parsing schemas")
+
+const schemasPath = schema.getDirPath()
+
+const schemas: schema.Schema[] = []
+schema.listFilePaths(schemasPath).forEach(element => {
+    if (!schema.validateApiVersion(element) || !schema.validateNamespace(element)) {
+        return
     }
 
-    /**
-     * Parse Schemas
-     */
-    utils.log("Parsing schemas", LogLevel.Info)
+    try {
+        schemas.push(schema.parseFile(element))
+    } catch (err) {
+        utils.writeWarn("Failed parsing schema file:" + element)
+        if (err instanceof Error) {
+            utils.writeError(err.message)
+            process.exit(1)
+        }
+    }
+})
 
-    const schemas: Schema[] = []
-    const schemasFiles = utils.listFiles(dirPath)
+/**
+ * Generate Manifests
+ */
 
-    schemasFiles.forEach(element => {
-        if (!validateApiVersion(element) || !validateNamespace(element)) {
-            return
+const providerNamespaces = schemas.map(item => item.title)
+    .filter((value, index, self) => { return self.indexOf(value) === index })
+    .sort()
+
+providerNamespaces.forEach(element => {
+    utils.writeInfo("Generating manifests - " + element)
+
+    const manifestObject = new manifest.Manifest(element)
+    const providerSchemas = schemas.filter(item => item.title === element)
+
+    providerSchemas.forEach(schema => {
+        if (schema.tenant_resourceDefinitions) {
+            const definitions = schema.tenant_resourceDefinitions
+            Object.keys(definitions).forEach(key => {
+                const apiVersion = definitions[key].properties.apiVersion.enum[0]
+                const scope = key.includes("_") ? manifest.Scope.ManagementGroup : manifest.Scope.Tenant
+
+                manifestObject.getResourceType(key)?.addApiVersion(apiVersion)
+                    ?? manifestObject.addResourceType(key, scope, apiVersion)
+            })
         }
 
-        try {
-            const content = fs.readFileSync(element).toString()
-            const schema = JSON.parse(content) as Schema
-            schemas.push(schema)
-        } catch (err) {
-            utils.log("Error parsing schema file:" + element, LogLevel.Error)
-            if (err instanceof Error) {
-                utils.log(err.message, LogLevel.Error)
-            }
+        if (schema.managementGroup_resourceDefinitions) {
+            const definitions = schema.managementGroup_resourceDefinitions
+            Object.keys(definitions).forEach(key => {
+                const apiVersion = definitions[key].properties.apiVersion.enum[0]
+                const scope = key.includes("_") ? manifest.Scope.Subscription : manifest.Scope.ManagementGroup
+
+                manifestObject.getResourceType(key)?.addApiVersion(apiVersion)
+                    ?? manifestObject.addResourceType(key, scope, apiVersion)
+            })
+        }
+
+        if (schema.subscription_resourceDefinitions) {
+            const definitions = schema.subscription_resourceDefinitions
+            Object.keys(definitions).forEach(key => {
+                const apiVersion = definitions[key].properties.apiVersion.enum[0]
+                const scope = key.includes("_") ? manifest.Scope.ResourceGroup : manifest.Scope.Subscription
+
+                manifestObject.getResourceType(key)?.addApiVersion(apiVersion)
+                    ?? manifestObject.addResourceType(key, scope, apiVersion)
+            })
+        }
+
+        if (schema.resourceDefinitions) {
+            const definitions = schema.resourceDefinitions
+            Object.keys(definitions).forEach(key => {
+                const apiVersion = definitions[key].properties.apiVersion.enum[0]
+                const scope = key.includes("_") ? manifest.Scope.Resource : manifest.Scope.ResourceGroup
+
+                manifestObject.getResourceType(key)?.addApiVersion(apiVersion)
+                    ?? manifestObject.addResourceType(key, scope, apiVersion)
+            })
+        }
+
+        if (schema.extension_resourceDefinitions) {
+            const definitions = schema.extension_resourceDefinitions
+            Object.keys(definitions).forEach(key => {
+                const apiVersion = definitions[key].properties.apiVersion.enum[0]
+                const scope = key.includes("_") ? manifest.Scope.Extension : manifest.Scope.Resource
+
+                manifestObject.getResourceType(key)?.addApiVersion(apiVersion)
+                    ?? manifestObject.addResourceType(key, scope, apiVersion)
+            })
+        }
+
+        if (schema.definitions) {
+            // NOTE: Unsupported data structure
         }
     })
 
-    /**
-     * Generate Manifests
-     */
-    utils.log("Generating manifests", LogLevel.Info)
+    manifestObject.sortResourceTypes()
 
-    const providerNamespaces = schemas.map(item => item.title)
-        .filter((value, index, self) => { return self.indexOf(value) === index })
-        .sort()
+    manifest.writeFile("./gen/" + element.toLowerCase() + "/manifest.json", manifestObject)
+})
 
-    providerNamespaces.forEach(element => {
-        const manifest = new Manifest(element)
-        const providerSchemas = schemas.filter(item => item.title === element)
-
-        providerSchemas.forEach(schema => {
-
-            if (schema.tenant_resourceDefinitions) {
-                const definitions = schema.tenant_resourceDefinitions
-                Object.keys(definitions).forEach(key => {
-                    const apiVersion = definitions[key].properties.apiVersion.enum[0]
-                    const scope = key.includes("_") ? Scope.ManagementGroup : Scope.Tenant
-
-                    manifest.getResourceType(key)?.addApiVersion(apiVersion)
-                        ?? manifest.addResourceType(key, scope, apiVersion)
-                })
-            }
-
-            if (schema.managementGroup_resourceDefinitions) {
-                const definitions = schema.managementGroup_resourceDefinitions
-                Object.keys(definitions).forEach(key => {
-                    const apiVersion = definitions[key].properties.apiVersion.enum[0]
-                    const scope = key.includes("_") ? Scope.Subscription : Scope.ManagementGroup
-
-                    manifest.getResourceType(key)?.addApiVersion(apiVersion)
-                        ?? manifest.addResourceType(key, scope, apiVersion)
-                })
-            }
-
-            if (schema.subscription_resourceDefinitions) {
-                const definitions = schema.subscription_resourceDefinitions
-                Object.keys(definitions).forEach(key => {
-                    const apiVersion = definitions[key].properties.apiVersion.enum[0]
-                    const scope = key.includes("_") ? Scope.ResourceGroup : Scope.Subscription
-
-                    manifest.getResourceType(key)?.addApiVersion(apiVersion)
-                        ?? manifest.addResourceType(key, scope, apiVersion)
-                })
-            }
-
-            if (schema.resourceDefinitions) {
-                const definitions = schema.resourceDefinitions
-                Object.keys(definitions).forEach(key => {
-                    const apiVersion = definitions[key].properties.apiVersion.enum[0]
-                    const scope = key.includes("_") ? Scope.Resource : Scope.ResourceGroup
-
-                    manifest.getResourceType(key)?.addApiVersion(apiVersion)
-                        ?? manifest.addResourceType(key, scope, apiVersion)
-                })
-            }
-
-            if (schema.extension_resourceDefinitions) {
-                const definitions = schema.extension_resourceDefinitions
-                Object.keys(definitions).forEach(key => {
-                    const apiVersion = definitions[key].properties.apiVersion.enum[0]
-                    const scope = key.includes("_") ? Scope.Extension : Scope.Resource
-
-                    manifest.getResourceType(key)?.addApiVersion(apiVersion)
-                        ?? manifest.addResourceType(key, scope, apiVersion)
-                })
-            }
-
-            if (schema.definitions) {
-                // NOTE: Unsupported data structure
-            }
-        })
-
-        manifest.sortResourceTypes()
-        utils.writeJsonFile("./gen/" + element.toLowerCase() + "/manifest.json", manifest)
-    })
-
-    utils.log("Completed process", LogLevel.Info)
-}
-
-generate()
+utils.writeInfo("Completed process")

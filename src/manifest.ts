@@ -1,4 +1,15 @@
-import { Scope } from './enums'
+import fs from 'fs'
+import path from 'path'
+import * as utils from './utils'
+
+export enum Scope {
+    Tenant = 'tenant',
+    ManagementGroup = 'managementGroup',
+    Subscription = 'subscription',
+    ResourceGroup = 'resourceGroup',
+    Resource = "resource",
+    Extension = 'extensionResource',
+}
 
 export class Manifest {
     public providerNamespace: string
@@ -61,5 +72,34 @@ class ApiVersion {
     constructor() {
         this.stable = []
         this.preview = []
+    }
+}
+
+/**
+ * Filesystem
+ */
+export function writeFile(filePath: string, manifest: Manifest): void {
+    const parsedContent = JSON.stringify(manifest, null, 4)
+
+    if (!fs.existsSync(path.dirname(filePath))) {
+        try {
+            fs.mkdirSync(path.dirname(filePath), { recursive: true })
+        } catch (err) {
+            utils.writeWarn("Error creating directory: " + filePath)
+            if (err instanceof Error) {
+                utils.writeError(err.message)
+                process.exit(1)
+            }
+        }
+    }
+
+    try {
+        fs.writeFileSync(filePath, parsedContent)
+    } catch (err) {
+        utils.writeWarn("Failed writing file: " + filePath)
+        if (err instanceof Error) {
+            utils.writeError(err.message)
+            process.exit(1)
+        }
     }
 }

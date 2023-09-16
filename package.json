@@ -7,8 +7,7 @@
     "clean": "rm -rf dist",
     "watch": "tsc -p . -w",
     "lint": "npx eslint src",
-    "generate": "ts-node src/generate.ts",
-    "generate:debug": "ts-node src/generate.ts --debug"
+    "generate": "ts-node src/generate.ts"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.7.0",
