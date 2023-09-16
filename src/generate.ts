@@ -88,14 +88,14 @@ providerNamespaces.forEach(element => {
         }
 
         if (schema.extension_resourceDefinitions) {
-            const definitions = schema.extension_resourceDefinitions
-            Object.keys(definitions).forEach(key => {
-                const apiVersion = definitions[key].properties.apiVersion.enum[0]
-                const scope = key.includes("_") ? manifest.Scope.Extension : manifest.Scope.Resource
+            // const definitions = schema.extension_resourceDefinitions
+            // Object.keys(definitions).forEach(key => {
+            //     const apiVersion = definitions[key].properties.apiVersion.enum[0]
+            //     const scope = key.includes("_") ? manifest.Scope.Extension : manifest.Scope.Resource
 
-                manifestObject.getResourceType(key)?.addApiVersion(apiVersion)
-                    ?? manifestObject.addResourceType(key, scope, apiVersion)
-            })
+            //     manifestObject.getResourceType(key)?.addApiVersion(apiVersion)
+            //         ?? manifestObject.addResourceType(key, scope, apiVersion)
+            // })
         }
 
         if (schema.definitions) {

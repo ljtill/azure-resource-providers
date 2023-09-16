@@ -34,9 +34,14 @@ jobs:
           npm install
         working-directory: providers
 
+      - name: "Delete manifest"
+        run: |
+          npm run manifest:delete
+        working-directory: providers
+
       - name: "Generate manifest"
         run: |
-          npm run generate
+          npm run manifest:generate
         working-directory: providers
 
       - name: "Configure git"
