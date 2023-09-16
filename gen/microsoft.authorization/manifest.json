@@ -79,11 +79,22 @@
                     "2019-09-01",
                     "2020-03-01",
                     "2020-09-01",
-                    "2021-06-01"
+                    "2021-06-01",
+                    "2023-04-01"
                 ],
                 "preview": [
                     "2015-10-01-preview"
                 ]
+            }
+        },
+        {
+            "name": "policyDefinitions_versions",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [
+                    "2023-04-01"
+                ],
+                "preview": []
             }
         },
         {
@@ -98,11 +109,22 @@
                     "2019-09-01",
                     "2020-03-01",
                     "2020-09-01",
-                    "2021-06-01"
+                    "2021-06-01",
+                    "2023-04-01"
                 ],
                 "preview": [
                     "2017-06-01-preview"
                 ]
+            }
+        },
+        {
+            "name": "policySetDefinitions_versions",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [
+                    "2023-04-01"
+                ],
+                "preview": []
             }
         },
         {

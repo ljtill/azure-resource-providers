@@ -12,6 +12,28 @@
             }
         },
         {
+            "name": "apiCollections",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2023-11-15"
+                ],
+                "preview": [
+                    "2022-11-20-preview"
+                ]
+            }
+        },
+        {
+            "name": "applications",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2022-07-01-preview"
+                ]
+            }
+        },
+        {
             "name": "assessmentMetadata",
             "scope": "subscription",
             "apiVersions": {
@@ -135,10 +157,22 @@
             "scope": "subscription",
             "apiVersions": {
                 "stable": [
-                    "2018-06-01"
+                    "2018-06-01",
+                    "2022-03-01",
+                    "2023-01-01"
                 ],
                 "preview": [
                     "2017-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "pricings_securityOperators",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-01-01-preview"
                 ]
             }
         },
@@ -149,7 +183,50 @@
                 "stable": [],
                 "preview": [
                     "2021-07-01-preview",
-                    "2021-12-01-preview"
+                    "2021-12-01-preview",
+                    "2022-05-01-preview",
+                    "2022-08-01-preview",
+                    "2023-03-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "securityConnectors_devops",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "securityConnectors_devops_azureDevOpsOrgs",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "securityConnectors_devops_azureDevOpsOrgs_projects",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "securityConnectors_devops_azureDevOpsOrgs_projects_repos",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-09-01-preview"
                 ]
             }
         },
@@ -165,11 +242,31 @@
             }
         },
         {
+            "name": "sensitivitySettings",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-02-15-preview"
+                ]
+            }
+        },
+        {
             "name": "serverVulnerabilityAssessments",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
                     "2020-01-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "serverVulnerabilityAssessmentsSettings",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [
+                    "2023-05-01"
                 ],
                 "preview": []
             }
@@ -181,7 +278,8 @@
                 "stable": [
                     "2019-01-01",
                     "2021-06-01",
-                    "2021-07-01"
+                    "2021-07-01",
+                    "2022-05-01"
                 ],
                 "preview": [
                     "2017-08-01-preview"

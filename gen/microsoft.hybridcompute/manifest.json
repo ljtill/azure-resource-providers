@@ -2,6 +2,16 @@
     "providerNamespace": "Microsoft.HybridCompute",
     "resourceTypes": [
         {
+            "name": "licenses",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-06-20-preview"
+                ]
+            }
+        },
+        {
             "name": "machines",
             "scope": "resourceGroup",
             "apiVersions": {
@@ -28,7 +38,8 @@
                     "2022-08-11-preview",
                     "2022-12-27-preview",
                     "2023-03-15-preview",
-                    "2023-04-25-preview"
+                    "2023-04-25-preview",
+                    "2023-06-20-preview"
                 ]
             }
         },
@@ -58,7 +69,18 @@
                     "2022-08-11-preview",
                     "2022-12-27-preview",
                     "2023-03-15-preview",
-                    "2023-04-25-preview"
+                    "2023-04-25-preview",
+                    "2023-06-20-preview"
+                ]
+            }
+        },
+        {
+            "name": "machines_licenseProfiles",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-06-20-preview"
                 ]
             }
         },
@@ -94,7 +116,8 @@
                     "2022-08-11-preview",
                     "2022-12-27-preview",
                     "2023-03-15-preview",
-                    "2023-04-25-preview"
+                    "2023-04-25-preview",
+                    "2023-06-20-preview"
                 ]
             }
         },
@@ -120,7 +143,8 @@
                     "2022-08-11-preview",
                     "2022-12-27-preview",
                     "2023-03-15-preview",
-                    "2023-04-25-preview"
+                    "2023-04-25-preview",
+                    "2023-06-20-preview"
                 ]
             }
         },
