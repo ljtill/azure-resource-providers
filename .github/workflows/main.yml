@@ -16,13 +16,7 @@ jobs:
       - name: "Checkout repository"
         uses: actions/checkout@v4
         with:
-          path: checkout
-
-      - name: "Checkout repository"
-        uses: actions/checkout@v4
-        with:
-          repository: azure/azure-rest-api-specs
-          path: specs
+          path: providers
 
       - name: "Checkout repository"
         uses: actions/checkout@v4
@@ -38,12 +32,12 @@ jobs:
       - name: "Install dependencies"
         run: |
           npm install
-        working-directory: checkout
+        working-directory: providers
 
       - name: "Generate manifest"
         run: |
           npm run generate
-        working-directory: checkout
+        working-directory: providers
 
       - name: "Configure git"
         run: |
@@ -61,9 +55,10 @@ jobs:
             gh pr create --title "gen: update manifests" --body ""
             gh pr merge gen/manifests --auto --squash
           fi
-        working-directory: checkout
+        working-directory: providers
 
       - name: "Delete runs"
         run: |
           month=$(date -d "$(date +%Y-%m)-15 last month" '+%Y-%m')
           gh run list --created $month --json databaseId --jq '.[].databaseId' --limit 50 | xargs -I{} gh run delete {}
+        working-directory: providers
