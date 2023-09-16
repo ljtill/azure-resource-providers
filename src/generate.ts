@@ -1,17 +1,14 @@
 import fs from "fs"
 import * as utils from './utils'
-import { Scope } from './enums'
-import { Logger } from "./logger"
+import { LogLevel, Scope } from './enums'
 import { Manifest } from "./manifest"
 import {
     Schema,
     validateApiVersion, validateNamespace
 } from './schema'
 
-const logger = new Logger()
-
 function generate(): void {
-    logger.info("Starting process")
+    utils.log("Starting process", LogLevel.Info)
 
     /**
      * Setup Environment
@@ -28,26 +25,24 @@ function generate(): void {
     /**
      * Parse Schemas
      */
-    logger.info("Parsing schemas")
+    utils.log("Parsing schemas", LogLevel.Info)
 
     const schemas: Schema[] = []
     const schemasFiles = utils.listFiles(dirPath)
 
     schemasFiles.forEach(element => {
         if (!validateApiVersion(element) || !validateNamespace(element)) {
-            logger.debug("Skipping file: " + element)
             return
         }
 
-        logger.debug("Parsing file: " + element)
         try {
             const content = fs.readFileSync(element).toString()
             const schema = JSON.parse(content) as Schema
             schemas.push(schema)
         } catch (err) {
-            logger.error("Error parsing schema file:" + element)
+            utils.log("Error parsing schema file:" + element, LogLevel.Error)
             if (err instanceof Error) {
-                logger.error(err.message)
+                utils.log(err.message, LogLevel.Error)
             }
         }
     })
@@ -55,7 +50,7 @@ function generate(): void {
     /**
      * Generate Manifests
      */
-    logger.info("Generating manifests")
+    utils.log("Generating manifests", LogLevel.Info)
 
     const providerNamespaces = schemas.map(item => item.title)
         .filter((value, index, self) => { return self.indexOf(value) === index })
@@ -131,7 +126,7 @@ function generate(): void {
         utils.writeJsonFile("./gen/" + element.toLowerCase() + "/manifest.json", manifest)
     })
 
-    logger.info("Completed process")
+    utils.log("Completed process", LogLevel.Info)
 }
 
 generate()

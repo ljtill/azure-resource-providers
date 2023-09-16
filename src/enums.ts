@@ -6,3 +6,10 @@ export enum Scope {
     Resource = "resource",
     Extension = 'extensionResource',
 }
+
+export enum LogLevel {
+    Debug,
+    Info,
+    Warn,
+    Error
+}
