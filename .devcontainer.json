@@ -1,7 +1,14 @@
 {
-    "name": "Providers",
+    "name": "Resource Providers",
     "image": "mcr.microsoft.com/devcontainers/base:jammy",
     "features": {
         "ghcr.io/devcontainers/features/node:1": {}
-    }
+    },
+    "mounts": [
+        {
+            "source": "${localEnv:HOME}/Developer/repos/github-azure/azure-resource-manager-schemas",
+            "target": "/workspaces/resource-manager-schemas",
+            "type": "bind"
+        }
+    ]
 }
