@@ -22,7 +22,7 @@ function generate(): void {
         dirPath = "../schemas/schemas"
     } else {
         // Local
-        dirPath = "../../github-azure/azure-resource-manager-schemas/schemas"
+        dirPath = "../resource-manager-schemas/schemas"
     }
 
     /**
