@@ -1,24 +1,36 @@
 import * as utils from './utils'
-import * as manifest from "./manifest"
-import * as schema from './schema'
+import {
+    Manifest,
+    Scope,
+    writeManifestFile
+} from "./manifest"
+import {
+    Schema,
+    getSchemasPath,
+    listSchemaFilePaths,
+    parseSchemaFile,
+    validateSchemaApiVersion,
+    validateSchemaNamespace
+} from './schema'
 
 utils.writeInfo("Starting process")
 
 /**
  * Parse Schemas
  */
+
 utils.writeInfo("Parsing schemas")
 
-const schemasPath = schema.getDirPath()
+const schemasPath = getSchemasPath()
 
-const schemas: schema.Schema[] = []
-schema.listFilePaths(schemasPath).forEach(element => {
-    if (!schema.validateApiVersion(element) || !schema.validateNamespace(element)) {
+const schemas: Schema[] = []
+listSchemaFilePaths(schemasPath).forEach(element => {
+    if (!validateSchemaApiVersion(element) || !validateSchemaNamespace(element)) {
         return
     }
 
     try {
-        schemas.push(schema.parseFile(element))
+        schemas.push(parseSchemaFile(element))
     } catch (err) {
         utils.writeWarn("Failed parsing schema file:" + element)
         if (err instanceof Error) {
@@ -32,14 +44,14 @@ schema.listFilePaths(schemasPath).forEach(element => {
  * Generate Manifests
  */
 
+utils.writeInfo("Generating manifests")
+
 const providerNamespaces = schemas.map(item => item.title)
     .filter((value, index, self) => { return self.indexOf(value) === index })
     .sort()
 
 providerNamespaces.forEach(element => {
-    utils.writeInfo("Generating manifests - " + element)
-
-    const manifestObject = new manifest.Manifest(element)
+    const manifestObject = new Manifest(element)
     const providerSchemas = schemas.filter(item => item.title === element)
 
     providerSchemas.forEach(schema => {
@@ -47,7 +59,7 @@ providerNamespaces.forEach(element => {
             const definitions = schema.tenant_resourceDefinitions
             Object.keys(definitions).forEach(key => {
                 const apiVersion = definitions[key].properties.apiVersion.enum[0]
-                const scope = key.includes("_") ? manifest.Scope.ManagementGroup : manifest.Scope.Tenant
+                const scope = key.includes("_") ? Scope.ManagementGroup : Scope.Tenant
 
                 manifestObject.getResourceType(key)?.addApiVersion(apiVersion)
                     ?? manifestObject.addResourceType(key, scope, apiVersion)
@@ -58,7 +70,7 @@ providerNamespaces.forEach(element => {
             const definitions = schema.managementGroup_resourceDefinitions
             Object.keys(definitions).forEach(key => {
                 const apiVersion = definitions[key].properties.apiVersion.enum[0]
-                const scope = key.includes("_") ? manifest.Scope.Subscription : manifest.Scope.ManagementGroup
+                const scope = key.includes("_") ? Scope.Subscription : Scope.ManagementGroup
 
                 manifestObject.getResourceType(key)?.addApiVersion(apiVersion)
                     ?? manifestObject.addResourceType(key, scope, apiVersion)
@@ -69,7 +81,7 @@ providerNamespaces.forEach(element => {
             const definitions = schema.subscription_resourceDefinitions
             Object.keys(definitions).forEach(key => {
                 const apiVersion = definitions[key].properties.apiVersion.enum[0]
-                const scope = key.includes("_") ? manifest.Scope.ResourceGroup : manifest.Scope.Subscription
+                const scope = key.includes("_") ? Scope.ResourceGroup : Scope.Subscription
 
                 manifestObject.getResourceType(key)?.addApiVersion(apiVersion)
                     ?? manifestObject.addResourceType(key, scope, apiVersion)
@@ -80,7 +92,7 @@ providerNamespaces.forEach(element => {
             const definitions = schema.resourceDefinitions
             Object.keys(definitions).forEach(key => {
                 const apiVersion = definitions[key].properties.apiVersion.enum[0]
-                const scope = key.includes("_") ? manifest.Scope.Resource : manifest.Scope.ResourceGroup
+                const scope = key.includes("_") ? Scope.Resource : Scope.ResourceGroup
 
                 manifestObject.getResourceType(key)?.addApiVersion(apiVersion)
                     ?? manifestObject.addResourceType(key, scope, apiVersion)
@@ -91,7 +103,7 @@ providerNamespaces.forEach(element => {
             const definitions = schema.extension_resourceDefinitions
             Object.keys(definitions).forEach(key => {
                 const apiVersion = definitions[key].properties.apiVersion.enum[0]
-                const scope = key.includes("_") ? manifest.Scope.Extension : manifest.Scope.Resource
+                const scope = key.includes("_") ? Scope.Extension : Scope.Resource
 
                 manifestObject.getResourceType(key)?.addApiVersion(apiVersion)
                     ?? manifestObject.addResourceType(key, scope, apiVersion)
@@ -105,7 +117,7 @@ providerNamespaces.forEach(element => {
 
     manifestObject.sortResourceTypes()
 
-    manifest.writeFile("./gen/" + element.toLowerCase() + "/manifest.json", manifestObject)
+    writeManifestFile("./gen/" + element.toLowerCase() + "/manifest.json", manifestObject)
 })
 
 utils.writeInfo("Completed process")
