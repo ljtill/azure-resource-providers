@@ -1,4 +1,4 @@
-name: "Schedule"
+name: "Generate"
 
 on:
   workflow_dispatch:
@@ -34,14 +34,14 @@ jobs:
           npm install
         working-directory: providers
 
-      - name: "Delete manifest"
+      - name: "Delete manifests"
         run: |
-          npm run manifest:delete
+          rm -rf gen
         working-directory: providers
 
-      - name: "Generate manifest"
+      - name: "Generate manifests"
         run: |
-          npm run manifest:generate
+          npm run generate
         working-directory: providers
 
       - name: "Configure git"
@@ -50,7 +50,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
         working-directory: providers
 
-      - name: "Merge schemas"
+      - name: "Merge manifests"
         run: |
           if [ -n "$(git status gen/ --porcelain)" ]; then
             git checkout -b gen/manifests
