@@ -1,10 +1,8 @@
 import fs from "fs"
 import path from "path"
 import { execSync } from 'child_process'
-import { Logger } from "./logger"
 import { Manifest } from "./manifest"
-
-const logger = new Logger()
+import { LogLevel } from "./enums"
 
 export function writeJsonFile(filePath: string, manifest: Manifest): void {
     const parsedContent = JSON.stringify(manifest, null, 4)
@@ -13,9 +11,9 @@ export function writeJsonFile(filePath: string, manifest: Manifest): void {
         try {
             fs.mkdirSync(path.dirname(filePath), null)
         } catch (err) {
-            logger.error("Error creating directory: " + filePath)
+            log("Error creating directory: " + filePath, LogLevel.Error)
             if (err instanceof Error) {
-                logger.error(err.message)
+                log(err.message, LogLevel.Error)
             }
         }
     }
@@ -23,9 +21,9 @@ export function writeJsonFile(filePath: string, manifest: Manifest): void {
     try {
         fs.writeFileSync(filePath, parsedContent)
     } catch (err) {
-        logger.error("Error writing file: " + filePath)
+        log("Error writing file: " + filePath, LogLevel.Error)
         if (err instanceof Error) {
-            logger.error(err.message)
+            log(err.message, LogLevel.Error)
         }
     }
 }
@@ -49,4 +47,23 @@ export function getCommitId(dirPath: string): string {
     return execSync(command, {
         cwd: dirPath,
     }).toString().trim()
+}
+
+export function log(message: string, level: LogLevel): void {
+    switch (level) {
+        case LogLevel.Debug:
+            console.debug("[debug] " + message)
+            break;
+        case LogLevel.Info:
+            console.info("[info] " + message)
+            break;
+        case LogLevel.Warn:
+            console.warn("[warn] " + message)
+            break;
+        case LogLevel.Error:
+            console.error("[error] " + message)
+            break;
+        default:
+            break;
+    }
 }
