@@ -7,7 +7,8 @@
             "apiVersions": {
                 "stable": [
                     "2021-07-12",
-                    "2022-09-09"
+                    "2022-09-09",
+                    "2023-09-05"
                 ],
                 "preview": [
                     "2019-01-23-preview",
@@ -35,7 +36,8 @@
             "apiVersions": {
                 "stable": [
                     "2021-07-12",
-                    "2022-09-09"
+                    "2022-09-09",
+                    "2023-09-05"
                 ],
                 "preview": [
                     "2019-01-23-preview",
@@ -63,7 +65,8 @@
             "apiVersions": {
                 "stable": [
                     "2021-07-12",
-                    "2022-09-09"
+                    "2022-09-09",
+                    "2023-09-05"
                 ],
                 "preview": [
                     "2019-01-23-preview",
@@ -91,7 +94,8 @@
             "apiVersions": {
                 "stable": [
                     "2021-07-12",
-                    "2022-09-09"
+                    "2022-09-09",
+                    "2023-09-05"
                 ],
                 "preview": [
                     "2020-09-21-preview",
@@ -114,7 +118,9 @@
             "name": "hostPools_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-09-05"
+                ],
                 "preview": [
                     "2021-04-01-preview",
                     "2021-09-03-preview",
@@ -131,7 +137,8 @@
             "apiVersions": {
                 "stable": [
                     "2021-07-12",
-                    "2022-09-09"
+                    "2022-09-09",
+                    "2023-09-05"
                 ],
                 "preview": [
                     "2020-11-10-preview",
@@ -151,7 +158,9 @@
             "name": "scalingPlans_personalSchedules",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-09-05"
+                ],
                 "preview": [
                     "2023-07-07-preview"
                 ]
@@ -162,7 +171,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2022-09-09"
+                    "2022-09-09",
+                    "2023-09-05"
                 ],
                 "preview": [
                     "2022-04-01-preview",
@@ -177,7 +187,8 @@
             "apiVersions": {
                 "stable": [
                     "2021-07-12",
-                    "2022-09-09"
+                    "2022-09-09",
+                    "2023-09-05"
                 ],
                 "preview": [
                     "2019-01-23-preview",
@@ -203,7 +214,9 @@
             "name": "workspaces_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-09-05"
+                ],
                 "preview": [
                     "2021-04-01-preview",
                     "2021-09-03-preview",
