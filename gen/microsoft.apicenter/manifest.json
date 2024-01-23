@@ -5,10 +5,82 @@
             "name": "services",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-03-01"
+                ],
                 "preview": [
                     "2023-07-01-preview"
                 ]
+            }
+        },
+        {
+            "name": "services_metadataSchemas",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2024-03-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "services_workspaces",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2024-03-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "services_workspaces_apis",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2024-03-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "services_workspaces_apis_deployments",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2024-03-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "services_workspaces_apis_versions",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2024-03-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "services_workspaces_apis_versions_definitions",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2024-03-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "services_workspaces_environments",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2024-03-01"
+                ],
+                "preview": []
             }
         }
     ]

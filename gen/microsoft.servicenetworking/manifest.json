@@ -5,7 +5,9 @@
             "name": "trafficControllers",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-11-01"
+                ],
                 "preview": [
                     "2022-10-01-preview",
                     "2023-05-01-preview"
@@ -16,7 +18,9 @@
             "name": "trafficControllers_associations",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-11-01"
+                ],
                 "preview": [
                     "2022-10-01-preview",
                     "2023-05-01-preview"
@@ -27,7 +31,9 @@
             "name": "trafficControllers_frontends",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-11-01"
+                ],
                 "preview": [
                     "2022-10-01-preview",
                     "2023-05-01-preview"

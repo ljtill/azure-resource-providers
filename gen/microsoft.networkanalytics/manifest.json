@@ -1,0 +1,25 @@
+{
+    "providerNamespace": "Microsoft.NetworkAnalytics",
+    "resourceTypes": [
+        {
+            "name": "dataProducts",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2023-11-15"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "dataProducts_dataTypes",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2023-11-15"
+                ],
+                "preview": []
+            }
+        }
+    ]
+}

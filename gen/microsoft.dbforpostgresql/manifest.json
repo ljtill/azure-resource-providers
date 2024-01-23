@@ -13,7 +13,8 @@
                     "2021-06-01-preview",
                     "2022-01-20-preview",
                     "2022-03-08-preview",
-                    "2023-03-01-preview"
+                    "2023-03-01-preview",
+                    "2023-06-01-preview"
                 ]
             }
         },
@@ -26,7 +27,18 @@
                 ],
                 "preview": [
                     "2022-03-08-preview",
-                    "2023-03-01-preview"
+                    "2023-03-01-preview",
+                    "2023-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "flexibleServers_advancedThreatProtectionSettings",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-06-01-preview"
                 ]
             }
         },
@@ -42,7 +54,8 @@
                     "2021-06-01-preview",
                     "2022-01-20-preview",
                     "2022-03-08-preview",
-                    "2023-03-01-preview"
+                    "2023-03-01-preview",
+                    "2023-06-01-preview"
                 ]
             }
         },
@@ -58,7 +71,8 @@
                     "2021-06-01-preview",
                     "2022-01-20-preview",
                     "2022-03-08-preview",
-                    "2023-03-01-preview"
+                    "2023-03-01-preview",
+                    "2023-06-01-preview"
                 ]
             }
         },
@@ -74,7 +88,8 @@
                     "2021-06-01-preview",
                     "2022-01-20-preview",
                     "2022-03-08-preview",
-                    "2023-03-01-preview"
+                    "2023-03-01-preview",
+                    "2023-06-01-preview"
                 ]
             }
         },
@@ -85,7 +100,28 @@
                 "stable": [],
                 "preview": [
                     "2022-05-01-preview",
-                    "2023-03-01-preview"
+                    "2023-03-01-preview",
+                    "2023-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "flexibleServers_privateEndpointConnections",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "flexibleServers_virtualendpoints",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-06-01-preview"
                 ]
             }
         },

@@ -15,7 +15,8 @@
                     "2023-05-01"
                 ],
                 "preview": [
-                    "2016-02-01-preview"
+                    "2016-02-01-preview",
+                    "2023-10-01-preview"
                 ]
             }
         },
@@ -30,7 +31,9 @@
                     "2022-12-01",
                     "2023-05-01"
                 ],
-                "preview": []
+                "preview": [
+                    "2023-10-01-preview"
+                ]
             }
         },
         {
@@ -44,7 +47,19 @@
                     "2022-12-01",
                     "2023-05-01"
                 ],
-                "preview": []
+                "preview": [
+                    "2023-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "accounts_encryptionScopes",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-01-preview"
+                ]
             }
         },
         {
@@ -60,7 +75,39 @@
                     "2022-12-01",
                     "2023-05-01"
                 ],
-                "preview": []
+                "preview": [
+                    "2023-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "accounts_raiBlocklists",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "accounts_raiBlocklists_raiBlocklistItems",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "accounts_raiPolicies",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-01-preview"
+                ]
             }
         },
         {
@@ -71,7 +118,9 @@
                     "2022-12-01",
                     "2023-05-01"
                 ],
-                "preview": []
+                "preview": [
+                    "2023-10-01-preview"
+                ]
             }
         },
         {
@@ -82,7 +131,9 @@
                     "2022-12-01",
                     "2023-05-01"
                 ],
-                "preview": []
+                "preview": [
+                    "2023-10-01-preview"
+                ]
             }
         }
     ]

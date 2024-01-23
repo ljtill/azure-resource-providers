@@ -2,6 +2,26 @@
     "providerNamespace": "Microsoft.App",
     "resourceTypes": [
         {
+            "name": "builders",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "builders_builds",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-08-01-preview"
+                ]
+            }
+        },
+        {
             "name": "connectedEnvironments",
             "scope": "resourceGroup",
             "apiVersions": {
@@ -13,7 +33,8 @@
                     "2022-06-01-preview",
                     "2022-11-01-preview",
                     "2023-04-01-preview",
-                    "2023-05-02-preview"
+                    "2023-05-02-preview",
+                    "2023-08-01-preview"
                 ]
             }
         },
@@ -29,7 +50,8 @@
                     "2022-06-01-preview",
                     "2022-11-01-preview",
                     "2023-04-01-preview",
-                    "2023-05-02-preview"
+                    "2023-05-02-preview",
+                    "2023-08-01-preview"
                 ]
             }
         },
@@ -45,7 +67,8 @@
                     "2022-06-01-preview",
                     "2022-11-01-preview",
                     "2023-04-01-preview",
-                    "2023-05-02-preview"
+                    "2023-05-02-preview",
+                    "2023-08-01-preview"
                 ]
             }
         },
@@ -61,7 +84,8 @@
                     "2022-06-01-preview",
                     "2022-11-01-preview",
                     "2023-04-01-preview",
-                    "2023-05-02-preview"
+                    "2023-05-02-preview",
+                    "2023-08-01-preview"
                 ]
             }
         },
@@ -79,7 +103,8 @@
                     "2022-06-01-preview",
                     "2022-11-01-preview",
                     "2023-04-01-preview",
-                    "2023-05-02-preview"
+                    "2023-05-02-preview",
+                    "2023-08-01-preview"
                 ]
             }
         },
@@ -97,7 +122,18 @@
                     "2022-06-01-preview",
                     "2022-11-01-preview",
                     "2023-04-01-preview",
-                    "2023-05-02-preview"
+                    "2023-05-02-preview",
+                    "2023-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "containerApps_resiliencyPolicies",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-08-01-preview"
                 ]
             }
         },
@@ -115,7 +151,8 @@
                     "2022-06-01-preview",
                     "2022-11-01-preview",
                     "2023-04-01-preview",
-                    "2023-05-02-preview"
+                    "2023-05-02-preview",
+                    "2023-08-01-preview"
                 ]
             }
         },
@@ -129,7 +166,8 @@
                 "preview": [
                     "2022-11-01-preview",
                     "2023-04-01-preview",
-                    "2023-05-02-preview"
+                    "2023-05-02-preview",
+                    "2023-08-01-preview"
                 ]
             }
         },
@@ -147,7 +185,8 @@
                     "2022-06-01-preview",
                     "2022-11-01-preview",
                     "2023-04-01-preview",
-                    "2023-05-02-preview"
+                    "2023-05-02-preview",
+                    "2023-08-01-preview"
                 ]
             }
         },
@@ -165,7 +204,8 @@
                     "2022-06-01-preview",
                     "2022-11-01-preview",
                     "2023-04-01-preview",
-                    "2023-05-02-preview"
+                    "2023-05-02-preview",
+                    "2023-08-01-preview"
                 ]
             }
         },
@@ -183,7 +223,28 @@
                     "2022-06-01-preview",
                     "2022-11-01-preview",
                     "2023-04-01-preview",
-                    "2023-05-02-preview"
+                    "2023-05-02-preview",
+                    "2023-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedEnvironments_daprComponents_resiliencyPolicies",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedEnvironments_daprSubscriptions",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-08-01-preview"
                 ]
             }
         },
@@ -197,7 +258,8 @@
                 "preview": [
                     "2022-11-01-preview",
                     "2023-04-01-preview",
-                    "2023-05-02-preview"
+                    "2023-05-02-preview",
+                    "2023-08-01-preview"
                 ]
             }
         },
@@ -215,7 +277,8 @@
                     "2022-06-01-preview",
                     "2022-11-01-preview",
                     "2023-04-01-preview",
-                    "2023-05-02-preview"
+                    "2023-05-02-preview",
+                    "2023-08-01-preview"
                 ]
             }
         }

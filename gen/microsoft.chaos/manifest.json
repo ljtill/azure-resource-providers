@@ -5,14 +5,27 @@
             "name": "experiments",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-11-01"
+                ],
                 "preview": [
                     "2021-09-15-preview",
                     "2022-07-01-preview",
                     "2022-10-01-preview",
                     "2023-04-01-preview",
                     "2023-04-15-preview",
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2023-10-27-preview"
+                ]
+            }
+        },
+        {
+            "name": "privateAccesses",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-27-preview"
                 ]
             }
         },
@@ -20,14 +33,17 @@
             "name": "targets",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-11-01"
+                ],
                 "preview": [
                     "2021-09-15-preview",
                     "2022-07-01-preview",
                     "2022-10-01-preview",
                     "2023-04-01-preview",
                     "2023-04-15-preview",
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2023-10-27-preview"
                 ]
             }
         },
@@ -35,14 +51,17 @@
             "name": "targets_capabilities",
             "scope": "extensionResource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-11-01"
+                ],
                 "preview": [
                     "2021-09-15-preview",
                     "2022-07-01-preview",
                     "2022-10-01-preview",
                     "2023-04-01-preview",
                     "2023-04-15-preview",
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2023-10-27-preview"
                 ]
             }
         }

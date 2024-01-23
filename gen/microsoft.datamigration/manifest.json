@@ -9,7 +9,18 @@
                 "preview": [
                     "2021-10-30-preview",
                     "2022-01-30-preview",
-                    "2022-03-30-preview"
+                    "2022-03-30-preview",
+                    "2023-07-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "migrationServices",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-07-15-preview"
                 ]
             }
         },
@@ -29,7 +40,8 @@
                     "2018-07-15-preview",
                     "2021-10-30-preview",
                     "2022-01-30-preview",
-                    "2022-03-30-preview"
+                    "2022-03-30-preview",
+                    "2023-07-15-preview"
                 ]
             }
         },
@@ -49,7 +61,8 @@
                     "2018-07-15-preview",
                     "2021-10-30-preview",
                     "2022-01-30-preview",
-                    "2022-03-30-preview"
+                    "2022-03-30-preview",
+                    "2023-07-15-preview"
                 ]
             }
         },
@@ -64,7 +77,8 @@
                     "2018-07-15-preview",
                     "2021-10-30-preview",
                     "2022-01-30-preview",
-                    "2022-03-30-preview"
+                    "2022-03-30-preview",
+                    "2023-07-15-preview"
                 ]
             }
         },
@@ -84,7 +98,8 @@
                     "2018-07-15-preview",
                     "2021-10-30-preview",
                     "2022-01-30-preview",
-                    "2022-03-30-preview"
+                    "2022-03-30-preview",
+                    "2023-07-15-preview"
                 ]
             }
         },
@@ -99,7 +114,8 @@
                     "2018-07-15-preview",
                     "2021-10-30-preview",
                     "2022-01-30-preview",
-                    "2022-03-30-preview"
+                    "2022-03-30-preview",
+                    "2023-07-15-preview"
                 ]
             }
         },
@@ -111,7 +127,8 @@
                 "preview": [
                     "2021-10-30-preview",
                     "2022-01-30-preview",
-                    "2022-03-30-preview"
+                    "2022-03-30-preview",
+                    "2023-07-15-preview"
                 ]
             }
         }

@@ -8,7 +8,10 @@
                 "stable": [
                     "2023-04-06"
                 ],
-                "preview": []
+                "preview": [
+                    "2023-08-04-preview",
+                    "2023-11-01-preview"
+                ]
             }
         }
     ]

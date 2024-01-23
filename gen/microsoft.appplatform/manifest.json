@@ -8,7 +8,8 @@
                 "stable": [
                     "2020-07-01",
                     "2022-04-01",
-                    "2022-12-01"
+                    "2022-12-01",
+                    "2023-12-01"
                 ],
                 "preview": [
                     "2020-11-01-preview",
@@ -23,7 +24,8 @@
                     "2023-03-01-preview",
                     "2023-05-01-preview",
                     "2023-07-01-preview",
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -32,7 +34,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2022-12-01"
+                    "2022-12-01",
+                    "2023-12-01"
                 ],
                 "preview": [
                     "2022-01-01-preview",
@@ -44,7 +47,8 @@
                     "2023-03-01-preview",
                     "2023-05-01-preview",
                     "2023-07-01-preview",
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -53,7 +57,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2022-12-01"
+                    "2022-12-01",
+                    "2023-12-01"
                 ],
                 "preview": [
                     "2022-01-01-preview",
@@ -65,7 +70,8 @@
                     "2023-03-01-preview",
                     "2023-05-01-preview",
                     "2023-07-01-preview",
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -73,11 +79,14 @@
             "name": "Spring_apms",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-12-01"
+                ],
                 "preview": [
                     "2023-05-01-preview",
                     "2023-07-01-preview",
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -85,14 +94,17 @@
             "name": "Spring_applicationAccelerators",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-12-01"
+                ],
                 "preview": [
                     "2022-11-01-preview",
                     "2023-01-01-preview",
                     "2023-03-01-preview",
                     "2023-05-01-preview",
                     "2023-07-01-preview",
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -100,14 +112,17 @@
             "name": "Spring_applicationAccelerators_customizedAccelerators",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-12-01"
+                ],
                 "preview": [
                     "2022-11-01-preview",
                     "2023-01-01-preview",
                     "2023-03-01-preview",
                     "2023-05-01-preview",
                     "2023-07-01-preview",
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -115,14 +130,17 @@
             "name": "Spring_applicationLiveViews",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-12-01"
+                ],
                 "preview": [
                     "2022-11-01-preview",
                     "2023-01-01-preview",
                     "2023-03-01-preview",
                     "2023-05-01-preview",
                     "2023-07-01-preview",
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -133,7 +151,8 @@
                 "stable": [
                     "2020-07-01",
                     "2022-04-01",
-                    "2022-12-01"
+                    "2022-12-01",
+                    "2023-12-01"
                 ],
                 "preview": [
                     "2020-11-01-preview",
@@ -148,7 +167,8 @@
                     "2023-03-01-preview",
                     "2023-05-01-preview",
                     "2023-07-01-preview",
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -159,7 +179,8 @@
                 "stable": [
                     "2020-07-01",
                     "2022-04-01",
-                    "2022-12-01"
+                    "2022-12-01",
+                    "2023-12-01"
                 ],
                 "preview": [
                     "2020-11-01-preview",
@@ -174,7 +195,8 @@
                     "2023-03-01-preview",
                     "2023-05-01-preview",
                     "2023-07-01-preview",
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -185,7 +207,8 @@
                 "stable": [
                     "2020-07-01",
                     "2022-04-01",
-                    "2022-12-01"
+                    "2022-12-01",
+                    "2023-12-01"
                 ],
                 "preview": [
                     "2020-11-01-preview",
@@ -200,7 +223,8 @@
                     "2023-03-01-preview",
                     "2023-05-01-preview",
                     "2023-07-01-preview",
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -211,7 +235,8 @@
                 "stable": [
                     "2020-07-01",
                     "2022-04-01",
-                    "2022-12-01"
+                    "2022-12-01",
+                    "2023-12-01"
                 ],
                 "preview": [
                     "2020-11-01-preview",
@@ -226,7 +251,8 @@
                     "2023-03-01-preview",
                     "2023-05-01-preview",
                     "2023-07-01-preview",
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -234,12 +260,15 @@
             "name": "Spring_buildServices",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-12-01"
+                ],
                 "preview": [
                     "2023-03-01-preview",
                     "2023-05-01-preview",
                     "2023-07-01-preview",
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -249,7 +278,8 @@
             "apiVersions": {
                 "stable": [
                     "2022-04-01",
-                    "2022-12-01"
+                    "2022-12-01",
+                    "2023-12-01"
                 ],
                 "preview": [
                     "2022-01-01-preview",
@@ -261,7 +291,8 @@
                     "2023-03-01-preview",
                     "2023-05-01-preview",
                     "2023-07-01-preview",
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -271,7 +302,8 @@
             "apiVersions": {
                 "stable": [
                     "2022-04-01",
-                    "2022-12-01"
+                    "2022-12-01",
+                    "2023-12-01"
                 ],
                 "preview": [
                     "2022-01-01-preview",
@@ -283,7 +315,8 @@
                     "2023-03-01-preview",
                     "2023-05-01-preview",
                     "2023-07-01-preview",
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -293,7 +326,8 @@
             "apiVersions": {
                 "stable": [
                     "2022-04-01",
-                    "2022-12-01"
+                    "2022-12-01",
+                    "2023-12-01"
                 ],
                 "preview": [
                     "2022-01-01-preview",
@@ -305,7 +339,8 @@
                     "2023-03-01-preview",
                     "2023-05-01-preview",
                     "2023-07-01-preview",
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -315,7 +350,8 @@
             "apiVersions": {
                 "stable": [
                     "2022-04-01",
-                    "2022-12-01"
+                    "2022-12-01",
+                    "2023-12-01"
                 ],
                 "preview": [
                     "2022-01-01-preview",
@@ -327,7 +363,8 @@
                     "2023-03-01-preview",
                     "2023-05-01-preview",
                     "2023-07-01-preview",
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -338,7 +375,8 @@
                 "stable": [
                     "2020-07-01",
                     "2022-04-01",
-                    "2022-12-01"
+                    "2022-12-01",
+                    "2023-12-01"
                 ],
                 "preview": [
                     "2020-11-01-preview",
@@ -353,7 +391,8 @@
                     "2023-03-01-preview",
                     "2023-05-01-preview",
                     "2023-07-01-preview",
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -364,7 +403,8 @@
                 "stable": [
                     "2020-07-01",
                     "2022-04-01",
-                    "2022-12-01"
+                    "2022-12-01",
+                    "2023-12-01"
                 ],
                 "preview": [
                     "2020-11-01-preview",
@@ -379,7 +419,8 @@
                     "2023-03-01-preview",
                     "2023-05-01-preview",
                     "2023-07-01-preview",
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -389,7 +430,8 @@
             "apiVersions": {
                 "stable": [
                     "2022-04-01",
-                    "2022-12-01"
+                    "2022-12-01",
+                    "2023-12-01"
                 ],
                 "preview": [
                     "2022-01-01-preview",
@@ -401,7 +443,8 @@
                     "2023-03-01-preview",
                     "2023-05-01-preview",
                     "2023-07-01-preview",
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -409,12 +452,15 @@
             "name": "Spring_containerRegistries",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-12-01"
+                ],
                 "preview": [
                     "2023-03-01-preview",
                     "2023-05-01-preview",
                     "2023-07-01-preview",
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -422,14 +468,17 @@
             "name": "Spring_DevToolPortals",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-12-01"
+                ],
                 "preview": [
                     "2022-11-01-preview",
                     "2023-01-01-preview",
                     "2023-03-01-preview",
                     "2023-05-01-preview",
                     "2023-07-01-preview",
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -441,7 +490,8 @@
                 "preview": [
                     "2023-05-01-preview",
                     "2023-07-01-preview",
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -450,7 +500,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2022-12-01"
+                    "2022-12-01",
+                    "2023-12-01"
                 ],
                 "preview": [
                     "2022-01-01-preview",
@@ -462,7 +513,8 @@
                     "2023-03-01-preview",
                     "2023-05-01-preview",
                     "2023-07-01-preview",
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -471,7 +523,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2022-12-01"
+                    "2022-12-01",
+                    "2023-12-01"
                 ],
                 "preview": [
                     "2022-01-01-preview",
@@ -483,7 +536,8 @@
                     "2023-03-01-preview",
                     "2023-05-01-preview",
                     "2023-07-01-preview",
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -492,7 +546,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2022-12-01"
+                    "2022-12-01",
+                    "2023-12-01"
                 ],
                 "preview": [
                     "2022-01-01-preview",
@@ -504,7 +559,8 @@
                     "2023-03-01-preview",
                     "2023-05-01-preview",
                     "2023-07-01-preview",
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -515,7 +571,8 @@
                 "stable": [
                     "2020-07-01",
                     "2022-04-01",
-                    "2022-12-01"
+                    "2022-12-01",
+                    "2023-12-01"
                 ],
                 "preview": [
                     "2020-11-01-preview",
@@ -530,7 +587,8 @@
                     "2023-03-01-preview",
                     "2023-05-01-preview",
                     "2023-07-01-preview",
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -540,7 +598,8 @@
             "apiVersions": {
                 "stable": [
                     "2022-04-01",
-                    "2022-12-01"
+                    "2022-12-01",
+                    "2023-12-01"
                 ],
                 "preview": [
                     "2022-01-01-preview",
@@ -552,7 +611,8 @@
                     "2023-03-01-preview",
                     "2023-05-01-preview",
                     "2023-07-01-preview",
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -561,7 +621,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2022-12-01"
+                    "2022-12-01",
+                    "2023-12-01"
                 ],
                 "preview": [
                     "2021-09-01-preview",
@@ -574,7 +635,8 @@
                     "2023-03-01-preview",
                     "2023-05-01-preview",
                     "2023-07-01-preview",
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         }
