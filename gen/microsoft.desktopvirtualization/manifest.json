@@ -2,6 +2,17 @@
     "providerNamespace": "Microsoft.DesktopVirtualization",
     "resourceTypes": [
         {
+            "name": "appAttachPackages",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-04-preview",
+                    "2023-11-01-preview"
+                ]
+            }
+        },
+        {
             "name": "applicationGroups",
             "scope": "resourceGroup",
             "apiVersions": {
@@ -26,7 +37,9 @@
                     "2022-02-10-preview",
                     "2022-04-01-preview",
                     "2022-10-14-preview",
-                    "2023-07-07-preview"
+                    "2023-07-07-preview",
+                    "2023-10-04-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -55,7 +68,9 @@
                     "2022-02-10-preview",
                     "2022-04-01-preview",
                     "2022-10-14-preview",
-                    "2023-07-07-preview"
+                    "2023-07-07-preview",
+                    "2023-10-04-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -84,7 +99,9 @@
                     "2022-02-10-preview",
                     "2022-04-01-preview",
                     "2022-10-14-preview",
-                    "2023-07-07-preview"
+                    "2023-07-07-preview",
+                    "2023-10-04-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -110,7 +127,9 @@
                     "2022-02-10-preview",
                     "2022-04-01-preview",
                     "2022-10-14-preview",
-                    "2023-07-07-preview"
+                    "2023-07-07-preview",
+                    "2023-10-04-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -127,7 +146,29 @@
                     "2022-02-10-preview",
                     "2022-04-01-preview",
                     "2022-10-14-preview",
-                    "2023-07-07-preview"
+                    "2023-07-07-preview",
+                    "2023-10-04-preview",
+                    "2023-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "hostPools_sessionHostConfigurations",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "hostPools_sessionHostManagements",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -150,7 +191,9 @@
                     "2022-02-10-preview",
                     "2022-04-01-preview",
                     "2022-10-14-preview",
-                    "2023-07-07-preview"
+                    "2023-07-07-preview",
+                    "2023-10-04-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -162,7 +205,9 @@
                     "2023-09-05"
                 ],
                 "preview": [
-                    "2023-07-07-preview"
+                    "2023-07-07-preview",
+                    "2023-10-04-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -177,7 +222,9 @@
                 "preview": [
                     "2022-04-01-preview",
                     "2022-10-14-preview",
-                    "2023-07-07-preview"
+                    "2023-07-07-preview",
+                    "2023-10-04-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -206,7 +253,9 @@
                     "2022-02-10-preview",
                     "2022-04-01-preview",
                     "2022-10-14-preview",
-                    "2023-07-07-preview"
+                    "2023-07-07-preview",
+                    "2023-10-04-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -223,7 +272,9 @@
                     "2022-02-10-preview",
                     "2022-04-01-preview",
                     "2022-10-14-preview",
-                    "2023-07-07-preview"
+                    "2023-07-07-preview",
+                    "2023-10-04-preview",
+                    "2023-11-01-preview"
                 ]
             }
         }

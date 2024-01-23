@@ -1,0 +1,35 @@
+{
+    "providerNamespace": "Microsoft.IoTOperationsOrchestrator",
+    "resourceTypes": [
+        {
+            "name": "instances",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-04-preview"
+                ]
+            }
+        },
+        {
+            "name": "solutions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-04-preview"
+                ]
+            }
+        },
+        {
+            "name": "targets",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-04-preview"
+                ]
+            }
+        }
+    ]
+}

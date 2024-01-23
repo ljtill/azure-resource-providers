@@ -8,7 +8,28 @@
                 "stable": [],
                 "preview": [
                     "2020-12-16-preview",
-                    "2022-04-01-preview"
+                    "2022-04-01-preview",
+                    "2023-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "testBaseAccounts_actionRequests",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "testBaseAccounts_credentials",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -19,7 +40,38 @@
                 "stable": [],
                 "preview": [
                     "2020-12-16-preview",
-                    "2022-04-01-preview"
+                    "2022-04-01-preview",
+                    "2023-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "testBaseAccounts_customImages",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "testBaseAccounts_draftPackages",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "testBaseAccounts_imageDefinitions",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -30,7 +82,8 @@
                 "stable": [],
                 "preview": [
                     "2020-12-16-preview",
-                    "2022-04-01-preview"
+                    "2022-04-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -41,7 +94,8 @@
                 "stable": [],
                 "preview": [
                     "2020-12-16-preview",
-                    "2022-04-01-preview"
+                    "2022-04-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         }

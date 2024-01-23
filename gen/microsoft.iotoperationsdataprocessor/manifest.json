@@ -1,0 +1,35 @@
+{
+    "providerNamespace": "Microsoft.IoTOperationsDataProcessor",
+    "resourceTypes": [
+        {
+            "name": "instances",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-04-preview"
+                ]
+            }
+        },
+        {
+            "name": "instances_datasets",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-04-preview"
+                ]
+            }
+        },
+        {
+            "name": "instances_pipelines",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-04-preview"
+                ]
+            }
+        }
+    ]
+}

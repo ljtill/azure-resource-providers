@@ -1,0 +1,55 @@
+{
+    "providerNamespace": "Microsoft.IntegrationSpaces",
+    "resourceTypes": [
+        {
+            "name": "spaces",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-11-14-preview"
+                ]
+            }
+        },
+        {
+            "name": "spaces_applications",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-11-14-preview"
+                ]
+            }
+        },
+        {
+            "name": "spaces_applications_businessProcesses",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-11-14-preview"
+                ]
+            }
+        },
+        {
+            "name": "spaces_applications_resources",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-11-14-preview"
+                ]
+            }
+        },
+        {
+            "name": "spaces_infrastructureResources",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-11-14-preview"
+                ]
+            }
+        }
+    ]
+}

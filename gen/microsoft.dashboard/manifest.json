@@ -6,11 +6,25 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2022-08-01"
+                    "2022-08-01",
+                    "2023-09-01"
                 ],
                 "preview": [
                     "2021-09-01-preview",
-                    "2022-05-01-preview"
+                    "2022-05-01-preview",
+                    "2022-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "grafana_managedPrivateEndpoints",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2023-09-01"
+                ],
+                "preview": [
+                    "2022-10-01-preview"
                 ]
             }
         },
@@ -19,10 +33,12 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2022-08-01"
+                    "2022-08-01",
+                    "2023-09-01"
                 ],
                 "preview": [
-                    "2022-05-01-preview"
+                    "2022-05-01-preview",
+                    "2022-10-01-preview"
                 ]
             }
         }

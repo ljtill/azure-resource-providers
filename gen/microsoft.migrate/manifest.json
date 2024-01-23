@@ -6,7 +6,8 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2019-10-01"
+                    "2019-10-01",
+                    "2023-03-15"
                 ],
                 "preview": []
             }
@@ -16,7 +17,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2019-10-01"
+                    "2019-10-01",
+                    "2023-03-15"
                 ],
                 "preview": []
             }
@@ -26,7 +28,28 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2019-10-01"
+                    "2019-10-01",
+                    "2023-03-15"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "assessmentProjects_groups_avsAssessments",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2023-03-15"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "assessmentProjects_groups_sqlAssessments",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2023-03-15"
                 ],
                 "preview": []
             }
@@ -36,7 +59,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2019-10-01"
+                    "2019-10-01",
+                    "2023-03-15"
                 ],
                 "preview": []
             }
@@ -46,7 +70,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2019-10-01"
+                    "2019-10-01",
+                    "2023-03-15"
                 ],
                 "preview": []
             }
@@ -56,7 +81,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2019-10-01"
+                    "2019-10-01",
+                    "2023-03-15"
                 ],
                 "preview": []
             }
@@ -66,7 +92,18 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2019-10-01"
+                    "2019-10-01",
+                    "2023-03-15"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "assessmentProjects_sqlcollectors",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2023-03-15"
                 ],
                 "preview": []
             }
@@ -76,7 +113,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2019-10-01"
+                    "2019-10-01",
+                    "2023-03-15"
                 ],
                 "preview": []
             }
@@ -86,7 +124,8 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2020-05-01"
+                    "2020-05-01",
+                    "2023-01-01"
                 ],
                 "preview": [
                     "2018-09-01-preview"
@@ -94,11 +133,22 @@
             }
         },
         {
+            "name": "migrateProjects_privateEndpointConnectionProxies",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2023-01-01"
+                ],
+                "preview": []
+            }
+        },
+        {
             "name": "migrateProjects_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2020-05-01"
+                    "2020-05-01",
+                    "2023-01-01"
                 ],
                 "preview": []
             }
@@ -107,7 +157,9 @@
             "name": "migrateProjects_solutions",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-01-01"
+                ],
                 "preview": [
                     "2018-09-01-preview"
                 ]

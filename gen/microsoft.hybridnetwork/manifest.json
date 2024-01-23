@@ -2,6 +2,16 @@
     "providerNamespace": "Microsoft.HybridNetwork",
     "resourceTypes": [
         {
+            "name": "configurationGroupValues",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2023-09-01"
+                ],
+                "preview": []
+            }
+        },
+        {
             "name": "devices",
             "scope": "resourceGroup",
             "apiVersions": {
@@ -32,12 +42,113 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2021-05-01"
+                    "2021-05-01",
+                    "2023-09-01"
                 ],
                 "preview": [
                     "2020-01-01-preview",
                     "2022-01-01-preview"
                 ]
+            }
+        },
+        {
+            "name": "publishers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2023-09-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "publishers_artifactStores",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2023-09-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "publishers_artifactStores_artifactManifests",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2023-09-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "publishers_configurationGroupSchemas",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2023-09-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "publishers_networkFunctionDefinitionGroups",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2023-09-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "publishers_networkFunctionDefinitionGroups_networkFunctionDefinitionVersions",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2023-09-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "publishers_networkServiceDesignGroups",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2023-09-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "publishers_networkServiceDesignGroups_networkServiceDesignVersions",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2023-09-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "siteNetworkServices",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2023-09-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "sites",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2023-09-01"
+                ],
+                "preview": []
             }
         },
         {

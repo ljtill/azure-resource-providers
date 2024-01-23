@@ -1,0 +1,15 @@
+{
+    "providerNamespace": "Microsoft.Community",
+    "resourceTypes": [
+        {
+            "name": "communityTrainings",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2023-11-01"
+                ],
+                "preview": []
+            }
+        }
+    ]
+}
