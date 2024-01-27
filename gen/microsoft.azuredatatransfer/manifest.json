@@ -1,0 +1,35 @@
+{
+    "providerNamespace": "Microsoft.AzureDataTransfer",
+    "resourceTypes": [
+        {
+            "name": "connections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-11-preview"
+                ]
+            }
+        },
+        {
+            "name": "connections_flows",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-11-preview"
+                ]
+            }
+        },
+        {
+            "name": "pipelines",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-11-preview"
+                ]
+            }
+        }
+    ]
+}
