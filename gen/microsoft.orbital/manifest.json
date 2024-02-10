@@ -13,6 +13,36 @@
             }
         },
         {
+            "name": "edgeSites",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-03-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "groundStations",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-03-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "l2Connections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-03-01-preview"
+                ]
+            }
+        },
+        {
             "name": "spacecrafts",
             "scope": "resourceGroup",
             "apiVersions": {

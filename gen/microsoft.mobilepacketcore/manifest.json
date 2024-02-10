@@ -2,12 +2,82 @@
     "providerNamespace": "Microsoft.MobilePacketCore",
     "resourceTypes": [
         {
+            "name": "amfDeployments",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "clusterServices",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-15-preview"
+                ]
+            }
+        },
+        {
             "name": "networkFunctions",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
                 "preview": [
                     "2023-05-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "nrfDeployments",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "nssfDeployments",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "observabilityServices",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "smfDeployments",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "upfDeployments",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-15-preview"
                 ]
             }
         }

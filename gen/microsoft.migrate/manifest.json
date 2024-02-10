@@ -9,7 +9,29 @@
                     "2019-10-01",
                     "2023-03-15"
                 ],
-                "preview": []
+                "preview": [
+                    "2023-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "assessmentProjects_aksAssessments",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "assessmentProjects_businessCases",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-04-01-preview"
+                ]
             }
         },
         {
@@ -20,7 +42,9 @@
                     "2019-10-01",
                     "2023-03-15"
                 ],
-                "preview": []
+                "preview": [
+                    "2023-04-01-preview"
+                ]
             }
         },
         {
@@ -31,7 +55,9 @@
                     "2019-10-01",
                     "2023-03-15"
                 ],
-                "preview": []
+                "preview": [
+                    "2023-04-01-preview"
+                ]
             }
         },
         {
@@ -41,7 +67,9 @@
                 "stable": [
                     "2023-03-15"
                 ],
-                "preview": []
+                "preview": [
+                    "2023-04-01-preview"
+                ]
             }
         },
         {
@@ -51,7 +79,19 @@
                 "stable": [
                     "2023-03-15"
                 ],
-                "preview": []
+                "preview": [
+                    "2023-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "assessmentProjects_groups_webAppAssessments",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-04-01-preview"
+                ]
             }
         },
         {
@@ -62,7 +102,9 @@
                     "2019-10-01",
                     "2023-03-15"
                 ],
-                "preview": []
+                "preview": [
+                    "2023-04-01-preview"
+                ]
             }
         },
         {
@@ -73,7 +115,9 @@
                     "2019-10-01",
                     "2023-03-15"
                 ],
-                "preview": []
+                "preview": [
+                    "2023-04-01-preview"
+                ]
             }
         },
         {
@@ -84,7 +128,9 @@
                     "2019-10-01",
                     "2023-03-15"
                 ],
-                "preview": []
+                "preview": [
+                    "2023-04-01-preview"
+                ]
             }
         },
         {
@@ -95,7 +141,9 @@
                     "2019-10-01",
                     "2023-03-15"
                 ],
-                "preview": []
+                "preview": [
+                    "2023-04-01-preview"
+                ]
             }
         },
         {
@@ -105,7 +153,9 @@
                 "stable": [
                     "2023-03-15"
                 ],
-                "preview": []
+                "preview": [
+                    "2023-04-01-preview"
+                ]
             }
         },
         {
@@ -116,7 +166,19 @@
                     "2019-10-01",
                     "2023-03-15"
                 ],
-                "preview": []
+                "preview": [
+                    "2023-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "assessmentProjects_webAppCollectors",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-04-01-preview"
+                ]
             }
         },
         {
