@@ -16,7 +16,8 @@
                 "preview": [
                     "2019-10-01-preview",
                     "2020-08-01-preview",
-                    "2021-04-01-preview"
+                    "2021-04-01-preview",
+                    "2024-03-01-preview"
                 ]
             }
         },
@@ -33,7 +34,8 @@
                 "preview": [
                     "2019-10-01-preview",
                     "2020-08-01-preview",
-                    "2021-04-01-preview"
+                    "2021-04-01-preview",
+                    "2024-03-01-preview"
                 ]
             }
         },
@@ -48,7 +50,8 @@
                 ],
                 "preview": [
                     "2020-08-01-preview",
-                    "2021-04-01-preview"
+                    "2021-04-01-preview",
+                    "2024-03-01-preview"
                 ]
             }
         }

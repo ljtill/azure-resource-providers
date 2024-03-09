@@ -7,7 +7,8 @@
             "apiVersions": {
                 "stable": [
                     "2020-07-01",
-                    "2023-06-01"
+                    "2023-06-01",
+                    "2024-03-01"
                 ],
                 "preview": [
                     "2020-07-01-preview",
@@ -21,7 +22,20 @@
                     "2023-06-15-preview",
                     "2023-07-01-preview",
                     "2023-10-01-preview",
-                    "2023-11-01-preview"
+                    "2023-11-01-preview",
+                    "2024-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "monitors_openAIIntegrations",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2024-03-01"
+                ],
+                "preview": [
+                    "2024-01-01-preview"
                 ]
             }
         },
@@ -31,7 +45,8 @@
             "apiVersions": {
                 "stable": [
                     "2020-07-01",
-                    "2023-06-01"
+                    "2023-06-01",
+                    "2024-03-01"
                 ],
                 "preview": [
                     "2020-07-01-preview",
@@ -45,7 +60,8 @@
                     "2023-06-15-preview",
                     "2023-07-01-preview",
                     "2023-10-01-preview",
-                    "2023-11-01-preview"
+                    "2023-11-01-preview",
+                    "2024-01-01-preview"
                 ]
             }
         }
