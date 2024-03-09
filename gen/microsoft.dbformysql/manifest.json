@@ -15,7 +15,8 @@
                     "2021-12-01-preview",
                     "2022-09-30-preview",
                     "2023-06-01-preview",
-                    "2023-10-01-preview"
+                    "2023-10-01-preview",
+                    "2023-12-01-preview"
                 ]
             }
         },
@@ -34,6 +35,16 @@
             }
         },
         {
+            "name": "flexibleServers_advancedThreatProtectionSettings",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-12-01-preview"
+                ]
+            }
+        },
+        {
             "name": "flexibleServers_backups",
             "scope": "resource",
             "apiVersions": {
@@ -44,7 +55,18 @@
                 "preview": [
                     "2021-12-01-preview",
                     "2022-09-30-preview",
-                    "2023-06-01-preview"
+                    "2023-06-01-preview",
+                    "2023-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "flexibleServers_backupsV2",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-01-preview"
                 ]
             }
         },

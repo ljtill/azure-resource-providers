@@ -5,7 +5,9 @@
             "name": "connections",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-01-25"
+                ],
                 "preview": [
                     "2023-10-11-preview"
                 ]
@@ -15,7 +17,9 @@
             "name": "connections_flows",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-01-25"
+                ],
                 "preview": [
                     "2023-10-11-preview"
                 ]
@@ -25,7 +29,9 @@
             "name": "pipelines",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-01-25"
+                ],
                 "preview": [
                     "2023-10-11-preview"
                 ]

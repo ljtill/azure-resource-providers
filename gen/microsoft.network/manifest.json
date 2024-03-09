@@ -2006,6 +2006,36 @@
             }
         },
         {
+            "name": "networkManagers_routingConfigurations",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-03-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "networkManagers_routingConfigurations_ruleCollections",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-03-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "networkManagers_routingConfigurations_ruleCollections_rules",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-03-01-preview"
+                ]
+            }
+        },
+        {
             "name": "networkManagers_scopeConnections",
             "scope": "resource",
             "apiVersions": {

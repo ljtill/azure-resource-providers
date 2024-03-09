@@ -1,0 +1,35 @@
+{
+    "providerNamespace": "Microsoft.DatabaseWatcher",
+    "resourceTypes": [
+        {
+            "name": "watchers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "watchers_sharedPrivateLinkResources",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "watchers_targets",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-09-01-preview"
+                ]
+            }
+        }
+    ]
+}
