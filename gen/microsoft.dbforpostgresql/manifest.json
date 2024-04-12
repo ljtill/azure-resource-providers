@@ -14,7 +14,8 @@
                     "2022-01-20-preview",
                     "2022-03-08-preview",
                     "2023-03-01-preview",
-                    "2023-06-01-preview"
+                    "2023-06-01-preview",
+                    "2023-12-01-preview"
                 ]
             }
         },
@@ -28,7 +29,8 @@
                 "preview": [
                     "2022-03-08-preview",
                     "2023-03-01-preview",
-                    "2023-06-01-preview"
+                    "2023-06-01-preview",
+                    "2023-12-01-preview"
                 ]
             }
         },
@@ -38,7 +40,8 @@
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2023-06-01-preview"
+                    "2023-06-01-preview",
+                    "2023-12-01-preview"
                 ]
             }
         },
@@ -55,7 +58,8 @@
                     "2022-01-20-preview",
                     "2022-03-08-preview",
                     "2023-03-01-preview",
-                    "2023-06-01-preview"
+                    "2023-06-01-preview",
+                    "2023-12-01-preview"
                 ]
             }
         },
@@ -72,7 +76,8 @@
                     "2022-01-20-preview",
                     "2022-03-08-preview",
                     "2023-03-01-preview",
-                    "2023-06-01-preview"
+                    "2023-06-01-preview",
+                    "2023-12-01-preview"
                 ]
             }
         },
@@ -89,7 +94,8 @@
                     "2022-01-20-preview",
                     "2022-03-08-preview",
                     "2023-03-01-preview",
-                    "2023-06-01-preview"
+                    "2023-06-01-preview",
+                    "2023-12-01-preview"
                 ]
             }
         },
@@ -101,7 +107,8 @@
                 "preview": [
                     "2022-05-01-preview",
                     "2023-03-01-preview",
-                    "2023-06-01-preview"
+                    "2023-06-01-preview",
+                    "2023-12-01-preview"
                 ]
             }
         },
@@ -111,7 +118,8 @@
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2023-06-01-preview"
+                    "2023-06-01-preview",
+                    "2023-12-01-preview"
                 ]
             }
         },
@@ -121,7 +129,8 @@
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2023-06-01-preview"
+                    "2023-06-01-preview",
+                    "2023-12-01-preview"
                 ]
             }
         },

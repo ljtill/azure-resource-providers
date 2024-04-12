@@ -12,8 +12,8 @@
             }
         },
         {
-            "name": "groupQuotas_groupQuotaLimits",
-            "scope": "extensionResource",
+            "name": "groupQuotas_resourceProviders_groupQuotaRequests",
+            "scope": "subscription",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -22,7 +22,17 @@
             }
         },
         {
-            "name": "groupQuotas_quotaAllocations",
+            "name": "groupQuotas_resourceProviders_locationSettings",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "groupQuotas_resourceProviders_quotaAllocationRequests",
             "scope": "extensionResource",
             "apiVersions": {
                 "stable": [],
