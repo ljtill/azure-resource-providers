@@ -21,7 +21,8 @@
                     "2022-08-01-preview",
                     "2023-03-01-preview",
                     "2023-06-01-preview",
-                    "2023-08-01-preview"
+                    "2023-08-01-preview",
+                    "2024-01-01-preview"
                 ]
             }
         },
@@ -37,7 +38,8 @@
                     "2022-08-01-preview",
                     "2023-03-01-preview",
                     "2023-06-01-preview",
-                    "2023-08-01-preview"
+                    "2023-08-01-preview",
+                    "2024-01-01-preview"
                 ]
             }
         },
@@ -53,7 +55,8 @@
                     "2022-08-01-preview",
                     "2023-03-01-preview",
                     "2023-06-01-preview",
-                    "2023-08-01-preview"
+                    "2023-08-01-preview",
+                    "2024-01-01-preview"
                 ]
             }
         },
@@ -75,7 +78,8 @@
                     "2022-08-01-preview",
                     "2023-03-01-preview",
                     "2023-06-01-preview",
-                    "2023-08-01-preview"
+                    "2023-08-01-preview",
+                    "2024-01-01-preview"
                 ]
             }
         },
@@ -87,7 +91,18 @@
                 "preview": [
                     "2023-03-01-preview",
                     "2023-06-01-preview",
-                    "2023-08-01-preview"
+                    "2023-08-01-preview",
+                    "2024-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "signalR_replicas_sharedPrivateLinkResources",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-01-01-preview"
                 ]
             }
         },
@@ -107,7 +122,8 @@
                     "2022-08-01-preview",
                     "2023-03-01-preview",
                     "2023-06-01-preview",
-                    "2023-08-01-preview"
+                    "2023-08-01-preview",
+                    "2024-01-01-preview"
                 ]
             }
         },
@@ -126,7 +142,8 @@
                     "2022-08-01-preview",
                     "2023-03-01-preview",
                     "2023-06-01-preview",
-                    "2023-08-01-preview"
+                    "2023-08-01-preview",
+                    "2024-01-01-preview"
                 ]
             }
         },
@@ -141,7 +158,8 @@
                     "2022-08-01-preview",
                     "2023-03-01-preview",
                     "2023-06-01-preview",
-                    "2023-08-01-preview"
+                    "2023-08-01-preview",
+                    "2024-01-01-preview"
                 ]
             }
         },
@@ -156,7 +174,8 @@
                     "2022-08-01-preview",
                     "2023-03-01-preview",
                     "2023-06-01-preview",
-                    "2023-08-01-preview"
+                    "2023-08-01-preview",
+                    "2024-01-01-preview"
                 ]
             }
         },
@@ -172,7 +191,8 @@
                     "2022-08-01-preview",
                     "2023-03-01-preview",
                     "2023-06-01-preview",
-                    "2023-08-01-preview"
+                    "2023-08-01-preview",
+                    "2024-01-01-preview"
                 ]
             }
         },
@@ -191,7 +211,8 @@
                     "2022-08-01-preview",
                     "2023-03-01-preview",
                     "2023-06-01-preview",
-                    "2023-08-01-preview"
+                    "2023-08-01-preview",
+                    "2024-01-01-preview"
                 ]
             }
         },
@@ -203,7 +224,18 @@
                 "preview": [
                     "2023-03-01-preview",
                     "2023-06-01-preview",
-                    "2023-08-01-preview"
+                    "2023-08-01-preview",
+                    "2024-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "webPubSub_replicas_sharedPrivateLinkResources",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-01-01-preview"
                 ]
             }
         },
@@ -222,7 +254,8 @@
                     "2022-08-01-preview",
                     "2023-03-01-preview",
                     "2023-06-01-preview",
-                    "2023-08-01-preview"
+                    "2023-08-01-preview",
+                    "2024-01-01-preview"
                 ]
             }
         }

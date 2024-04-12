@@ -5,9 +5,12 @@
             "name": "clusterpools",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-05-01"
+                ],
                 "preview": [
-                    "2023-06-01-preview"
+                    "2023-06-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
@@ -15,9 +18,12 @@
             "name": "clusterpools_clusters",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-05-01"
+                ],
                 "preview": [
-                    "2023-06-01-preview"
+                    "2023-06-01-preview",
+                    "2023-11-01-preview"
                 ]
             }
         },
