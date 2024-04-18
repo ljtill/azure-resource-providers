@@ -11,7 +11,9 @@
                 "preview": [
                     "2020-12-01-preview",
                     "2021-05-13-preview",
-                    "2022-09-08-preview"
+                    "2022-09-08-preview",
+                    "2023-01-26-preview",
+                    "2023-06-28-preview"
                 ]
             }
         },
@@ -21,7 +23,9 @@
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2022-09-08-preview"
+                    "2022-09-08-preview",
+                    "2023-01-26-preview",
+                    "2023-06-28-preview"
                 ]
             }
         }
