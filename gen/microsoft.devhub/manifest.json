@@ -5,9 +5,12 @@
             "name": "workflows",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-08-01"
+                ],
                 "preview": [
-                    "2022-04-01-preview"
+                    "2022-04-01-preview",
+                    "2022-10-11-preview"
                 ]
             }
         }
