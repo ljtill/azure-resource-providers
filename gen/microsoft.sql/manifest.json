@@ -1162,31 +1162,6 @@
             }
         },
         {
-            "name": "servers_databases_maintenanceWindows",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2021-11-01"
-                ],
-                "preview": [
-                    "2020-02-02-preview",
-                    "2020-08-01-preview",
-                    "2020-11-01-preview",
-                    "2021-02-01-preview",
-                    "2021-05-01-preview",
-                    "2021-08-01-preview",
-                    "2021-11-01-preview",
-                    "2022-02-01-preview",
-                    "2022-05-01-preview",
-                    "2022-08-01-preview",
-                    "2022-11-01-preview",
-                    "2023-02-01-preview",
-                    "2023-05-01-preview",
-                    "2023-08-01-preview"
-                ]
-            }
-        },
-        {
             "name": "servers_databases_replicationLinks",
             "scope": "resource",
             "apiVersions": {
@@ -1948,38 +1923,6 @@
         },
         {
             "name": "servers_sqlVulnerabilityAssessments",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [],
-                "preview": [
-                    "2022-02-01-preview",
-                    "2022-05-01-preview",
-                    "2022-08-01-preview",
-                    "2022-11-01-preview",
-                    "2023-02-01-preview",
-                    "2023-05-01-preview",
-                    "2023-08-01-preview"
-                ]
-            }
-        },
-        {
-            "name": "servers_sqlVulnerabilityAssessments_baselines",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [],
-                "preview": [
-                    "2022-02-01-preview",
-                    "2022-05-01-preview",
-                    "2022-08-01-preview",
-                    "2022-11-01-preview",
-                    "2023-02-01-preview",
-                    "2023-05-01-preview",
-                    "2023-08-01-preview"
-                ]
-            }
-        },
-        {
-            "name": "servers_sqlVulnerabilityAssessments_baselines_rules",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
