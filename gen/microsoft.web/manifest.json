@@ -214,16 +214,6 @@
             }
         },
         {
-            "name": "publishingCredentials",
-            "scope": "subscription",
-            "apiVersions": {
-                "stable": [
-                    "2015-08-01"
-                ],
-                "preview": []
-            }
-        },
-        {
             "name": "publishingUsers",
             "scope": "tenant",
             "apiVersions": {
@@ -606,30 +596,6 @@
         },
         {
             "name": "sites_instances_extensions",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2016-08-01",
-                    "2018-02-01",
-                    "2018-11-01",
-                    "2019-08-01",
-                    "2020-06-01",
-                    "2020-09-01",
-                    "2020-10-01",
-                    "2020-12-01",
-                    "2021-01-01",
-                    "2021-01-15",
-                    "2021-02-01",
-                    "2021-03-01",
-                    "2022-03-01",
-                    "2022-09-01",
-                    "2023-01-01"
-                ],
-                "preview": []
-            }
-        },
-        {
-            "name": "sites_migrate",
             "scope": "resource",
             "apiVersions": {
                 "stable": [
@@ -1232,16 +1198,6 @@
             }
         },
         {
-            "name": "sites_slots_snapshots",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2015-08-01"
-                ],
-                "preview": []
-            }
-        },
-        {
             "name": "sites_slots_sourcecontrols",
             "scope": "resource",
             "apiVersions": {
@@ -1312,16 +1268,6 @@
                     "2022-03-01",
                     "2022-09-01",
                     "2023-01-01"
-                ],
-                "preview": []
-            }
-        },
-        {
-            "name": "sites_snapshots",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2015-08-01"
                 ],
                 "preview": []
             }
