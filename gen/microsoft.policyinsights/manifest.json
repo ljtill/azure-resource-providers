@@ -1,29 +1,4 @@
 {
     "providerNamespace": "Microsoft.PolicyInsights",
-    "resourceTypes": [
-        {
-            "name": "attestations",
-            "scope": "subscription",
-            "apiVersions": {
-                "stable": [
-                    "2021-01-01",
-                    "2022-09-01"
-                ],
-                "preview": []
-            }
-        },
-        {
-            "name": "remediations",
-            "scope": "subscription",
-            "apiVersions": {
-                "stable": [
-                    "2019-07-01",
-                    "2021-10-01"
-                ],
-                "preview": [
-                    "2018-07-01-preview"
-                ]
-            }
-        }
-    ]
+    "resourceTypes": []
 }

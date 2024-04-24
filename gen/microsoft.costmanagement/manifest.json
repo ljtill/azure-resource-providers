@@ -37,7 +37,7 @@
         },
         {
             "name": "externalSubscriptions",
-            "scope": "managementGroup",
+            "scope": "tenant",
             "apiVersions": {
                 "stable": [],
                 "preview": [
@@ -76,24 +76,6 @@
             }
         },
         {
-            "name": "scheduledActions",
-            "scope": "tenant",
-            "apiVersions": {
-                "stable": [
-                    "2022-10-01",
-                    "2023-03-01",
-                    "2023-08-01",
-                    "2023-09-01",
-                    "2023-11-01"
-                ],
-                "preview": [
-                    "2022-04-01-preview",
-                    "2022-06-01-preview",
-                    "2023-04-01-preview"
-                ]
-            }
-        },
-        {
             "name": "settings",
             "scope": "tenant",
             "apiVersions": {
@@ -110,29 +92,6 @@
                 "stable": [],
                 "preview": [
                     "2019-03-01-preview"
-                ]
-            }
-        },
-        {
-            "name": "views",
-            "scope": "tenant",
-            "apiVersions": {
-                "stable": [
-                    "2019-11-01",
-                    "2020-06-01",
-                    "2021-10-01",
-                    "2022-10-01",
-                    "2023-03-01",
-                    "2023-08-01",
-                    "2023-09-01",
-                    "2023-11-01"
-                ],
-                "preview": [
-                    "2019-04-01-preview",
-                    "2022-08-01-preview",
-                    "2022-10-01-preview",
-                    "2022-10-05-preview",
-                    "2023-04-01-preview"
                 ]
             }
         }

@@ -1,0 +1,125 @@
+{
+    "providerNamespace": "Microsoft.IoTOperationsMQ",
+    "resourceTypes": [
+        {
+            "name": "mq",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-04-preview"
+                ]
+            }
+        },
+        {
+            "name": "mq_broker",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-04-preview"
+                ]
+            }
+        },
+        {
+            "name": "mq_broker_authentication",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-04-preview"
+                ]
+            }
+        },
+        {
+            "name": "mq_broker_authorization",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-04-preview"
+                ]
+            }
+        },
+        {
+            "name": "mq_broker_listener",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-04-preview"
+                ]
+            }
+        },
+        {
+            "name": "mq_dataLakeConnector",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-04-preview"
+                ]
+            }
+        },
+        {
+            "name": "mq_dataLakeConnector_topicMap",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-04-preview"
+                ]
+            }
+        },
+        {
+            "name": "mq_diagnosticService",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-04-preview"
+                ]
+            }
+        },
+        {
+            "name": "mq_kafkaConnector",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-04-preview"
+                ]
+            }
+        },
+        {
+            "name": "mq_kafkaConnector_topicMap",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-04-preview"
+                ]
+            }
+        },
+        {
+            "name": "mq_mqttBridgeConnector",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-04-preview"
+                ]
+            }
+        },
+        {
+            "name": "mq_mqttBridgeConnector_topicMap",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-10-04-preview"
+                ]
+            }
+        }
+    ]
+}

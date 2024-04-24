@@ -248,16 +248,6 @@
             }
         },
         {
-            "name": "service_apis_operations_policy",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2016-10-10"
-                ],
-                "preview": []
-            }
-        },
-        {
             "name": "service_apis_operations_tags",
             "scope": "resource",
             "apiVersions": {
@@ -309,16 +299,6 @@
                     "2023-03-01-preview",
                     "2023-05-01-preview"
                 ]
-            }
-        },
-        {
-            "name": "service_apis_policy",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2016-10-10"
-                ],
-                "preview": []
             }
         },
         {
@@ -1358,16 +1338,6 @@
                     "2023-03-01-preview",
                     "2023-05-01-preview"
                 ]
-            }
-        },
-        {
-            "name": "service_products_policy",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2016-10-10"
-                ],
-                "preview": []
             }
         },
         {

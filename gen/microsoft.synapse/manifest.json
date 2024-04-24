@@ -441,23 +441,6 @@
             }
         },
         {
-            "name": "workspaces_sqlPools_maintenancewindows",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2020-12-01",
-                    "2021-03-01",
-                    "2021-05-01",
-                    "2021-06-01"
-                ],
-                "preview": [
-                    "2019-06-01-preview",
-                    "2021-04-01-preview",
-                    "2021-06-01-preview"
-                ]
-            }
-        },
-        {
             "name": "workspaces_sqlPools_metadataSync",
             "scope": "resource",
             "apiVersions": {

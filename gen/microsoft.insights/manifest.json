@@ -100,16 +100,6 @@
             }
         },
         {
-            "name": "workbooks",
-            "scope": "resourceGroup",
-            "apiVersions": {
-                "stable": [],
-                "preview": [
-                    "2018-06-17-preview"
-                ]
-            }
-        },
-        {
             "name": "workbooktemplates",
             "scope": "resourceGroup",
             "apiVersions": {

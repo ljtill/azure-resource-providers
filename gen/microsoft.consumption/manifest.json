@@ -16,17 +16,6 @@
                     "2017-12-30-preview"
                 ]
             }
-        },
-        {
-            "name": "costTags",
-            "scope": "resource",
-            "apiVersions": {
-                "stable": [
-                    "2018-03-31",
-                    "2018-06-30"
-                ],
-                "preview": []
-            }
         }
     ]
 }
