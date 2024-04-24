@@ -5,27 +5,65 @@
             "name": "accessControlLists",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-06-15"
+                ],
                 "preview": [
                     "2023-02-01-preview"
                 ]
             }
         },
         {
-            "name": "ipCommunityLists",
+            "name": "internetGatewayRules",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-06-15"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "internetGateways",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2023-06-15"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "ipCommunities",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2023-06-15"
+                ],
                 "preview": [
                     "2023-02-01-preview"
                 ]
             }
         },
         {
-            "name": "ipPrefixLists",
+            "name": "ipExtendedCommunities",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-06-15"
+                ],
+                "preview": [
+                    "2023-02-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "ipPrefixes",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2023-06-15"
+                ],
                 "preview": [
                     "2023-02-01-preview"
                 ]
@@ -35,7 +73,9 @@
             "name": "l2IsolationDomains",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-06-15"
+                ],
                 "preview": [
                     "2023-02-01-preview"
                 ]
@@ -45,7 +85,9 @@
             "name": "l3IsolationDomains",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-06-15"
+                ],
                 "preview": [
                     "2023-02-01-preview"
                 ]
@@ -55,7 +97,9 @@
             "name": "l3IsolationDomains_externalNetworks",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-06-15"
+                ],
                 "preview": [
                     "2023-02-01-preview"
                 ]
@@ -65,17 +109,31 @@
             "name": "l3IsolationDomains_internalNetworks",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-06-15"
+                ],
                 "preview": [
                     "2023-02-01-preview"
                 ]
             }
         },
         {
+            "name": "neighborGroups",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2023-06-15"
+                ],
+                "preview": []
+            }
+        },
+        {
             "name": "networkDevices",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-06-15"
+                ],
                 "preview": [
                     "2023-02-01-preview"
                 ]
@@ -85,7 +143,9 @@
             "name": "networkDevices_networkInterfaces",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-06-15"
+                ],
                 "preview": [
                     "2023-02-01-preview"
                 ]
@@ -95,7 +155,9 @@
             "name": "networkFabricControllers",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-06-15"
+                ],
                 "preview": [
                     "2023-02-01-preview"
                 ]
@@ -105,7 +167,9 @@
             "name": "networkFabrics",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-06-15"
+                ],
                 "preview": [
                     "2023-02-01-preview"
                 ]
@@ -115,27 +179,63 @@
             "name": "networkFabrics_networkToNetworkInterconnects",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-06-15"
+                ],
                 "preview": [
                     "2023-02-01-preview"
                 ]
+            }
+        },
+        {
+            "name": "networkPacketBrokers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2023-06-15"
+                ],
+                "preview": []
             }
         },
         {
             "name": "networkRacks",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-06-15"
+                ],
                 "preview": [
                     "2023-02-01-preview"
                 ]
             }
         },
         {
+            "name": "networkTapRules",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2023-06-15"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "networkTaps",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2023-06-15"
+                ],
+                "preview": []
+            }
+        },
+        {
             "name": "routePolicies",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2023-06-15"
+                ],
                 "preview": [
                     "2023-02-01-preview"
                 ]

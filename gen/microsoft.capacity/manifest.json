@@ -2,16 +2,6 @@
     "providerNamespace": "Microsoft.Capacity",
     "resourceTypes": [
         {
-            "name": "autoQuotaIncrease",
-            "scope": "subscription",
-            "apiVersions": {
-                "stable": [],
-                "preview": [
-                    "2019-07-19-preview"
-                ]
-            }
-        },
-        {
             "name": "reservationOrders",
             "scope": "tenant",
             "apiVersions": {

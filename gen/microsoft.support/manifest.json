@@ -2,14 +2,43 @@
     "providerNamespace": "Microsoft.Support",
     "resourceTypes": [
         {
+            "name": "fileWorkspaces",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [
+                    "2024-04-01"
+                ],
+                "preview": [
+                    "2022-09-01-preview",
+                    "2023-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "fileWorkspaces_files",
+            "scope": "managementGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-04-01"
+                ],
+                "preview": [
+                    "2022-09-01-preview",
+                    "2023-06-01-preview"
+                ]
+            }
+        },
+        {
             "name": "supportTickets",
             "scope": "subscription",
             "apiVersions": {
                 "stable": [
-                    "2020-04-01"
+                    "2020-04-01",
+                    "2024-04-01"
                 ],
                 "preview": [
-                    "2019-05-01-preview"
+                    "2019-05-01-preview",
+                    "2022-09-01-preview",
+                    "2023-06-01-preview"
                 ]
             }
         },
@@ -18,10 +47,13 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2020-04-01"
+                    "2020-04-01",
+                    "2024-04-01"
                 ],
                 "preview": [
-                    "2019-05-01-preview"
+                    "2019-05-01-preview",
+                    "2022-09-01-preview",
+                    "2023-06-01-preview"
                 ]
             }
         }

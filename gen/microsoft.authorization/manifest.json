@@ -7,8 +7,7 @@
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2021-11-16-preview",
-                    "2021-12-01-preview"
+                    "2021-11-16-preview"
                 ]
             }
         },
@@ -21,20 +20,18 @@
                     "2018-05-01-preview",
                     "2021-03-01-preview",
                     "2021-07-01-preview",
-                    "2021-11-16-preview",
-                    "2021-12-01-preview"
+                    "2021-11-16-preview"
                 ]
             }
         },
         {
             "name": "accessReviewScheduleDefinitions_instances",
-            "scope": "resourceGroup",
+            "scope": "managementGroup",
             "apiVersions": {
                 "stable": [],
                 "preview": [
                     "2021-07-01-preview",
-                    "2021-11-16-preview",
-                    "2021-12-01-preview"
+                    "2021-11-16-preview"
                 ]
             }
         },
@@ -47,8 +44,7 @@
                     "2018-05-01-preview",
                     "2021-03-01-preview",
                     "2021-07-01-preview",
-                    "2021-11-16-preview",
-                    "2021-12-01-preview"
+                    "2021-11-16-preview"
                 ]
             }
         },
@@ -57,10 +53,7 @@
             "scope": "subscription",
             "apiVersions": {
                 "stable": [
-                    "2015-01-01",
-                    "2016-09-01",
-                    "2017-04-01",
-                    "2020-05-01"
+                    "2015-01-01"
                 ],
                 "preview": []
             }
@@ -70,6 +63,7 @@
             "scope": "subscription",
             "apiVersions": {
                 "stable": [
+                    "2015-11-01",
                     "2016-04-01",
                     "2016-12-01",
                     "2018-03-01",
@@ -89,7 +83,7 @@
         },
         {
             "name": "policyDefinitions_versions",
-            "scope": "subscription",
+            "scope": "managementGroup",
             "apiVersions": {
                 "stable": [
                     "2023-04-01"
@@ -99,7 +93,7 @@
         },
         {
             "name": "policySetDefinitions",
-            "scope": "managementGroup",
+            "scope": "tenant",
             "apiVersions": {
                 "stable": [
                     "2018-03-01",
@@ -119,7 +113,7 @@
         },
         {
             "name": "policySetDefinitions_versions",
-            "scope": "subscription",
+            "scope": "managementGroup",
             "apiVersions": {
                 "stable": [
                     "2023-04-01"
@@ -145,16 +139,6 @@
                     "2020-05-01"
                 ],
                 "preview": []
-            }
-        },
-        {
-            "name": "roleAssignmentApprovals_stages",
-            "scope": "managementGroup",
-            "apiVersions": {
-                "stable": [],
-                "preview": [
-                    "2021-01-01-preview"
-                ]
             }
         },
         {
