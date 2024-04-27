@@ -262,6 +262,90 @@
                     "2022-05-01-preview"
                 ]
             }
+        },
+        {
+            "name": "videoAnalyzers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-05-01-preview",
+                    "2021-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "videoAnalyzers_accessPolicies",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-05-01-preview",
+                    "2021-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "videoAnalyzers_edgeModules",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-05-01-preview",
+                    "2021-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "videoAnalyzers_livePipelines",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "videoAnalyzers_pipelineJobs",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "videoAnalyzers_pipelineTopologies",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "videoAnalyzers_privateEndpointConnections",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-11-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "videoAnalyzers_videos",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-05-01-preview",
+                    "2021-11-01-preview"
+                ]
+            }
         }
     ]
 }

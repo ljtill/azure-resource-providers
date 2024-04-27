@@ -1,29 +1,4 @@
 {
     "providerNamespace": "Microsoft.ManagedServices",
-    "resourceTypes": [
-        {
-            "name": "registrationAssignments",
-            "scope": "resourceGroup",
-            "apiVersions": {
-                "stable": [
-                    "2019-06-01"
-                ],
-                "preview": [
-                    "2018-06-01-preview"
-                ]
-            }
-        },
-        {
-            "name": "registrationDefinitions",
-            "scope": "resourceGroup",
-            "apiVersions": {
-                "stable": [
-                    "2019-06-01"
-                ],
-                "preview": [
-                    "2018-06-01-preview"
-                ]
-            }
-        }
-    ]
+    "resourceTypes": []
 }
