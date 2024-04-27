@@ -2,6 +2,16 @@
     "providerNamespace": "Microsoft.Portal",
     "resourceTypes": [
         {
+            "name": "consoles",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [
+                    "2018-10-01"
+                ],
+                "preview": []
+            }
+        },
+        {
             "name": "dashboards",
             "scope": "resourceGroup",
             "apiVersions": {
@@ -15,6 +25,26 @@
             }
         },
         {
+            "name": "locations_consoles",
+            "scope": "managementGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-10-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "locations_userSettings",
+            "scope": "managementGroup",
+            "apiVersions": {
+                "stable": [
+                    "2018-10-01"
+                ],
+                "preview": []
+            }
+        },
+        {
             "name": "tenantConfigurations",
             "scope": "tenant",
             "apiVersions": {
@@ -23,6 +53,16 @@
                     "2019-01-01-preview",
                     "2020-09-01-preview"
                 ]
+            }
+        },
+        {
+            "name": "userSettings",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [
+                    "2018-10-01"
+                ],
+                "preview": []
             }
         }
     ]

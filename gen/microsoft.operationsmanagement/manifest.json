@@ -2,6 +2,16 @@
     "providerNamespace": "Microsoft.OperationsManagement",
     "resourceTypes": [
         {
+            "name": "ManagementAssociations",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2015-11-01-preview"
+                ]
+            }
+        },
+        {
             "name": "ManagementConfigurations",
             "scope": "resourceGroup",
             "apiVersions": {
