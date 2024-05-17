@@ -16,7 +16,8 @@
                     "2023-04-01-preview",
                     "2023-04-15-preview",
                     "2023-09-01-preview",
-                    "2023-10-27-preview"
+                    "2023-10-27-preview",
+                    "2024-03-22-preview"
                 ]
             }
         },
@@ -26,7 +27,8 @@
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2023-10-27-preview"
+                    "2023-10-27-preview",
+                    "2024-03-22-preview"
                 ]
             }
         },
@@ -45,7 +47,8 @@
                     "2023-04-01-preview",
                     "2023-04-15-preview",
                     "2023-09-01-preview",
-                    "2023-10-27-preview"
+                    "2023-10-27-preview",
+                    "2024-03-22-preview"
                 ]
             }
         },
@@ -64,7 +67,8 @@
                     "2023-04-01-preview",
                     "2023-04-15-preview",
                     "2023-09-01-preview",
-                    "2023-10-27-preview"
+                    "2023-10-27-preview",
+                    "2024-03-22-preview"
                 ]
             }
         }
