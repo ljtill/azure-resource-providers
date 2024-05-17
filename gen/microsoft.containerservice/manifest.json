@@ -160,7 +160,8 @@
                     "2023-10-02-preview",
                     "2023-11-02-preview",
                     "2024-01-02-preview",
-                    "2024-02-02-preview"
+                    "2024-02-02-preview",
+                    "2024-03-02-preview"
                 ]
             }
         },
@@ -239,7 +240,18 @@
                     "2023-10-02-preview",
                     "2023-11-02-preview",
                     "2024-01-02-preview",
-                    "2024-02-02-preview"
+                    "2024-02-02-preview",
+                    "2024-03-02-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedClusters_loadBalancers",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-03-02-preview"
                 ]
             }
         },
@@ -304,7 +316,8 @@
                     "2023-10-02-preview",
                     "2023-11-02-preview",
                     "2024-01-02-preview",
-                    "2024-02-02-preview"
+                    "2024-02-02-preview",
+                    "2024-03-02-preview"
                 ]
             }
         },
@@ -373,7 +386,8 @@
                     "2023-10-02-preview",
                     "2023-11-02-preview",
                     "2024-01-02-preview",
-                    "2024-02-02-preview"
+                    "2024-02-02-preview",
+                    "2024-03-02-preview"
                 ]
             }
         },
@@ -410,7 +424,8 @@
                     "2023-10-02-preview",
                     "2023-11-02-preview",
                     "2024-01-02-preview",
-                    "2024-02-02-preview"
+                    "2024-02-02-preview",
+                    "2024-03-02-preview"
                 ]
             }
         },
@@ -443,7 +458,8 @@
                     "2023-10-02-preview",
                     "2023-11-02-preview",
                     "2024-01-02-preview",
-                    "2024-02-02-preview"
+                    "2024-02-02-preview",
+                    "2024-03-02-preview"
                 ]
             }
         },
@@ -517,7 +533,8 @@
                     "2023-10-02-preview",
                     "2023-11-02-preview",
                     "2024-01-02-preview",
-                    "2024-02-02-preview"
+                    "2024-02-02-preview",
+                    "2024-03-02-preview"
                 ]
             }
         }

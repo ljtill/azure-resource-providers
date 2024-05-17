@@ -1,0 +1,15 @@
+{
+    "providerNamespace": "Microsoft.PortalServices",
+    "resourceTypes": [
+        {
+            "name": "copilotSettings",
+            "scope": "tenant",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-04-01-preview"
+                ]
+            }
+        }
+    ]
+}
