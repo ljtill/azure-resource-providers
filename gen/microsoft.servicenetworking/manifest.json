@@ -10,7 +10,8 @@
                 ],
                 "preview": [
                     "2022-10-01-preview",
-                    "2023-05-01-preview"
+                    "2023-05-01-preview",
+                    "2024-05-01-preview"
                 ]
             }
         },
@@ -23,7 +24,8 @@
                 ],
                 "preview": [
                     "2022-10-01-preview",
-                    "2023-05-01-preview"
+                    "2023-05-01-preview",
+                    "2024-05-01-preview"
                 ]
             }
         },
@@ -36,7 +38,18 @@
                 ],
                 "preview": [
                     "2022-10-01-preview",
-                    "2023-05-01-preview"
+                    "2023-05-01-preview",
+                    "2024-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "trafficControllers_securityPolicy",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-05-01-preview"
                 ]
             }
         }

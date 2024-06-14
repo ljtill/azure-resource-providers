@@ -6,7 +6,8 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2024-01-25"
+                    "2024-01-25",
+                    "2024-05-07"
                 ],
                 "preview": [
                     "2023-10-11-preview"
@@ -18,7 +19,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2024-01-25"
+                    "2024-01-25",
+                    "2024-05-07"
                 ],
                 "preview": [
                     "2023-10-11-preview"
@@ -30,7 +32,8 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2024-01-25"
+                    "2024-01-25",
+                    "2024-05-07"
                 ],
                 "preview": [
                     "2023-10-11-preview"

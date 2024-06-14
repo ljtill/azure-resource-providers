@@ -2,6 +2,16 @@
     "providerNamespace": "Microsoft.DevHub",
     "resourceTypes": [
         {
+            "name": "iacProfiles",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-05-01-preview"
+                ]
+            }
+        },
+        {
             "name": "workflows",
             "scope": "resourceGroup",
             "apiVersions": {
@@ -10,7 +20,8 @@
                 ],
                 "preview": [
                     "2022-04-01-preview",
-                    "2022-10-11-preview"
+                    "2022-10-11-preview",
+                    "2024-05-01-preview"
                 ]
             }
         }

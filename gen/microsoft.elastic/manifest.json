@@ -23,7 +23,18 @@
                     "2023-07-01-preview",
                     "2023-10-01-preview",
                     "2023-11-01-preview",
-                    "2024-01-01-preview"
+                    "2024-01-01-preview",
+                    "2024-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "monitors_monitoredSubscriptions",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-05-01-preview"
                 ]
             }
         },
@@ -35,7 +46,8 @@
                     "2024-03-01"
                 ],
                 "preview": [
-                    "2024-01-01-preview"
+                    "2024-01-01-preview",
+                    "2024-05-01-preview"
                 ]
             }
         },
@@ -61,7 +73,8 @@
                     "2023-07-01-preview",
                     "2023-10-01-preview",
                     "2023-11-01-preview",
-                    "2024-01-01-preview"
+                    "2024-01-01-preview",
+                    "2024-05-01-preview"
                 ]
             }
         }

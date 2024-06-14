@@ -5,10 +5,42 @@
             "name": "reports",
             "scope": "tenant",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-06-27"
+                ],
                 "preview": [
                     "2022-11-16-preview"
                 ]
+            }
+        },
+        {
+            "name": "reports_evidences",
+            "scope": "managementGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-06-27"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "reports_scopingConfigurations",
+            "scope": "managementGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-06-27"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "reports_webhooks",
+            "scope": "managementGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-06-27"
+                ],
+                "preview": []
             }
         }
     ]

@@ -1,0 +1,15 @@
+{
+    "providerNamespace": "Microsoft.VerifiedId",
+    "resourceTypes": [
+        {
+            "name": "authorities",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-01-26-preview"
+                ]
+            }
+        }
+    ]
+}
