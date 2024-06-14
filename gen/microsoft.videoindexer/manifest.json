@@ -15,7 +15,18 @@
                     "2021-11-10-preview",
                     "2022-04-13-preview",
                     "2022-07-20-preview",
-                    "2024-04-01-preview"
+                    "2024-04-01-preview",
+                    "2024-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "accounts_privateEndpointConnections",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-06-01-preview"
                 ]
             }
         }

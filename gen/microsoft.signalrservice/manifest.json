@@ -10,7 +10,8 @@
                     "2020-05-01",
                     "2021-10-01",
                     "2022-02-01",
-                    "2023-02-01"
+                    "2023-02-01",
+                    "2024-03-01"
                 ],
                 "preview": [
                     "2018-03-01-preview",
@@ -32,7 +33,8 @@
             "apiVersions": {
                 "stable": [
                     "2022-02-01",
-                    "2023-02-01"
+                    "2023-02-01",
+                    "2024-03-01"
                 ],
                 "preview": [
                     "2022-08-01-preview",
@@ -49,7 +51,8 @@
             "apiVersions": {
                 "stable": [
                     "2022-02-01",
-                    "2023-02-01"
+                    "2023-02-01",
+                    "2024-03-01"
                 ],
                 "preview": [
                     "2022-08-01-preview",
@@ -68,7 +71,8 @@
                     "2020-05-01",
                     "2021-10-01",
                     "2022-02-01",
-                    "2023-02-01"
+                    "2023-02-01",
+                    "2024-03-01"
                 ],
                 "preview": [
                     "2020-07-01-preview",
@@ -87,7 +91,9 @@
             "name": "signalR_replicas",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-03-01"
+                ],
                 "preview": [
                     "2023-03-01-preview",
                     "2023-06-01-preview",
@@ -100,7 +106,9 @@
             "name": "signalR_replicas_sharedPrivateLinkResources",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-03-01"
+                ],
                 "preview": [
                     "2024-01-01-preview"
                 ]
@@ -113,7 +121,8 @@
                 "stable": [
                     "2021-10-01",
                     "2022-02-01",
-                    "2023-02-01"
+                    "2023-02-01",
+                    "2024-03-01"
                 ],
                 "preview": [
                     "2021-04-01-preview",
@@ -133,7 +142,8 @@
             "apiVersions": {
                 "stable": [
                     "2021-10-01",
-                    "2023-02-01"
+                    "2023-02-01",
+                    "2024-03-01"
                 ],
                 "preview": [
                     "2021-04-01-preview",
@@ -152,7 +162,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2023-02-01"
+                    "2023-02-01",
+                    "2024-03-01"
                 ],
                 "preview": [
                     "2022-08-01-preview",
@@ -168,7 +179,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2023-02-01"
+                    "2023-02-01",
+                    "2024-03-01"
                 ],
                 "preview": [
                     "2022-08-01-preview",
@@ -185,7 +197,8 @@
             "apiVersions": {
                 "stable": [
                     "2021-10-01",
-                    "2023-02-01"
+                    "2023-02-01",
+                    "2024-03-01"
                 ],
                 "preview": [
                     "2022-08-01-preview",
@@ -202,7 +215,8 @@
             "apiVersions": {
                 "stable": [
                     "2021-10-01",
-                    "2023-02-01"
+                    "2023-02-01",
+                    "2024-03-01"
                 ],
                 "preview": [
                     "2021-04-01-preview",
@@ -220,7 +234,9 @@
             "name": "webPubSub_replicas",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-03-01"
+                ],
                 "preview": [
                     "2023-03-01-preview",
                     "2023-06-01-preview",
@@ -233,7 +249,9 @@
             "name": "webPubSub_replicas_sharedPrivateLinkResources",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-03-01"
+                ],
                 "preview": [
                     "2024-01-01-preview"
                 ]
@@ -245,7 +263,8 @@
             "apiVersions": {
                 "stable": [
                     "2021-10-01",
-                    "2023-02-01"
+                    "2023-02-01",
+                    "2024-03-01"
                 ],
                 "preview": [
                     "2021-04-01-preview",
