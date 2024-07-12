@@ -65,5 +65,5 @@ jobs:
       - name: "Delete runs"
         run: |
           month=$(date -d "$(date +%Y-%m)-15 last month" '+%Y-%m')
-          gh run list --created $month --json databaseId --jq '.[].databaseId' --limit 50 | xargs -I{} gh run delete {}
+          gh run list --created $month --json databaseId --jq '.[].databaseId' --limit 25 | xargs -I{} gh run delete {}
         working-directory: providers
