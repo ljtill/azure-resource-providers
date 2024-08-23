@@ -17,7 +17,8 @@
                 "preview": [
                     "2016-02-01-preview",
                     "2023-10-01-preview",
-                    "2024-04-01-preview"
+                    "2024-04-01-preview",
+                    "2024-06-01-preview"
                 ]
             }
         },
@@ -34,7 +35,8 @@
                 ],
                 "preview": [
                     "2023-10-01-preview",
-                    "2024-04-01-preview"
+                    "2024-04-01-preview",
+                    "2024-06-01-preview"
                 ]
             }
         },
@@ -44,7 +46,8 @@
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2024-04-01-preview"
+                    "2024-04-01-preview",
+                    "2024-06-01-preview"
                 ]
             }
         },
@@ -61,7 +64,8 @@
                 ],
                 "preview": [
                     "2023-10-01-preview",
-                    "2024-04-01-preview"
+                    "2024-04-01-preview",
+                    "2024-06-01-preview"
                 ]
             }
         },
@@ -72,7 +76,8 @@
                 "stable": [],
                 "preview": [
                     "2023-10-01-preview",
-                    "2024-04-01-preview"
+                    "2024-04-01-preview",
+                    "2024-06-01-preview"
                 ]
             }
         },
@@ -91,7 +96,8 @@
                 ],
                 "preview": [
                     "2023-10-01-preview",
-                    "2024-04-01-preview"
+                    "2024-04-01-preview",
+                    "2024-06-01-preview"
                 ]
             }
         },
@@ -102,7 +108,8 @@
                 "stable": [],
                 "preview": [
                     "2023-10-01-preview",
-                    "2024-04-01-preview"
+                    "2024-04-01-preview",
+                    "2024-06-01-preview"
                 ]
             }
         },
@@ -113,7 +120,8 @@
                 "stable": [],
                 "preview": [
                     "2023-10-01-preview",
-                    "2024-04-01-preview"
+                    "2024-04-01-preview",
+                    "2024-06-01-preview"
                 ]
             }
         },
@@ -124,7 +132,8 @@
                 "stable": [],
                 "preview": [
                     "2023-10-01-preview",
-                    "2024-04-01-preview"
+                    "2024-04-01-preview",
+                    "2024-06-01-preview"
                 ]
             }
         },
@@ -138,7 +147,8 @@
                 ],
                 "preview": [
                     "2023-10-01-preview",
-                    "2024-04-01-preview"
+                    "2024-04-01-preview",
+                    "2024-06-01-preview"
                 ]
             }
         },
@@ -152,7 +162,8 @@
                 ],
                 "preview": [
                     "2023-10-01-preview",
-                    "2024-04-01-preview"
+                    "2024-04-01-preview",
+                    "2024-06-01-preview"
                 ]
             }
         }

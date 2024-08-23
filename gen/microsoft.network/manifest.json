@@ -1980,7 +1980,8 @@
                     "2021-02-01-preview",
                     "2021-05-01-preview",
                     "2022-02-01-preview",
-                    "2022-04-01-preview"
+                    "2022-04-01-preview",
+                    "2024-01-01-preview"
                 ]
             }
         },
@@ -2007,6 +2008,26 @@
                     "2021-05-01-preview",
                     "2022-02-01-preview",
                     "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "networkManagers_ipamPools",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "networkManagers_ipamPools_staticCidrs",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-01-01-preview"
                 ]
             }
         },
@@ -2138,7 +2159,8 @@
                     "2021-02-01-preview",
                     "2021-05-01-preview",
                     "2022-02-01-preview",
-                    "2022-04-01-preview"
+                    "2022-04-01-preview",
+                    "2024-01-01-preview"
                 ]
             }
         },
@@ -2164,7 +2186,8 @@
                     "2021-02-01-preview",
                     "2021-05-01-preview",
                     "2022-02-01-preview",
-                    "2022-04-01-preview"
+                    "2022-04-01-preview",
+                    "2024-01-01-preview"
                 ]
             }
         },
@@ -2190,7 +2213,8 @@
                     "2021-02-01-preview",
                     "2021-05-01-preview",
                     "2022-02-01-preview",
-                    "2022-04-01-preview"
+                    "2022-04-01-preview",
+                    "2024-01-01-preview"
                 ]
             }
         },
@@ -2230,6 +2254,36 @@
                     "2021-05-01-preview",
                     "2022-02-01-preview",
                     "2022-04-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "networkManagers_verifierWorkspaces",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "networkManagers_verifierWorkspaces_reachabilityAnalysisIntents",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-01-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "networkManagers_verifierWorkspaces_reachabilityAnalysisRuns",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-01-01-preview"
                 ]
             }
         },

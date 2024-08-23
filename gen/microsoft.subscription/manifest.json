@@ -10,7 +10,18 @@
                     "2021-10-01"
                 ],
                 "preview": [
-                    "2019-10-01-preview"
+                    "2019-10-01-preview",
+                    "2024-08-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "changeTenantRequest",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-08-01-preview"
                 ]
             }
         },
@@ -21,7 +32,9 @@
                 "stable": [
                     "2021-10-01"
                 ],
-                "preview": []
+                "preview": [
+                    "2024-08-01-preview"
+                ]
             }
         },
         {

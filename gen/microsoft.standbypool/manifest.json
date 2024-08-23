@@ -5,9 +5,12 @@
             "name": "standbyContainerGroupPools",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-03-01"
+                ],
                 "preview": [
-                    "2023-12-01-preview"
+                    "2023-12-01-preview",
+                    "2024-03-01-preview"
                 ]
             }
         },
@@ -15,9 +18,12 @@
             "name": "standbyVirtualMachinePools",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-03-01"
+                ],
                 "preview": [
-                    "2023-12-01-preview"
+                    "2023-12-01-preview",
+                    "2024-03-01-preview"
                 ]
             }
         }

@@ -1630,14 +1630,17 @@
             "name": "mongoClusters",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-07-01"
+                ],
                 "preview": [
                     "2023-03-01-preview",
                     "2023-03-15-preview",
                     "2023-09-15-preview",
                     "2023-11-15-preview",
                     "2024-02-15-preview",
-                    "2024-03-01-preview"
+                    "2024-03-01-preview",
+                    "2024-06-01-preview"
                 ]
             }
         },
@@ -1645,14 +1648,17 @@
             "name": "mongoClusters_firewallRules",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-07-01"
+                ],
                 "preview": [
                     "2023-03-01-preview",
                     "2023-03-15-preview",
                     "2023-09-15-preview",
                     "2023-11-15-preview",
                     "2024-02-15-preview",
-                    "2024-03-01-preview"
+                    "2024-03-01-preview",
+                    "2024-06-01-preview"
                 ]
             }
         },
@@ -1660,9 +1666,12 @@
             "name": "mongoClusters_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-07-01"
+                ],
                 "preview": [
-                    "2024-03-01-preview"
+                    "2024-03-01-preview",
+                    "2024-06-01-preview"
                 ]
             }
         },
