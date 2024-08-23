@@ -1,0 +1,15 @@
+{
+    "providerNamespace": "Microsoft.Contoso",
+    "resourceTypes": [
+        {
+            "name": "employees",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2021-10-01-preview"
+                ]
+            }
+        }
+    ]
+}

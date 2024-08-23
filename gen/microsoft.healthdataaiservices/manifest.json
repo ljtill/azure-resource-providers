@@ -1,0 +1,25 @@
+{
+    "providerNamespace": "Microsoft.HealthDataAIServices",
+    "resourceTypes": [
+        {
+            "name": "deidServices",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-02-28-preview"
+                ]
+            }
+        },
+        {
+            "name": "deidServices_privateEndpointConnections",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-02-28-preview"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+{
+    "providerNamespace": "Microsoft.IoTOperations",
+    "resourceTypes": [
+        {
+            "name": "instances",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-07-01-preview",
+                    "2024-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "instances_brokers",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-07-01-preview",
+                    "2024-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "instances_brokers_authentications",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-07-01-preview",
+                    "2024-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "instances_brokers_authorizations",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-07-01-preview",
+                    "2024-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "instances_brokers_listeners",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-07-01-preview",
+                    "2024-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "instances_dataflowEndpoints",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-07-01-preview",
+                    "2024-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "instances_dataflowProfiles",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-07-01-preview",
+                    "2024-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "instances_dataflowProfiles_dataflows",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-07-01-preview",
+                    "2024-08-15-preview"
+                ]
+            }
+        }
+    ]
+}
