@@ -10,9 +10,9 @@
     "generate": "ts-node src/generate.ts"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^8.5.0",
-    "@typescript-eslint/parser": "^8.5.0",
-    "eslint": "^9.10.0",
+    "@typescript-eslint/eslint-plugin": "^8.6.0",
+    "@typescript-eslint/parser": "^8.6.0",
+    "eslint": "^9.11.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.2"
   }
