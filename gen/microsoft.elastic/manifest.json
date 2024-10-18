@@ -25,7 +25,8 @@
                     "2023-11-01-preview",
                     "2024-01-01-preview",
                     "2024-05-01-preview",
-                    "2024-06-15-preview"
+                    "2024-06-15-preview",
+                    "2024-10-01-preview"
                 ]
             }
         },
@@ -36,7 +37,8 @@
                 "stable": [],
                 "preview": [
                     "2024-05-01-preview",
-                    "2024-06-15-preview"
+                    "2024-06-15-preview",
+                    "2024-10-01-preview"
                 ]
             }
         },
@@ -50,7 +52,8 @@
                 "preview": [
                     "2024-01-01-preview",
                     "2024-05-01-preview",
-                    "2024-06-15-preview"
+                    "2024-06-15-preview",
+                    "2024-10-01-preview"
                 ]
             }
         },
@@ -78,7 +81,8 @@
                     "2023-11-01-preview",
                     "2024-01-01-preview",
                     "2024-05-01-preview",
-                    "2024-06-15-preview"
+                    "2024-06-15-preview",
+                    "2024-10-01-preview"
                 ]
             }
         }

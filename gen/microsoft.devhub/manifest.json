@@ -7,7 +7,8 @@
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2024-05-01-preview"
+                    "2024-05-01-preview",
+                    "2024-08-01-preview"
                 ]
             }
         },
@@ -21,7 +22,8 @@
                 "preview": [
                     "2022-04-01-preview",
                     "2022-10-11-preview",
-                    "2024-05-01-preview"
+                    "2024-05-01-preview",
+                    "2024-08-01-preview"
                 ]
             }
         }

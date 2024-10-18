@@ -1,23 +1,23 @@
 {
-    "providerNamespace": "Microsoft.AzureLargeInstance",
+    "providerNamespace": "Microsoft.ProgrammableConnectivity",
     "resourceTypes": [
         {
-            "name": "azureLargeInstances",
+            "name": "gateways",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2024-08-01-preview"
+                    "2024-01-15-preview"
                 ]
             }
         },
         {
-            "name": "azureLargeStorageInstances",
+            "name": "operatorApiConnections",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2024-08-01-preview"
+                    "2024-01-15-preview"
                 ]
             }
         }

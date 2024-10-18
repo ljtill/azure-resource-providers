@@ -5,7 +5,9 @@
             "name": "deidServices",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-09-20"
+                ],
                 "preview": [
                     "2024-02-28-preview"
                 ]
@@ -15,7 +17,9 @@
             "name": "deidServices_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-09-20"
+                ],
                 "preview": [
                     "2024-02-28-preview"
                 ]

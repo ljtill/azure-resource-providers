@@ -6,12 +6,14 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2023-07-01"
+                    "2023-07-01",
+                    "2024-07-01"
                 ],
                 "preview": [
                     "2022-12-12-preview",
                     "2023-05-01-preview",
-                    "2023-10-01-preview"
+                    "2023-10-01-preview",
+                    "2024-06-01-preview"
                 ]
             }
         },
@@ -20,12 +22,14 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2023-07-01"
+                    "2023-07-01",
+                    "2024-07-01"
                 ],
                 "preview": [
                     "2022-12-12-preview",
                     "2023-05-01-preview",
-                    "2023-10-01-preview"
+                    "2023-10-01-preview",
+                    "2024-06-01-preview"
                 ]
             }
         },
@@ -34,12 +38,14 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2023-07-01"
+                    "2023-07-01",
+                    "2024-07-01"
                 ],
                 "preview": [
                     "2022-12-12-preview",
                     "2023-05-01-preview",
-                    "2023-10-01-preview"
+                    "2023-10-01-preview",
+                    "2024-06-01-preview"
                 ]
             }
         },
@@ -48,12 +54,14 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2023-07-01"
+                    "2023-07-01",
+                    "2024-07-01"
                 ],
                 "preview": [
                     "2022-12-12-preview",
                     "2023-05-01-preview",
-                    "2023-10-01-preview"
+                    "2023-10-01-preview",
+                    "2024-06-01-preview"
                 ]
             }
         },
@@ -62,12 +70,14 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2023-07-01"
+                    "2023-07-01",
+                    "2024-07-01"
                 ],
                 "preview": [
                     "2022-12-12-preview",
                     "2023-05-01-preview",
-                    "2023-10-01-preview"
+                    "2023-10-01-preview",
+                    "2024-06-01-preview"
                 ]
             }
         },
@@ -76,12 +86,14 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2023-07-01"
+                    "2023-07-01",
+                    "2024-07-01"
                 ],
                 "preview": [
                     "2022-12-12-preview",
                     "2023-05-01-preview",
-                    "2023-10-01-preview"
+                    "2023-10-01-preview",
+                    "2024-06-01-preview"
                 ]
             }
         },
@@ -90,12 +102,14 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2023-07-01"
+                    "2023-07-01",
+                    "2024-07-01"
                 ],
                 "preview": [
                     "2022-12-12-preview",
                     "2023-05-01-preview",
-                    "2023-10-01-preview"
+                    "2023-10-01-preview",
+                    "2024-06-01-preview"
                 ]
             }
         },
@@ -124,11 +138,13 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2023-07-01"
+                    "2023-07-01",
+                    "2024-07-01"
                 ],
                 "preview": [
                     "2023-05-01-preview",
-                    "2023-10-01-preview"
+                    "2023-10-01-preview",
+                    "2024-06-01-preview"
                 ]
             }
         },
@@ -137,11 +153,25 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2023-07-01"
+                    "2023-07-01",
+                    "2024-07-01"
                 ],
                 "preview": [
                     "2023-05-01-preview",
-                    "2023-10-01-preview"
+                    "2023-10-01-preview",
+                    "2024-06-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "kubernetesClusters_features",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2024-07-01"
+                ],
+                "preview": [
+                    "2024-06-01-preview"
                 ]
             }
         },
@@ -150,12 +180,14 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2023-07-01"
+                    "2023-07-01",
+                    "2024-07-01"
                 ],
                 "preview": [
                     "2022-12-12-preview",
                     "2023-05-01-preview",
-                    "2023-10-01-preview"
+                    "2023-10-01-preview",
+                    "2024-06-01-preview"
                 ]
             }
         },
@@ -164,12 +196,14 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2023-07-01"
+                    "2023-07-01",
+                    "2024-07-01"
                 ],
                 "preview": [
                     "2022-12-12-preview",
                     "2023-05-01-preview",
-                    "2023-10-01-preview"
+                    "2023-10-01-preview",
+                    "2024-06-01-preview"
                 ]
             }
         },
@@ -178,12 +212,14 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2023-07-01"
+                    "2023-07-01",
+                    "2024-07-01"
                 ],
                 "preview": [
                     "2022-12-12-preview",
                     "2023-05-01-preview",
-                    "2023-10-01-preview"
+                    "2023-10-01-preview",
+                    "2024-06-01-preview"
                 ]
             }
         },
@@ -192,12 +228,14 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2023-07-01"
+                    "2023-07-01",
+                    "2024-07-01"
                 ],
                 "preview": [
                     "2022-12-12-preview",
                     "2023-05-01-preview",
-                    "2023-10-01-preview"
+                    "2023-10-01-preview",
+                    "2024-06-01-preview"
                 ]
             }
         },
@@ -206,12 +244,14 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2023-07-01"
+                    "2023-07-01",
+                    "2024-07-01"
                 ],
                 "preview": [
                     "2022-12-12-preview",
                     "2023-05-01-preview",
-                    "2023-10-01-preview"
+                    "2023-10-01-preview",
+                    "2024-06-01-preview"
                 ]
             }
         },
@@ -220,12 +260,14 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2023-07-01"
+                    "2023-07-01",
+                    "2024-07-01"
                 ],
                 "preview": [
                     "2022-12-12-preview",
                     "2023-05-01-preview",
-                    "2023-10-01-preview"
+                    "2023-10-01-preview",
+                    "2024-06-01-preview"
                 ]
             }
         },
@@ -234,12 +276,14 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2023-07-01"
+                    "2023-07-01",
+                    "2024-07-01"
                 ],
                 "preview": [
                     "2022-12-12-preview",
                     "2023-05-01-preview",
-                    "2023-10-01-preview"
+                    "2023-10-01-preview",
+                    "2024-06-01-preview"
                 ]
             }
         },
@@ -248,12 +292,14 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2023-07-01"
+                    "2023-07-01",
+                    "2024-07-01"
                 ],
                 "preview": [
                     "2022-12-12-preview",
                     "2023-05-01-preview",
-                    "2023-10-01-preview"
+                    "2023-10-01-preview",
+                    "2024-06-01-preview"
                 ]
             }
         }

@@ -7,7 +7,8 @@
             "apiVersions": {
                 "stable": [
                     "2021-06-01",
-                    "2022-12-01"
+                    "2022-12-01",
+                    "2024-08-01"
                 ],
                 "preview": [
                     "2021-06-01-preview",
@@ -25,7 +26,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2022-12-01"
+                    "2022-12-01",
+                    "2024-08-01"
                 ],
                 "preview": [
                     "2022-03-08-preview",
@@ -40,7 +42,9 @@
             "name": "flexibleServers_advancedThreatProtectionSettings",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-08-01"
+                ],
                 "preview": [
                     "2023-06-01-preview",
                     "2023-12-01-preview",
@@ -52,7 +56,9 @@
             "name": "flexibleServers_backups",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-08-01"
+                ],
                 "preview": [
                     "2024-03-01-preview"
                 ]
@@ -64,7 +70,8 @@
             "apiVersions": {
                 "stable": [
                     "2021-06-01",
-                    "2022-12-01"
+                    "2022-12-01",
+                    "2024-08-01"
                 ],
                 "preview": [
                     "2021-06-01-preview",
@@ -83,7 +90,8 @@
             "apiVersions": {
                 "stable": [
                     "2021-06-01",
-                    "2022-12-01"
+                    "2022-12-01",
+                    "2024-08-01"
                 ],
                 "preview": [
                     "2021-06-01-preview",
@@ -102,7 +110,8 @@
             "apiVersions": {
                 "stable": [
                     "2021-06-01",
-                    "2022-12-01"
+                    "2022-12-01",
+                    "2024-08-01"
                 ],
                 "preview": [
                     "2021-06-01-preview",
@@ -119,7 +128,9 @@
             "name": "flexibleServers_migrations",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-08-01"
+                ],
                 "preview": [
                     "2022-05-01-preview",
                     "2023-03-01-preview",
@@ -133,7 +144,9 @@
             "name": "flexibleServers_privateEndpointConnections",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-08-01"
+                ],
                 "preview": [
                     "2023-06-01-preview",
                     "2023-12-01-preview",
@@ -145,7 +158,9 @@
             "name": "flexibleServers_virtualendpoints",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-08-01"
+                ],
                 "preview": [
                     "2023-06-01-preview",
                     "2023-12-01-preview",

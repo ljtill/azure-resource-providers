@@ -5,7 +5,9 @@
             "name": "fleets",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-11-01"
+                ],
                 "preview": [
                     "2023-11-01-preview",
                     "2024-05-01-preview"

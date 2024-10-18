@@ -2,12 +2,30 @@
     "providerNamespace": "Microsoft.HybridCompute",
     "resourceTypes": [
         {
-            "name": "licenses",
+            "name": "gateways",
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2023-06-20-preview"
+                    "2024-03-31-preview",
+                    "2024-05-20-preview",
+                    "2024-07-31-preview"
+                ]
+            }
+        },
+        {
+            "name": "licenses",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-07-10"
+                ],
+                "preview": [
+                    "2023-06-20-preview",
+                    "2023-10-03-preview",
+                    "2024-03-31-preview",
+                    "2024-05-20-preview",
+                    "2024-07-31-preview"
                 ]
             }
         },
@@ -21,7 +39,8 @@
                     "2021-05-20",
                     "2022-03-10",
                     "2022-11-10",
-                    "2022-12-27"
+                    "2022-12-27",
+                    "2024-07-10"
                 ],
                 "preview": [
                     "2019-03-18-preview",
@@ -39,7 +58,11 @@
                     "2022-12-27-preview",
                     "2023-03-15-preview",
                     "2023-04-25-preview",
-                    "2023-06-20-preview"
+                    "2023-06-20-preview",
+                    "2023-10-03-preview",
+                    "2024-03-31-preview",
+                    "2024-05-20-preview",
+                    "2024-07-31-preview"
                 ]
             }
         },
@@ -53,7 +76,8 @@
                     "2021-05-20",
                     "2022-03-10",
                     "2022-11-10",
-                    "2022-12-27"
+                    "2022-12-27",
+                    "2024-07-10"
                 ],
                 "preview": [
                     "2019-08-02-preview",
@@ -70,7 +94,11 @@
                     "2022-12-27-preview",
                     "2023-03-15-preview",
                     "2023-04-25-preview",
-                    "2023-06-20-preview"
+                    "2023-06-20-preview",
+                    "2023-10-03-preview",
+                    "2024-03-31-preview",
+                    "2024-05-20-preview",
+                    "2024-07-31-preview"
                 ]
             }
         },
@@ -78,9 +106,15 @@
             "name": "machines_licenseProfiles",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-07-10"
+                ],
                 "preview": [
-                    "2023-06-20-preview"
+                    "2023-06-20-preview",
+                    "2023-10-03-preview",
+                    "2024-03-31-preview",
+                    "2024-05-20-preview",
+                    "2024-07-31-preview"
                 ]
             }
         },
@@ -90,7 +124,11 @@
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2023-04-25-preview"
+                    "2023-04-25-preview",
+                    "2023-10-03-preview",
+                    "2024-03-31-preview",
+                    "2024-05-20-preview",
+                    "2024-07-31-preview"
                 ]
             }
         },
@@ -102,7 +140,8 @@
                     "2021-05-20",
                     "2022-03-10",
                     "2022-11-10",
-                    "2022-12-27"
+                    "2022-12-27",
+                    "2024-07-10"
                 ],
                 "preview": [
                     "2020-08-15-preview",
@@ -117,7 +156,11 @@
                     "2022-12-27-preview",
                     "2023-03-15-preview",
                     "2023-04-25-preview",
-                    "2023-06-20-preview"
+                    "2023-06-20-preview",
+                    "2023-10-03-preview",
+                    "2024-03-31-preview",
+                    "2024-05-20-preview",
+                    "2024-07-31-preview"
                 ]
             }
         },
@@ -129,7 +172,8 @@
                     "2021-05-20",
                     "2022-03-10",
                     "2022-11-10",
-                    "2022-12-27"
+                    "2022-12-27",
+                    "2024-07-10"
                 ],
                 "preview": [
                     "2020-08-15-preview",
@@ -144,7 +188,11 @@
                     "2022-12-27-preview",
                     "2023-03-15-preview",
                     "2023-04-25-preview",
-                    "2023-06-20-preview"
+                    "2023-06-20-preview",
+                    "2023-10-03-preview",
+                    "2024-03-31-preview",
+                    "2024-05-20-preview",
+                    "2024-07-31-preview"
                 ]
             }
         },
@@ -155,6 +203,18 @@
                 "stable": [],
                 "preview": [
                     "2020-08-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "settings",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-03-31-preview",
+                    "2024-05-20-preview",
+                    "2024-07-31-preview"
                 ]
             }
         }

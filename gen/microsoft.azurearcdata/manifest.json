@@ -15,7 +15,8 @@
                     "2021-07-01-preview",
                     "2022-03-01-preview",
                     "2022-06-15-preview",
-                    "2023-01-15-preview"
+                    "2023-01-15-preview",
+                    "2024-05-01-preview"
                 ]
             }
         },
@@ -29,7 +30,8 @@
                 "preview": [
                     "2022-03-01-preview",
                     "2022-06-15-preview",
-                    "2023-01-15-preview"
+                    "2023-01-15-preview",
+                    "2024-05-01-preview"
                 ]
             }
         },
@@ -45,7 +47,8 @@
                     "2021-07-01-preview",
                     "2022-03-01-preview",
                     "2022-06-15-preview",
-                    "2023-01-15-preview"
+                    "2023-01-15-preview",
+                    "2024-05-01-preview"
                 ]
             }
         },
@@ -63,7 +66,8 @@
                     "2021-07-01-preview",
                     "2022-03-01-preview",
                     "2022-06-15-preview",
-                    "2023-01-15-preview"
+                    "2023-01-15-preview",
+                    "2024-05-01-preview"
                 ]
             }
         },
@@ -75,7 +79,18 @@
                     "2024-01-01"
                 ],
                 "preview": [
-                    "2023-01-15-preview"
+                    "2023-01-15-preview",
+                    "2024-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "sqlServerEsuLicenses",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-05-01-preview"
                 ]
             }
         },
@@ -93,7 +108,8 @@
                     "2021-07-01-preview",
                     "2022-03-01-preview",
                     "2022-06-15-preview",
-                    "2023-01-15-preview"
+                    "2023-01-15-preview",
+                    "2024-05-01-preview"
                 ]
             }
         },
@@ -104,7 +120,9 @@
                 "stable": [
                     "2024-01-01"
                 ],
-                "preview": []
+                "preview": [
+                    "2024-05-01-preview"
+                ]
             }
         },
         {
@@ -116,7 +134,18 @@
                 ],
                 "preview": [
                     "2022-06-15-preview",
-                    "2023-01-15-preview"
+                    "2023-01-15-preview",
+                    "2024-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "sqlServerLicenses",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-05-01-preview"
                 ]
             }
         }
