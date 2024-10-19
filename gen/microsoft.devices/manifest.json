@@ -157,7 +157,8 @@
                 "preview": [
                     "2017-08-21-preview",
                     "2020-09-01-preview",
-                    "2023-03-01-preview"
+                    "2023-03-01-preview",
+                    "2025-02-01-preview"
                 ]
             }
         },
@@ -177,7 +178,8 @@
                 "preview": [
                     "2017-08-21-preview",
                     "2020-09-01-preview",
-                    "2023-03-01-preview"
+                    "2023-03-01-preview",
+                    "2025-02-01-preview"
                 ]
             }
         },
@@ -193,7 +195,8 @@
                 ],
                 "preview": [
                     "2020-09-01-preview",
-                    "2023-03-01-preview"
+                    "2023-03-01-preview",
+                    "2025-02-01-preview"
                 ]
             }
         }

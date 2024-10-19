@@ -170,7 +170,8 @@
                     "2023-08-01-preview",
                     "2023-10-01-preview",
                     "2024-03-01-preview",
-                    "2024-06-01-preview"
+                    "2024-06-01-preview",
+                    "2024-09-01-preview"
                 ]
             }
         },
@@ -194,7 +195,18 @@
                     "2023-08-01-preview",
                     "2023-10-01-preview",
                     "2024-03-01-preview",
-                    "2024-06-01-preview"
+                    "2024-06-01-preview",
+                    "2024-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "redisEnterprise_databases_accessPolicyAssignments",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-09-01-preview"
                 ]
             }
         },
@@ -218,7 +230,8 @@
                     "2023-08-01-preview",
                     "2023-10-01-preview",
                     "2024-03-01-preview",
-                    "2024-06-01-preview"
+                    "2024-06-01-preview",
+                    "2024-09-01-preview"
                 ]
             }
         }

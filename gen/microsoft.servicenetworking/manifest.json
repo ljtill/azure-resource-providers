@@ -44,7 +44,7 @@
             }
         },
         {
-            "name": "trafficControllers_securityPolicy",
+            "name": "trafficControllers_securityPolicies",
             "scope": "resource",
             "apiVersions": {
                 "stable": [],
