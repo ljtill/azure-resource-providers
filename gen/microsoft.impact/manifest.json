@@ -1,0 +1,35 @@
+{
+    "providerNamespace": "Microsoft.Impact",
+    "resourceTypes": [
+        {
+            "name": "connectors",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workloadImpacts",
+            "scope": "subscription",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "workloadImpacts_insights",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-05-01-preview"
+                ]
+            }
+        }
+    ]
+}

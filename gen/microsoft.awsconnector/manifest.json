@@ -1,0 +1,1105 @@
+{
+    "providerNamespace": "Microsoft.AwsConnector",
+    "resourceTypes": [
+        {
+            "name": "accessAnalyzerAnalyzers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "acmCertificateSummaries",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "apiGatewayRestApis",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "apiGatewayStages",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "appSyncGraphqlApis",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "autoScalingAutoScalingGroups",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "cloudFormationStacks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "cloudFormationStackSets",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "cloudFrontDistributions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "cloudTrailTrails",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "cloudWatchAlarms",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "codeBuildProjects",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "codeBuildSourceCredentialsInfos",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "configServiceConfigurationRecorders",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "configServiceConfigurationRecorderStatuses",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "configServiceDeliveryChannels",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "databaseMigrationServiceReplicationInstances",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "daxClusters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "dynamoDBContinuousBackupsDescriptions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "dynamoDBTables",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "ec2AccountAttributes",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "ec2Addresses",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "ec2FlowLogs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "ec2Images",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "ec2InstanceStatuses",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "ec2Ipams",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "ec2KeyPairs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "ec2NetworkAcls",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "ec2NetworkInterfaces",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "ec2RouteTables",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "ec2SecurityGroups",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "ec2Snapshots",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "ec2Subnets",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "ec2Volumes",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "ec2VPCEndpoints",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "ec2VPCPeeringConnections",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "ec2Vpcs",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "ecrImageDetails",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "ecrRepositories",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "ecsClusters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "ecsServices",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "ecsTaskDefinitions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "efsFileSystems",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "efsMountTargets",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "eksNodegroups",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "elasticBeanstalkApplications",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "elasticBeanstalkConfigurationTemplates",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "elasticBeanstalkEnvironments",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "elasticLoadBalancingV2Listeners",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "elasticLoadBalancingV2LoadBalancers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "elasticLoadBalancingV2TargetGroups",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "elasticLoadBalancingV2TargetHealthDescriptions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "emrClusters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "guardDutyDetectors",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "iamAccessKeyLastUseds",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "iamAccessKeyMetadata",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "iamGroups",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "iamInstanceProfiles",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "iamMFADevices",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "iamPasswordPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "iamPolicyVersions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "iamRoles",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "iamServerCertificates",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "iamVirtualMFADevices",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "kmsAliases",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "kmsKeys",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "lambdaFunctionCodeLocations",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "lambdaFunctions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "lightsailBuckets",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "lightsailInstances",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "logsLogGroups",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "logsLogStreams",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "logsMetricFilters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "logsSubscriptionFilters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "macie2JobSummaries",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "macieAllowLists",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "networkFirewallFirewallPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "networkFirewallFirewalls",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "networkFirewallRuleGroups",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "openSearchDomainStatuses",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "organizationsAccounts",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "organizationsOrganizations",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "rdsDBClusters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "rdsDBInstances",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "rdsDBSnapshotAttributesResults",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "rdsDBSnapshots",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "rdsEventSubscriptions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "rdsExportTasks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "redshiftClusterParameterGroups",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "redshiftClusters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "route53DomainsDomainSummaries",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "route53HostedZones",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "route53ResourceRecordSets",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "s3AccessControlPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "s3AccessPoints",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "s3BucketPolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "s3Buckets",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "s3ControlMultiRegionAccessPointPolicyDocuments",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "sageMakerApps",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "sageMakerNotebookInstanceSummaries",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "secretsManagerResourcePolicies",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "secretsManagerSecrets",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "snsSubscriptions",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "snsTopics",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "sqsQueues",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "ssmInstanceInformations",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "ssmParameters",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "ssmResourceComplianceSummaryItems",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "wafv2LoggingConfigurations",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        },
+        {
+            "name": "wafWebACLSummaries",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "providerNamespace": "Microsoft.DurableTask",
+    "resourceTypes": [
+        {
+            "name": "schedulers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-10-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "schedulers_taskHubs",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-10-01-preview"
+                ]
+            }
+        }
+    ]
+}

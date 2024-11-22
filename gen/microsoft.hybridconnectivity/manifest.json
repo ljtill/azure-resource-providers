@@ -1,4 +1,15 @@
 {
     "providerNamespace": "Microsoft.HybridConnectivity",
-    "resourceTypes": []
+    "resourceTypes": [
+        {
+            "name": "publicCloudConnectors",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-12-01"
+                ],
+                "preview": []
+            }
+        }
+    ]
 }

@@ -10,7 +10,8 @@
                     "2023-08-01-preview",
                     "2023-11-02-preview",
                     "2024-02-02-preview",
-                    "2024-08-02-preview"
+                    "2024-08-02-preview",
+                    "2024-10-02-preview"
                 ]
             }
         },
@@ -23,7 +24,8 @@
                     "2023-08-01-preview",
                     "2023-11-02-preview",
                     "2024-02-02-preview",
-                    "2024-08-02-preview"
+                    "2024-08-02-preview",
+                    "2024-10-02-preview"
                 ]
             }
         },
@@ -44,7 +46,8 @@
                     "2023-08-01-preview",
                     "2023-11-02-preview",
                     "2024-02-02-preview",
-                    "2024-08-02-preview"
+                    "2024-08-02-preview",
+                    "2024-10-02-preview"
                 ]
             }
         },
@@ -65,7 +68,8 @@
                     "2023-08-01-preview",
                     "2023-11-02-preview",
                     "2024-02-02-preview",
-                    "2024-08-02-preview"
+                    "2024-08-02-preview",
+                    "2024-10-02-preview"
                 ]
             }
         },
@@ -86,7 +90,8 @@
                     "2023-08-01-preview",
                     "2023-11-02-preview",
                     "2024-02-02-preview",
-                    "2024-08-02-preview"
+                    "2024-08-02-preview",
+                    "2024-10-02-preview"
                 ]
             }
         },
@@ -107,7 +112,8 @@
                     "2023-08-01-preview",
                     "2023-11-02-preview",
                     "2024-02-02-preview",
-                    "2024-08-02-preview"
+                    "2024-08-02-preview",
+                    "2024-10-02-preview"
                 ]
             }
         },
@@ -130,7 +136,8 @@
                     "2023-08-01-preview",
                     "2023-11-02-preview",
                     "2024-02-02-preview",
-                    "2024-08-02-preview"
+                    "2024-08-02-preview",
+                    "2024-10-02-preview"
                 ]
             }
         },
@@ -153,7 +160,8 @@
                     "2023-08-01-preview",
                     "2023-11-02-preview",
                     "2024-02-02-preview",
-                    "2024-08-02-preview"
+                    "2024-08-02-preview",
+                    "2024-10-02-preview"
                 ]
             }
         },
@@ -166,7 +174,8 @@
                     "2023-08-01-preview",
                     "2023-11-02-preview",
                     "2024-02-02-preview",
-                    "2024-08-02-preview"
+                    "2024-08-02-preview",
+                    "2024-10-02-preview"
                 ]
             }
         },
@@ -189,7 +198,8 @@
                     "2023-08-01-preview",
                     "2023-11-02-preview",
                     "2024-02-02-preview",
-                    "2024-08-02-preview"
+                    "2024-08-02-preview",
+                    "2024-10-02-preview"
                 ]
             }
         },
@@ -208,7 +218,8 @@
                     "2023-08-01-preview",
                     "2023-11-02-preview",
                     "2024-02-02-preview",
-                    "2024-08-02-preview"
+                    "2024-08-02-preview",
+                    "2024-10-02-preview"
                 ]
             }
         },
@@ -219,7 +230,8 @@
                 "stable": [],
                 "preview": [
                     "2024-02-02-preview",
-                    "2024-08-02-preview"
+                    "2024-08-02-preview",
+                    "2024-10-02-preview"
                 ]
             }
         },
@@ -242,7 +254,8 @@
                     "2023-08-01-preview",
                     "2023-11-02-preview",
                     "2024-02-02-preview",
-                    "2024-08-02-preview"
+                    "2024-08-02-preview",
+                    "2024-10-02-preview"
                 ]
             }
         },
@@ -265,7 +278,8 @@
                     "2023-08-01-preview",
                     "2023-11-02-preview",
                     "2024-02-02-preview",
-                    "2024-08-02-preview"
+                    "2024-08-02-preview",
+                    "2024-10-02-preview"
                 ]
             }
         },
@@ -288,7 +302,8 @@
                     "2023-08-01-preview",
                     "2023-11-02-preview",
                     "2024-02-02-preview",
-                    "2024-08-02-preview"
+                    "2024-08-02-preview",
+                    "2024-10-02-preview"
                 ]
             }
         },
@@ -301,7 +316,8 @@
                     "2023-08-01-preview",
                     "2023-11-02-preview",
                     "2024-02-02-preview",
-                    "2024-08-02-preview"
+                    "2024-08-02-preview",
+                    "2024-10-02-preview"
                 ]
             }
         },
@@ -314,7 +330,8 @@
                     "2023-08-01-preview",
                     "2023-11-02-preview",
                     "2024-02-02-preview",
-                    "2024-08-02-preview"
+                    "2024-08-02-preview",
+                    "2024-10-02-preview"
                 ]
             }
         },
@@ -326,7 +343,18 @@
                 "preview": [
                     "2023-11-02-preview",
                     "2024-02-02-preview",
-                    "2024-08-02-preview"
+                    "2024-08-02-preview",
+                    "2024-10-02-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedEnvironments_httpRouteConfigs",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-10-02-preview"
                 ]
             }
         },
@@ -338,7 +366,18 @@
                 "preview": [
                     "2023-11-02-preview",
                     "2024-02-02-preview",
-                    "2024-08-02-preview"
+                    "2024-08-02-preview",
+                    "2024-10-02-preview"
+                ]
+            }
+        },
+        {
+            "name": "managedEnvironments_maintenanceConfigurations",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2024-10-02-preview"
                 ]
             }
         },
@@ -357,7 +396,8 @@
                     "2023-08-01-preview",
                     "2023-11-02-preview",
                     "2024-02-02-preview",
-                    "2024-08-02-preview"
+                    "2024-08-02-preview",
+                    "2024-10-02-preview"
                 ]
             }
         },
@@ -368,7 +408,8 @@
                 "stable": [],
                 "preview": [
                     "2024-02-02-preview",
-                    "2024-08-02-preview"
+                    "2024-08-02-preview",
+                    "2024-10-02-preview"
                 ]
             }
         },
@@ -391,7 +432,8 @@
                     "2023-08-01-preview",
                     "2023-11-02-preview",
                     "2024-02-02-preview",
-                    "2024-08-02-preview"
+                    "2024-08-02-preview",
+                    "2024-10-02-preview"
                 ]
             }
         },
@@ -402,7 +444,8 @@
                 "stable": [],
                 "preview": [
                     "2024-02-02-preview",
-                    "2024-08-02-preview"
+                    "2024-08-02-preview",
+                    "2024-10-02-preview"
                 ]
             }
         }
