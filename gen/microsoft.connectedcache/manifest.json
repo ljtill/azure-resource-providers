@@ -1,0 +1,65 @@
+{
+    "providerNamespace": "Microsoft.ConnectedCache",
+    "resourceTypes": [
+        {
+            "name": "cacheNodes",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "enterpriseCustomers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "enterpriseMccCustomers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "enterpriseMccCustomers_enterpriseMccCacheNodes",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "ispCustomers",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-05-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "ispCustomers_ispCacheNodes",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [],
+                "preview": [
+                    "2023-05-01-preview"
+                ]
+            }
+        }
+    ]
+}

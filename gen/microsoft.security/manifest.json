@@ -35,7 +35,7 @@
         },
         {
             "name": "assessmentMetadata",
-            "scope": "subscription",
+            "scope": "tenant",
             "apiVersions": {
                 "stable": [
                     "2020-01-01",
@@ -62,7 +62,8 @@
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2019-01-01-preview"
+                    "2019-01-01-preview",
+                    "2023-12-01-preview"
                 ]
             }
         },
@@ -129,18 +130,6 @@
             }
         },
         {
-            "name": "locations_applicationWhitelistings",
-            "scope": "resourceGroup",
-            "apiVersions": {
-                "stable": [
-                    "2020-01-01"
-                ],
-                "preview": [
-                    "2015-06-01-preview"
-                ]
-            }
-        },
-        {
             "name": "locations_jitNetworkAccessPolicies",
             "scope": "resource",
             "apiVersions": {
@@ -161,9 +150,7 @@
                     "2022-03-01",
                     "2023-01-01"
                 ],
-                "preview": [
-                    "2017-08-01-preview"
-                ]
+                "preview": []
             }
         },
         {
@@ -187,7 +174,9 @@
                     "2022-05-01-preview",
                     "2022-08-01-preview",
                     "2023-03-01-preview",
-                    "2023-10-01-preview"
+                    "2023-10-01-preview",
+                    "2024-03-01-preview",
+                    "2024-07-01-preview"
                 ]
             }
         },
@@ -195,9 +184,12 @@
             "name": "securityConnectors_devops",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-04-01"
+                ],
                 "preview": [
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2024-05-15-preview"
                 ]
             }
         },
@@ -205,9 +197,12 @@
             "name": "securityConnectors_devops_azureDevOpsOrgs",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-04-01"
+                ],
                 "preview": [
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2024-05-15-preview"
                 ]
             }
         },
@@ -215,9 +210,12 @@
             "name": "securityConnectors_devops_azureDevOpsOrgs_projects",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-04-01"
+                ],
                 "preview": [
-                    "2023-09-01-preview"
+                    "2023-09-01-preview",
+                    "2024-05-15-preview"
                 ]
             }
         },
@@ -225,9 +223,22 @@
             "name": "securityConnectors_devops_azureDevOpsOrgs_projects_repos",
             "scope": "resource",
             "apiVersions": {
+                "stable": [
+                    "2024-04-01"
+                ],
+                "preview": [
+                    "2023-09-01-preview",
+                    "2024-05-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "securityConnectors_devops_policyAssignments",
+            "scope": "resource",
+            "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2023-09-01-preview"
+                    "2024-05-15-preview"
                 ]
             }
         },
@@ -238,7 +249,8 @@
                 "stable": [],
                 "preview": [
                     "2017-08-01-preview",
-                    "2020-01-01-preview"
+                    "2020-01-01-preview",
+                    "2023-12-01-preview"
                 ]
             }
         },

@@ -15,12 +15,19 @@
                     "2022-10-01",
                     "2022-12-01",
                     "2023-02-01",
-                    "2023-03-01"
+                    "2023-03-01",
+                    "2023-06-01",
+                    "2023-08-01",
+                    "2024-01-01"
                 ],
                 "preview": [
                     "2020-03-01-preview",
                     "2021-01-01-preview",
-                    "2021-09-01-preview"
+                    "2021-09-01-preview",
+                    "2022-12-15-preview",
+                    "2023-08-01-preview",
+                    "2023-11-01-preview",
+                    "2024-02-15-preview"
                 ]
             }
         },
@@ -37,11 +44,18 @@
                     "2022-10-01",
                     "2022-12-01",
                     "2023-02-01",
-                    "2023-03-01"
+                    "2023-03-01",
+                    "2023-06-01",
+                    "2023-08-01",
+                    "2024-01-01"
                 ],
                 "preview": [
                     "2021-01-01-preview",
-                    "2021-09-01-preview"
+                    "2021-09-01-preview",
+                    "2022-12-15-preview",
+                    "2023-08-01-preview",
+                    "2023-11-01-preview",
+                    "2024-02-15-preview"
                 ]
             }
         },
@@ -58,11 +72,45 @@
                     "2022-10-01",
                     "2022-12-01",
                     "2023-02-01",
-                    "2023-03-01"
+                    "2023-03-01",
+                    "2023-06-01",
+                    "2023-08-01",
+                    "2024-01-01"
                 ],
                 "preview": [
                     "2021-01-01-preview",
-                    "2021-09-01-preview"
+                    "2021-09-01-preview",
+                    "2022-12-15-preview",
+                    "2023-08-01-preview",
+                    "2023-11-01-preview",
+                    "2024-02-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "clusters_deploymentSettings",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2024-01-01"
+                ],
+                "preview": [
+                    "2023-08-01-preview",
+                    "2023-11-01-preview",
+                    "2024-02-15-preview"
+                ]
+            }
+        },
+        {
+            "name": "clusters_securitySettings",
+            "scope": "resource",
+            "apiVersions": {
+                "stable": [
+                    "2024-01-01"
+                ],
+                "preview": [
+                    "2023-11-01-preview",
+                    "2024-02-15-preview"
                 ]
             }
         },
@@ -73,9 +121,17 @@
                 "stable": [
                     "2022-12-01",
                     "2023-02-01",
-                    "2023-03-01"
+                    "2023-03-01",
+                    "2023-06-01",
+                    "2023-08-01",
+                    "2024-01-01"
                 ],
-                "preview": []
+                "preview": [
+                    "2022-12-15-preview",
+                    "2023-08-01-preview",
+                    "2023-11-01-preview",
+                    "2024-02-15-preview"
+                ]
             }
         },
         {
@@ -85,9 +141,17 @@
                 "stable": [
                     "2022-12-01",
                     "2023-02-01",
-                    "2023-03-01"
+                    "2023-03-01",
+                    "2023-06-01",
+                    "2023-08-01",
+                    "2024-01-01"
                 ],
-                "preview": []
+                "preview": [
+                    "2022-12-15-preview",
+                    "2023-08-01-preview",
+                    "2023-11-01-preview",
+                    "2024-02-15-preview"
+                ]
             }
         },
         {
@@ -97,19 +161,44 @@
                 "stable": [
                     "2022-12-01",
                     "2023-02-01",
-                    "2023-03-01"
+                    "2023-03-01",
+                    "2023-06-01",
+                    "2023-08-01",
+                    "2024-01-01"
                 ],
-                "preview": []
+                "preview": [
+                    "2022-12-15-preview",
+                    "2023-08-01-preview",
+                    "2023-11-01-preview",
+                    "2024-02-15-preview"
+                ]
             }
         },
         {
             "name": "galleryimages",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-01-01"
+                ],
                 "preview": [
                     "2021-07-01-preview",
-                    "2021-09-01-preview"
+                    "2021-09-01-preview",
+                    "2022-12-15-preview",
+                    "2023-07-01-preview",
+                    "2023-09-01-preview"
+                ]
+            }
+        },
+        {
+            "name": "logicalNetworks",
+            "scope": "resourceGroup",
+            "apiVersions": {
+                "stable": [
+                    "2024-01-01"
+                ],
+                "preview": [
+                    "2023-09-01-preview"
                 ]
             }
         },
@@ -117,9 +206,14 @@
             "name": "marketplacegalleryimages",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-01-01"
+                ],
                 "preview": [
-                    "2021-09-01-preview"
+                    "2021-09-01-preview",
+                    "2022-12-15-preview",
+                    "2023-07-01-preview",
+                    "2023-09-01-preview"
                 ]
             }
         },
@@ -127,10 +221,15 @@
             "name": "networkinterfaces",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-01-01"
+                ],
                 "preview": [
                     "2021-07-01-preview",
-                    "2021-09-01-preview"
+                    "2021-09-01-preview",
+                    "2022-12-15-preview",
+                    "2023-07-01-preview",
+                    "2023-09-01-preview"
                 ]
             }
         },
@@ -138,9 +237,14 @@
             "name": "storagecontainers",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-01-01"
+                ],
                 "preview": [
-                    "2021-09-01-preview"
+                    "2021-09-01-preview",
+                    "2022-12-15-preview",
+                    "2023-07-01-preview",
+                    "2023-09-01-preview"
                 ]
             }
         },
@@ -148,10 +252,15 @@
             "name": "virtualharddisks",
             "scope": "resourceGroup",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2024-01-01"
+                ],
                 "preview": [
                     "2021-07-01-preview",
-                    "2021-09-01-preview"
+                    "2021-09-01-preview",
+                    "2022-12-15-preview",
+                    "2023-07-01-preview",
+                    "2023-09-01-preview"
                 ]
             }
         },
@@ -162,7 +271,8 @@
                 "stable": [],
                 "preview": [
                     "2021-07-01-preview",
-                    "2021-09-01-preview"
+                    "2021-09-01-preview",
+                    "2022-12-15-preview"
                 ]
             }
         },
@@ -172,7 +282,8 @@
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2021-09-01-preview"
+                    "2021-09-01-preview",
+                    "2022-12-15-preview"
                 ]
             }
         },
@@ -182,7 +293,8 @@
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2021-09-01-preview"
+                    "2021-09-01-preview",
+                    "2022-12-15-preview"
                 ]
             }
         },
@@ -192,7 +304,8 @@
             "apiVersions": {
                 "stable": [],
                 "preview": [
-                    "2021-09-01-preview"
+                    "2021-09-01-preview",
+                    "2022-12-15-preview"
                 ]
             }
         },
@@ -203,7 +316,9 @@
                 "stable": [],
                 "preview": [
                     "2021-07-01-preview",
-                    "2021-09-01-preview"
+                    "2021-09-01-preview",
+                    "2022-12-15-preview",
+                    "2023-07-01-preview"
                 ]
             }
         }
