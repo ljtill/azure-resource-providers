@@ -1,5 +1,5 @@
 [package]
-name = "azure-resource-providers"
+name = "resource-providers"
 version = "0.1.0"
 edition = "2021"
 

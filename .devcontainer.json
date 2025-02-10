@@ -1,6 +1,6 @@
 {
     "name": "Resource Providers",
-    "image": "mcr.microsoft.com/devcontainers/rust:0-1",
+    "image": "mcr.microsoft.com/devcontainers/rust:1",
     "features": {
         "ghcr.io/devcontainers/features/rust:1": {}
     },

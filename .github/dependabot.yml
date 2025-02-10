@@ -4,15 +4,6 @@ updates:
     directory: /
     schedule:
       interval: daily
-  - package-ecosystem: npm
-    directory: /
-    schedule:
-      interval: weekly
-    groups:
-      npm-development:
-        dependency-type: development
-      npm-production:
-        dependency-type: production
   - package-ecosystem: cargo
     directory: /
     schedule:
