@@ -13,3 +13,7 @@ updates:
         dependency-type: development
       npm-production:
         dependency-type: production
+  - package-ecosystem: cargo
+    directory: /
+    schedule:
+      interval: weekly

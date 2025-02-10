@@ -4,6 +4,6 @@
 # VS Code
 .vscode/
 
-# Node
-node_modules/
-dist/
+# Rust
+target/
+Cargo.lock

@@ -24,14 +24,9 @@ jobs:
           repository: azure/azure-resource-manager-schemas
           path: schemas
 
-      - name: "Setup node"
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18
-
-      - name: "Install dependencies"
+      - name: "Build project"
         run: |
-          npm install
+          cargo build
         working-directory: providers
 
       - name: "Delete manifests"
@@ -41,7 +36,7 @@ jobs:
 
       - name: "Generate manifests"
         run: |
-          npm run generate
+          cargo run
         working-directory: providers
 
       - name: "Configure git"

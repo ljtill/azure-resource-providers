@@ -1,8 +1,8 @@
 {
     "name": "Resource Providers",
-    "image": "mcr.microsoft.com/devcontainers/base:jammy",
+    "image": "mcr.microsoft.com/devcontainers/rust:0-1",
     "features": {
-        "ghcr.io/devcontainers/features/node:1": {}
+        "ghcr.io/devcontainers/features/rust:1": {}
     },
     "mounts": [
         {
