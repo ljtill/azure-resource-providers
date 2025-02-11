@@ -6,7 +6,8 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2024-02-01"
+                    "2024-02-01",
+                    "2024-12-01"
                 ],
                 "preview": [
                     "2023-10-01-preview",
