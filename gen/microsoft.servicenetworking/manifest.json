@@ -6,7 +6,8 @@
             "scope": "resourceGroup",
             "apiVersions": {
                 "stable": [
-                    "2023-11-01"
+                    "2023-11-01",
+                    "2025-01-01"
                 ],
                 "preview": [
                     "2022-10-01-preview",
@@ -20,7 +21,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2023-11-01"
+                    "2023-11-01",
+                    "2025-01-01"
                 ],
                 "preview": [
                     "2022-10-01-preview",
@@ -34,7 +36,8 @@
             "scope": "resource",
             "apiVersions": {
                 "stable": [
-                    "2023-11-01"
+                    "2023-11-01",
+                    "2025-01-01"
                 ],
                 "preview": [
                     "2022-10-01-preview",
@@ -47,7 +50,9 @@
             "name": "trafficControllers_securityPolicies",
             "scope": "resource",
             "apiVersions": {
-                "stable": [],
+                "stable": [
+                    "2025-01-01"
+                ],
                 "preview": [
                     "2024-05-01-preview"
                 ]
